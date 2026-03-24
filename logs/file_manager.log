@@ -1,0 +1,43 @@
+admin:2026-03-24 20:51:53 - Created a newfile abc.mp3
+admin:2026-03-24 20:52:43 - Created a newfile abc.mp3
+admin:2026-03-24 20:56:59 - Created a newfile abc.mp3
+admin:2026-03-24 20:58:00 - Listed the current directory
+admin:2026-03-24 20:58:20 - Listed the directory ../logs
+admin:2026-03-24 21:01:54 - Listed the current directory
+abc.mp3
+file_manager.sh
+system_check.sh
+user_info.sh
+Invalid Commaand check \nToo many Arguments \n
+        USAGE: ./file_manager.sh operation filename or Example1: ./file_manager.sh rename oldfile newfile
+        \nAllowed operations:
+        \n\t- create
+        \n\t- delete
+        \n\t- list
+        \n\t- rename
+
+        \n\nExample1: ./file_manager.sh create file.txt
+        \n\nExample1: ./file_manager.sh rename file.txt new_file.txt
+        \n\nTry Again
+admin:2026-03-24 21:04:46 - Created a newfile bad.vob
+admin:2026-03-24 21:04:53 - Listed the current directory
+abc.mp3
+bad.vob
+file_manager.sh
+system_check.sh
+user_info.sh
+admin:2026-03-24 21:05:40 - Renamed file from bad.vob to bad.mp4
+admin:2026-03-24 21:05:50 - Listed the current directory
+abc.mp3
+bad.mp4
+file_manager.sh
+system_check.sh
+user_info.sh
+admin:2026-03-24 21:08:19 - Created a newfile bad.vob
+admin:2026-03-24 21:08:30 - Deleted the file bad.vob
+admin:2026-03-24 21:08:33 - Listed the current directory
+abc.mp3
+bad.mp4
+file_manager.sh
+system_check.sh
+user_info.sh

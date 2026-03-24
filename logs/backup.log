@@ -1,0 +1,10 @@
+admin:2026-03-24 21:39:08 [Success] - Backup successful 
+echo -e admin:2026-03-24 21:39:08 [Info] - Cleared Up old backups 
+admin:2026-03-24 21:39:27 [Success] - Backup successful 
+echo -e admin:2026-03-24 21:39:27 [Info] - Cleared Up old backups 
+admin:2026-03-24 21:43:37 [Error] - jsns is not a valid directory or do not exist. 
+try again
+admin:2026-03-24 21:43:50 [Success] - Backup successful 
+echo -e admin:2026-03-24 21:43:50 [Info] - Cleared Up old backups 
+admin:2026-03-24 21:45:37 [Success] - Backup successful 
+echo -e admin:2026-03-24 21:45:37 [Info] - Cleared Up old backups 

@@ -1,0 +1,51 @@
+=== System Report - 2026-03-24_15-28-39 ===
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.8G     0  7.8G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            7.8G  4.0K  7.8G   1% /mnt/wsl
+drivers         476G  404G   73G  85% /usr/lib/wsl/drivers
+/dev/sdc       1007G   62G  895G   7% /
+none            7.8G   80K  7.8G   1% /mnt/wslg
+none            7.8G     0  7.8G   0% /usr/lib/wsl/lib
+rootfs          7.8G  2.4M  7.8G   1% /init
+none            7.8G  852K  7.8G   1% /run
+none            7.8G     0  7.8G   0% /run/lock
+none            7.8G   84K  7.8G   1% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            7.8G   76K  7.8G   1% /mnt/wslg/versions.txt
+none            7.8G   76K  7.8G   1% /mnt/wslg/doc
+C:\             476G  404G   73G  85% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         74M   74M     0 100% /snap/core22/2292
+snapfuse         74M   74M     0 100% /snap/core22/2339
+snapfuse        255M  255M     0 100% /snap/firefox/7901
+snapfuse        255M  255M     0 100% /snap/firefox/7967
+snapfuse        517M  517M     0 100% /snap/gnome-42-2204/226
+snapfuse        436M  436M     0 100% /snap/google-cloud-cli/436
+snapfuse        532M  532M     0 100% /snap/gnome-42-2204/247
+snapfuse        436M  436M     0 100% /snap/google-cloud-cli/438
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+tmpfs           1.6G   16K  1.6G   1% /run/user/1000
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:           15918         786       15062           3         342       15131
+Swap:           4096           0        4096
+
+--- CPU Load ---
+ 15:28:39 up  1:25,  1 user,  load average: 0.00, 0.00, 0.00
+
+Total running processes: 41
+
+--- Top 5 Memory-Consuming Processes ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         448  0.0  0.5 2489572 83092 ?       Ssl  14:03   0:01 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         350  0.1  0.3 2468400 63096 ?       Ssl  14:03   0:06 /usr/bin/containerd
+root        2763  0.0  0.3 2220592 58488 ?       Ssl  14:11   0:01 /snap/snapd/current/usr/lib/snapd/snapd
+root         370  0.0  0.1 107064 22400 ?        Ssl  14:03   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         173  0.0  0.1 451992 18524 ?        Ssl  14:03   0:04 snapfuse /var/lib/snapd/snaps/snapd_26382.snap /snap/snapd/26382 -o ro,nodev,allow_other,suid
+
+=== Report saved to logs/system_report_2026-03-24_15-28-39.log ===

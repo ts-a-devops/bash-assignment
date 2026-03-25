@@ -17,19 +17,31 @@ else
 	mkdir -p "../logs"
 fi
  
-usage="Usage: $0 <directory_to_backup>"
-timestamp="$USER:$(date '+%Y-%m-%d %H:%M:%S')"
+
 date="$(date '+%Y-%m-%d_%H-%M-%S')"
 
 
-echo "Enter the name of the process you want to check: "
-read process
+echo "Enter the name{s} of the process you want to check (seperated by spaces)\nExample dockerd, containerd, minikube): "
+read -a processes
 
-if [[ pgrep -x "$process" &> /dev/null ]]; then
-	echo -e "$timestamp - Process is running" >> ../logs/process_monitor.log
-else
-	systemctl start "$process"
+if [[ ${#processes[@]} -eq 0 ]]; then
+    echo "Error: No processes entered."
+    exit 1
+fi
 
+
+# loop through the arr of inputes
+for process in "${processes[@]}"; do
+	timestamp="$USER:$(date '+%Y-%m-%d %H:%M:%S')" # this iis to get the seconds when the loop echos
+
+	if pgrep -x "$process" > /dev/null; then
+		echo -e "$timestamp - $process Process is running" >> ../logs/process_monitor.log
+	else
+		echo -e "$timestamp - $process Process is stopped" >> ../logs/process_monitor.log
+		sudo systemctl start "$process"
+		echo -e "$timestamp - $process Process is starting" >> ../logs/process_monitor.log
+	fi
+done
 
 
 echo "==================================="

@@ -42,6 +42,7 @@ show_menu() {
 }
 
 run_all() {
+    run_script "user_info.sh" "User Info"
     run_script "system_check.sh" "System Check"
     run_script "process_monitor.sh" "Process Monitor"
 

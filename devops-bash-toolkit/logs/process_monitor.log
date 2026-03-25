@@ -1,0 +1,51 @@
+=========================================
+  PROCESS MONITOR STARTED - 2026-03-25 16:33:37
+=========================================
+
+[2026-03-25 16:33:37] INFO: Checking process 'nginx'...
+-------------------------------------------
+[2026-03-25 16:33:37] STOPPED:  'nginx' is NOT running.
+[2026-03-25 16:33:37] RESTARTING: Attempting to restart 'nginx'...
+[2026-03-25 16:33:37] FAILED:    'nginx' could not be restarted. (Simulated restart)
+-------------------------------------------
+
+=========================================
+  PROCESS MONITOR COMPLETED - 2026-03-25 16:33:37
+=========================================
+=========================================
+  PROCESS MONITOR STARTED - 2026-03-25 16:34:13
+=========================================
+
+[2026-03-25 16:34:13] INFO: Checking process 'docker'...
+-------------------------------------------
+[2026-03-25 16:34:13] STOPPED:  'docker' is NOT running.
+[2026-03-25 16:34:13] RESTARTING: Attempting to restart 'docker'...
+[2026-03-25 16:34:13] FAILED:    'docker' could not be restarted. (Simulated restart)
+-------------------------------------------
+
+=========================================
+  PROCESS MONITOR COMPLETED - 2026-03-25 16:34:13
+=========================================
+=========================================
+  PROCESS MONITOR STARTED - 2026-03-25 16:34:42
+=========================================
+
+[2026-03-25 16:34:42] INFO: No process specified. Monitoring default services...
+[2026-03-25 16:34:42] INFO: Services to monitor: nginx
+-------------------------------------------
+[2026-03-25 16:34:42] STOPPED:  'nginx' is NOT running.
+[2026-03-25 16:34:42] RESTARTING: Attempting to restart 'nginx'...
+[2026-03-25 16:34:42] FAILED:    'nginx' could not be restarted. (Simulated restart)
+-------------------------------------------
+[2026-03-25 16:34:42] STOPPED:  'ssh' is NOT running.
+[2026-03-25 16:34:42] RESTARTING: Attempting to restart 'ssh'...
+[2026-03-25 16:34:42] FAILED:    'ssh' could not be restarted. (Simulated restart)
+-------------------------------------------
+[2026-03-25 16:34:42] STOPPED:  'docker' is NOT running.
+[2026-03-25 16:34:42] RESTARTING: Attempting to restart 'docker'...
+[2026-03-25 16:34:42] FAILED:    'docker' could not be restarted. (Simulated restart)
+-------------------------------------------
+
+=========================================
+  PROCESS MONITOR COMPLETED - 2026-03-25 16:34:42
+=========================================

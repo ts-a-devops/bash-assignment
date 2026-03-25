@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# ─────────────────────────────────────────
-#  user_info.sh - Collect and display user info
-# ─────────────────────────────────────────
+
+LOG_FILE="logs/user_info.log"   
 
 # 1. Name
 read -p "Enter your name:  " name
@@ -32,6 +31,7 @@ if [[ -z "$country" ]]; then
 fi
 
 # ── Greeting Message ──
+{
 echo ""
 echo "Hello, $name! Welcome from $country."
 
@@ -43,3 +43,4 @@ elif [[ "$age" -le 65 ]]; then
 else
   echo "Age Category: Senior (65+)"
 fi
+} | tee -a "$LOG_FILE"

@@ -1,0 +1,33 @@
+=========================================
+  BACKUP STARTED - 2026-03-25_16-27-11
+=========================================
+[2026-03-25_16-27-11] Error: Directory '/home/davis/projects' does not exist.
+=========================================
+  BACKUP STARTED - 2026-03-25_16-27-35
+=========================================
+[2026-03-25_16-27-35] INFO: Backing up directory '/home/davis/project'...
+[2026-03-25_16-27-35] SUCCESS: Backup created at 'backups/backup_2026-03-25_16-27-35.tar.gz' (Size: 4.0K)
+[2026-03-25_16-27-35] INFO: Checking old backups...
+[2026-03-25_16-27-35] INFO: Total backups: 1. No cleanup needed.
+
+--------- CURRENT BACKUPS ---------------
+-rw-r--r-- 1 davis davis 336 Mar 25 16:27 backups/backup_2026-03-25_16-27-35.tar.gz
+
+=========================================
+  BACKUP COMPLETED - 2026-03-25_16-27-35
+=========================================
+=========================================
+  BACKUP STARTED - 2026-03-25_16-28-14
+=========================================
+[2026-03-25_16-28-14] INFO: Backing up directory '.'...
+[2026-03-25_16-28-14] SUCCESS: Backup created at 'backups/backup_2026-03-25_16-28-14.tar.gz' (Size: 8.0K)
+[2026-03-25_16-28-14] INFO: Checking old backups...
+[2026-03-25_16-28-14] INFO: Total backups: 2. No cleanup needed.
+
+--------- CURRENT BACKUPS ---------------
+-rw-r--r-- 1 davis davis  336 Mar 25 16:27 backups/backup_2026-03-25_16-27-35.tar.gz
+-rw-r--r-- 1 davis davis 4.3K Mar 25 16:28 backups/backup_2026-03-25_16-28-14.tar.gz
+
+=========================================
+  BACKUP COMPLETED - 2026-03-25_16-28-14
+=========================================

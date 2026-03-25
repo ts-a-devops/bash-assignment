@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Accept a directory as input
 # Validate that the directory exists
 # Create a compressed backup: backup_<timestamp>.tar.gz
@@ -25,8 +27,12 @@ if [[ $# -gt 1 ]]; then
 	echo "Too Many Arguments"
 	echo $usage
 	echo -e "$timestamp [Error] - Too Many Arguments. \n$usage" >> ../logs/backup.log 
+	exit 1
+elif [[ $# -eq 0 ]]; then
+       echo "Please rerun the command with a directory path"	
+       exit 1
 elif [[ ! -d "$1" ]]; then
-	echo "$1 is not a valid directory or do not exist. \ntry again"
+	echo -e "$1 is not a valid directory or do not exist. \ntry again"
 	echo -e "$timestamp [Error] - $1 is not a valid directory or do not exist. \ntry again" >> ../logs/backup.log
         exit 1	
 else 

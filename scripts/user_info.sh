@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Prompt the user for: Name, Age, Country
 # Validate: Age must be numeric
 # Output: A greeting message

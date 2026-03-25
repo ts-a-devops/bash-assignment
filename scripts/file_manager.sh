@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Support the following commands: create, delete, list, rename
 # Example usage:
 # ./file_manager.sh create file.txt

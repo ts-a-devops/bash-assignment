@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Accept a process name as input
 # Check if the process is running
 # If NOT running: Attempt restart (or simulate restart)

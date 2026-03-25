@@ -1,0 +1,78 @@
+Logging admin session at 2026-03-24 
+
+Disk usage: 
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           585M  1.6M  583M   1% /run
+/dev/sda2        60G   12G   45G  22% /
+tmpfs           2.9G     0  2.9G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           585M   96K  585M   1% /run/user/120
+tmpfs           585M   84K  585M   1% /run/user/1000
+Memory usage: 
+
+CPU load: 
+
+Total Running Processes: 
+210
+Top 5 memory-consuming processes: 
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+gdm         2834  0.4  4.1 4413920 249552 tty1   Sl+  17:55   0:31 /usr/bin/gnome-shell
+gdm         3145  0.0  1.6 1413392 101480 tty1   Sl+  17:55   0:00 /usr/libexec/mutter-x11-frames
+root        1288  0.0  1.4 1988436 85848 ?       Ssl  17:54   0:02 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+gdm         3166  0.0  1.2 486788 74692 tty1     Sl   17:55   0:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm         2886  0.0  1.1 244848 68652 tty1     S+   17:55   0:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/120/.mutter-Xwaylandauth.OITPM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+Logging admin session at 2026-03-24 
+
+Disk usage: 
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           585M  1.6M  583M   1% /run
+/dev/sda2        60G   12G   45G  22% /
+tmpfs           2.9G     0  2.9G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           585M   96K  585M   1% /run/user/120
+tmpfs           585M   84K  585M   1% /run/user/1000
+Memory usage: 
+
+               total        used        free      shared  buff/cache   available
+Mem:            5842         880        2452          13        2759        4961
+Swap:              0           0           0
+CPU load: 
+
+Total Running Processes: 
+210
+Top 5 memory-consuming processes: 
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+gdm         2834  0.4  4.1 4413920 249552 tty1   Sl+  17:55   0:32 /usr/bin/gnome-shell
+gdm         3145  0.0  1.6 1413392 101480 tty1   Sl+  17:55   0:00 /usr/libexec/mutter-x11-frames
+root        1288  0.0  1.4 1988436 85848 ?       Ssl  17:54   0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+gdm         3166  0.0  1.2 486788 74692 tty1     Sl   17:55   0:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm         2886  0.0  1.1 244848 68652 tty1     S+   17:55   0:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/120/.mutter-Xwaylandauth.OITPM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+Logging admin session at 2026-03-24 
+
+Disk usage: 
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           585M  1.6M  583M   1% /run
+/dev/sda2        60G   12G   45G  22% /
+tmpfs           2.9G     0  2.9G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           585M   96K  585M   1% /run/user/120
+tmpfs           585M   84K  585M   1% /run/user/1000
+Memory usage: 
+
+               total        used        free      shared  buff/cache   available
+Mem:            5842         880        2452          13        2759        4961
+Swap:              0           0           0
+CPU load: 
+
+Total Running Processes: 
+211
+Top 5 memory-consuming processes: 
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+gdm         2834  0.4  4.1 4413920 249552 tty1   Sl+  17:55   0:32 /usr/bin/gnome-shell
+gdm         3145  0.0  1.6 1413392 101480 tty1   Sl+  17:55   0:00 /usr/libexec/mutter-x11-frames
+root        1288  0.0  1.4 1988436 85848 ?       Ssl  17:54   0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+gdm         3166  0.0  1.2 486788 74692 tty1     Sl   17:55   0:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm         2886  0.0  1.1 244848 68652 tty1     S+   17:55   0:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/120/.mutter-Xwaylandauth.OITPM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients

@@ -1,0 +1,135 @@
+=========================================
+  SYSTEM HEALTH REPORT - 2026-03-25
+=========================================
+
+--------- DISK USAGE (df -h) ------------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         477G  378G   99G  80% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.0G  954G   1% /
+none            1.9G   72K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  496K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             477G  378G   99G  80% /mnt/c
+tmpfs           386M   20K  386M   1% /run/user/1000
+
+--------- DISK USAGE WARNING ------------
+
+--------- MEMORY USAGE (free -m) --------
+               total        used        free      shared  buff/cache   available
+Mem:            3857         457        2974           3         564        3399
+Swap:           1024           0        1024
+
+--------- CPU LOAD (uptime) -------------
+ 15:54:58 up 15 min,  1 user,  load average: 0.16, 0.06, 0.02
+
+--------- TOTAL RUNNING PROCESSES -------
+Total Running Processes: 28
+
+--------- TOP 5 MEMORY PROCESSES --------
+USER       PID      %MEM     COMMAND
+root       204      0.5      /usr/bin/python3
+root       838      0.5      /usr/libexec/packagekitd
+root       58       0.4      /usr/lib/systemd/systemd-journald
+root       1        0.3      /sbin/init
+systemd+   137      0.3      /usr/lib/systemd/systemd-resolved
+
+=========================================
+  Report saved to: logs/system_report_2026-03-25.log
+=========================================
+=========================================
+  SYSTEM HEALTH REPORT - 2026-03-25
+=========================================
+
+--------- DISK USAGE (df -h) ------------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         477G  378G   99G  80% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.0G  954G   1% /
+none            1.9G   76K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  500K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             477G  378G   99G  80% /mnt/c
+tmpfs           386M   20K  386M   1% /run/user/1000
+
+--------- DISK USAGE WARNING ------------
+
+--------- MEMORY USAGE (free -m) --------
+               total        used        free      shared  buff/cache   available
+Mem:            3857         441        3400           3         151        3415
+Swap:           1024           0        1024
+
+--------- CPU LOAD (uptime) -------------
+ 16:43:43 up  1:05,  1 user,  load average: 0.00, 0.01, 0.00
+
+--------- TOTAL RUNNING PROCESSES -------
+Total Running Processes: 29
+
+--------- TOP 5 MEMORY PROCESSES --------
+USER       PID      %MEM     COMMAND
+root       204      0.5      /usr/bin/python3
+root       58       0.4      /usr/lib/systemd/systemd-journald
+root       1651     0.3      /usr/libexec/wsl-pro-service
+root       1        0.3      /sbin/init
+systemd+   137      0.3      /usr/lib/systemd/systemd-resolved
+
+=========================================
+  Report saved to: logs/system_report_2026-03-25.log
+=========================================
+=========================================
+  SYSTEM HEALTH REPORT - 2026-03-25
+=========================================
+
+--------- DISK USAGE (df -h) ------------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         477G  378G   99G  80% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.0G  954G   1% /
+none            1.9G   76K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  500K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             477G  378G   99G  80% /mnt/c
+tmpfs           386M   20K  386M   1% /run/user/1000
+
+--------- DISK USAGE WARNING ------------
+
+--------- MEMORY USAGE (free -m) --------
+               total        used        free      shared  buff/cache   available
+Mem:            3857         449        3391           3         152        3407
+Swap:           1024           0        1024
+
+--------- CPU LOAD (uptime) -------------
+ 16:44:13 up  1:06,  1 user,  load average: 0.00, 0.01, 0.00
+
+--------- TOTAL RUNNING PROCESSES -------
+Total Running Processes: 29
+
+--------- TOP 5 MEMORY PROCESSES --------
+USER       PID      %MEM     COMMAND
+root       204      0.5      /usr/bin/python3
+root       58       0.4      /usr/lib/systemd/systemd-journald
+root       1651     0.3      /usr/libexec/wsl-pro-service
+root       1        0.3      /sbin/init
+systemd+   137      0.3      /usr/lib/systemd/systemd-resolved
+
+=========================================
+  Report saved to: logs/system_report_2026-03-25.log
+=========================================

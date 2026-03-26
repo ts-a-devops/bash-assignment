@@ -1,0 +1,8 @@
+logs/
+backups/
+scripts/logs/
+
+
+test_*.txt
+*.log
+*.tar.gz

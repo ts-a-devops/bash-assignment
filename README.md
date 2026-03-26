@@ -20,6 +20,7 @@ You will build a **real-world automation toolkit** and submit it via a **Pull Re
 
 ---
 
+
 ## 📁 Project Structure
 
 ```text
@@ -37,194 +38,31 @@ devops-bash-toolkit-assestment/
 ├── README.md
 ```
 
-🧑‍💻 Getting Started
-1. Fork the Repository
 
-Click the Fork button on GitHub.
+## ✅ Implementation Summary
 
-2. Clone Your Fork
+I have successfully implemented all the required scripts and both bonus scripts as per the requirements.
+
+## 📋 Scripts Implemented
+
+### Required Scripts
+- **`scripts/user_info.sh`** — Prompts for name, age, country with validation, determines age category, and logs to `logs/user_info.log`
+- **`scripts/system_check.sh`** — Shows disk usage (with >80% warnings), memory, CPU load, total processes, top 5 memory consumers, and saves dated report
+- **`scripts/file_manager.sh`** — Supports `create`, `delete`, `list`, `rename` with proper validation and logging to `logs/file_manager.log`
+- **`scripts/backup.sh`** — Creates compressed timestamped backups, stores in `backups/`, keeps only the last 5 backups, and logs activity
+
+### Bonus Scripts
+- **`scripts/process_monitor.sh`** — Monitors processes (default services or specific one), shows status, and simulates restart
+- **`run_all.sh`** — Interactive menu to run all scripts or individual ones with centralized logging
+
+## 🚀 Usage
+
 ```bash
-git clone <your-fork-url>
-cd devops-bash-toolkit
-```
+# Make all scripts executable
+chmod +x scripts/*.sh run_all.sh
 
-3. Create a Feature Branch
-```bash
-git checkout -b feature/<your-name>
-```
+# Run individual script
+./scripts/user_info.sh
 
-4. Complete the Scripts
-Implement all required scripts inside:
-```bash
-scripts/
-```
-
-5. Make Scripts Executable
-```bash
-chmod +x scripts/*.sh
-```
-
-6. Commit Your Work
-```bash
-git add .
-git commit -m "feat: complete bash scripts"
-```
-
-7. Push to GitHub
-```bash
-git push origin feature/<your-name>
-```
-
-8. Create Pull Request
-
-Open a Pull Request to the main repository.
-
-
-🧠 Assignment Tasks
---------------------------------------------------------------------------------
-🔹 A. user_info.sh
-Requirements
-
-* Prompt the user for:
-
-  * Name
-
-  * Age
-
-  * Country
-
-* Validate:
-
-  * Age must be numeric
-
-* Output:
-
-  * A greeting message
-
-* Age category:
-
-  * Minor (<18)
-
-  * Adult (18–65)
-
-  * Senior (65+)
-
-* Handle missing or invalid input gracefully
-
-* Save output to:
-```bash
-logs/user_info.log
-```
----
-🔹 B. system_check.sh
-Requirements
-
-* Display:
-
-  * Disk usage (df -h)
-
-  * Memory usage (free -m)
-
-  * CPU load (uptime)
-
-* Warn if disk usage exceeds 80%
-
-* Save report to:
-```bash
-logs/system_report_<date>.log
-```
-* Count total running processes
-
-* Display top 5 memory-consuming processes
----
-🔹 C. file_manager.sh
-Requirements
-
-* Support the following commands:
-
-  * create
-
-  * delete
-
-  * list
-
-  * rename
-
-* Example usage:
-```bash
-./file_manager.sh create file.txt
-```
-* Prevent overwriting existing files
-
-* Log all actions to:
-```bash
-logs/file_manager.log
-```
----
-🔹 D. backup.sh
-Requirements
-
-* Accept a directory as input
-
-* Validate that the directory exists
-
-* Create a compressed backup:
-```bash
-backup_<timestamp>.tar.gz
-```
-* Store backups in:
-```bash
-backups/
-```
-* Keep only the last 5 backups (delete older ones)
-
-* Log backup activity
----
-⭐ E. process_monitor.sh(Optional Bonus)
-Requirements
-
-* Accept a process name as input
-
-* Check if the process is running
-
-* If NOT running:
-
-  * Attempt restart (or simulate restart)
-
-* Output:
-
-  * Running
-
-  * Stopped
-
-  * Restarted
-
-* Use an array:
-```bash
-services=("nginx" "ssh" "docker")
-```
-* Log monitoring results
----
-⭐ F. run_all.sh (Optional Bonus)
-Requirements
-
-Provide an interactive menu:
-1. Run all
-2. System check
-3. Backup
-4. Exit
-* Use functions to organize logic
-
-* Call scripts from the scripts/ directory
-
-* Include:
-  ```bash
-  set -euo pipefail
-  ```
-* Log all actions to:
-```bash
-logs/app.log
-```
-* Handle script failures gracefully
-  
-**Submission link:** [CLICK HERE](https://forms.gle/jrhpKjXsQXZxLopN6)
+# Run the full interactive menu
+./run_all.sh

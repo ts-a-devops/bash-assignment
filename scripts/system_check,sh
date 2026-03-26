@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Get current date
+date=$(date +"%Y-%m-%d_%H-%M-%S")
+
+# Disk usage
+echo "Disk Usage:" > logs/system_report_$date.log
+df -h >> logs/system_report_$date.log
+
+# Memory usage
+echo -e "\nMemory Usage:" >> logs/system_report_$date.log
+free -m >> logs/system_report_$date.log
+
+# CPU load
+echo -e "\nCPU Load:" >> logs/system_report_$date.log
+uptime >> logs/system_report_$date.log
+
+# Check disk usage warning
+usage=$(df / | awk 'NR==2 {print $5}' | sed 's/%//')
+
+if [ "$usage" -gt 80 ]; then
+    echo -e "\nWARNING: Disk usage is above 80%" >> logs/system_report_$date.log
+fi
+
+# Count running processes
+echo -e "\nTotal Running Processes:" >> logs/system_report_$date.log
+ps aux | wc -l >> logs/system_report_$date.log
+
+# Top 5 memory-consuming processes
+echo -e "\nTop 5 Memory Consuming Processes:" >> logs/system_report_$date.log
+ps aux --sort=-%mem | head -6 >> logs/system_report_$date.log
+
+echo "System check completed. Report saved."

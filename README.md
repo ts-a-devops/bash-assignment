@@ -20,35 +20,6 @@ You will build a **real-world automation toolkit** and submit it via a **Pull Re
 
 ---
 
-## 📁 Project Structure
-
-```text
-devops-bash-toolkit-assestment/
-│
-├── scripts/
-│   ├── user_info.sh
-│   ├── system_check.sh
-# 🚀 DevOps Bash Toolkit Assessment
-
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/your-username/devops-bash-toolkit/grade.yml)
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/devops-bash-toolkit)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/devops-bash-toolkit)
-![License](https://img.shields.io/badge/license-MIT-blue)
-
----
-
-## 📌 Overview
-
-This assignment tests your **DevOps fundamentals**:
-
-- Bash scripting  
-- Git workflow (branching, commits, pull requests)  
-- Automation mindset  
-- System monitoring and logging  
-
-You will build a **real-world automation toolkit** and submit it via a **Pull Request (PR)**.
-
----
 
 ## 📁 Project Structure
 

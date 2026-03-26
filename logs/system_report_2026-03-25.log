@@ -1,0 +1,41 @@
+=== SYSTEM REPORT (2026-03-25) ===
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         233G  104G  129G  45% /usr/lib/wsl/drivers
+/dev/sdd       1007G  3.0G  953G   1% /
+none            1.9G   76K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  496K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             233G  104G  129G  45% /mnt/c
+tmpfs           384M   20K  384M   1% /run/user/1000
+
+Disk Warnings (>80%):
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3836         688        3131           3         152        3147
+Swap:           1024           0        1024
+
+CPU Load:
+ 09:27:52 up 48 min,  1 user,  load average: 0.06, 0.07, 0.05
+
+Total Processes:
+39
+
+Top 5 Memory Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+adaji6k      502  3.8  3.6 22951396 145272 pts/0 Sl+  08:39   1:51 /home/adaji6k/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/adaji6k/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+adaji6k      433  0.9  3.1 11843020 123212 pts/0 Sl+  08:39   0:27 /home/adaji6k/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/adaji6k/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=540428207-351392649-835967575-2231777986 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+adaji6k      529  0.8  1.9 1070848 77616 pts/0   Sl+  08:39   0:23 /home/adaji6k/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/adaji6k/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=ptyHost --logsPath /home/adaji6k/.vscode-server/data/logs/20260325T083606
+adaji6k      446  0.2  1.6 1020968 63312 pts/2   Ssl+ 08:39   0:07 /home/adaji6k/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 44123 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+adaji6k      489  0.0  1.4 1130696 58084 pts/0   Sl+  08:39   0:01 /home/adaji6k/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/adaji6k/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=fileWatcher
+
+=== END ===

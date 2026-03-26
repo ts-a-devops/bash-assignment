@@ -5,7 +5,16 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/your-username/devops-bash-toolkit)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
----
+---# DevOps Bash Toolkit
+
+## How to Run
+chmod +x scripts/*.sh
+
+## Scripts
+- user_info.sh
+- system_check.sh
+- file_manager.sh
+- backup.sh
 
 ## 📌 Overview
 

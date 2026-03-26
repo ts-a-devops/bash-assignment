@@ -1,0 +1,35 @@
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         912G  256G  656G  29% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            1.9G   80K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  516K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             912G  256G  656G  29% /mnt/c
+tmpfs           380M   20K  379M   1% /run/user/1000
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3790         401        3320           3         143        3389
+Swap:           1024           0        1024
+
+CPU Load:
+ 15:17:18 up  1:32,  1 user,  load average: 0.00, 0.00, 0.00
+
+Total Running Processes:
+35
+
+Top 5 Memory Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         239  0.0  0.5 107024 22016 ?        Ssl  13:45   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          42  0.0  0.3  50360 15488 ?        S<s  13:45   0:00 /usr/lib/systemd/systemd-journald
+systemd+     104  0.0  0.3  21460 12544 ?        Ss   13:45   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.3  21820 12524 ?        Ss   13:45   0:01 /sbin/init
+ebuka_s+     428  0.0  0.2  20312 11264 ?        Ss   13:45   0:00 /usr/lib/systemd/systemd --user

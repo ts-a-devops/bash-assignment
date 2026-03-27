@@ -1,0 +1,7 @@
+logs/
+backups/
+*.log
+demo.txt
+demo2.txt
+cracker.txt
+cracker2.txt

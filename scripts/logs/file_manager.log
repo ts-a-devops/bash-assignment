@@ -1,0 +1,4 @@
+2026-03-24 17:48:16 - CREATED 'file.txt'
+2026-03-24 17:48:27 - LISTED files in /mnt/c/Users/USER/bash-assignment/scripts
+2026-03-24 17:48:54 - RENAMED 'file.txt' to 'newfile.txt'
+2026-03-24 17:49:37 - DELETED 'newfile.txt'

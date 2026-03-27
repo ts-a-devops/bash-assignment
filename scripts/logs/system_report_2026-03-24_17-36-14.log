@@ -1,0 +1,43 @@
+===== SYSTEM HEALTH REPORT =====
+Generated on: Tue Mar 24 17:36:14 WAT 2026
+
+=== Disk Usage ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc        251G  1.7G  237G   1% /
+none            1.9G   28K  1.9G   1% /mnt/wslg
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+tools           238G  138G  101G  58% /init
+none            1.9G     0  1.9G   0% /dev
+none            1.9G  4.0K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G     0  1.9G   0% /run/user
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+drivers         238G  138G  101G  58% /usr/lib/wsl/drivers
+lib             238G  138G  101G  58% /usr/lib/wsl/lib
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+drvfs           238G  138G  101G  58% /mnt/c
+
+=== Disk Usage Warning Check ===
+
+=== Memory Usage ===
+              total        used        free      shared  buff/cache   available
+Mem:           3851         242        3499           0         109        3440
+Swap:          1024           0        1024
+
+=== CPU Load ===
+ 17:36:14 up 25 min,  0 users,  load average: 0.03, 0.01, 0.00
+
+=== Total Running Processes ===
+9
+
+=== Top 5 Memory Consuming Processes ===
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+folarin     59  0.0  0.1  10284  5288 pts/0    Ss   17:22   0:00 -bash
+folarin    101  0.0  0.0   8752  3620 pts/0    S+   17:36   0:00 /bin/bash ./system_check.sh
+folarin    144  0.0  0.0  10616  3344 pts/0    R+   17:36   0:00 ps aux --sort=-%mem
+root         1  0.0  0.0   1744  1084 ?        Sl   17:10   0:00 /init
+folarin    145  0.0  0.0   2392   572 pts/0    R+   17:36   0:00 head -n 6
+
+===== END OF REPORT =====

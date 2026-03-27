@@ -1,0 +1,24 @@
+--- System Report (2026-03-27_08-46-25) ---
+----------------------------
+1. Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd        251G  3.9G  235G   2% /
+Disk usage is healthy (2%).
+
+2. Memory Usage (MB):
+               total        used        free      shared  buff/cache   available
+Mem:            1904         745         946           2         212        1090
+Swap:           1024           0        1024
+
+3. CPU Load & Uptime:
+ 08:46:25 up 40 min,  0 users,  load average: 0.10, 0.12, 0.18
+
+4. Total Running Processes: 27
+
+5. Top 5 Memory-Consuming Processes:
+  PID CMD                         %MEM
+  172 /home/lambefavour/.vscode-s 24.7
+  115 /home/lambefavour/.vscode-s  4.8
+  128 /home/lambefavour/.vscode-s  3.0
+  150 /home/lambefavour/.vscode-s  3.0
+  139 /home/lambefavour/.vscode-s  2.7

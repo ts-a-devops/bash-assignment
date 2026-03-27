@@ -9,13 +9,13 @@ tmpfs           369M  128K  369M   1% /run/user/1000
 /dev/sr0         59M   59M     0 100% /media/alameen/VBox_GAs_7.1.12
 Memory Usage:
                total        used        free      shared  buff/cache   available
-Mem:            3687        1074         662          29        2222        2613
+Mem:            3687        1076         659          29        2223        2610
 Swap:           3686           0        3686
 CPU Load:
- 00:56:55 up  1:50,  1 user,  load average: 0.11, 0.10, 0.07
+ 01:28:21 up  2:22,  1 user,  load average: 0.05, 0.01, 0.00
 Top Processes:
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-alameen     3267  2.9 10.0 4530976 377628 ?      Ssl  Mar26   3:17 /usr/bin/gnome-shell
+alameen     3267  2.8 10.0 4529056 377600 ?      Ssl  Mar26   4:00 /usr/bin/gnome-shell
 alameen     3930  0.0  2.7 1275800 104140 ?      Sl   Mar26   0:00 /usr/libexec/mutter-x11-frames
 alameen     3792  0.0  2.2 650920 84720 ?        Ssl  Mar26   0:00 /usr/libexec/gsd-xsettings
 alameen     4011  0.0  1.8 3030200 68288 ?       Sl   Mar26   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app

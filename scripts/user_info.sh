@@ -24,7 +24,7 @@ else
     category="Senior"
 fi
 
-output="Hello $name from $country. You are an $category."
+output="Hello $name from $country. You are a $category."
 
 echo "$output"
 echo "$output" >> logs/user_info.log

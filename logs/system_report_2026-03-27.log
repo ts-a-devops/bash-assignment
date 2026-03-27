@@ -1,0 +1,32 @@
+===== SYSTEM CHECK REPORT (2026-03-27) =====
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           681M  1.9M  679M   1% /run
+/dev/sda2        99G   14G   80G  15% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.7G  8.0K  1.7G   1% /tmp
+tmpfs           341M   92K  341M   1% /run/user/1000
+/dev/sr1         51M   51M     0 100% /media/okeleye-david/VBox_GAs_7.2.6
+/dev/sr0         51M   51M     0 100% /media/okeleye-david/VBox_GAs_7.2.61
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3402        1252         540          33        1888        2149
+Swap:           3913           0        3913
+
+CPU Load:
+ 21:06:18 up  1:10,  1 user,  load average: 0.01, 0.02, 0.04
+
+Total Running Processes:
+218
+
+Top 5 Memory Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+okeleye+    2576  1.9 12.0 4020028 419380 ?      Ssl  19:57   1:20 /usr/bin/gnome-shell
+okeleye+    3458  1.3  6.4 1625056 223932 ?      Sl   19:57   0:56 /usr/bin/ptyxis --gapplication-service
+okeleye+    3170  0.0  3.2 800420 114064 ?       Sl   19:57   0:00 /usr/libexec/mutter-x11-frames
+okeleye+    3205  0.0  2.0 374632 69832 ?        Sl   19:57   0:00 /usr/libexec/ibus-x11
+okeleye+    2686  0.0  1.9 215448 68448 ?        S    19:57   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.TMU4M3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients

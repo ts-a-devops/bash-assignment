@@ -1,0 +1,22 @@
+System Report - 2026-03-27
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           369M  1.5M  368M   1% /run
+/dev/sda2        25G  9.9G   14G  43% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           369M  128K  369M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/alameen/VBox_GAs_7.1.12
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3687        1074         662          29        2222        2613
+Swap:           3686           0        3686
+CPU Load:
+ 00:56:55 up  1:50,  1 user,  load average: 0.11, 0.10, 0.07
+Top Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+alameen     3267  2.9 10.0 4530976 377628 ?      Ssl  Mar26   3:17 /usr/bin/gnome-shell
+alameen     3930  0.0  2.7 1275800 104140 ?      Sl   Mar26   0:00 /usr/libexec/mutter-x11-frames
+alameen     3792  0.0  2.2 650920 84720 ?        Ssl  Mar26   0:00 /usr/libexec/gsd-xsettings
+alameen     4011  0.0  1.8 3030200 68288 ?       Sl   Mar26   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+alameen     3589  0.0  1.7 245108 67536 ?        S    Mar26   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.BJ3RM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients

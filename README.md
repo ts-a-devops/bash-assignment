@@ -64,20 +64,37 @@ scripts/
 chmod +x scripts/*.sh
 ```
 
-6. Commit Your Work
+6. Run a script
+```bash
+./scripts/user_info.sh
+```
+
+7. Save the file
+```bash
+### In nano:
+- `Ctrl + O` → Enter  
+- `Ctrl + X`
+
+### In vim:
+- `Esc`
+- type:
+:wq
+```
+
+8. Commit Your Work
 ```bash
 git add .
 git commit -m "feat: complete bash scripts"
 ```
 
-7. Push to GitHub
+9. Pull latest changes first 
 ```bash
-git push origin feature/<your-name>
+git pull origin main
 ```
 
-8. Create Pull Request
-
-Open a Pull Request to the main repository.
+10. Push to GitHub
+```bash
+git push origin feature/<your-name>```
 
 
 🧠 Assignment Tasks

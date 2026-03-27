@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATE=$(date +"%Y")
-LOG_FILE="../logs/system_report_$DATE.log"
+LOG_FILE="logs/system_report_$DATE.log"
 
 echo "===== SYSTEM REPORT =====" | tee -a "$LOG_FILE"
 

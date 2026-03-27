@@ -36,3 +36,6 @@ fi
 
 #output message
 echo "You are welcome $NAME From $COUNTRY, you are $AGE and $CAT please enjoy your stay!!"
+
+#saving to log file
+echo "You are welcome $NAME From $COUNTRY, you are $AGE and $CAT please enjoy your stay!!" >> "$LOG_FILE"

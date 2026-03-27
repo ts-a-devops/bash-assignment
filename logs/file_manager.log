@@ -1,0 +1,8 @@
+Usage: ./file_manager.sh {create|delete|list|rename} filename
+total 24K
+-rw-r--r-- 1 tumzy10 tumzy10 3.7K Mar 27 21:16 README.md
+drwxr-xr-x 2 tumzy10 tumzy10 4.0K Mar 27 21:29 backups
+-rwxr-xr-x 1 tumzy10 tumzy10  912 Mar 27 22:57 file_manager.sh
+drwxr-xr-x 2 tumzy10 tumzy10 4.0K Mar 27 22:58 logs
+drwxr-xr-x 2 tumzy10 tumzy10 4.0K Mar 27 22:48 scripts
+-rwxr-xr-x 1 tumzy10 tumzy10  746 Mar 27 22:40 system_check.sh

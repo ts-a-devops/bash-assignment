@@ -1,0 +1,26 @@
+========== SYSTEM CHECK REPORT (2026-03-27) ==========
+
+[1] CPU Load & Uptime:
+ 11:50:20 up 2 days, 18:57,  1 user,  load average: 0.00, 0.00, 0.00
+
+[2] Memory Usage (MB):
+               total        used        free      shared  buff/cache   available
+Mem:            7844         358        7348           3         137        7334
+Swap:           2048           0        2048
+
+[3] Disk Usage:
+/dev/sdd       1007G  5.7G  951G   1% /
+
+[4] Total Running Processes:
+30
+
+[5] Top 5 Memory-Consuming Processes:
+USER PID %MEM COMMAND
+root 236 0.2 /usr/bin/python3
+root 3359 0.2 /usr/libexec/packagekitd
+root 63 0.2 /lib/systemd/systemd-journald
+root 197 0.2 /usr/bin/python3
+systemd+ 121 0.1 /lib/systemd/systemd-resolved
+
+================ END OF REPORT ================
+Report saved to: logs/system_report_2026-03-27.log

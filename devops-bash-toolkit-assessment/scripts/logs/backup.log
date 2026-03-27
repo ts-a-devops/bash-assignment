@@ -1,0 +1,3 @@
+2026-03-27 12:13:32 - FAILED: Directory 'scripts' not found.
+2026-03-27 12:15:23 - FAILED: Directory 'user_info.sh' not found.
+2026-03-27 12:16:21 - SUCCESS: Created backup_20260327_121620.tar.gz

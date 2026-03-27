@@ -1,0 +1,33 @@
+===== SYSTEM REPORT (2026-03-27) =====
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          238G  177G   62G  75% /
+none            238G  177G   62G  75% /dev
+none            238G  177G   62G  75% /run
+none            238G  177G   62G  75% /run/lock
+none            238G  177G   62G  75% /run/shm
+none            238G  177G   62G  75% /run/user
+tmpfs           238G  177G   62G  75% /sys/fs/cgroup
+C:\             238G  177G   62G  75% /mnt/c
+
+--- Disk Warnings (>80%) ---
+
+--- Memory Usage (MB) ---
+               total        used        free      shared  buff/cache   available
+Mem:           16262        7227        8811          17         223        8905
+Swap:          30443           0       30443
+
+--- CPU Load ---
+ 10:45:58 up 25 min,  0 users,  load average: 0.52, 0.58, 0.59
+
+--- Total Running Processes ---
+Total processes: 7
+
+--- Top 5 Memory-Consuming Processes ---
+  PID  PPID CMD                         %MEM %CPU
+    8     7 -bash                        0.0  0.0
+  104     8 /bin/bash ./system-check.sh  0.0  0.0
+  135   104 ps -eo pid,ppid,cmd,%mem,%c  0.0  0.0
+  136   104 head -n 6                    0.0  0.0
+  137   104 tee -a logs/system_report_2  0.0  0.0

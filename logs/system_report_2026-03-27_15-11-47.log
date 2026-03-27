@@ -1,0 +1,46 @@
+========== SYSTEM CHECK REPORT ==========
+Generated at: Fri Mar 27 15:11:47 WAT 2026
+
+----- Disk Usage -----
+Filesystem      Size  Used Avail Use% Mounted on
+none            925M     0  925M   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            925M  4.0K  925M   1% /mnt/wsl
+drivers         238G  236G  1.9G 100% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            925M  216K  924M   1% /mnt/wslg
+none            925M     0  925M   0% /usr/lib/wsl/lib
+rootfs          920M  2.7M  917M   1% /init
+none            925M  584K  924M   1% /run
+none            925M     0  925M   0% /run/lock
+none            925M     0  925M   0% /run/shm
+none            925M   76K  925M   1% /mnt/wslg/versions.txt
+none            925M   76K  925M   1% /mnt/wslg/doc
+C:\             238G  236G  1.9G 100% /mnt/c
+tmpfs           185M   20K  185M   1% /run/user/1000
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+snapfuse         74M   74M     0 100% /snap/core22/2411
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         55M   55M     0 100% /snap/remote/7
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+
+----- Memory Usage -----
+               total        used        free      shared  buff/cache   available
+Mem:            1848         424        1348           3         154        1423
+Swap:           1024           0        1024
+
+----- CPU Load -----
+ 15:11:47 up 1 day, 10:56,  1 user,  load average: 0.00, 0.00, 0.00
+
+----- Disk Usage Warnings (>80%) -----
+
+----- Total Running Processes -----
+39
+
+----- Top 5 Memory-Consuming Processes -----
+    PID COMMAND         %MEM
+   5202 snapd            2.0
+    221 unattended-upgr  1.1
+     73 systemd-journal  0.9
+   7484 wsl-pro-service  0.7
+      1 systemd          0.7
+

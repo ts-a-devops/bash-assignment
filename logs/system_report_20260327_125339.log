@@ -1,0 +1,33 @@
+=== System Check Report ===
+Generated: Fri Mar 27 12:53:39 UTC 2026
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          32G   14G   17G  46% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/root        29G   17G   13G  56% /vscode
+/dev/sdc1        44G  2.1G   40G   5% /tmp
+/dev/loop4       32G   14G   17G  46% /workspaces
+✅ Disk usage OK: 46%
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:            7943        1781         195          62        6345        6162
+Swap:              0           0           0
+
+--- CPU Load ---
+ 12:53:39 up 47 min,  0 user,  load average: 0.11, 0.18, 0.23
+
+--- Process Count ---
+Total running processes: 21
+
+--- Top 5 Memory-Consuming Processes ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+codespa+     623  1.1  4.2 44104772 345344 ?     Sl   12:08   0:30 /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/node --dns-result-order=ipv4first /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+codespa+     599  0.1  1.6 11857640 132408 ?     Sl   12:08   0:04 /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/server-main.js --log trace --force-disable-user-env --server-data-dir /home/codespace/.vscode-remote --accept-server-license-terms --host 127.0.0.1 --port 0 --connection-token-file /home/codespace/.vscode-remote/data/Machine/.connection-token-cfbea10c5ffb233ea9177d34726e6056e89913dc --extensions-download-dir /home/codespace/.vscode-remote/extensionsCache --start-server  --enable-remote-auto-shutdown --skip-requirements-check
+codespa+    2862  0.0  0.9 1132044 80960 ?       Sl   12:12   0:02 /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=ptyHost --logsPath /home/codespace/.vscode-remote/data/logs/20260327T120827
+root          58  0.0  0.9 1969464 74472 ?       Sl   12:08   0:00 dockerd --dns 168.63.129.16
+codespa+     655  0.0  0.7 1263156 59656 ?       Sl   12:08   0:00 /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=fileWatcher
+
+Report saved to: logs/system_report_20260327_125339.log

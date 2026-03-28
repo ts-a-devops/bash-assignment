@@ -1,0 +1,32 @@
+=== System Check Report - 2026-03-28 23:36:07 ===
+
+=== Disk Usage ===
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           874M  1.8M  872M   1% /run
+/dev/sda2        32G  7.3G   23G  25% /
+tmpfs           4.3G     0  4.3G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           874M  132K  874M   1% /run/user/1000
+/dev/sr0         51M   51M     0 100% /media/victor/VBox_GAs_7.2.6
+
+=== Memory Usage ===
+               total        used        free      shared  buff/cache   available
+Mem:            8737        1375        5813          67        1868        7362
+Swap:              0           0           0
+
+=== CPU Load ===
+ 23:36:07 up  2:47,  1 user,  load average: 0.00, 0.00, 0.00
+
+=== Total Running Processes ===
+272
+
+=== Top 5 Memory-Consuming Processes ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+victor      3173  1.5  5.9 5701996 536204 ?      Rsl  20:49   2:32 /usr/bin/gnome-shell
+victor      3892  0.0  1.1 1865700 104140 ?      Sl   20:49   0:00 /usr/libexec/mutter-x11-frames
+victor      3696  0.0  0.9 651024 85028 ?        Ssl  20:49   0:00 /usr/libexec/gsd-xsettings
+victor      4810  0.1  0.8 3099800 74612 ?       Sl   23:32   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+victor      4161  0.0  0.7 655452 71240 ?        Ssl  20:51   0:08 /usr/libexec/gnome-terminal-server
+
+=== Disk Usage Warnings ===
+Disk usage on / is 25% (OK)

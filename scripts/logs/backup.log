@@ -1,0 +1,4 @@
+Sat Mar 28 09:49:36 WAT 2026: BACKUP FAILED: /home/user/data does not exist.
+Sat Mar 28 09:50:08 WAT 2026: BACKUP FAILED: /home/user/data does not exist.
+Sat Mar 28 10:21:42 WAT 2026: BACKUP SUCCESS: backups/backup_20260328_102141.tar.gz
+Sat Mar 28 10:22:14 WAT 2026: BACKUP FAILED: backups/backup_20260328_102214.tar.gz

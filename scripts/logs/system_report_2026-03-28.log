@@ -1,0 +1,126 @@
+===== SYSTEM CHECK REPORT =====
+Date: Sat Mar 28 09:39:28 WAT 2026
+
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         476G  320G  156G  68% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.8G  954G   1% /
+none            1.9G   76K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G     0  1.9G   0% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G     0  1.9G   0% /run/user
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             476G  320G  156G  68% /mnt/c
+
+---- Disk Warnings ----
+
+---- Memory Usage ----
+               total        used        free      shared  buff/cache   available
+Mem:            3836         269        3365           2         201        3435
+Swap:           1024           0        1024
+
+---- CPU Load ----
+ 09:39:29 up  1:41,  0 users,  load average: 0.00, 0.00, 0.00
+
+---- Total Running Processes ----
+10
+
+---- Top 5 Memory Consuming Processes ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+user        10  0.0  0.1   6120  4992 pts/0    Ss   09:21   0:00 -bash
+user        38 38.0  0.0   4916  3584 pts/0    S+   09:39   0:00 /bin/bash ./system_check.sh
+user        82  0.0  0.0   7484  3072 pts/0    R+   09:39   0:00 ps aux --sort=-%mem
+root         1  0.0  0.0   3120  2304 hvc0     Sl+  09:21   0:00 /init
+root         5  0.0  0.0   3120  1792 hvc0     Sl+  09:21   0:00 plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --log-truncate
+
+===== END OF REPORT =====
+===== SYSTEM CHECK REPORT =====
+Date: Sat Mar 28 10:21:41 WAT 2026
+
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         476G  321G  155G  68% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.8G  954G   1% /
+none            1.9G   80K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G     0  1.9G   0% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G     0  1.9G   0% /run/user
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             476G  321G  155G  68% /mnt/c
+
+---- Disk Warnings ----
+
+---- Memory Usage ----
+               total        used        free      shared  buff/cache   available
+Mem:            3836         265        3367           2         203        3439
+Swap:           1024           0        1024
+
+---- CPU Load ----
+ 10:21:41 up  2:23,  0 users,  load average: 0.00, 0.00, 0.00
+
+---- Total Running Processes ----
+11
+
+---- Top 5 Memory Consuming Processes ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+user        10  0.0  0.1   6248  4992 pts/0    Ss   09:21   0:00 -bash
+user       210  0.0  0.0   4916  3584 pts/0    S+   10:21   0:00 /bin/bash ./run_all.sh
+user       218  0.0  0.0   4916  3584 pts/0    S+   10:21   0:00 /bin/bash ./scripts/system_check.sh
+user       262  0.0  0.0   7484  3072 pts/0    R+   10:21   0:00 ps aux --sort=-%mem
+root         1  0.0  0.0   3120  2304 hvc0     Sl+  09:21   0:00 /init
+
+===== END OF REPORT =====
+===== SYSTEM CHECK REPORT =====
+Date: Sat Mar 28 10:22:08 WAT 2026
+
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         476G  321G  155G  68% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.8G  954G   1% /
+none            1.9G   80K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G     0  1.9G   0% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G     0  1.9G   0% /run/user
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             476G  321G  155G  68% /mnt/c
+
+---- Disk Warnings ----
+
+---- Memory Usage ----
+               total        used        free      shared  buff/cache   available
+Mem:            3836         261        3371           2         203        3443
+Swap:           1024           0        1024
+
+---- CPU Load ----
+ 10:22:08 up  2:23,  0 users,  load average: 0.00, 0.00, 0.00
+
+---- Total Running Processes ----
+11
+
+---- Top 5 Memory Consuming Processes ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+user        10  0.0  0.1   6248  4992 pts/0    Ss   09:21   0:00 -bash
+user       210  0.0  0.0   4916  3584 pts/0    S+   10:21   0:00 /bin/bash ./run_all.sh
+user       294  0.0  0.0   4916  3584 pts/0    S+   10:22   0:00 /bin/bash ./scripts/system_check.sh
+user       338  0.0  0.0   7484  3072 pts/0    R+   10:22   0:00 ps aux --sort=-%mem
+root         1  0.0  0.0   3120  2304 hvc0     Sl+  09:21   0:00 /init
+
+===== END OF REPORT =====

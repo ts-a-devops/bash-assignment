@@ -1,0 +1,5 @@
+create test.txt - success
+rename test.txt to newtest.txt - success
+delete newtest.txt - success
+list - success
+list - success

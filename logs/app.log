@@ -4,43 +4,6 @@ none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standa
 none            1.9G  4.0K  1.9G   1% /mnt/wsl
 drivers         233G   59G  174G  26% /usr/lib/wsl/drivers
 /dev/sdd       1007G  2.6G  954G   1% /
-none            1.9G   76K  1.9G   1% /mnt/wslg
-none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
-rootfs          1.9G  2.7M  1.9G   1% /init
-none            1.9G  512K  1.9G   1% /run
-none            1.9G     0  1.9G   0% /run/lock
-none            1.9G     0  1.9G   0% /run/shm
-none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
-none            1.9G   76K  1.9G   1% /mnt/wslg/doc
-C:\             233G   59G  174G  26% /mnt/c
-tmpfs           386M   20K  386M   1% /run/user/1000
-
-=== Memory Usage ===
-               total        used        free      shared  buff/cache   available
-Mem:            3855         456        3329           3         203        3399
-Swap:           1024           0        1024
-
-=== CPU Load ===
- 17:18:01 up 27 min,  1 user,  load average: 0.00, 0.00, 0.00
-
-=== Disk Warning Check ===
-
-=== Running Processes ===
-Total: 31
-
-=== Top 5 Memory Processes ===
-USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-root         271  0.0  2.1 2062556 84804 ?       Ssl  16:51   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
-root         186  0.1  1.2 1867764 47468 ?       Ssl  16:51   0:02 /usr/bin/containerd
-root         203  0.0  0.5 107028 22272 ?        Ssl  16:51   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
-root          45  0.0  0.4  66844 18840 ?        S<s  16:50   0:00 /usr/lib/systemd/systemd-journald
-root           1  0.1  0.3  21836 12616 ?        Ss   16:50   0:01 /sbin/init
-=== Disk Usage ===
-Filesystem      Size  Used Avail Use% Mounted on
-none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
-none            1.9G  4.0K  1.9G   1% /mnt/wsl
-drivers         233G   59G  174G  26% /usr/lib/wsl/drivers
-/dev/sdd       1007G  2.6G  954G   1% /
 none            1.9G   80K  1.9G   1% /mnt/wslg
 none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
 rootfs          1.9G  2.7M  1.9G   1% /init
@@ -72,3 +35,4 @@ root         186  0.1  1.2 1867764 47468 ?       Ssl  16:51   0:02 /usr/bin/cont
 root         203  0.0  0.5 107028 22272 ?        Ssl  16:51   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
 root          45  0.0  0.4  66844 18968 ?        S<s  16:51   0:00 /usr/lib/systemd/systemd-journald
 root         809  0.0  0.3 1830096 12928 ?       Ssl  17:22   0:00 /usr/libexec/wsl-pro-service
+Fri Mar 27 17:27:57 PDT 2026: scripts/system_check.sh completed

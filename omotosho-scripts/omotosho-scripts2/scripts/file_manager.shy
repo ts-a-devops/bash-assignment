@@ -1,0 +1,13 @@
+file_manager.sh Requirements
+
+Support the following commands:
+
+create
+
+delete
+
+list
+
+rename
+
+Example usage:

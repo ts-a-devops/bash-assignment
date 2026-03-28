@@ -1,0 +1,14 @@
+===== SYSTEM CHECK REPORT (date) =====
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          238G  177G   61G  75% /
+none            238G  177G   61G  75% /dev
+none            238G  177G   61G  75% /run
+none            238G  177G   61G  75% /run/lock
+none            238G  177G   61G  75% /run/shm
+none            238G  177G   61G  75% /run/user
+tmpfs           238G  177G   61G  75% /sys/fs/cgroup
+C:\             238G  177G   61G  75% /mnt/c
+
+Disk Warnings:

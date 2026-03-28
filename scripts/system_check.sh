@@ -4,12 +4,35 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-# Define ANSI colors for terminal output
-RED='\033[0;31m'
-YELLOW='\033[1;33m'
-GREEN='\033[0;32m'
-CYAN='\033[0;36m'
-NC='\033[0m' # No Color
+# shellcheck disable=SC1091
+source "$(dirname "$0")/colors.sh"
+
+# ========== Help ==================================================
+show_help() {
+    sed -n '/^##HELP_START/,/^##HELP_END/p' "$0" \
+        | grep -v '^##HELP' \
+        | sed 's/^# \{0,1\}//'
+}
+
+make_help() {
+    echo -e "${BOLD}${CYAN}╔══════════════════════════════════════════════╗${NC}"
+    echo -e "${BOLD}${CYAN}║           system_check.sh  —  Help           ║${NC}"
+    echo -e "${BOLD}${CYAN}╚══════════════════════════════════════════════╝${NC}"
+    show_help
+}
+
+[[ $# -eq 0 ]] && { make_help; exit 0; }
+[[ "${1:-}" == "--help" || "${1:-}" == "-h" ]] && { make_help; exit 0; }
+
+##HELP_START
+# DESCRIPTION
+#   Check system usage and print a report.
+# USAGE
+#   ./system_check.sh [number_of_top_processes]
+# EXAMPLES
+#   ./system_check.sh # defaults to top 5 processes
+#   ./system_check.sh 10 # shows top 10 processes
+##HELP_END
 
 # Get number of top processes from command line argument, default to 5
 TOP_COUNT=${1:-5}

@@ -6,11 +6,35 @@ set -o pipefail
 
 mkdir -p logs backups
 
-# ── Colors ───────────────────────────────────────────────────────────────────
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-NC='\033[0m'
+# shellcheck disable=SC1091
+source "$(dirname "$0")/colors.sh"
+
+# ========== Help ==================================================
+show_help() {
+    sed -n '/^##HELP_START/,/^##HELP_END/p' "$0" \
+        | grep -v '^##HELP' \
+        | sed 's/^# \{0,1\}//'
+}
+
+make_help() {
+    echo -e "${BOLD}${CYAN}╔══════════════════════════════════════════════╗${NC}"
+    echo -e "${BOLD}${CYAN}║           backup.sh  —  Help                 ║${NC}"
+    echo -e "${BOLD}${CYAN}╚══════════════════════════════════════════════╝${NC}"
+    show_help
+}
+
+##HELP_START
+# DESCRIPTION
+#   Create a compressed backup of a directory.
+# USAGE
+#   ./backup.sh <directory> [destination]
+# EXAMPLES
+#   ./backup.sh /home/user/documents
+#   ./backup.sh /home/user/documents /mnt/backup
+##HELP_END
+
+[[ $# -eq 0 ]] && { make_help; exit 0; }
+[[ "${1:-}" == "--help" || "${1:-}" == "-h" ]] && { make_help; exit 0; }
 
 # ========== Guards ==================================================
 [[ $# -eq 0 ]] && {

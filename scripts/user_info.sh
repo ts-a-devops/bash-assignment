@@ -1,5 +1,34 @@
 #!/bin/bash
 
+# shellcheck disable=SC1091
+source "$(dirname "$0")/colors.sh"
+
+# ========== Help ==================================================
+show_help() {
+    sed -n '/^##HELP_START/,/^##HELP_END/p' "$0" \
+        | grep -v '^##HELP' \
+        | sed 's/^# \{0,1\}//'
+}
+
+make_help() {
+    echo -e "${BOLD}${CYAN}╔══════════════════════════════════════════════╗${NC}"
+    echo -e "${BOLD}${CYAN}║           user_info.sh  —  Help           ║${NC}"
+    echo -e "${BOLD}${CYAN}╚══════════════════════════════════════════════╝${NC}"
+    show_help
+}
+
+##HELP_START
+# DESCRIPTION
+#   Collect user information and print a greeting.
+# USAGE
+#   ./user_info.sh
+# EXAMPLES
+#   ./user_info.sh
+##HELP_END
+
+[[ $# -eq 0 ]] && { make_help; exit 0; }
+[[ "${1:-}" == "--help" || "${1:-}" == "-h" ]] && { make_help; exit 0; }
+
 # Ensure output directory exists before making file writes
 mkdir -p logs
 

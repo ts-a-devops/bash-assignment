@@ -6,11 +6,35 @@ set -o pipefail
 
 mkdir -p logs
 
-# ========== Colors ==========
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-NC='\033[0m'
+# shellcheck disable=SC1091
+source "$(dirname "$0")/colors.sh"
+
+# ==================================================
+show_help() {
+    sed -n '/^##HELP_START/,/^##HELP_END/p' "$0" \
+        | grep -v '^##HELP' \
+        | sed 's/^# \{0,1\}//'
+}
+
+make_help() {
+    echo -e "${BOLD}${CYAN}╔══════════════════════════════════════════════╗${NC}"
+    echo -e "${BOLD}${CYAN}║           process_monitor.sh  —  Help        ║${NC}"
+    echo -e "${BOLD}${CYAN}╚══════════════════════════════════════════════╝${NC}"
+    show_help
+}
+
+##HELP_START
+# DESCRIPTION
+#   Monitor processes and restart them if they are not running.
+# USAGE
+#   ./process_monitor.sh [process1] [process2] ...
+# EXAMPLES
+#   ./process_monitor.sh nginx ssh docker
+#   ./process_monitor.sh # uses default services array: nginx, ssh, docker
+##HELP_END
+
+[[ $# -eq 0 ]] && { make_help; exit 0; }
+[[ "${1:-}" == "--help" || "${1:-}" == "-h" ]] && { make_help; exit 0; }
 
 # ========== Fallback Array ==========
 services=("nginx" "ssh" "docker")

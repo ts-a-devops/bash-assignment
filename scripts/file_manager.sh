@@ -6,25 +6,65 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-# ── Paths ────────────────────────────────────────────────────────────────────
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-# mkdir -p "$SCRIPT_DIR/logs"
-# LOG_FILE="$SCRIPT_DIR/logs/file_manager.log"
+# ========== Paths ==================================================
+# SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck disable=SC1091
+source "$(dirname "$0")/colors.sh"
 mkdir -p logs
 LOG_FILE="logs/file_manager.log"
 
-# ── Colors ───────────────────────────────────────────────────────────────────
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-NC='\033[0m'
+# ========== Help ==================================================
+show_help() {
+    sed -n '/^##HELP_START/,/^##HELP_END/p' "$0" \
+        | grep -v '^##HELP' \
+        | sed 's/^# \{0,1\}//'
+}
 
-# ── Guards ───────────────────────────────────────────────────────────────────
-[[ $# -eq 0 ]] && { sed -n '3,10p' "$0" | grep -v "^#" || true; exit 0; }
+make_help() {
+    echo -e "${BOLD}${CYAN}╔══════════════════════════════════════════════╗${NC}"
+    echo -e "${BOLD}${CYAN}║           file_manager.sh  —  Help           ║${NC}"
+    echo -e "${BOLD}${CYAN}╚══════════════════════════════════════════════╝${NC}"
+    show_help
+}
+
+##HELP_START
+# DESCRIPTION
+#   Manage files with a single unified command. Supports creating, deleting,
+#   copying, moving, renaming, listing, viewing, searching, and backing up files.
+#
+# USAGE
+#   ./file_manager.sh <action> <source> [dest/pattern]
+#
+# ACTIONS
+#   create   <file>               Create a new empty file
+#   delete   <file>               Delete a file
+#   copy     <src>  <dest>        Copy src to dest (prompts if dest exists)
+#   move     <src>  <dest>        Move src to dest (prompts if dest exists)
+#   rename   <old>  <new>         Rename a file (dest must not already exist)
+#   list     <dir>                List contents of a directory
+#   view     <file>               Print file contents to stdout
+#   edit     <file>               Open file in nano
+#   search   <file> <pattern>     Search for a pattern inside a file (grep -n)
+#   backup   <file>               Copy file to <file>.backup.<timestamp>
+#
+# EXAMPLES
+#   ./file_manager.sh create  notes.txt
+#   ./file_manager.sh delete  notes.txt
+#   ./file_manager.sh copy    notes.txt  notes_copy.txt
+#   ./file_manager.sh move    notes.txt  archive/notes.txt
+#   ./file_manager.sh rename  old.txt    new.txt
+#   ./file_manager.sh list    ./logs
+#   ./file_manager.sh view    logs/file_manager.log
+#   ./file_manager.sh search  logs/file_manager.log  "copy"
+#   ./file_manager.sh backup  logs/file_manager.log
+##HELP_END
+
+[[ $# -eq 0 ]] && { make_help; exit 0; }
+[[ "${1:-}" == "--help" || "${1:-}" == "-h" ]] && { make_help; exit 0; }
 
 ACTION="${1}"; SOURCE="${2:-}"; DEST="${3:-}"
 
-# ── Config map: action -> cmd:source_rule:dest_rule:special ──────────────────
+# ========== Config map: action -> cmd:source_rule:dest_rule:special ──────────────────
 declare -A CONFIG=(
     ["create"]="touch:must_not_exist::"
     ["delete"]="rm -f:must_exist::"
@@ -38,7 +78,7 @@ declare -A CONFIG=(
     ["backup"]="cp:must_exist::auto_dest"
 )
 
-# ── Dispatch map: action -> executor function ────────────────────────────────
+# ========== Dispatch map: action -> executor function ────────────────────────────────
 declare -A DISPATCH=(
     ["search"]="exec_search"
     ["list"]="exec_display"
@@ -49,7 +89,7 @@ declare -A DISPATCH=(
     ["rename"]="exec_two_arg"
 )
 
-# ── Validation ───────────────────────────────────────────────────────────────
+# ========== Validation ───────────────────────────────────────────────────────────────
 validate_rule() {
     local rule="$1" path="$2" label="$3"
     [[ "$rule" == "must_exist"     ]] && [[ ! -e "$path" ]] && { echo -e "${RED}Error: $label '$path' not found${NC}";     exit 1; }
@@ -63,14 +103,14 @@ validate_rule() {
     return 0
 }
 
-# ── Executor functions ───────────────────────────────────────────────────────
+# ========== Executor functions ───────────────────────────────────────────────────────
 exec_search()  { echo "Matches for '$DEST' in '$SOURCE':"; echo "---"; $CMD "$DEST" "$SOURCE"; echo "---"; }
 exec_display() { echo "Contents of '$SOURCE':";            echo "---"; $CMD "$SOURCE";          echo "---"; }
 exec_backup()  { $CMD "$SOURCE" "$DEST"; echo -e "${GREEN}✓ Backed up to '$DEST'${NC}"; }
 exec_two_arg() { $CMD "$SOURCE" "$DEST"; echo -e "${GREEN}✓ ${ACTION^}d '$SOURCE' → '$DEST'${NC}"; }
 exec_default() { $CMD "$SOURCE";         echo -e "${GREEN}✓ ${ACTION^}d '$SOURCE'${NC}"; }
 
-# ── Parse config ─────────────────────────────────────────────────────────────
+# ========== Parse config ─────────────────────────────────────────────────────────────
 IFS=':' read -r CMD SOURCE_RULE DEST_RULE SPECIAL <<< "${CONFIG[$ACTION]:-}"
 [[ -z "$CMD"     ]] && { echo -e "${RED}Error: Unknown action '$ACTION'${NC}"; exit 1; }
 [[ -z "$SOURCE"  ]] && { echo -e "${RED}Error: Source file required${NC}";     exit 1; }
@@ -79,15 +119,16 @@ IFS=':' read -r CMD SOURCE_RULE DEST_RULE SPECIAL <<< "${CONFIG[$ACTION]:-}"
 validate_rule "$SOURCE_RULE" "$SOURCE" "Source"
 [[ -n "$DEST_RULE" && -n "$DEST" ]] && validate_rule "$DEST_RULE" "$DEST" "Destination"
 
-# ── Apply specials ────────────────────────────────────────────────────────────
+# ========== Apply specials ────────────────────────────────────────────────────────────
 [[ "$SPECIAL" == *"auto_dest"* ]] && DEST="${SOURCE}.backup.$(date +%Y%m%d_%H%M%S)"
 
-# ── Execute via dispatch map (falls back to exec_default) ────────────────────
+# ========== Execute via dispatch map (falls back to exec_default) ────────────────────
 echo -e "${GREEN}Action: $ACTION | Source: $SOURCE${NC}"
 [[ -n "$DEST" ]] && echo "Destination: $DEST"
 
 "${DISPATCH[$ACTION]:-exec_default}"
 
-# ── Log ───────────────────────────────────────────────────────────────────────
+# ========== Log ==================================================
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] $ACTION | $SOURCE${DEST:+ -> $DEST}" >> "$LOG_FILE"
 echo -e "${GREEN}✓ Logged to $LOG_FILE${NC}"
+

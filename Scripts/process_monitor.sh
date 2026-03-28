@@ -1,9 +1,19 @@
-Check if the process is running
+#!/bin/bash
 
-If NOT running:
+# Check if the process is running
 
-Attempt restart (or simulate restart)
-Output:
+if ! pgrep -x "nginx" > /dev/null; then
+    echo "Nginx is not running"
+    echo "Attempting to restart Nginx..."
+    systemctl restart nginx
+    if [ $? -eq 0 ]; then
+        echo "Nginx restarted successfully"
+    else
+        echo "Failed to restart Nginx"
+    fi
+else
+    echo "Nginx is running"
+fi
 
 Running systemctl status <nginx>
 Stopped systemctl stop <nginx>

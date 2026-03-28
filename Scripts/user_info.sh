@@ -1,27 +1,31 @@
-Prompt the user for:
+#!/bin/bash
 
-Name
+log_file="logs/user_info.log"
+mkdir -p logs
 
-Age
+# Prompt for input
+read -p "Enter your name: " name
+read -p "Enter your age: " age
+read -p "Enter your country: " country
 
-Country
+# Validate age
+if ! [[ "$age" =~ ^[0-9]+$ ]]; then
+    echo "Error: Age must be a number"
+    exit 1
+fi
 
-Validate:
+# Determine age category
+if [ $age -lt 18 ]; then
+    category="Minor"
+elif [ $age -le 65 ]; then
+    category="Adult"
+else
+    category="Senior"
+fi
 
-Age must be numeric
-Output:
+# Output
+echo "Welcome to devops world of techstar"
+echo "Age category: $category"
 
-Welcome to devops world of techstar
-Age category:
-
-Minor (<18)
-
-Adult (18–65)
-
-Senior (65+)
-
-Handle missing or invalid input gracefully
-
-Save output to:
-
-logs/user_info.log
+# Save to log
+echo "$(date) - Name: $name, Age: $age ($category), Country: $country" >> "$log_file"

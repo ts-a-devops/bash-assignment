@@ -1,9 +1,6 @@
-Display:
+#!/bin/bash
 
-Disk usage (df -h)
+df -h | head -4; echo; free -m; echo; uptime
 
-Memory usage (free -m)
-
-CPU load (uptime)
-
-Warn if disk usage exceeds 80%
+disk=$(df -h / | awk 'NR==2 {print $5}' | tr -d '%')
+[ $disk -gt 80 ] && echo -e "\n⚠️  WARNING: Disk ${disk}% > 80%"

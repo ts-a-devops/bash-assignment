@@ -1,3 +1,4 @@
+
 My Scripts 
 
 Summary Bash Command
@@ -9,3 +10,5 @@ nano user_info.sh		Create the script fileX
 
 
 I seems to be having issues saving this scripts
+Tying to push this scrip is another challenge. 
+

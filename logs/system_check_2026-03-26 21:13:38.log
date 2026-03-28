@@ -1,0 +1,37 @@
+SYSTEM CHECK
+
+ Disk Usage 
+Filesystem      Size  Used Avail Use% Mounted on
+none            907M     0  907M   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            907M  4.0K  907M   1% /mnt/wsl
+drivers         119G  112G  7.2G  94% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.2G  954G   1% /
+none            907M   76K  907M   1% /mnt/wslg
+none            907M     0  907M   0% /usr/lib/wsl/lib
+rootfs          902M  2.7M  899M   1% /init
+none            907M  480K  906M   1% /run
+none            907M     0  907M   0% /run/lock
+none            907M     0  907M   0% /run/shm
+none            907M   76K  907M   1% /mnt/wslg/versions.txt
+none            907M   76K  907M   1% /mnt/wslg/doc
+C:\             119G  112G  7.2G  94% /mnt/c
+tmpfs           182M   20K  182M   1% /run/user/1000
+
+ Memory Usage 
+               total        used        free      shared  buff/cache   available
+Mem:            1812         346        1423           3         116        1466
+Swap:           1024           0        1024
+
+ CPU Load 
+ 21:13:38 up 57 min,  1 user,  load average: 0.00, 0.01, 0.17
+
+ Total Running Processes 
+27
+
+ Top 5 Memory Consuming Processes 
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         277  0.0  1.2 107008 22656 ?        Ssl  20:31   0:02 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          95  0.5  0.8  66836 15596 ?        S<s  20:30   0:13 /usr/lib/systemd/systemd-journald
+root         502  0.0  0.6 1682376 12800 ?       Ssl  21:02   0:00 /usr/libexec/wsl-pro-service
+systemd+     223  0.0  0.6  21460 12672 ?        Ss   20:31   0:01 /usr/lib/systemd/systemd-resolved
+root           1  0.6  0.6  21636 12656 ?        Ss   20:29   0:17 /sbin/init

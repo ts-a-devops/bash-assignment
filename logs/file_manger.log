@@ -1,0 +1,8 @@
+2026-03-28 16:08:14 - CREATE - test.txt
+2026-03-28 16:08:46 - RENAME - test.txt to test2.txt
+2026-03-28 16:09:03 - CREATE - test1.txt
+2026-03-28 16:09:50 - CREATE - test[5..9].txt
+2026-03-28 16:18:32 - DELETE - test1.txt
+2026-03-28 16:19:22 - DELETE - test[5..9].txt
+2026-03-28 16:19:36 - DELETE - test2.txt
+2026-03-28 16:19:52 - LIST - test2.txt

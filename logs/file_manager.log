@@ -1,0 +1,9 @@
+Usage: file_manager.sh {create|delete|list|rename} filename filename?
+total 28K
+-rwxr-xr-x 1 worldofnabii worldofnabii  614 Mar 29 23:28 backup.sh
+-rwxr-xr-x 1 worldofnabii worldofnabii  926 Mar 29 23:19 file_manager.sh
+-rwxr-xr-x 1 worldofnabii worldofnabii  386 Mar 29 23:30 process_monitor.sh
+-rw-r--r-- 1 worldofnabii worldofnabii  614 Mar 29 23:31 run_all.sh
+-rwxr-xr-x 1 worldofnabii worldofnabii 1.1K Mar 27 17:14 system_check.sh
+-rw-r--r-- 1 worldofnabii worldofnabii 1.1K Mar 27 16:53 systen_check.sh
+-rwxr-xr-x 1 worldofnabii worldofnabii  631 Mar 27 16:40 user_info.sh

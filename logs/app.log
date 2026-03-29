@@ -1,0 +1,58 @@
+total 28K
+-rwxr-xr-x 1 worldofnabii worldofnabii  614 Mar 29 23:28 backup.sh
+-rwxr-xr-x 1 worldofnabii worldofnabii  926 Mar 29 23:19 file_manager.sh
+-rwxr-xr-x 1 worldofnabii worldofnabii  386 Mar 29 23:30 process_monitor.sh
+-rw-r--r-- 1 worldofnabii worldofnabii  614 Mar 29 23:31 run_all.sh
+-rwxr-xr-x 1 worldofnabii worldofnabii 1.1K Mar 27 17:14 system_check.sh
+-rw-r--r-- 1 worldofnabii worldofnabii 1.1K Mar 27 16:53 systen_check.sh
+-rwxr-xr-x 1 worldofnabii worldofnabii  631 Mar 27 16:40 user_info.sh
+--- SYSTEM CHECK REPORT: 2026-03-29 ---
+
+[DISK USAGE]
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  295G  182G  62% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            3.9G   92K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  295G  182G  62% /mnt/c
+tmpfs           785M  8.0K  785M   1% /run/user/1000
+
+[MEMORY USAGE]
+               total        used        free      shared  buff/cache   available
+Mem:            7844         327        7393           3         122        7371
+Swap:           2048           0        2048
+
+[CPU LOAD]
+ 23:31:44 up  2:55,  1 user,  load average: 0.00, 0.00, 0.00
+
+[PROCESS COUNT]
+Total running processes: 35
+
+[TOP 5 MEMORY PROCESSES]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         228  0.0  0.2 107172 21632 ?        Ssl  20:36   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1418  0.0  0.2 293040 19712 ?        Ssl  23:13   0:00 /usr/libexec/packagekitd
+root         187  0.0  0.2  30184 18432 ?        Ss   20:36   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          63  0.0  0.2  64200 17996 ?        S<s  20:36   0:02 /lib/systemd/systemd-journald
+systemd+      92  0.0  0.1  26204 13680 ?        Ss   20:36   0:01 /lib/systemd/systemd-resolved
+
+ Disk usage is healthy: 1%
+
+Report saved to ../logs/system_report_2026-03-29.log
+Backup created: ../backups/backup_20260329_233144.tar.gz
+Old backups cleaned up
+nginx is Stopped. Restarting...
+nginx Restarted
+ssh is Stopped. Restarting...
+ssh Restarted
+docker is Stopped. Restarting...
+docker Restarted
+Hello Boluwatife from USA! you are Adult

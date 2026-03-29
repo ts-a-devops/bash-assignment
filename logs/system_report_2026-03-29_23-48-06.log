@@ -1,0 +1,39 @@
+System Report - 2026-03-29_23-48-06
+-----------------------------
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         466G  165G  301G  36% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.7G  955G   1% /
+none            1.9G  148K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  480K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             466G  165G  301G  36% /mnt/c
+tmpfs           385M   20K  385M   1% /run/user/1000
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3847         416        3430           3         136        3431
+Swap:           1024           0        1024
+
+CPU Load:
+ 23:48:06 up 10:14,  1 user,  load average: 0.08, 0.04, 0.22
+
+Total Running Processes:
+27
+
+Top 5 Memory Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         297  0.0  0.5 107024 22272 ?        Ssl  13:34   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        4095  0.1  0.3  50308 13696 ?        S<s  23:12   0:02 /usr/lib/systemd/systemd-journald
+root           1  0.4  0.3  22100 12928 ?        Ss   13:33   2:37 /usr/lib/systemd/systemd --system --deserialize=45
+systemd+    4253  0.0  0.3  21460 12800 ?        Ss   23:12   0:00 /usr/lib/systemd/systemd-resolved
+delicels     530  0.0  0.2  20020 10752 ?        Ss   13:34   0:25 /usr/lib/systemd/systemd --user --deserialize=8
+
+Disk Usage Warning (>80%):

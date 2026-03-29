@@ -1,0 +1,9 @@
+[2026-03-29 14:48:36] create | /tmp/fm_test/hello.txt
+[2026-03-29 14:48:36] view | /tmp/fm_test/hello.txt
+[2026-03-29 14:48:36] search | /tmp/fm_test/hello.txt -> hello
+[2026-03-29 14:48:36] copy | /tmp/fm_test/hello.txt -> /tmp/fm_test/hello_copy.txt
+[2026-03-29 14:48:36] rename | /tmp/fm_test/hello_copy.txt -> /tmp/fm_test/hello_renamed.txt
+[2026-03-29 14:48:36] list | /tmp/fm_test
+[2026-03-29 14:48:36] backup | /tmp/fm_test/hello.txt -> /tmp/fm_test/hello.txt.backup.20260329_144836
+[2026-03-29 14:48:36] move | /tmp/fm_test/hello_renamed.txt -> /tmp/fm_test/hello_moved.txt
+[2026-03-29 14:48:37] delete | /tmp/fm_test/hello.txt

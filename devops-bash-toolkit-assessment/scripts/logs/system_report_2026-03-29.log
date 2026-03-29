@@ -1,0 +1,28 @@
+==========================================
+SYSTEM CHECK REPORT - Sun Mar 29 19:45:04 +04 2026
+==========================================
+
+--- CPU Load ---
+ 19:45:04 up  1:30,  1 user,  load average: 0.00, 0.00, 0.00
+
+--- Memory Usage (MB) ---
+               total        used        free      shared  buff/cache   available
+Mem:            3769         351        3262           3         231        3417
+Swap:           1024           0        1024
+
+--- Total Running Processes ---
+28
+
+--- Top 5 Memory Consuming Processes ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         216  0.0  0.5 107004 22144 ?        Ssl  18:14   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          64  0.0  0.4  66840 18852 ?        S<s  18:14   0:01 /usr/lib/systemd/systemd-journald
+root         188  0.0  0.3 1756096 13184 ?       Ssl  18:14   0:00 /usr/libexec/wsl-pro-service -vv
+systemd+     123  0.0  0.3  21456 12672 ?        Ss   18:14   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.3  21660 12516 ?        Ss   18:14   0:02 /sbin/init
+
+--- Disk Usage Check ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.8G  954G   1% /
+Disk usage is healthy (1%).
+==========================================

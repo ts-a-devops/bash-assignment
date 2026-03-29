@@ -33,7 +33,7 @@ make_help() {
 #   ./process_monitor.sh # uses default services array: nginx, ssh, docker
 ##HELP_END
 
-[[ $# -eq 0 ]] && { make_help; exit 0; }
+# [[ $# -eq 0 ]] && { make_help; exit 0; }
 [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]] && { make_help; exit 0; }
 
 # ========== Fallback Array ==========
@@ -79,3 +79,39 @@ while true; do
     # Comment out exit 0 for continous monitoring
     exit 0
 done
+
+
+# ========== Tests =================================================
+#
+# HOW THIS WORKS
+# ──────────────────────────────────────────────────────────────────
+# process_monitor.sh runs one full pass then exits (exit 0 inside
+# the while loop). This makes it directly testable.
+#
+# "bash" is used as the guaranteed-running process.
+# "fakeservice_xyz" is used as the guaranteed-stopped process.
+#
+# Default array test: called with no args, should fall through to
+# services=("nginx" "ssh" "docker") and monitor all three.
+# Requires [[ $# -eq 0 ]] guard to be commented out.
+#
+##TEST_START
+# bash ./scripts/process_monitor.sh --help > /tmp/pm_test_help.out 2>&1
+# grep -q "DESCRIPTION" /tmp/pm_test_help.out && echo "help output ok"
+# bash ./scripts/process_monitor.sh bash > /tmp/pm_test_running.out 2>&1
+# grep -q "Running" /tmp/pm_test_running.out && echo "running process detected ok"
+# test -f logs/process_monitor.log && echo "log file created ok"
+# bash ./scripts/process_monitor.sh fakeservice_xyz > /tmp/pm_test_stopped.out 2>&1
+# grep -q "Stopped" /tmp/pm_test_stopped.out && echo "stopped process detected ok"
+# grep -q "Restarted" /tmp/pm_test_stopped.out && echo "restart simulation ok"
+# tail -20 logs/process_monitor.log | grep -q "Running" && echo "log has running entry ok"
+# tail -20 logs/process_monitor.log | grep -q "Stopped" && echo "log has stopped entry ok"
+# tail -20 logs/process_monitor.log | grep -q "Restarted" && echo "log has restarted entry ok"
+# bash ./scripts/process_monitor.sh bash fakeservice_xyz > /tmp/pm_test_multi.out 2>&1
+# grep -q "Running" /tmp/pm_test_multi.out && echo "multi-arg running ok"
+# grep -q "Stopped" /tmp/pm_test_multi.out && echo "multi-arg stopped ok"
+# bash ./scripts/process_monitor.sh > /tmp/pm_test_defaults.out 2>&1
+# grep -q "nginx" /tmp/pm_test_defaults.out && echo "default services: nginx present ok"
+# grep -q "ssh" /tmp/pm_test_defaults.out && echo "default services: ssh present ok"
+# grep -q "docker" /tmp/pm_test_defaults.out && echo "default services: docker present ok"
+##TEST_END

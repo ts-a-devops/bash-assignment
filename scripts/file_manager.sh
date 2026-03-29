@@ -1,7 +1,4 @@
 #!/bin/bash
-# file_manager.sh - File operations manager
-# Usage: ./file_manager.sh <action> <source> [dest/pattern]
-# Actions: create, delete, copy, move, rename, list, view, edit, search, backup
 set -o errexit
 set -o nounset
 set -o pipefail
@@ -64,71 +61,197 @@ make_help() {
 
 ACTION="${1}"; SOURCE="${2:-}"; DEST="${3:-}"
 
-# ========== Config map: action -> cmd:source_rule:dest_rule:special ──────────────────
-declare -A CONFIG=(
-    ["create"]="touch:must_not_exist::"
-    ["delete"]="rm -f:must_exist::"
-    ["copy"]="cp:must_exist:ask:"
-    ["move"]="mv:must_exist:ask:"
-    ["rename"]="mv:must_exist:must_not_exist:"
-    ["list"]="ls -lah:must_be_dir::"
-    ["view"]="cat:must_exist::"
-    ["edit"]="nano:must_exist::"
-    ["search"]="grep -n:must_exist::requires_pattern"
-    ["backup"]="cp:must_exist::auto_dest"
-)
+# ========== Shared helpers ========================================
+# IMPORTANT: all guards use || to chain the error so that a false
+# condition never produces a bare exit 1 that errexit intercepts.
+# Pattern: condition_that_means_bad || { error; exit 1; }
+# This way errexit only fires on genuine unexpected failures.
 
-# ========== Dispatch map: action -> executor function ────────────────────────────────
-declare -A DISPATCH=(
-    ["search"]="exec_search"
-    ["list"]="exec_display"
-    ["view"]="exec_display"
-    ["backup"]="exec_backup"
-    ["copy"]="exec_two_arg"
-    ["move"]="exec_two_arg"
-    ["rename"]="exec_two_arg"
-)
-
-# ========== Validation ───────────────────────────────────────────────────────────────
-validate_rule() {
-    local rule="$1" path="$2" label="$3"
-    [[ "$rule" == "must_exist"     ]] && [[ ! -e "$path" ]] && { echo -e "${RED}Error: $label '$path' not found${NC}";     exit 1; }
-    [[ "$rule" == "must_not_exist" ]] && [[ -e  "$path" ]] && { echo -e "${RED}Error: $label '$path' already exists${NC}"; exit 1; }
-    [[ "$rule" == "must_be_dir"    ]] && [[ ! -d "$path" ]] && { echo -e "${RED}Error: '$path' is not a directory${NC}";   exit 1; }
-    [[ "$rule" == "ask"            ]] && [[ -e  "$path" ]] && {
-        echo -e "${YELLOW}Warning: $label '$path' exists${NC}"
-        read -r -p "Overwrite? (y/n): " -n 1; echo
-        [[ ! $REPLY =~ ^[Yy]$ ]] && exit 0
-    }
+require_source() {
+    [[ -z "$SOURCE" ]]  && { echo -e "${RED}Error: Source required${NC}";        exit 1; }
+    [[ ! -e "$SOURCE" ]] && { echo -e "${RED}Error: '$SOURCE' not found${NC}";   exit 1; }
     return 0
 }
 
-# ========== Executor functions ───────────────────────────────────────────────────────
-exec_search()  { echo "Matches for '$DEST' in '$SOURCE':"; echo "---"; $CMD "$DEST" "$SOURCE"; echo "---"; }
-exec_display() { echo "Contents of '$SOURCE':";            echo "---"; $CMD "$SOURCE";          echo "---"; }
-exec_backup()  { $CMD "$SOURCE" "$DEST"; echo -e "${GREEN}✓ Backed up to '$DEST'${NC}"; }
-exec_two_arg() { $CMD "$SOURCE" "$DEST"; echo -e "${GREEN}✓ ${ACTION^}d '$SOURCE' → '$DEST'${NC}"; }
-exec_default() { $CMD "$SOURCE";         echo -e "${GREEN}✓ ${ACTION^}d '$SOURCE'${NC}"; }
+require_dest() {
+    [[ -z "$DEST" ]] && { echo -e "${RED}Error: Destination required${NC}"; exit 1; }
+    return 0
+}
 
-# ========== Parse config ─────────────────────────────────────────────────────────────
-IFS=':' read -r CMD SOURCE_RULE DEST_RULE SPECIAL <<< "${CONFIG[$ACTION]:-}"
-[[ -z "$CMD"     ]] && { echo -e "${RED}Error: Unknown action '$ACTION'${NC}"; exit 1; }
-[[ -z "$SOURCE"  ]] && { echo -e "${RED}Error: Source file required${NC}";     exit 1; }
-[[ "$SPECIAL" == *"requires_pattern"* && -z "$DEST" ]] && { echo -e "${RED}Error: Search pattern required${NC}"; exit 1; }
+require_dir() {
+    [[ ! -d "$SOURCE" ]] && { echo -e "${RED}Error: '$SOURCE' is not a directory${NC}"; exit 1; }
+    return 0
+}
 
-validate_rule "$SOURCE_RULE" "$SOURCE" "Source"
-[[ -n "$DEST_RULE" && -n "$DEST" ]] && validate_rule "$DEST_RULE" "$DEST" "Destination"
+# Safe existence check — avoids bare [[ -e ]] which exits 1 on false
+# and triggers errexit. We use if/then instead.
+file_exists() {
+    if [[ -e "$1" ]]; then return 0; else return 1; fi
+}
 
-# ========== Apply specials ────────────────────────────────────────────────────────────
-[[ "$SPECIAL" == *"auto_dest"* ]] && DEST="${SOURCE}.backup.$(date +%Y%m%d_%H%M%S)"
+confirm_overwrite() {
+    if file_exists "$DEST"; then
+        echo -e "${YELLOW}Warning: '$DEST' already exists${NC}"
+        read -r -p "Overwrite? (y/n): " -n 1; echo
+        if [[ ! $REPLY =~ ^[Yy]$ ]]; then exit 0; fi
+    fi
+    return 0
+}
 
-# ========== Execute via dispatch map (falls back to exec_default) ────────────────────
-echo -e "${GREEN}Action: $ACTION | Source: $SOURCE${NC}"
-[[ -n "$DEST" ]] && echo "Destination: $DEST"
+log_action() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $ACTION | $SOURCE${DEST:+ -> $DEST}" >> "$LOG_FILE"
+    echo -e "${GREEN}✓ Logged to $LOG_FILE${NC}"
+}
 
-"${DISPATCH[$ACTION]:-exec_default}"
+# ========== Dispatch ==============================================
+case "$ACTION" in
+    create)
+        [[ -z "$SOURCE" ]] && { echo -e "${RED}Error: Source required${NC}"; exit 1; }
+        if file_exists "$SOURCE"; then
+            echo -e "${RED}Error: '$SOURCE' already exists${NC}"; exit 1
+        fi
+        touch "$SOURCE"
+        echo -e "${GREEN}✓ Created '$SOURCE'${NC}"
+        ;;
 
-# ========== Log ==================================================
-echo "[$(date '+%Y-%m-%d %H:%M:%S')] $ACTION | $SOURCE${DEST:+ -> $DEST}" >> "$LOG_FILE"
-echo -e "${GREEN}✓ Logged to $LOG_FILE${NC}"
+    delete)
+        require_source
+        rm -f "$SOURCE"
+        echo -e "${GREEN}✓ Deleted '$SOURCE'${NC}"
+        ;;
 
+    copy)
+        require_source; require_dest
+        confirm_overwrite
+        cp "$SOURCE" "$DEST"
+        echo -e "${GREEN}✓ Copied '$SOURCE' → '$DEST'${NC}"
+        ;;
+
+    move)
+        require_source; require_dest
+        confirm_overwrite
+        mv "$SOURCE" "$DEST"
+        echo -e "${GREEN}✓ Moved '$SOURCE' → '$DEST'${NC}"
+        ;;
+
+    rename)
+        require_source; require_dest
+        if file_exists "$DEST"; then
+            echo -e "${RED}Error: '$DEST' already exists${NC}"; exit 1
+        fi
+        mv "$SOURCE" "$DEST"
+        echo -e "${GREEN}✓ Renamed '$SOURCE' → '$DEST'${NC}"
+        ;;
+
+    list)
+        [[ -z "$SOURCE" ]] && { echo -e "${RED}Error: Source required${NC}"; exit 1; }
+        require_dir
+        echo "Contents of '$SOURCE':"
+        echo "---"
+        ls -lah "$SOURCE"
+        echo "---"
+        ;;
+
+    view)
+        require_source
+        echo "Contents of '$SOURCE':"
+        echo "---"
+        cat "$SOURCE"
+        echo "---"
+        ;;
+
+    edit)
+        require_source
+        nano "$SOURCE"
+        ;;
+
+    search)
+        require_source
+        [[ -z "$DEST" ]] && { echo -e "${RED}Error: Search pattern required${NC}"; exit 1; }
+        echo "Matches for '$DEST' in '$SOURCE':"
+        echo "---"
+        grep -n "$DEST" "$SOURCE" || echo "(no matches found)"
+        echo "---"
+        ;;
+
+    backup)
+        require_source
+        local_dest="${SOURCE}.backup.$(date +%Y%m%d_%H%M%S)"
+        cp "$SOURCE" "$local_dest"
+        echo -e "${GREEN}✓ Backed up to '$local_dest'${NC}"
+        DEST="$local_dest"
+        ;;
+
+    *)
+        echo -e "${RED}Error: Unknown action '$ACTION'${NC}"
+        exit 1
+        ;;
+esac
+
+log_action
+
+
+# ========== Tests =================================================
+#
+# HOW THIS WORKS
+# ──────────────────────────────────────────────────────────────────
+# All test artefacts live under /tmp/fm_test/ so the working tree
+# stays clean and tests are repeatable (setup step wipes and recreates it).
+#
+# Order matters:
+#   setup → create → view → search → copy → rename → list → backup → delete → cleanup
+#
+# The overwrite prompt sends "n\n" via printf to decline — same
+# heredoc pipe technique as user_info.sh.
+#
+# edit is intentionally skipped — nano requires an interactive TTY.
+#
+# search uses || true so that grep finding no matches doesn't fail
+# the step — the script itself now prints "(no matches found)" safely.
+#
+##TEST_START
+# rm -rf /tmp/fm_test && mkdir -p /tmp/fm_test
+# bash ./scripts/file_manager.sh --help > /tmp/fm_test_help.out 2>&1
+# grep -q "DESCRIPTION" /tmp/fm_test_help.out && echo "help output ok"
+# bash ./scripts/file_manager.sh > /tmp/fm_test_noarg.out 2>&1
+# grep -q "DESCRIPTION" /tmp/fm_test_noarg.out && echo "no arg shows help ok"
+# bash ./scripts/file_manager.sh create /tmp/fm_test/hello.txt > /tmp/fm_test_create.out 2>&1
+# grep -q "Created" /tmp/fm_test_create.out && echo "create action ok"
+# test -f /tmp/fm_test/hello.txt && echo "create: file exists on disk ok"
+# bash ./scripts/file_manager.sh create /tmp/fm_test/hello.txt > /tmp/fm_test_create_dup.out 2>&1; [[ $? -ne 0 ]] && echo "create: duplicate prevented ok" || echo "FAIL: should have exited non-zero"
+# grep -q "already exists" /tmp/fm_test_create_dup.out && echo "create: duplicate error message ok"
+# echo "hello world" > /tmp/fm_test/hello.txt
+# bash ./scripts/file_manager.sh view /tmp/fm_test/hello.txt > /tmp/fm_test_view.out 2>&1
+# grep -q "hello world" /tmp/fm_test_view.out && echo "view action ok"
+# bash ./scripts/file_manager.sh search /tmp/fm_test/hello.txt "hello" > /tmp/fm_test_search.out 2>&1
+# grep -q "hello" /tmp/fm_test_search.out && echo "search action ok"
+# bash ./scripts/file_manager.sh search /tmp/fm_test/hello.txt > /tmp/fm_test_search_nopat.out 2>&1; [[ $? -ne 0 ]] && echo "search: missing pattern exit code ok" || echo "FAIL: should have exited non-zero"
+# grep -q "Search pattern required" /tmp/fm_test_search_nopat.out && echo "search: missing pattern message ok"
+# bash ./scripts/file_manager.sh copy /tmp/fm_test/hello.txt /tmp/fm_test/hello_copy.txt > /tmp/fm_test_copy.out 2>&1
+# test -f /tmp/fm_test/hello_copy.txt && echo "copy action ok"
+# printf "n\n" | bash ./scripts/file_manager.sh copy /tmp/fm_test/hello.txt /tmp/fm_test/hello_copy.txt > /tmp/fm_test_copy_overwrite.out 2>&1
+# grep -q "already exists" /tmp/fm_test_copy_overwrite.out && echo "copy: overwrite prompt shown ok"
+# bash ./scripts/file_manager.sh rename /tmp/fm_test/hello_copy.txt /tmp/fm_test/hello_renamed.txt > /tmp/fm_test_rename.out 2>&1
+# test -f /tmp/fm_test/hello_renamed.txt && echo "rename action ok"
+# test ! -f /tmp/fm_test/hello_copy.txt && echo "rename: original removed ok"
+# bash ./scripts/file_manager.sh rename /tmp/fm_test/hello.txt /tmp/fm_test/hello_renamed.txt > /tmp/fm_test_rename_dup.out 2>&1; [[ $? -ne 0 ]] && echo "rename: overwrite prevented ok" || echo "FAIL: should have exited non-zero"
+# bash ./scripts/file_manager.sh list /tmp/fm_test > /tmp/fm_test_list.out 2>&1
+# grep -q "hello.txt" /tmp/fm_test_list.out && echo "list action ok"
+# bash ./scripts/file_manager.sh list /tmp/fm_test/hello.txt > /tmp/fm_test_list_notdir.out 2>&1; [[ $? -ne 0 ]] && echo "list: non-dir exit code ok" || echo "FAIL: should have exited non-zero"
+# grep -q "not a directory" /tmp/fm_test_list_notdir.out && echo "list: non-dir message ok"
+# bash ./scripts/file_manager.sh backup /tmp/fm_test/hello.txt > /tmp/fm_test_backup.out 2>&1
+# grep -q "Backed up" /tmp/fm_test_backup.out && echo "backup action ok"
+# ls /tmp/fm_test/hello.txt.backup.* 1>/dev/null 2>&1 && echo "backup: file created ok"
+# bash ./scripts/file_manager.sh move /tmp/fm_test/hello_renamed.txt /tmp/fm_test/hello_moved.txt > /tmp/fm_test_move.out 2>&1
+# test -f /tmp/fm_test/hello_moved.txt && echo "move action ok"
+# test ! -f /tmp/fm_test/hello_renamed.txt && echo "move: original removed ok"
+# bash ./scripts/file_manager.sh delete /tmp/fm_test/hello.txt > /tmp/fm_test_delete.out 2>&1
+# test ! -f /tmp/fm_test/hello.txt && echo "delete action ok"
+# bash ./scripts/file_manager.sh delete /tmp/fm_test/nonexistent.txt > /tmp/fm_test_delete_missing.out 2>&1; [[ $? -ne 0 ]] && echo "delete: missing file exit code ok" || echo "FAIL: should have exited non-zero"
+# bash ./scripts/file_manager.sh unknown_action /tmp/fm_test/hello.txt > /tmp/fm_test_badaction.out 2>&1; [[ $? -ne 0 ]] && echo "unknown action exit code ok" || echo "FAIL: should have exited non-zero"
+# grep -q "Unknown action" /tmp/fm_test_badaction.out && echo "unknown action message ok"
+# tail -20 logs/file_manager.log | grep -q "create" && echo "log has create entry ok"
+# tail -20 logs/file_manager.log | grep -q "copy" && echo "log has copy entry ok"
+# tail -20 logs/file_manager.log | grep -q "delete" && echo "log has delete entry ok"
+# rm -rf /tmp/fm_test
+##TEST_END

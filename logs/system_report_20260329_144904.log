@@ -1,0 +1,50 @@
+========== System Usage Details ==========
+Report Generated: 2026-03-29 14:49:04
+Top Processes Count: 3
+
+=== NORMAL FORMAT ===
+Current Date & Time: 2026-03-29 14:49:04
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         477G  274G  204G  58% /usr/lib/wsl/drivers
+/dev/sdd        251G   40G  199G  17% /
+none            3.9G  100K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  648K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             477G  274G  204G  58% /mnt/c
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       2.4Gi       4.4Gi        32Mi       1.2Gi       5.3Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+Uptime:
+up 3 hours, 17 minutes
+
+Total Running Processes: 89
+
+Top 3 Memory-Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+nockk       1609  6.4 10.3 77276412 844888 pts/2 Sl+  11:33  12:37 /home/nockk/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node --dns-result-order=ipv4first /home/nockk/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+nockk      44280  0.4  4.0 11768564 331580 pts/2 Sl+  14:23   0:07 /home/nockk/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node /home/nockk/.vscode-server/extensions/vscjava.migrate-java-to-azure-1.13.0-linux-x64/node_modules/@microsoft/github-copilot-app-modernization-mcp-server/dist/entrypoints/index.js --serverType codetocloud --codeToCloudDeployWorkflowName quickstart --codeToCloudDeployToExistingWorkflowName deploy-to-existing --codeToCloudContainerizationWorkflowName containerization --codeToCloudCustomerChannel Java
+nockk      25718  1.0  3.3 5714276 274476 pts/2  Sl+  13:13   0:58 /home/nockk/.vscode-server/extensions/redhat.java-1.53.0-linux-x64/jre/21.0.10-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/nockk/.vscode-server/extensions/redhat.java-1.53.0-linux-x64/lombok/lombok-1.18.39-4050.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/nockk/.vscode-server/data/User/workspaceStorage/5393f8bb164439ac4e7082c837192a3d/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/nockk/.vscode-server/extensions/redhat.java-1.53.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar -configuration /home/nockk/.vscode-server/data/User/globalStorage/redhat.java/1.53.0/config_linux -data /home/nockk/.vscode-server/data/User/workspaceStorage/5393f8bb164439ac4e7082c837192a3d/redhat.java/jdt_ws --stdio
+
+=== TOP 3 MEMORY-CONSUMING PROCESSES ===
+USER     | %CPU     | %MEM     | VSZ (KB)   | COMMAND                                           
+-------- | -------- | -------- | ---------- | --------------------------------------------------
+nockk    | 6.4      | 10.3     | 77276412   | 10.3 77276412 844888 pts/2 Sl+  11:33  12:37 /home
+nockk    | 0.4      | 4.0      | 11768564   | 4.0 11768564 331580 pts/2 Sl+  14:23   0:07 /home/
+nockk    | 1.0      | 3.3      | 5714276    | 3.3 5714276 274476 pts/2  Sl+  13:13   0:58 /home/
+
+=== SYSTEM SUMMARY (TABULAR FORMAT) ===
+Date & Time            | Root Disk %   | Memory Use      | Uptime                              | Disk Status
+---------------------- | ------------- | --------------- | ----------------------------------- | ---------------
+2026-03-29 14:49:04    | 17%           | 2.4Gi/7.8Gi     | up 3 hours, 17 minutes              | OK

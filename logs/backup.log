@@ -1,0 +1,8 @@
+[2026-03-29 14:48:36] Starting backup of 'logs' to '/tmp/test_backups/backup_20260329_144836.tar.gz'
+[2026-03-29 14:48:36] ✓ Successfully created /tmp/test_backups/backup_20260329_144836.tar.gz
+[2026-03-29 14:48:36] Starting backup of 'logs' to './backups/backup_20260329_144836.tar.gz'
+[2026-03-29 14:48:36] ✓ Successfully created ./backups/backup_20260329_144836.tar.gz
+[2026-03-29 14:48:36] Starting backup of 'logs' to '/tmp/test_backups/backup_20260329_144836.tar.gz'
+[2026-03-29 14:48:36] ✓ Successfully created /tmp/test_backups/backup_20260329_144836.tar.gz
+[2026-03-29 14:48:36] Deleted old backup: /tmp/test_backups/backup_20200101_000002.tar.gz
+[2026-03-29 14:48:36] Deleted old backup: /tmp/test_backups/backup_20200101_000003.tar.gz

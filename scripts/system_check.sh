@@ -21,7 +21,7 @@ make_help() {
     show_help
 }
 
-[[ $# -eq 0 ]] && { make_help; exit 0; }
+# [[ $# -eq 0 ]] && { make_help; exit 0; }
 [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]] && { make_help; exit 0; }
 
 ##HELP_START
@@ -200,3 +200,35 @@ fi
 echo ""
 echo -e "${GREEN}✓ Reports successfully saved to logs folder as: system_report_${log_date}.log${NC}"
 echo -e "${CYAN}To view a different number of top processes, run: $0 [number]${NC}"
+
+# ========== Tests =================================================
+#
+# HOW THIS WORKS
+# ──────────────────────────────────────────────────────────────────
+# Each scenario writes to a named temp file so that subsequent grep
+# steps can read from disk (variables don't survive across eval calls
+# in run_all.sh — see user_info.sh for full explanation).
+#
+# The log filename is dynamic (timestamp-based) so we grab the most
+# recently created log file with: ls -t logs/system_report_*.log | head -1
+#
+##TEST_START
+# bash ./scripts/system_check.sh > /tmp/sc_test_default.out 2>&1
+# grep -q "This program prints out system usage details" /tmp/sc_test_default.out && echo "header ok"
+# grep -q "Showing top 5" /tmp/sc_test_default.out && echo "default top count ok"
+# grep -q "SYSTEM SUMMARY" /tmp/sc_test_default.out && echo "summary section ok"
+# grep -q "Reports successfully saved" /tmp/sc_test_default.out && echo "save confirmation ok"
+# ls logs/system_report_*.log 1>/dev/null 2>&1 && echo "log file created ok"
+# latest_log=$(ls -t logs/system_report_*.log | head -1); grep -q "SYSTEM SUMMARY" "$latest_log" && echo "log content ok"
+# latest_log=$(ls -t logs/system_report_*.log | head -1); grep -q "Disk Usage" "$latest_log" && echo "log has disk usage ok"
+# latest_log=$(ls -t logs/system_report_*.log | head -1); grep -q "Memory Usage" "$latest_log" && echo "log has memory usage ok"
+# latest_log=$(ls -t logs/system_report_*.log | head -1); grep -q "Uptime" "$latest_log" && echo "log has uptime ok"
+# latest_log=$(ls -t logs/system_report_*.log | head -1); grep -q "Total Running Processes" "$latest_log" && echo "log has process count ok"
+# latest_log=$(ls -t logs/system_report_*.log | head -1); cat "$latest_log" | LC_ALL=C grep -qv $'\\033' && echo "log has no ANSI codes ok"
+# bash ./scripts/system_check.sh 3 > /tmp/sc_test_custom.out 2>&1
+# grep -q "Showing top 3" /tmp/sc_test_custom.out && echo "custom top count ok"
+# bash ./scripts/system_check.sh abc > /tmp/sc_test_badarg.out 2>&1; [[ $? -ne 0 ]] && echo "invalid arg exit code ok" || echo "FAIL: should have exited non-zero"
+# grep -q "Please provide a positive number" /tmp/sc_test_badarg.out && echo "invalid arg message ok"
+# bash ./scripts/system_check.sh 0 > /tmp/sc_test_zeroarg.out 2>&1; [[ $? -ne 0 ]] && echo "zero arg exit code ok" || echo "FAIL: should have exited non-zero"
+# grep -q "Please provide a positive number" /tmp/sc_test_zeroarg.out && echo "zero arg message ok"
+##TEST_END

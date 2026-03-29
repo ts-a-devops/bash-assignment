@@ -1,0 +1,99 @@
+System Report - Sun Mar 29 05:55:14 PM WAT 2026
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  1.5M  390M   1% /run
+/dev/sda2        25G   11G   13G  46% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  140K  392M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/niquad-jr/VBox_GAs_7.1.12
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3914        1091        1266          29        1813        2823
+Swap:           3913           0        3913
+CPU Load:
+ 17:55:14 up  1:42,  1 user,  load average: 0.17, 0.13, 0.11
+System Report - Sun Mar 29 05:58:04 PM WAT 2026
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  1.5M  390M   1% /run
+/dev/sda2        25G   11G   13G  46% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  136K  392M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/niquad-jr/VBox_GAs_7.1.12
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3914        1160        1196          37        1821        2754
+Swap:           3913           0        3913
+CPU Load:
+ 17:58:04 up  1:45,  1 user,  load average: 0.53, 0.29, 0.17
+System Report - Sun Mar 29 06:01:15 PM WAT 2026
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  1.5M  390M   1% /run
+/dev/sda2        25G   11G   13G  46% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  136K  392M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/niquad-jr/VBox_GAs_7.1.12
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3914        1168        1188          36        1819        2745
+Swap:           3913           0        3913
+CPU Load:
+ 18:01:15 up  1:48,  1 user,  load average: 0.19, 0.30, 0.19
+Total Processes: 207
+Top 5 Memory Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+niquad-+    3319  3.1 11.0 4048772 443316 ?      Ssl  16:15   3:19 /usr/bin/gnome-shell
+niquad-+    4037  0.0  2.5 1128332 103992 ?      Sl   16:16   0:00 /usr/libexec/mutter-x11-frames
+niquad-+    3945  0.0  2.1 650952 84836 ?        Ssl  16:16   0:00 /usr/libexec/gsd-xsettings
+niquad-+    3768  0.0  1.7 245560 69484 ?        S    16:15   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.TP7PM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+niquad-+    5154  0.0  1.6 2817644 64684 ?       Sl   17:42   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+System Report - Sun Mar 29 07:03:27 PM WAT 2026
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  1.5M  390M   1% /run
+/dev/sda2        25G   11G   13G  46% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/niquad-jr/VBox_GAs_7.1.12
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3914        1116        1237          30        1817        2798
+Swap:           3913           0        3913
+CPU Load:
+ 19:03:28 up  2:50,  1 user,  load average: 0.08, 0.11, 0.09
+Total Processes: 206
+Top 5 Memory Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+niquad-+    3319  2.6  9.7 3997604 389228 ?      Ssl  16:15   4:31 /usr/bin/gnome-shell
+niquad-+    4037  0.0  2.5 1128332 103992 ?      Sl   16:16   0:00 /usr/libexec/mutter-x11-frames
+niquad-+    3945  0.0  2.1 650952 84836 ?        Ssl  16:16   0:00 /usr/libexec/gsd-xsettings
+niquad-+    3768  0.0  1.7 245560 69484 ?        S    16:15   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.TP7PM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+niquad-+    3504  0.0  1.5 834992 61228 ?        Sl   16:15   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+System Report - Sun Mar 29 07:04:08 PM WAT 2026
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  1.5M  390M   1% /run
+/dev/sda2        25G   11G   13G  46% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  132K  392M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/niquad-jr/VBox_GAs_7.1.12
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3914        1116        1237          30        1817        2798
+Swap:           3913           0        3913
+CPU Load:
+ 19:04:09 up  2:51,  1 user,  load average: 0.04, 0.09, 0.08
+Total Processes: 207
+Top 5 Memory Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+niquad-+    3319  2.7  9.7 4000724 389240 ?      Rsl  16:15   4:33 /usr/bin/gnome-shell
+niquad-+    4037  0.0  2.5 1128332 103992 ?      Sl   16:16   0:00 /usr/libexec/mutter-x11-frames
+niquad-+    3945  0.0  2.1 650952 84836 ?        Ssl  16:16   0:00 /usr/libexec/gsd-xsettings
+niquad-+    3768  0.0  1.7 245560 69484 ?        S    16:15   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.TP7PM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+niquad-+    3504  0.0  1.5 834992 61228 ?        Sl   16:15   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify

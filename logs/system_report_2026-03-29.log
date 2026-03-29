@@ -1,0 +1,13 @@
+Total used memory is 1917 MB
+Total memory is 3426 MB
+Total used disk space is 11%
+Total disk is 118G
+Top 5 memory consuming processes:
+USERPID%CPU%MEMCOMMAND
+sandie457423.124.3/snap/firefox/7901/usr/lib/firefox/firefox
+sandie398531.714.8/snap/firefox/7901/usr/lib/firefox/firefox
+sandie59250.17.8/usr/bin/nautilus
+sandie221055.45.7/usr/bin/gnome-shell
+ 12:16:20 up  2:51,  1 user,  load average: 2.45, 2.43, 2.34
+Warm: 1917 exceeds 85
+Warn: 11 exceeds 80

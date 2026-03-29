@@ -1,0 +1,5 @@
+nginx is Stopped
+Attempting to restart nginx...
+Could not restart nginx
+ssh is Running
+docker is Running

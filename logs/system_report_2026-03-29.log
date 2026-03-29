@@ -1,0 +1,34 @@
+System Report - 2026-03-29
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        61G  8.8G   53G  15% /
+tmpfs           3.9G     0  3.9G   0% /dev/shm
+tmpfs           1.6G  1.1M  1.6G   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+efivarfs        128K   38K   86K  31% /sys/firmware/efi/efivars
+/dev/sda16      881M  116M  704M  15% /boot
+/dev/sda15      105M  6.2M   99M   6% /boot/efi
+/dev/sdb1        16G   28K   15G   1% /mnt
+tmpfs           789M   16K  789M   1% /run/user/1000
+
+Disk Warnings:
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7889         895        3870           4        3441        6993
+Swap:              0           0           0
+
+CPU Load:
+ 13:34:06 up 16 days,  1:34,  4 users,  load average: 0.00, 0.00, 0.00
+
+Total Processes:
+149
+
+Top 5 Memory Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      213558  0.1  1.8 1053192 149144 ?      Ssl  Mar28   2:04 /opt/microsoft/mdatp/sbin/wdavdaemon
+root      213614  0.2  1.1 936920 91824 ?        Sl   Mar28   2:39 /opt/microsoft/mdatp/sbin/wdavdaemon edr 18 17 --log_level info
+root      120866  0.0  1.1 2062192 91148 ?       Ssl  Mar20   1:29 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root      172805  0.0  0.9 599312 78136 ?        Ssl  Mar25   0:24 /usr/libexec/fwupd/fwupd
+root      120487  0.0  0.6 1794932 50172 ?       Ssl  Mar20  10:13 /usr/bin/containerd

@@ -12,7 +12,7 @@ show_help() {
 
 make_help() {
     echo -e "${BOLD}${CYAN}╔══════════════════════════════════════════════╗${NC}"
-    echo -e "${BOLD}${CYAN}║           user_info.sh  —  Help           ║${NC}"
+    echo -e "${BOLD}${CYAN}║           user_info.sh  —  Help              ║${NC}"
     echo -e "${BOLD}${CYAN}╚══════════════════════════════════════════════╝${NC}"
     show_help
 }
@@ -26,7 +26,8 @@ make_help() {
 #   ./user_info.sh
 ##HELP_END
 
-[[ $# -eq 0 ]] && { make_help; exit 0; }
+# This script is interactive — no args needed to run.
+# Pass --help or -h to see usage.
 [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]] && { make_help; exit 0; }
 
 # Ensure output directory exists before making file writes
@@ -97,3 +98,54 @@ echo "$greeting"
 log_file="logs/user_info.log"
 echo "[$user_name | $(date '+%Y-%m-%d %H:%M:%S')] $greeting" >> "$log_file"
 echo "Success: Output saved to $log_file"
+
+
+# ========== Tests =================================================
+#
+# HOW THIS WORKS (heredoc pipe — no installs needed)
+# ─────────────────────────────────────────────────
+# printf sends lines as if a user typed them one by one into stdin.
+# The script reads them in order via read -r -p.
+# run_all.sh extracts every line below between ##TEST_START/END,
+# strips the leading "# " and runs each as a plain shell command.
+# A command passes if it exits 0, fails otherwise.
+#
+# ALTERNATIVE (expect — prompt-aware, requires: apt/brew install expect)
+# ───────────────────────────────────────────────────────────────────────
+# expect -c '
+#   spawn ./scripts/user_info.sh
+#   expect "Enter your Name:"    { send "Auto Tester\r" }
+#   expect "Enter your Age:"     { send "25\r" }
+#   expect "Enter your Country:" { send "Nigeria\r" }
+#   expect "Greetings"           { exit 0 }
+# '
+# expect is safer when prompt order matters or prompts are conditional.
+#
+
+# Excluded Tests
+# grep -q "Enter your Name:" /tmp/ui_test_main.out && echo "name prompt ok"
+# grep -q "Enter your Age:" /tmp/ui_test_main.out && echo "age prompt ok"
+# grep -q "Enter your Country:" /tmp/ui_test_main.out && echo "country prompt ok"
+
+#
+##TEST_START
+# printf "Auto Tester\n25\nNigeria\n" | bash ./scripts/user_info.sh > /tmp/ui_test_main.out 2>&1
+# grep -q "=== User Information Form ===" /tmp/ui_test_main.out && echo "header ok"
+# grep -q "Greetings from Nigeria to Auto Tester" /tmp/ui_test_main.out && echo "greeting ok"
+# grep -q "an Adult" /tmp/ui_test_main.out && echo "age category: adult ok"
+# grep -q "Success: Output saved" /tmp/ui_test_main.out && echo "save confirmation ok"
+# test -f logs/user_info.log && echo "log file exists"
+# tail -1 logs/user_info.log | grep -q "Auto Tester" && echo "log content ok"
+
+# printf "Auto Tester\nabc\n30\nNigeria\n" | bash ./scripts/user_info.sh > /tmp/ui_test_badage.out 2>&1
+# grep -q "Age must be numeric" /tmp/ui_test_badage.out && echo "invalid age rejection ok"
+
+# printf "Young One\n10\nGhana\n" | bash ./scripts/user_info.sh > /tmp/ui_test_minor.out 2>&1
+# grep -q "a Minor" /tmp/ui_test_minor.out && echo "age category: minor ok"
+
+# printf "Elder Ada\n70\nKenya\n" | bash ./scripts/user_info.sh > /tmp/ui_test_senior.out 2>&1
+# grep -q "a Senior" /tmp/ui_test_senior.out && echo "age category: senior ok"
+
+# printf "quit\n" | bash ./scripts/user_info.sh > /tmp/ui_test_quit.out 2>&1
+# grep -q "Goodbye" /tmp/ui_test_quit.out && echo "quit behaviour ok"
+##TEST_END

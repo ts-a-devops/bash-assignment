@@ -1,0 +1,29 @@
+System Report - Sun Mar 29 06:01:08 UTC 2026
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          32G  9.5G   21G  32% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/root        29G   17G   13G  58% /vscode
+/dev/loop4       32G  9.5G   21G  32% /workspaces
+/dev/sda1       118G  4.0G  108G   4% /tmp
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           15995        3504         514          64       12388       12491
+Swap:              0           0           0
+
+CPU Load:
+ 06:01:08 up  4:49,  0 user,  load average: 0.46, 0.69, 0.58
+
+Total Running Processes:
+23
+
+Top 5 Memory Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+codespa+    5609  2.4  4.9 65581712 803056 ?     Sl   05:20   0:59 /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/node --dns-result-order=ipv4first /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+codespa+    5586  0.3  0.9 11895676 160596 ?     Sl   05:20   0:09 /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/server-main.js --log trace --force-disable-user-env --server-data-dir /home/codespace/.vscode-remote --accept-server-license-terms --host 127.0.0.1 --port 0 --connection-token-file /home/codespace/.vscode-remote/data/Machine/.connection-token-cfbea10c5ffb233ea9177d34726e6056e89913dc --extensions-download-dir /home/codespace/.vscode-remote/extensionsCache --install-builtin-extension GitHub.vscode-pull-request-github --install-builtin-extension github.github-vscode-theme --install-builtin-extension github.codespaces --do-not-sync --start-server  --enable-remote-auto-shutdown --skip-requirements-check
+codespa+    6049  0.1  0.4 1144848 81156 ?       Sl   05:20   0:04 /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=ptyHost --logsPath /home/codespace/.vscode-remote/data/logs/20260329T052046
+root         357  0.0  0.4 2117184 80676 ?       Sl   04:20   0:00 dockerd --dns 168.63.129.16
+codespa+    6472  0.0  0.4 1096788 68316 ?       Sl   05:20   0:00 /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /vscode/bin/linux-x64/cfbea10c5ffb233ea9177d34726e6056e89913dc/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=5609

@@ -1,0 +1,52 @@
+Total used memory is 1803 MB
+Total memory is 3426 MB
+Total used disk space is 11%
+Total disk is 118G
+Top 5 memory consuming processes:
+USERPID%CPU%MEMCOMMAND
+sandie379015.918.8/snap/firefox/7901/usr/lib/firefox/firefox
+sandie305122.513.9/snap/firefox/7901/usr/lib/firefox/firefox
+sandie215937.78.4/usr/bin/gnome-shell
+sandie37880.44.7/snap/firefox/7901/usr/lib/firefox/firefox
+ 12:14:56 up 59 min,  1 user,  load average: 1.30, 1.45, 1.65
+Warm: 1803 exceeds 85
+Warn: 11 exceeds 80
+Total used memory is 1774 MB
+Total memory is 3426 MB
+Total used disk space is 11%
+Total disk is 118G
+Top 5 memory consuming processes:
+USERPID%CPU%MEMCOMMAND
+sandie379015.318.1/snap/firefox/7901/usr/lib/firefox/firefox
+sandie305121.013.7/snap/firefox/7901/usr/lib/firefox/firefox
+sandie215935.88.1/usr/bin/gnome-shell
+sandie37880.44.6/snap/firefox/7901/usr/lib/firefox/firefox
+ 12:22:47 up  1:06,  1 user,  load average: 1.14, 1.26, 1.43
+Warm: 1774 exceeds 85
+Warn: 11 exceeds 80
+Total used memory is 1774 MB
+Total memory is 3426 MB
+Total used disk space is 11%
+Total disk is 118G
+Top 5 memory consuming processes:
+USERPID%CPU%MEMCOMMAND
+sandie379015.318.0/snap/firefox/7901/usr/lib/firefox/firefox
+sandie305121.013.7/snap/firefox/7901/usr/lib/firefox/firefox
+sandie215935.78.1/usr/bin/gnome-shell
+sandie37880.44.6/snap/firefox/7901/usr/lib/firefox/firefox
+ 12:22:50 up  1:07,  1 user,  load average: 1.14, 1.26, 1.43
+Warm: 1774 exceeds 85
+Warn: 11 exceeds 80
+Total used memory is 1771 MB
+Total memory is 3426 MB
+Total used disk space is 11%
+Total disk is 118G
+Top 5 memory consuming processes:
+USERPID%CPU%MEMCOMMAND
+sandie379015.817.7/snap/firefox/7901/usr/lib/firefox/firefox
+sandie305121.114.1/snap/firefox/7901/usr/lib/firefox/firefox
+sandie215935.98.1/usr/bin/gnome-shell
+sandie37880.44.6/snap/firefox/7901/usr/lib/firefox/firefox
+ 12:24:26 up  1:08,  1 user,  load average: 1.50, 1.44, 1.48
+Warm: 1771 exceeds 85
+Warn: 11 exceeds 80

@@ -15,3 +15,17 @@ Error: Directory does not exist
 Usage: scripts/backup.sh <Source directory>
 Backup created: backups/backup_20260329_120442.tar.gz
 Old backups cleaned up
+Error: Directory does not exist
+Usage: backup.sh <Source directory>
+Error: Directory does not exist
+Usage: backup.sh <Source directory>
+Error: Directory does not exist
+Usage: backup.sh <Source directory>
+Backup created: backups/backup_20260329_143744.tar.gz
+Old backups cleaned up
+Backup created: ../backups/backup_20260329_144114.tar.gz
+Old backups cleaned up
+Backup created: ../backups/backup_20260329_144759.tar.gz
+Old backups cleaned up
+Backup created: ../backups/backup_20260329_145300.tar.gz
+Old backups cleaned up

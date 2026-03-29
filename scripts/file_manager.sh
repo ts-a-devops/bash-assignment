@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="logs/file_manager.log"
+LOG_FILE="../logs/file_manager.log"
 ACTION=$1
 FILE=$2
 

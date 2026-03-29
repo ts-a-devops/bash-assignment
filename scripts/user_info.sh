@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="logs/user_info.log"
+LOG_FILE="../logs/user_info.log"
 
 read -p "Enter your name: " name
 read -p "Enter your age: " age

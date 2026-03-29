@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="logs/process_monitor.log"
+LOG_FILE="../logs/process_monitor.log"
 services=("nginx" "ssh" "docker")
 
 for service in "${services[@]}"; do

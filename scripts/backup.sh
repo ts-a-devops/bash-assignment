@@ -2,8 +2,8 @@
 #!/bin/bash
 
 SOURCE_DIR=$1
-BACKUP_DIR="backups"
-LOG_FILE="logs/backup.log"
+BACKUP_DIR="../backups"
+LOG_FILE="../logs/backup.log"
 
 if [[ ! -d "$SOURCE_DIR" ]]; then
     echo "Error: Directory does not exist" | tee -a "$LOG_FILE"

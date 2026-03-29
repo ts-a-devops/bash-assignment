@@ -1,12 +1,15 @@
 #!/bin/bash
 set -euo pipefail
 
-LOG_FILE="logs/app.log"
+LOG_FILE="../logs/app.log"
 
 run_all() {
-  bash scripts/user_info.sh
-  bash scripts/system_check.sh
-  bash scripts/backup.sh .
+  bash file_manager.sh list
+  bash system_check.sh
+  bash backup.sh .
+  bash process_monitor.sh
+  bash user_info.sh
+
 }
 
 menu() {

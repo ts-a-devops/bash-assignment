@@ -1,0 +1,40 @@
+===== SYSTEM REPORT (2026-03-29_14-56-50) =====
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         236G  126G  111G  54% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.7G  955G   1% /
+none            1.9G  108K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  508K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             236G  126G  111G  54% /mnt/c
+tmpfs           381M   20K  380M   1% /run/user/1000
+
+--- Disk Usage Warnings ---
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:            3800         443        3370           3         109        3356
+Swap:           1024           0        1024
+
+--- CPU Load ---
+ 14:56:50 up  6:03,  1 user,  load average: 0.05, 0.03, 0.01
+
+Total Running Processes: 27
+
+--- Top 5 Memory Consuming Processes ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         188  0.0  0.5 107024 22644 ?        Ssl  08:56   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          42  0.0  0.3  66828 15012 ?        S<s  08:56   0:08 /usr/lib/systemd/systemd-journald
+root           1  0.0  0.3  21720 12336 ?        Ss   08:56   0:09 /sbin/init
+systemd+     104  0.0  0.3  21460 12288 ?        Ss   08:56   0:00 /usr/lib/systemd/systemd-resolved
+henex        321  0.0  0.2  20308 11264 ?        Ss   08:56   0:00 /usr/lib/systemd/systemd --user
+
+===== END OF REPORT =====

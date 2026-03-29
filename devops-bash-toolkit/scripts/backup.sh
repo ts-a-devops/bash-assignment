@@ -1,7 +1,8 @@
 #!/bin/bash
 
 LOG_FILE="../logs/backup.log"
-BACKUP_DIR="../backups"
+BASE_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+BACKUP_DIR="$BASE_DIR/backups"
 
 mkdir -p "$BACKUP_DIR"
 

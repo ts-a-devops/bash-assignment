@@ -2,7 +2,7 @@
 
 #this script prints user informations
 
-LOG_FILE="../lods/user_info.log"
+LOG_FILE="../logs/user_info.log"
 
 #getting user inputs
 
@@ -24,22 +24,18 @@ fi
 #To validate user inputs
 
 if [[ -z "$name" || -z "$age" || -z "$country" ]]; then
-    echo "All field are required" | tee -a "LOG_FILE"
+    echo "All field are required" | tee -a "$LOG_FILE"
   exit 1
 fi
 
-if [[ "$age" =~^[0-9]=$ ]]; then
-    echo "Age must be numeric" | tee -a "LOG_FILE"
+if [[ "$age" =~ ^[0-9]=$ ]]; then
+    echo "Age must be numeric" | tee -a "$LOG_FILE"
     read -p "enter your age again: " age
     exit 1
 fi
 
 
-echo
-echo
-echo
-
 #this line prints all user information
-message="welcome to this cohort $name, $age from $country!./n you are in this $category."
+message="welcome to this cohort $name, $age from $country! you are a $category."
 
-echo "$message" | "tee -a "$LOG_FILE"
+echo "$message" | tee -a "$LOG_FILE"

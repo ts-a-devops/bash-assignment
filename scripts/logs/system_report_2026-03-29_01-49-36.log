@@ -1,0 +1,26 @@
+===== SYSTEM CHECK REPORT =====
+Date: Sun Mar 29 01:49:36 WCAST 2026
+
+---- Disk Usage ----
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  477G   73G  404G  16% /
+
+---- Disk Usage Warnings ----
+
+---- Memory Usage ----
+Memory info not available (free command not found)
+
+---- CPU Load ----
+
+---- Total Running Processes ----
+Total processes: 7
+
+---- Top 5 Memory-Consuming Processes ----
+      615     360     615      16092  pty0      197609 01:49:36 /usr/bin/bash
+      360     359     360      15056  pty0      197609 01:33:05 /usr/bin/bash
+      662     615     615      15044  pty0      197609 01:49:37 /usr/bin/bash
+      359       1     359      10376  ?         197609 01:33:05 /usr/bin/mintty
+      661     615     615       7332  pty0      197609 01:49:37 /usr/bin/ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+
+===== END OF REPORT =====

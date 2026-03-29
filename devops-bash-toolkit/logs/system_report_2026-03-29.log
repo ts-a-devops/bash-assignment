@@ -1,0 +1,26 @@
+===== SYSTEM REPORT =====
+Disk Usage:
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  238G  193G   45G  82% /
+Memory Usage:
+CPU Load:
+Total Processes:
+8
+Top 5 Memory Consuming Processes:
+===== SYSTEM REPORT =====
+Disk Usage:
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  238G  193G   45G  82% /
+Memory Usage:
+Memory info not available (non-Linux system)
+CPU Load:
+CPU load not available (non-Linux system)
+Total Processes:
+8
+Top 5 Processes:
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1521       1    1521       4612  ?         197610 10:35:54 /usr/bin/mintty
+     2085    1619    2085       9620  pty1      197610 16:29:04 /usr/bin/bash
+     1522    1521    1522       6880  pty0      197610 10:35:55 /usr/bin/bash
+     1618       1    1618      14596  ?         197610 10:51:30 /usr/bin/mintty
+     1619    1618    1619      17576  pty1      197610 10:51:31 /usr/bin/bash

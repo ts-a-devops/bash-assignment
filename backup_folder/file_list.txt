@@ -1,0 +1,10 @@
+total 36
+drwxrwxr-x  7 ugoeze-johnny-obijuru ugoeze-johnny-obijuru 4096 Mar 29 20:47 .
+drwxr-x--- 22 ugoeze-johnny-obijuru ugoeze-johnny-obijuru 4096 Mar 29 20:45 ..
+drwxrwxr-x  2 ugoeze-johnny-obijuru ugoeze-johnny-obijuru 4096 Mar 29 20:46 backup_folder
+drwxrwxr-x  2 ugoeze-johnny-obijuru ugoeze-johnny-obijuru 4096 Mar 29 20:47 backups
+drwxrwxr-x  8 ugoeze-johnny-obijuru ugoeze-johnny-obijuru 4096 Mar 29 20:29 .git
+-rw-rw-r--  1 ugoeze-johnny-obijuru ugoeze-johnny-obijuru   12 Mar 22 01:33 iron
+drwxrwxr-x  2 ugoeze-johnny-obijuru ugoeze-johnny-obijuru 4096 Mar 29 20:48 logs
+-rwxrwxr-x  1 ugoeze-johnny-obijuru ugoeze-johnny-obijuru 1363 Mar 29 18:44 run_all.sh
+drwxrwxr-x  2 ugoeze-johnny-obijuru ugoeze-johnny-obijuru 4096 Mar 29 20:47 scripts

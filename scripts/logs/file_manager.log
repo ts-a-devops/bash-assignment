@@ -1,0 +1,11 @@
+Created  on Sun Mar 29 16:08:02 WAT 2026
+Created file1.txt on Sun Mar 29 16:30:20 WAT 2026
+List of files:
+total 16K
+-rw-r--r-- 1 faery faery    0 Mar 29 08:49 backup.sh
+-rw-r--r-- 1 faery faery    0 Mar 29 16:30 file1.txt
+-rwxr-xr-x 1 faery faery 1.3K Mar 29 16:26 file_manager.sh
+drwxr-xr-x 2 faery faery 4.0K Mar 29 16:08 logs
+-rw-r--r-- 1 faery faery    0 Mar 29 08:49 process_monitor.sh
+-rwxr-xr-x 1 faery faery  891 Mar 29 13:20 system_check.sh
+-rwxr-xr-x 1 faery faery  821 Mar 29 11:00 user_info.sh

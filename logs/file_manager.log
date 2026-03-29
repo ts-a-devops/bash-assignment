@@ -6,3 +6,6 @@ total 12K
 -rw-r--r-- 1 muhammad muhammad 749 Mar 27 19:10 system_check.sh
 -rw-r--r-- 1 muhammad muhammad 784 Mar 26 22:26 user_info.sh
 File created: muhammad.txt
+File created: 
+File created: file1.txt
+File already exists!

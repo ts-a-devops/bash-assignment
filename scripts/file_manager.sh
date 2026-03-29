@@ -36,7 +36,7 @@ case "$ACTION" in
       fi
       ;;
       *)
-      echo "Usage: $0 {create|delete|list|rename} filename" | tee -a "$LOG_FILE"
+      echo "Usage: $0 {create|delete|list|rename} filename filename?" | tee -a "$LOG_FILE"
       ;;
 esac
 

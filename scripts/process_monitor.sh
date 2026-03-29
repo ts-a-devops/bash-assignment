@@ -8,7 +8,7 @@ for service in "${services[@]}"; do
       echo "$service is Running" | tee -a "$LOG_FILE"
    else
       echo "$service is Stopped. Restarting..." | tee -a "$LOG_FILE"
-      # systemctl restart "$service"
+      # Simulate restart
       echo "$service Restarted" | tee -a "$LOG_FILE"
   fi
 done

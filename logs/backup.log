@@ -8,3 +8,10 @@ Backup created: backups/backup_20260329_114001.tar.gz
 Old backups cleaned up
 Backup created: backups/backup_20260329_114117.tar.gz
 Old backups cleaned up
+Error: Directory does not exist
+Error: Directory does not exist
+ Usage: scripts/backup.sh Source directory
+Error: Directory does not exist
+Usage: scripts/backup.sh <Source directory>
+Backup created: backups/backup_20260329_120442.tar.gz
+Old backups cleaned up

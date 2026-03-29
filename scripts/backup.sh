@@ -6,7 +6,8 @@ BACKUP_DIR="backups"
 LOG_FILE="logs/backup.log"
 
 if [[ ! -d "$SOURCE_DIR" ]]; then
-  echo "Error: Directory does not exist" | tee -a "$LOG_FILE"
+    echo "Error: Directory does not exist" | tee -a "$LOG_FILE"
+    echo "Usage: $0 <Source directory>" | tee -a "$LOG_FILE"
     exit 1
     fi
 

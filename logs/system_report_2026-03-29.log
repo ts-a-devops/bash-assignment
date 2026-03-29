@@ -1,0 +1,28 @@
+===== SYSTEM CHECK =====
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          116G  111G  5.5G  96% /
+none            116G  111G  5.5G  96% /dev
+none            116G  111G  5.5G  96% /run
+none            116G  111G  5.5G  96% /run/lock
+none            116G  111G  5.5G  96% /run/shm
+none            116G  111G  5.5G  96% /run/user
+tmpfs           116G  111G  5.5G  96% /sys/fs/cgroup
+C:\             116G  111G  5.5G  96% /mnt/c
+D:\             122G  2.3G  120G   2% /mnt/d
+Memory Usage:
+              total        used        free      shared  buff/cache   available
+Mem:           8107        6409        1474          17         223        1568
+Swap:         14820        1191       13628
+CPU Load:
+ 00:09:42 up 48 min,  0 users,  load average: 0.52, 0.58, 0.59
+WARNING: Disk usage above 80%
+Total Processes:
+8
+Top 5 Memory Consuming Processes:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ogeeke      15  0.0  0.0  22036  7720 tty1     S    Mar28   0:00 -bash
+ogeeke     507  0.0  0.0  16796  1960 tty1     S    00:09   0:00 /bin/bash ./scripts/system_check.sh
+ogeeke     536  0.0  0.0  18660  1860 tty1     R    00:09   0:00 ps aux --sort=-%mem
+ogeeke     537  0.0  0.0  15288   832 tty1     S    00:09   0:00 head -n 6
+ogeeke     538  0.0  0.0  15284   828 tty1     S    00:09   0:00 tee -a logs/system_report_2026-03-29.log

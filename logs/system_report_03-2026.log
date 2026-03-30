@@ -1,0 +1,144 @@
+ ****** SYSTEM REPORT ****** 
+ ****** Disk Usage ****** 
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           594M  2.0M  593M   1% /run
+/dev/sda2        49G   15G   32G  32% /
+tmpfs           3.0G     0  3.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           594M  120K  594M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/dontcatchfire/CDROM
+/dev/sr1        6.2G  6.2G     0 100% /media/dontcatchfire/Ubuntu 24.04.4 LTS amd64
+ ****** Memory Usage ****** 
+               total        used        free      shared  buff/cache   available
+Mem:            5939        1310        2771          44        2141        4628
+Swap:           3866           0        3866
+ ****** CPU Load ****** 
+ 15:32:09 up 23 min,  1 user,  load average: 0.08, 0.28, 0.17
+Total running processes: 379
+ ****** Top 5 memory-consuming processes  ****** 
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dontcat+    2620  3.1  4.9 4464172 298140 ?      Ssl  15:26   0:09 /usr/bin/gnome-shell
+dontcat+    3084  0.1  1.5 276648 92792 ?        S    15:26   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FT3XM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+dontcat+    3437  0.0  1.5 747992 92048 ?        Sl   15:27   0:00 /usr/libexec/mutter-x11-frames
+dontcat+    3320  0.1  1.3 667480 84780 ?        Ssl  15:26   0:00 /usr/libexec/gsd-xsettings
+dontcat+    3373  0.2  1.1 3160608 69004 ?       Sl   15:26   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+>>>>>> SYSTEM REPORT <<<<<<
+>>>>>> Disk Usage <<<<<<
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           594M  2.0M  593M   1% /run
+/dev/sda2        49G   15G   32G  32% /
+tmpfs           3.0G     0  3.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           594M  120K  594M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/dontcatchfire/CDROM
+/dev/sr1        6.2G  6.2G     0 100% /media/dontcatchfire/Ubuntu 24.04.4 LTS amd64
+>>>>>> Memory Usage <<<<<<
+               total        used        free      shared  buff/cache   available
+Mem:            5939        1299        2781          44        2143        4640
+Swap:           3866           0        3866
+>>>>>> CPU Load <<<<<<
+ 15:37:34 up 29 min,  1 user,  load average: 0.14, 0.13, 0.12
+>>> Total running processes: 332
+>>>>>> Top 5 memory-consuming processes <<<<<<
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dontcat+    2620  2.6  4.9 4464168 298072 ?      Ssl  15:26   0:17 /usr/bin/gnome-shell
+dontcat+    3084  0.0  1.5 276648 92792 ?        S    15:26   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FT3XM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+dontcat+    3437  0.0  1.5 747992 92048 ?        Sl   15:27   0:00 /usr/libexec/mutter-x11-frames
+dontcat+    3320  0.0  1.3 667480 84780 ?        Ssl  15:26   0:00 /usr/libexec/gsd-xsettings
+dontcat+    3373  0.1  1.1 3160608 68968 ?       Sl   15:26   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+>>>>>> SYSTEM REPORT <<<<<<
+>>>>>> Disk Usage <<<<<<
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           594M  2.0M  593M   1% /run
+/dev/sda2        49G   15G   32G  32% /
+tmpfs           3.0G     0  3.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           594M  120K  594M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/dontcatchfire/CDROM
+/dev/sr1        6.2G  6.2G     0 100% /media/dontcatchfire/Ubuntu 24.04.4 LTS amd64
+>>>>>> Memory Usage <<<<<<
+               total        used        free      shared  buff/cache   available
+Mem:            5939        1305        2775          44        2143        4634
+Swap:           3866           0        3866
+>>>>>> CPU Load <<<<<<
+ 15:39:26 up 31 min,  1 user,  load average: 0.02, 0.08, 0.10
+>>> Total running processes: 332
+>>>>>> Top 5 memory-consuming processes <<<<<<
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dontcat+    2620  2.4  4.9 4472348 298104 ?      Ssl  15:26   0:18 /usr/bin/gnome-shell
+dontcat+    3084  0.0  1.5 276648 92792 ?        S    15:26   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FT3XM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+dontcat+    3437  0.0  1.5 748068 92048 ?        Sl   15:27   0:00 /usr/libexec/mutter-x11-frames
+dontcat+    3320  0.0  1.3 667480 84780 ?        Ssl  15:26   0:00 /usr/libexec/gsd-xsettings
+dontcat+    3373  0.1  1.1 3160608 68964 ?       Sl   15:26   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+>>>>>> SYSTEM REPORT <<<<<<
+>>>>>> Disk Usage <<<<<<
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           594M  2.0M  593M   1% /run
+/dev/sda2        49G   15G   32G  32% /
+tmpfs           3.0G     0  3.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           594M  120K  594M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/dontcatchfire/CDROM
+/dev/sr1        6.2G  6.2G     0 100% /media/dontcatchfire/Ubuntu 24.04.4 LTS amd64
+>>>>>> Memory Usage <<<<<<
+               total        used        free      shared  buff/cache   available
+Mem:            5939        1307        2773          44        2143        4632
+Swap:           3866           0        3866
+>>>>>> CPU Load <<<<<<
+ 15:41:09 up 32 min,  1 user,  load average: 0.06, 0.09, 0.10
+[!] Total running processes: 332
+>>>>>> Top 5 memory-consuming processes <<<<<<
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dontcat+    2620  2.5  4.9 4472532 298084 ?      Ssl  15:26   0:21 /usr/bin/gnome-shell
+dontcat+    3084  0.0  1.5 276648 92792 ?        S    15:26   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FT3XM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+dontcat+    3437  0.0  1.5 748068 92048 ?        Sl   15:27   0:00 /usr/libexec/mutter-x11-frames
+dontcat+    3320  0.0  1.3 667480 84780 ?        Ssl  15:26   0:00 /usr/libexec/gsd-xsettings
+dontcat+    3373  0.1  1.1 3160608 68964 ?       Sl   15:26   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+>>>>>> SYSTEM REPORT <<<<<<
+>>>>>> Disk Usage <<<<<<
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           594M  2.0M  593M   1% /run
+/dev/sda2        49G   15G   32G  32% /
+tmpfs           3.0G     0  3.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           594M  120K  594M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/dontcatchfire/CDROM
+/dev/sr1        6.2G  6.2G     0 100% /media/dontcatchfire/Ubuntu 24.04.4 LTS amd64
+>>>>>> Memory Usage <<<<<<
+               total        used        free      shared  buff/cache   available
+Mem:            5939        1309        2771          44        2143        4630
+Swap:           3866           0        3866
+>>>>>> CPU Load <<<<<<
+ 15:42:00 up 33 min,  1 user,  load average: 0.02, 0.08, 0.09
+[!] Total running processes: 332
+>>>>>> Top 5 memory-consuming processes <<<<<<
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dontcat+    2620  2.5  4.8 4472532 298036 ?      Ssl  15:26   0:22 /usr/bin/gnome-shell
+dontcat+    3084  0.0  1.5 276648 92792 ?        S    15:26   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FT3XM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+dontcat+    3437  0.0  1.5 748068 92048 ?        Sl   15:27   0:00 /usr/libexec/mutter-x11-frames
+dontcat+    3320  0.0  1.3 667480 84780 ?        Ssl  15:26   0:00 /usr/libexec/gsd-xsettings
+dontcat+    3373  0.1  1.1 3160608 68964 ?       Sl   15:26   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+>>>>>> SYSTEM REPORT <<<<<<
+>>>>>> Disk Usage <<<<<<
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           594M  2.0M  593M   1% /run
+/dev/sda2        49G   15G   32G  32% /
+tmpfs           3.0G     0  3.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           594M  120K  594M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/dontcatchfire/CDROM
+/dev/sr1        6.2G  6.2G     0 100% /media/dontcatchfire/Ubuntu 24.04.4 LTS amd64
+>>>>>> Memory Usage <<<<<<
+               total        used        free      shared  buff/cache   available
+Mem:            5939        1310        2770          44        2143        4629
+Swap:           3866           0        3866
+>>>>>> CPU Load <<<<<<
+ 15:43:15 up 34 min,  1 user,  load average: 0.05, 0.07, 0.09
+[!] Total running processes: 332
+>>>>>> Top 5 memory-consuming processes <<<<<<
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dontcat+    2620  2.5  4.9 4472532 298092 ?      Ssl  15:26   0:25 /usr/bin/gnome-shell
+dontcat+    3084  0.0  1.5 276648 92792 ?        S    15:26   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FT3XM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+dontcat+    3437  0.0  1.5 748068 92048 ?        Sl   15:27   0:00 /usr/libexec/mutter-x11-frames
+dontcat+    3320  0.0  1.3 667480 84780 ?        Ssl  15:26   0:00 /usr/libexec/gsd-xsettings
+dontcat+    3373  0.0  1.1 3160608 68964 ?       Sl   15:26   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app

@@ -1,0 +1,11 @@
+File created: tony-stark
+File already exists!
+total 20K
+-rwxrwxr-x 1 dontcatchfire dontcatchfire 581 Mar 30 11:10 backup.sh
+-rwxrwxr-x 1 dontcatchfire dontcatchfire 925 Mar 30 11:08 file_manager.sh
+-rwxrwxr-x 1 dontcatchfire dontcatchfire 385 Mar 30 11:11 process_monitor.sh
+-rwxrwxr-x 1 dontcatchfire dontcatchfire 852 Mar 30 15:43 system_check.sh
+-rw-rw-r-- 1 dontcatchfire dontcatchfire   0 Mar 30 15:47 tony-stark
+-rwxrwxr-x 1 dontcatchfire dontcatchfire 713 Mar 30 08:14 user_info.sh
+Renamed tony-stark to ironman
+File deleted: ironman

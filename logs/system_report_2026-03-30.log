@@ -1,0 +1,15 @@
+System Report - Mon Mar 30 16:40:06 CDT 2026
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   926Gi    12Gi   785Gi     2%    455k  4.3G    0%   /
+devfs            200Ki   200Ki     0Bi   100%     693     0  100%   /dev
+/dev/disk3s6     926Gi    20Ki   785Gi     1%       0  8.2G    0%   /System/Volumes/VM
+/dev/disk3s2     926Gi   8.1Gi   785Gi     2%    1.4k  8.2G    0%   /System/Volumes/Preboot
+/dev/disk3s4     926Gi   7.3Mi   785Gi     1%      66  8.2G    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   482Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   6.0Mi   482Mi     2%      33  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   1.5Mi   482Mi     1%      98  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     926Gi   120Gi   785Gi    14%    850k  8.2G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk4s1     867Mi   775Mi    92Mi    90%    6.4k  4.3G    0%   /Volumes/VS Code
+16:40  up 24 days, 8 hrs, 2 users, load averages: 1.94 1.78 1.81
+Total processes:     1034

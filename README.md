@@ -11,10 +11,10 @@
 
 This assignment tests your **DevOps fundamentals**:
 
-- Bash scripting  
-- Git workflow (branching, commits, pull requests)  
-- Automation mindset  
-- System monitoring and logging  
+- Bash scripting
+- Git workflow (branching, commits, pull requests)
+- Automation mindset
+- System monitoring and logging
 
 You will build a **real-world automation toolkit** and submit it via a **Pull Request (PR)**.
 
@@ -38,39 +38,46 @@ devops-bash-toolkit-assestment/
 ```
 
 🧑‍💻 Getting Started
+
 1. Fork the Repository
 
 Click the Fork button on GitHub.
 
 2. Clone Your Fork
+
 ```bash
 git clone <your-fork-url>
 cd devops-bash-toolkit
 ```
 
 3. Create a Feature Branch
+
 ```bash
 git checkout -b feature/<your-name>
 ```
 
 4. Complete the Scripts
-Implement all required scripts inside:
+   Implement all required scripts inside:
+
 ```bash
 scripts/
 ```
 
 5. Make Scripts Executable
+
 ```bash
 chmod +x scripts/*.sh
 ```
 
 6. Commit Your Work
+
 ```bash
 git add .
 git commit -m "feat: complete bash scripts"
 ```
 
 7. Push to GitHub
+
 ```bash
 git push origin feature/<your-name>
 ```
@@ -79,154 +86,171 @@ git push origin feature/<your-name>
 
 Open a Pull Request to the main repository.
 
+## 🧠 Assignment Tasks
 
-🧠 Assignment Tasks
---------------------------------------------------------------------------------
 🔹 A. user_info.sh
 Requirements
 
-* Prompt the user for:
+- Prompt the user for:
+  - Name
 
-  * Name
+  - Age
 
-  * Age
+  - Country
 
-  * Country
+- Validate:
+  - Age must be numeric
 
-* Validate:
+- Output:
+  - A greeting message
 
-  * Age must be numeric
+- Age category:
+  - Minor (<18)
 
-* Output:
+  - Adult (18–65)
 
-  * A greeting message
+  - Senior (65+)
 
-* Age category:
+- Handle missing or invalid input gracefully
 
-  * Minor (<18)
+- Save output to:
 
-  * Adult (18–65)
-
-  * Senior (65+)
-
-* Handle missing or invalid input gracefully
-
-* Save output to:
 ```bash
 logs/user_info.log
 ```
+
 ---
+
 🔹 B. system_check.sh
 Requirements
 
-* Display:
+- Display:
+  - Disk usage (df -h)
 
-  * Disk usage (df -h)
+  - Memory usage (free -m)
 
-  * Memory usage (free -m)
+  - CPU load (uptime)
 
-  * CPU load (uptime)
+- Warn if disk usage exceeds 80%
 
-* Warn if disk usage exceeds 80%
+- Save report to:
 
-* Save report to:
 ```bash
 logs/system_report_<date>.log
 ```
-* Count total running processes
 
-* Display top 5 memory-consuming processes
+- Count total running processes
+
+- Display top 5 memory-consuming processes
+
 ---
+
 🔹 C. file_manager.sh
 Requirements
 
-* Support the following commands:
+- Support the following commands:
+  - create
 
-  * create
+  - delete
 
-  * delete
+  - list
 
-  * list
+  - rename
 
-  * rename
+- Example usage:
 
-* Example usage:
 ```bash
 ./file_manager.sh create file.txt
 ```
-* Prevent overwriting existing files
 
-* Log all actions to:
+- Prevent overwriting existing files
+
+- Log all actions to:
+
 ```bash
 logs/file_manager.log
 ```
+
 ---
+
 🔹 D. backup.sh
 Requirements
 
-* Accept a directory as input
+- Accept a directory as input
 
-* Validate that the directory exists
+- Validate that the directory exists
 
-* Create a compressed backup:
+- Create a compressed backup:
+
 ```bash
 backup_<timestamp>.tar.gz
 ```
-* Store backups in:
+
+- Store backups in:
+
 ```bash
 backups/
 ```
-* Keep only the last 5 backups (delete older ones)
 
-* Log backup activity
+- Keep only the last 5 backups (delete older ones)
+
+- Log backup activity
+
 ---
+
 ⭐ E. process_monitor.sh(Optional Bonus)
 Requirements
 
-* Accept a process name as input
+- Accept a process name as input
 
-* Check if the process is running
+- Check if the process is running
 
-* If NOT running:
+- If NOT running:
+  - Attempt restart (or simulate restart)
 
-  * Attempt restart (or simulate restart)
+- Output:
+  - Running
 
-* Output:
+  - Stopped
 
-  * Running
+  - Restarted
 
-  * Stopped
+- Use an array:
 
-  * Restarted
-
-* Use an array:
 ```bash
 services=("nginx" "ssh" "docker")
 ```
-* Log monitoring results
+
+- Log monitoring results
+
 ---
+
 ⭐ F. run_all.sh (Optional Bonus)
 Requirements
 
 Provide an interactive menu:
+
 1. Run all
 2. System check
 3. Backup
 4. Exit
-* Use functions to organize logic
 
-* Call scripts from the scripts/ directory
+- Use functions to organize logic
 
-* Include:
+- Call scripts from the scripts/ directory
+
+- Include:
   ```bash
   set -euo pipefail
   ```
-* Log all actions to:
+- Log all actions to:
+
 ```bash
 logs/app.log
 ```
-* Handle script failures gracefully
-  
+
+- Handle script failures gracefully
+
 **Submission link:** [CLICK HERE](https://forms.gle/jrhpKjXsQXZxLopN6)
 
 ---
@@ -309,6 +333,23 @@ If `bash` is not available, install one of:
 - Git for Windows (Git Bash)
 - WSL with Ubuntu
 
+If you get this error in PowerShell:
+
+`execvpe(/bin/bash) failed: No such file or directory`
+
+your `bash` command is pointing to WSL launcher (`C:\Windows\System32\bash.exe`) without a Linux distro. Use Git Bash directly or call Git Bash executable explicitly:
+
+```powershell
+& "C:\Program Files\Git\bin\bash.exe" -lc "cd '/c/Users/ADMIN/Projects/bash-assignment' && ./scripts/user_info.sh"
+& "C:\Program Files\Git\bin\bash.exe" -lc "cd '/c/Users/ADMIN/Projects/bash-assignment' && ./scripts/system_check.sh"
+& "C:\Program Files\Git\bin\bash.exe" -lc "cd '/c/Users/ADMIN/Projects/bash-assignment' && ./scripts/file_manager.sh create file.txt"
+& "C:\Program Files\Git\bin\bash.exe" -lc "cd '/c/Users/ADMIN/Projects/bash-assignment' && ./scripts/backup.sh ."
+& "C:\Program Files\Git\bin\bash.exe" -lc "cd '/c/Users/ADMIN/Projects/bash-assignment' && ./scripts/process_monitor.sh nginx"
+& "C:\Program Files\Git\bin\bash.exe" -lc "cd '/c/Users/ADMIN/Projects/bash-assignment' && ./run_all.sh"
+```
+
+If running `./scripts/*.sh` opens a new Git Bash window each time, that is a Windows file association behavior for `.sh` files. To keep everything in one terminal session, run inside a Git Bash terminal and execute commands there.
+
 ---
 
 ## 🛠️ Cross-Platform Fixes Applied
@@ -321,3 +362,19 @@ If `bash` is not available, install one of:
 - `backup.sh`
   - Avoids backing up `backups/` and `logs/` into the archive when source is project root.
   - Replaced `mapfile` with a portable cleanup pipeline so it works on macOS default Bash.
+
+---
+
+## 📷 Execution Screenshots
+
+### macOS Log 1
+
+![macOS Log 1](macOS_log.png)
+
+### macOS Log 2
+
+![macOS Log 2](macOS_log2.png)
+
+### Windows Log
+
+![Windows Log](windows_log.png)

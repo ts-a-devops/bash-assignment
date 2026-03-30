@@ -72,7 +72,12 @@ REPORT_FILE="$LOG_DIR/system_report_$(date '+%Y%m%d_%H%M%S').log"
   echo
 
   echo "=== Total Running Processes ==="
-  process_count="$(ps -e --no-headers | wc -l | tr -d ' ')"
+  if ps -e --no-headers >/dev/null 2>&1; then
+    process_count="$(ps -e --no-headers | wc -l | tr -d ' ')"
+  else
+    # macOS/BSD ps fallback
+    process_count="$(ps -A | tail -n +2 | wc -l | tr -d ' ')"
+  fi
   echo "$process_count"
   echo
 

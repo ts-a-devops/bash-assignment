@@ -1,0 +1,63 @@
+#!/bin/bash
+
+LOG_DIR="logs"
+LOG_FILE="$LOG_DIR/file_manager.log"
+
+# Create logs directory if it doesn't exist
+mkdir -p "$LOG_DIR"
+
+action=$1
+file1=$2
+file2=$3
+
+case $action in
+    create)
+        if [ -z "$file1" ]; then
+            echo "Error: No filename specified."
+            exit 1
+        fi
+        if [[ -f "$file1" ]]; then
+            echo "File already exists!"
+        else
+            touch "$file1"
+            echo "File created: $file1"
+            echo "$(date): Created $file1" >> "$LOG_FILE"
+        fi
+        ;;
+        
+    delete)
+        if [ -z "$file1" ]; then
+            echo "Error: No filename specified."
+            exit 1
+        fi
+        if [[ -f "$file1" ]]; then
+            rm "$file1"
+            echo "File deleted: $file1"
+            echo "$(date): Deleted $file1" >> "$LOG_FILE"
+        else
+            echo "File not found!"
+        fi
+        ;;
+        
+    list)
+        ls
+        ;;
+        
+    rename)
+        if [ -z "$file1" ] || [ -z "$file2" ]; then
+            echo "Error: Two filenames required for rename."
+            exit 1
+        fi
+        if [[ -f "$file1" ]]; then
+            mv "$file1" "$file2"
+            echo "Renamed $file1 to $file2"
+            echo "$(date): Renamed $file1 to $file2" >> "$LOG_FILE"
+        else
+            echo "File not found!"
+        fi
+        ;;
+        
+    *)
+        echo "Usage: $0 {create|delete|list|rename} filename [newname]"
+        ;;
+esac

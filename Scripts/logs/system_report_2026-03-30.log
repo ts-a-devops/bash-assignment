@@ -1,0 +1,40 @@
+==========================================
+System Report - Mon Mar 30 09:48:43 CEST 2026
+==========================================
+
+[Disk Usage]
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  250G  227G  53% /usr/lib/wsl/drivers
+/dev/sdd       1007G   23G  933G   3% /
+none            3.9G  1.7M  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  2.3M  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G  1.1M  3.9G   1% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  250G  227G  53% /mnt/c
+tmpfs           785M   20K  785M   1% /run/user/1000
+
+[Memory Usage]
+               total        used        free      shared  buff/cache   available
+Mem:            7846        1796        1529          35        4747        6049
+Swap:           2048           0        2048
+
+[CPU Load]
+ 09:48:43 up 1 day, 19:50,  1 user,  load average: 0.17, 0.22, 0.19
+
+[Total Running Processes]
+158
+
+[Top 5 Memory-Consuming Processes]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         258 21.6  8.0 1915080 644472 ?      Ssl  Mar28 570:30 /usr/local/bin/k3s server
+david     174455  0.1  2.9 930036 237332 pts/8   Sl+  00:03   0:55 /home/david/devops_simplified/.venv/bin/python3.14 /home/david/devops_simplified/.venv/bin/pgadmin4
+root         740  2.0  2.0 1436584 162100 ?      Sl   Mar28  54:46 containerd 
+david     122841  0.2  1.9 11870504 154632 pts/3 Sl+  Mar29   2:14 /home/david/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/node /home/david/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=3279396836-2350768059-2458742319-138299465 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+65532       3139  0.1  1.2 1401972 100308 ?      Ssl  Mar28   3:24 traefik traefik --entryPoints.metrics.address=:9100/tcp --entryPoints.traefik.address=:8080/tcp --entryPoints.web.address=:8000/tcp --entryPoints.websecure.address=:8443/tcp --api.dashboard=true --ping=true --metrics.prometheus=true --metrics.prometheus.entrypoint=metrics --providers.kubernetescrd --providers.kubernetescrd.allowEmptyServices=true --providers.kubernetesingress --providers.kubernetesingress.allowEmptyServices=true --providers.kubernetesingress.ingressendpoint.publishedservice=kube-system/traefik --entryPoints.websecure.http.tls=true --log.level=INFO
+==========================================

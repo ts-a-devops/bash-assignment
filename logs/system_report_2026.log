@@ -1,0 +1,34 @@
+=====     SYSTEM REPORT          ====
+====      Disk Usage           ====
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         477G  165G  313G  35% /usr/lib/wsl/drivers
+/dev/sdd       1007G  3.1G  953G   1% /
+none            1.9G   96K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  504K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             477G  165G  313G  35% /mnt/c
+tmpfs           374M   20K  374M   1% /run/user/1000
+====      Memory Usage          ===
+               total        used        free      shared  buff/cache   available
+Mem:            3738         379        3262           3         171        3358
+Swap:           1024           0        1024
+====      CPU LOAD (uptime)    ====
+ 21:39:24 up  5:05,  1 user,  load average: 0.00, 0.00, 0.00
+====       Disk Usage         ====
+disk usage is normal.
+====      TOTAL RUNNING PROCESSES     ====
+Total processes: 39
+==== TOP 5 MEMORY-CONSUMING PROCESSES ====
+272     0.5        21.5   /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal 
+52      0.4        15.5   /usr/lib/systemd/systemd-journald 
+1       0.3        12.2   /sbin/init 
+128     0.3        12.1   /usr/lib/systemd/systemd-resolved 
+451     0.2        11.0   /usr/lib/systemd/systemd --user 
+===================================================

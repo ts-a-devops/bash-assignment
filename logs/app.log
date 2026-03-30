@@ -1,0 +1,199 @@
+2026-03-30 11:12:00 - Invalid option selected.
+2026-03-30 11:12:02 - Exiting application.
+2026-03-30 11:12:24 - Running all tasks...
+2026-03-30 11:12:32 - Running all tasks...
+2026-03-30 11:12:45 - Running system check...
+2026-03-30 11:13:19 - Running all tasks...
+2026-03-30 11:31:35 - Exiting application.
+2026-03-30 11:39:31 - Running system check...
+2026-03-30 11:39:55 - Running all tasks...
+Listing files in current directory:
+total 24K
+-rw-r--r-- 1 ishotz ishotz 1.1K Mar 30 10:59 backup.sh
+-rw-r--r-- 1 ishotz ishotz 1.2K Mar 30 10:49 file_manager.sh
+-rw-r--r-- 1 ishotz ishotz  630 Mar 30 11:08 process_monitor.sh
+-rw-r--r-- 1 ishotz ishotz  613 Mar 30 11:41 run_all.sh
+-rw-r--r-- 1 ishotz ishotz  967 Mar 30 10:36 system_check.sh
+-rw-r--r-- 1 ishotz ishotz  765 Mar 30 10:27 user_info.sh
+===== SYSTEM REPORT =====
+Generated on: Mon Mar 30 11:41:12 WAT 2026
+
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  217G  260G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.2G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  217G  260G  46% /mnt/c
+tmpfs           785M   20K  785M   1% /run/user/1000
+
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7848         466        7372           3         163        7381
+Swap:           2048           0        2048
+
+---------- CPU Load ----------
+ 11:41:12 up  2:01,  1 user,  load average: 0.06, 0.02, 0.00
+
+
+----- Total running processes: 30
+
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         255  0.0  0.2 107024 22528 ?        Ssl  09:40   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          54  0.0  0.2  66832 18804 ?        S<s  09:40   0:02 /usr/lib/systemd/systemd-journald
+systemd+     122  0.0  0.1  21460 12416 ?        Ss   09:40   0:01 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.1  21708 12100 ?        Ss   09:40   0:06 /sbin/init
+ishotz       418  0.0  0.1  20308 10752 ?        Ss   09:40   0:00 /usr/lib/systemd/systemd --user
+2026-03-30 11:41:12 - Backup successfully created: ../backups/backup_20260330_114112.tar.gz
+2026-03-30 11:41:12 - Backup process completed
+2026-03-30 11:41:12 - nginx is stopped. Attempting restart...
+2026-03-30 11:41:12 - nginx restarted successfully
+2026-03-30 11:41:12 - ssh is stopped. Attempting restart...
+2026-03-30 11:41:12 - ssh restarted successfully
+2026-03-30 11:41:12 - docker is stopped. Attempting restart...
+2026-03-30 11:41:12 - docker restarted successfully
+Hello john from usa! You are an Adult.
+Listing files in current directory:
+total 24K
+-rw-r--r-- 1 ishotz ishotz 1.1K Mar 30 10:59 backup.sh
+-rw-r--r-- 1 ishotz ishotz 1.2K Mar 30 10:49 file_manager.sh
+-rw-r--r-- 1 ishotz ishotz  630 Mar 30 11:08 process_monitor.sh
+-rw-r--r-- 1 ishotz ishotz  613 Mar 30 11:41 run_all.sh
+-rw-r--r-- 1 ishotz ishotz  967 Mar 30 10:36 system_check.sh
+-rw-r--r-- 1 ishotz ishotz  765 Mar 30 10:27 user_info.sh
+===== SYSTEM REPORT =====
+Generated on: Mon Mar 30 11:44:07 WAT 2026
+
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  217G  260G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.2G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  217G  260G  46% /mnt/c
+tmpfs           785M   20K  785M   1% /run/user/1000
+
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7848         463        7374           3         163        7385
+Swap:           2048           0        2048
+
+---------- CPU Load ----------
+ 11:44:07 up  2:04,  1 user,  load average: 0.00, 0.00, 0.00
+
+
+----- Total running processes: 30
+
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         255  0.0  0.2 107024 22528 ?        Ssl  09:40   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          54  0.0  0.2  66832 18804 ?        S<s  09:40   0:02 /usr/lib/systemd/systemd-journald
+systemd+     122  0.0  0.1  21460 12416 ?        Ss   09:40   0:01 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.1  21708 12100 ?        Ss   09:39   0:06 /sbin/init
+ishotz       418  0.0  0.1  20308 10752 ?        Ss   09:40   0:00 /usr/lib/systemd/systemd --user
+2026-03-30 11:44:08 - Backup successfully created: ../backups/backup_20260330_114408.tar.gz
+2026-03-30 11:44:08 - Backup process completed
+2026-03-30 11:44:08 - nginx is stopped. Attempting restart...
+2026-03-30 11:44:08 - nginx restarted successfully
+2026-03-30 11:44:08 - ssh is stopped. Attempting restart...
+2026-03-30 11:44:08 - ssh restarted successfully
+2026-03-30 11:44:08 - docker is stopped. Attempting restart...
+2026-03-30 11:44:08 - docker restarted successfully
+Hello Mary from Ghana! You are an Minor.
+===== SYSTEM REPORT =====
+Generated on: Mon Mar 30 11:51:21 WAT 2026
+
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  217G  260G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.2G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  512K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  217G  260G  46% /mnt/c
+tmpfs           785M   20K  785M   1% /run/user/1000
+
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7848         465        7403           3         125        7383
+Swap:           2048           0        2048
+
+---------- CPU Load ----------
+ 11:51:21 up  2:11,  1 user,  load average: 0.04, 0.01, 0.00
+
+
+----- Total running processes: 31
+
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         255  0.0  0.2 107024 22528 ?        Ssl  09:39   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          54  0.0  0.2  66832 18804 ?        S<s  09:39   0:02 /usr/lib/systemd/systemd-journald
+root        1977  0.0  0.1 1756620 13312 ?       Ssl  11:44   0:00 /usr/libexec/wsl-pro-service
+ishotz      2009  0.1  0.1  22860 13312 pts/2    Tl   11:48   0:00 vi run_all.sh
+systemd+     122  0.0  0.1  21460 12416 ?        Ss   09:39   0:01 /usr/lib/systemd/systemd-resolved
+2026-03-30 11:51:34 - Backup successfully created: ../backups/backup_20260330_115134.tar.gz
+2026-03-30 11:51:34 - Backup process completed
+===== SYSTEM REPORT =====
+Generated on: Mon Mar 30 11:53:54 WAT 2026
+
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  217G  260G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.2G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  512K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  217G  260G  46% /mnt/c
+tmpfs           785M   20K  785M   1% /run/user/1000
+
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7848         466        7400           3         128        7381
+Swap:           2048           0        2048
+
+---------- CPU Load ----------
+ 11:53:54 up  2:14,  1 user,  load average: 0.02, 0.01, 0.00
+
+
+----- Total running processes: 31
+
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         255  0.0  0.2 107024 22528 ?        Ssl  09:39   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          54  0.0  0.2  66832 18804 ?        S<s  09:39   0:02 /usr/lib/systemd/systemd-journald
+root        1977  0.0  0.1 1756620 13312 ?       Ssl  11:44   0:00 /usr/libexec/wsl-pro-service
+ishotz      2009  0.0  0.1  22860 13312 pts/2    Tl   11:48   0:00 vi run_all.sh
+systemd+     122  0.0  0.1  21460 12416 ?        Ss   09:39   0:01 /usr/lib/systemd/systemd-resolved
+2026-03-30 11:53:56 - Backup successfully created: ../backups/backup_20260330_115356.tar.gz
+2026-03-30 11:53:56 - Backup process completed

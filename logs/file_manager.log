@@ -1,0 +1,38 @@
+Usage: file_manager.sh {create|delete|list|rename} <filename> [new_name]
+File created: sample.txt
+File already exists: sample.txt
+Listing files in current directory:
+total 12K
+-rw-r--r-- 1 ishotz ishotz 1.2K Mar 30 10:49 file_manager.sh
+-rw-r--r-- 1 ishotz ishotz    0 Mar 30 10:52 sample.txt
+-rw-r--r-- 1 ishotz ishotz  967 Mar 30 10:36 system_check.sh
+-rw-r--r-- 1 ishotz ishotz  765 Mar 30 10:27 user_info.sh
+File deleted: sample.txt
+Usage: file_manager.sh {create|delete|list|rename} <filename> [new_name]
+File created: my_info.txt
+Listing files in current directory:
+total 24K
+-rw-r--r-- 1 ishotz ishotz 1.1K Mar 30 10:59 backup.sh
+-rw-r--r-- 1 ishotz ishotz 1.2K Mar 30 10:49 file_manager.sh
+-rw-r--r-- 1 ishotz ishotz    0 Mar 30 11:32 my_info.txt
+-rw-r--r-- 1 ishotz ishotz  630 Mar 30 11:08 process_monitor.sh
+-rw-r--r-- 1 ishotz ishotz 1.2K Mar 30 11:11 run_all.sh
+-rw-r--r-- 1 ishotz ishotz  967 Mar 30 10:36 system_check.sh
+-rw-r--r-- 1 ishotz ishotz  765 Mar 30 10:27 user_info.sh
+File deleted: my_info.txt
+Listing files in current directory:
+total 24K
+-rw-r--r-- 1 ishotz ishotz 1.1K Mar 30 10:59 backup.sh
+-rw-r--r-- 1 ishotz ishotz 1.2K Mar 30 10:49 file_manager.sh
+-rw-r--r-- 1 ishotz ishotz  630 Mar 30 11:08 process_monitor.sh
+-rw-r--r-- 1 ishotz ishotz  613 Mar 30 11:41 run_all.sh
+-rw-r--r-- 1 ishotz ishotz  967 Mar 30 10:36 system_check.sh
+-rw-r--r-- 1 ishotz ishotz  765 Mar 30 10:27 user_info.sh
+Listing files in current directory:
+total 24K
+-rw-r--r-- 1 ishotz ishotz 1.1K Mar 30 10:59 backup.sh
+-rw-r--r-- 1 ishotz ishotz 1.2K Mar 30 10:49 file_manager.sh
+-rw-r--r-- 1 ishotz ishotz  630 Mar 30 11:08 process_monitor.sh
+-rw-r--r-- 1 ishotz ishotz  613 Mar 30 11:41 run_all.sh
+-rw-r--r-- 1 ishotz ishotz  967 Mar 30 10:36 system_check.sh
+-rw-r--r-- 1 ishotz ishotz  765 Mar 30 10:27 user_info.sh

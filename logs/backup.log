@@ -1,0 +1,12 @@
+2026-03-30 11:03:08 - Error: No source directory provided
+2026-03-30 11:03:08 - Usage: backup.sh <source_directory>
+2026-03-30 11:03:48 - Backup successfully created: ../backups/backup_20260330_110348.tar.gz
+2026-03-30 11:03:48 - Backup process completed
+2026-03-30 11:41:12 - Backup successfully created: ../backups/backup_20260330_114112.tar.gz
+2026-03-30 11:41:12 - Backup process completed
+2026-03-30 11:44:08 - Backup successfully created: ../backups/backup_20260330_114408.tar.gz
+2026-03-30 11:44:08 - Backup process completed
+2026-03-30 11:51:34 - Backup successfully created: ../backups/backup_20260330_115134.tar.gz
+2026-03-30 11:51:34 - Backup process completed
+2026-03-30 11:53:56 - Backup successfully created: ../backups/backup_20260330_115356.tar.gz
+2026-03-30 11:53:56 - Backup process completed

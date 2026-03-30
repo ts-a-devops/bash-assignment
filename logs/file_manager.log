@@ -1,0 +1,13 @@
+SUCCESS: File my.txt created
+ERROR: file my.txt already exits
+SUCCESS: File timi.txt created
+Sucessfully renamed 'timi.txt' TO 'timi2.txt'
+Listing files in directory
+backup.sh
+file_manager.sh
+my.txt
+process_monitor.sh
+run_all.sh
+system_check.sh
+timi2.txt
+user_info.sh

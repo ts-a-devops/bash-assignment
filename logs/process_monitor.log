@@ -1,0 +1,14 @@
+Usage: ./process_monitor.sh <process_name>
+No process name provided
+Usage: ./process_monitor.sh <process_name>
+No process name provided
+./ is not in predefined services list
+./ is stopped
+ATttempting to restart ./...
+./ Restarted
+nginx is Stopped. Restarting...
+nginx Restarted..
+ssh is Stopped. Restarting...
+ssh Restarted..
+docker is Stopped. Restarting...
+docker Restarted..

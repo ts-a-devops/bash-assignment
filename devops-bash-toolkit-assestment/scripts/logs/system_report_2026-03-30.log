@@ -1,0 +1,55 @@
+=== System Report: Mon Mar 30 11:14:34 WAT 2026 ===
+─────────────────────────────────
+📦 DISK USAGE:
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  162G   76G  69% /usr/lib/wsl/drivers
+/dev/sdd        251G  9.2G  229G   4% /
+none            1.9G  484K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  876K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  162G   76G  69% /mnt/c
+snapfuse         74M   74M     0 100% /snap/core22/2339
+snapfuse         74M   74M     0 100% /snap/core22/2411
+snapfuse         67M   67M     0 100% /snap/core24/1499
+snapfuse        152M  152M     0 100% /snap/docker/3377
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        6.9M  6.9M     0 100% /snap/dive/20
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+tmpfs           383M  3.3M  379M   1% /run/user/1000
+snapfuse         67M   67M     0 100% /snap/core24/1587
+─────────────────────────────────
+🧠 MEMORY USAGE:
+               total        used        free      shared  buff/cache   available
+Mem:            3821        1017        2529           7         423        2803
+Swap:           1024           0        1024
+─────────────────────────────────
+⚙️  CPU LOAD:
+ 11:14:34 up 13:32,  1 user,  load average: 0.08, 0.07, 0.08
+─────────────────────────────────
+🔢 TOTAL RUNNING PROCESSES: 62
+─────────────────────────────────
+🔥 TOP 5 MEMORY-CONSUMING PROCESSES:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+prisca      3799  2.0  4.6 3700940 182192 pts/0  Ssl+ Mar29  16:46 zsh (kiro-cli-term)
+prisca     40151  0.1  4.4 2516836 173880 pts/3  Sl+  10:58   0:01 /home/prisca/.local/bin/kiro-cli-chat chat
+prisca      9511  1.7  2.1 2101084 82704 pts/4   Ssl+ Mar29  13:06 zsh (kiro-cli-term)
+root        1257  0.2  1.9 2415856 77652 ?       Ssl  Mar29   1:51 dockerd --group docker --exec-root=/run/snap.docker --data-root=/var/snap/docker/common/var-lib-docker --pidfile=/run/snap.docker/docker.pid --config-file=/var/snap/docker/3377/config/daemon.json
+root         420  0.1  1.8 1972328 72432 ?       Ssl  Mar29   1:12 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+─────────────────────────────────
+⚠️  DISK USAGE WARNINGS:
+WARNING: /snap/core22/2339 is at 100% disk usage!
+WARNING: /snap/core22/2411 is at 100% disk usage!
+WARNING: /snap/core24/1499 is at 100% disk usage!
+WARNING: /snap/docker/3377 is at 100% disk usage!
+WARNING: /snap/snapd/25935 is at 100% disk usage!
+WARNING: /snap/dive/20 is at 100% disk usage!
+WARNING: /snap/snapd/26382 is at 100% disk usage!
+WARNING: /snap/core24/1587 is at 100% disk usage!
+Report saved to logs/system_report_2026-03-30.log

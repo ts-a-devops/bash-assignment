@@ -1,0 +1,280 @@
+[2026-03-30 23:51:34] [INFO ] list: listing contents of '.'
+
+  Directory: .
+  -----------------------------------------
+  [FILE] backup.sh  (4.0K)
+  [FILE] caleb_file.txt  (0)
+  [FILE] file_manager.sh  (8.0K)
+  [FILE] process_monitor.sh  (8.0K)
+  [FILE] run_all.sh  (4.0K)
+  [FILE] system_check.sh  (4.0K)
+  [FILE] user_info.sh  (4.0K)
+  -----------------------------------------
+  7 file(s), 0 dir(s)
+
+[2026-03-30 23:51:34] [OK   ] list: '.' listed — 7 file(s), 0 dir(s).
+=============================================
+   SYSTEM HEALTH REPORT — 2026-03-30 23:51:34
+   Host: DESKTOP-39F7DJC
+=============================================
+
+=============================================
+  1. DISK USAGE
+=============================================
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  453G   24G  96% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  548K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  453G   24G  96% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+snapfuse         74M   74M     0 100% /snap/core22/2411
+snapfuse        4.5M  4.5M     0 100% /snap/tree/54
+
+[ Disk Warning Check ]
+  OK: All filesystems are within safe limits.
+
+=============================================
+  2. MEMORY USAGE (MB)
+=============================================
+               total        used        free      shared  buff/cache   available
+Mem:            7862         512        7264           3         239        7349
+Swap:           2048           0        2048
+
+[ Memory Summary ]
+  Total     : 7862 MB
+  Used      : 509 MB
+  Free      : 7267 MB
+  Available : 7351 MB
+  Usage %   : 6%
+  OK: Memory usage is within safe limits.
+
+=============================================
+  3. CPU LOAD (uptime)
+=============================================
+ 23:51:34 up  5:08,  1 user,  load average: 0.00, 0.00, 0.00
+
+[ Load Average Summary ]
+  Load averages (1m / 5m / 15m): 0.00, 0.00, 0.00
+  CPU cores : 8
+  OK: CPU load is within normal range.
+
+=============================================
+  4. RUNNING PROCESSES
+=============================================
+  Total running processes: 35
+
+=============================================
+  5. TOP 5 MEMORY-CONSUMING PROCESSES
+=============================================
+USER       PID      MEM%     VSZ    RSS    COMMAND
+---------------------------------------------
+root       763      0.4      2293940 40072  /snap/snapd/current/usr/lib/snapd/snapd
+root       215      0.2      107020 22016  /usr/bin/python3
+root       982      0.1      451992 8768   snapfuse
+root       757      0.1      377228 11384  snapfuse
+root       187      0.1      1756096 13568  /usr/libexec/wsl-pro-service
+
+=============================================
+  END OF REPORT
+=============================================
+  Report saved to : ../logs/system_report_2026-03-30.log
+  Generated at    : 2026-03-30 23:51:34
+=============================================
+
+[2026-03-30 23:51:35] [ERROR] No source directory provided.
+
+Usage: ./backup.sh <source_directory>
+
+Example:
+  ./backup.sh /home/user/projects
+  ./backup.sh ./my_folder
+
+=============================================
+   SYSTEM HEALTH REPORT — 2026-03-30 23:58:21
+   Host: DESKTOP-39F7DJC
+=============================================
+
+=============================================
+  1. DISK USAGE
+=============================================
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  453G   24G  96% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  548K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  453G   24G  96% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+snapfuse         74M   74M     0 100% /snap/core22/2411
+snapfuse        4.5M  4.5M     0 100% /snap/tree/54
+
+[ Disk Warning Check ]
+  OK: All filesystems are within safe limits.
+
+=============================================
+  2. MEMORY USAGE (MB)
+=============================================
+               total        used        free      shared  buff/cache   available
+Mem:            7862         507        7268           3         240        7354
+Swap:           2048           0        2048
+
+[ Memory Summary ]
+  Total     : 7862 MB
+  Used      : 508 MB
+  Free      : 7271 MB
+  Available : 7356 MB
+  Usage %   : 6%
+  OK: Memory usage is within safe limits.
+
+=============================================
+  3. CPU LOAD (uptime)
+=============================================
+ 23:58:21 up  5:15,  1 user,  load average: 0.00, 0.00, 0.00
+
+[ Load Average Summary ]
+  Load averages (1m / 5m / 15m): 0.00, 0.00, 0.00
+  CPU cores : 8
+  OK: CPU load is within normal range.
+
+=============================================
+  4. RUNNING PROCESSES
+=============================================
+  Total running processes: 34
+
+=============================================
+  5. TOP 5 MEMORY-CONSUMING PROCESSES
+=============================================
+USER       PID      MEM%     VSZ    RSS    COMMAND
+---------------------------------------------
+root       763      0.4      2293940 40072  /snap/snapd/current/usr/lib/snapd/snapd
+root       215      0.2      107020 22016  /usr/bin/python3
+root       982      0.1      451992 8768   snapfuse
+root       757      0.1      377228 11384  snapfuse
+root       187      0.1      1756096 13568  /usr/libexec/wsl-pro-service
+
+=============================================
+  END OF REPORT
+=============================================
+  Report saved to : ../logs/system_report_2026-03-30.log
+  Generated at    : 2026-03-30 23:58:21
+=============================================
+
+[2026-03-30 23:58:31] [INFO ] list: listing contents of '.'
+
+  Directory: .
+  -----------------------------------------
+  [FILE] backup.sh  (4.0K)
+  [FILE] caleb_file.txt  (0)
+  [FILE] file_manager.sh  (8.0K)
+  [FILE] process_monitor.sh  (8.0K)
+  [FILE] run_all.sh  (4.0K)
+  [FILE] system_check.sh  (4.0K)
+  [FILE] user_info.sh  (4.0K)
+  -----------------------------------------
+  7 file(s), 0 dir(s)
+
+[2026-03-30 23:58:31] [OK   ] list: '.' listed — 7 file(s), 0 dir(s).
+=============================================
+   SYSTEM HEALTH REPORT — 2026-03-30 23:58:31
+   Host: DESKTOP-39F7DJC
+=============================================
+
+=============================================
+  1. DISK USAGE
+=============================================
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  453G   24G  96% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  548K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  453G   24G  96% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+snapfuse         74M   74M     0 100% /snap/core22/2411
+snapfuse        4.5M  4.5M     0 100% /snap/tree/54
+
+[ Disk Warning Check ]
+  OK: All filesystems are within safe limits.
+
+=============================================
+  2. MEMORY USAGE (MB)
+=============================================
+               total        used        free      shared  buff/cache   available
+Mem:            7862         509        7267           3         240        7352
+Swap:           2048           0        2048
+
+[ Memory Summary ]
+  Total     : 7862 MB
+  Used      : 510 MB
+  Free      : 7266 MB
+  Available : 7351 MB
+  Usage %   : 6%
+  OK: Memory usage is within safe limits.
+
+=============================================
+  3. CPU LOAD (uptime)
+=============================================
+ 23:58:32 up  5:15,  1 user,  load average: 0.00, 0.00, 0.00
+
+[ Load Average Summary ]
+  Load averages (1m / 5m / 15m): 0.00, 0.00, 0.00
+  CPU cores : 8
+  OK: CPU load is within normal range.
+
+=============================================
+  4. RUNNING PROCESSES
+=============================================
+  Total running processes: 35
+
+=============================================
+  5. TOP 5 MEMORY-CONSUMING PROCESSES
+=============================================
+USER       PID      MEM%     VSZ    RSS    COMMAND
+---------------------------------------------
+root       763      0.4      2293940 40072  /snap/snapd/current/usr/lib/snapd/snapd
+root       215      0.2      107020 22016  /usr/bin/python3
+root       982      0.1      451992 8768   snapfuse
+root       757      0.1      377228 11384  snapfuse
+root       187      0.1      1756096 13568  /usr/libexec/wsl-pro-service
+
+=============================================
+  END OF REPORT
+=============================================
+  Report saved to : ../logs/system_report_2026-03-30.log
+  Generated at    : 2026-03-30 23:58:31
+=============================================
+
+[2026-03-30 23:58:32] [ERROR] No source directory provided.
+
+Usage: ./backup.sh <source_directory>
+
+Example:
+  ./backup.sh /home/user/projects
+  ./backup.sh ./my_folder
+

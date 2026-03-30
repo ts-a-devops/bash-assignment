@@ -1,0 +1,23 @@
+=============================================
+[2026-03-30 23:13:51] [INFO   ] Monitoring all default services: nginx ssh docker
+=============================================
+---------------------------------------------
+[2026-03-30 23:13:51] [STOPPED] 'nginx' is STOPPED.
+[2026-03-30 23:13:51] [RESTART] Simulating restart for 'nginx'...
+[2026-03-30 23:13:52] [RESTART] 'nginx' restart simulated. [Status: Restarted]
+---------------------------------------------
+[2026-03-30 23:13:52] [STOPPED] 'ssh' is STOPPED.
+[2026-03-30 23:13:52] [RESTART] Simulating restart for 'ssh'...
+[2026-03-30 23:13:53] [RESTART] 'ssh' restart simulated. [Status: Restarted]
+---------------------------------------------
+[2026-03-30 23:13:53] [STOPPED] 'docker' is STOPPED.
+[2026-03-30 23:13:53] [RESTART] Simulating restart for 'docker'...
+[2026-03-30 23:13:54] [RESTART] 'docker' restart simulated. [Status: Restarted]
+=============================================
+[2026-03-30 23:13:54] [INFO   ] Monitoring Summary — 2026-03-30 23:13:51
+=============================================
+[2026-03-30 23:13:54] [INFO   ]   Total services  : 3
+[2026-03-30 23:13:54] [INFO   ]   Running         : 0
+[2026-03-30 23:13:54] [INFO   ]   Stopped         : 3
+[2026-03-30 23:13:54] [INFO   ]   Restart attempts: 3
+=============================================

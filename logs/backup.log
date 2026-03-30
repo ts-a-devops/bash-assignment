@@ -1,0 +1,17 @@
+[2026-03-30 20:26:46] [ERROR] No source directory provided.
+---------------------------------------------
+[2026-03-30 20:26:59] [INFO ] Backup started.
+[2026-03-30 20:26:59] [INFO ] Source      : ./
+[2026-03-30 20:26:59] [INFO ] Destination : ../backups/backup_scripts_2026-03-30_20-26-59.tar.gz
+[2026-03-30 20:26:59] [OK   ] Backup created successfully: backup_scripts_2026-03-30_20-26-59.tar.gz (8.0K)
+[2026-03-30 20:27:00] [INFO ] Checking backup rotation (max: 5)...
+[2026-03-30 20:27:00] [INFO ] Backup count is 1/5. No rotation needed.
+---------------------------------------------
+[2026-03-30 20:27:00] [INFO ] Backup Summary
+---------------------------------------------
+[2026-03-30 20:27:00] [INFO ]   backup_scripts_2026-03-30_20-26-59.tar.gz  [8.0K]  2026-03-30 20:26:59
+---------------------------------------------
+[2026-03-30 20:27:00] [OK   ] Done. 1 backup(s) stored in '../backups/'.
+---------------------------------------------
+[2026-03-30 23:51:35] [ERROR] No source directory provided.
+[2026-03-30 23:58:32] [ERROR] No source directory provided.

@@ -1,0 +1,33 @@
+========================================
+System Report - 2026-03-30_05-46-25
+========================================
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           782M  2.2M  780M   1% /run
+/dev/sda5       116G   44G   66G  40% /
+tmpfs           3.9G  144M  3.7G   4% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        384K   83K  297K  22% /sys/firmware/efi/efivars
+/dev/sda1        96M   38M   59M  39% /boot/efi
+tmpfs           782M  144K  782M   1% /run/user/1000
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7816        4833         415         625        3511        2983
+Swap:           4095           0        4095
+
+CPU Load:
+ 05:46:25 up  2:17,  1 user,  load average: 0.75, 0.70, 0.63
+
+Total Processes:
+313
+
+Top 5 Memory Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+david       3759  4.8  5.9 34543156 478704 ?     SLl  03:33   6:23 /opt/google/chrome/chrome
+david       4027  1.1  5.3 1459811804 429564 ?   Sl   03:33   1:28 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3768 --enable-crash-reporter=e31068ac-8a55-4194-99fb-82744c597e21, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=15 --time-ticks-at-unix-epoch=-1774837758544196 --launch-time-ticks=260180231 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9221451567913470755,5246252259357545425,2097152 --field-trial-handle=3,i,3743922320763371608,8536942850852400954,262144 --disable-features=EyeDropper --variations-seed-version=20260325-170054.101000-production --trace-process-track-uuid=3190709000367499229
+david       3907  1.0  5.2 1463237324 419580 ?   Sl   03:33   1:22 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3768 --enable-crash-reporter=e31068ac-8a55-4194-99fb-82744c597e21, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1774837758544196 --launch-time-ticks=259707150 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15265510196607374918,4408822753957893753,2097152 --field-trial-handle=3,i,3743922320763371608,8536942850852400954,262144 --disable-features=EyeDropper --variations-seed-version=20260325-170054.101000-production --trace-process-track-uuid=3190708995682289984
+david       4659  6.0  5.0 1459850116 407812 ?   Sl   03:36   7:52 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3768 --enable-crash-reporter=e31068ac-8a55-4194-99fb-82744c597e21, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=57 --time-ticks-at-unix-epoch=-1774837758544196 --launch-time-ticks=448788935 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,703070976996759797,16802168907385774029,2097152 --field-trial-handle=3,i,3743922320763371608,8536942850852400954,262144 --disable-features=EyeDropper --variations-seed-version=20260325-170054.101000-production --trace-process-track-uuid=3190709039723256887
+david      15907  4.7  4.6 1459842928 371524 ?   Sl   04:47   2:50 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3768 --enable-crash-reporter=e31068ac-8a55-4194-99fb-82744c597e21, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=293 --time-ticks-at-unix-epoch=-1774837758544196 --launch-time-ticks=4677034187 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,10900845599789095890,8199133479794732252,2097152 --field-trial-handle=3,i,3743922320763371608,8536942850852400954,262144 --disable-features=EyeDropper --variations-seed-version=20260325-170054.101000-production --trace-process-track-uuid=3190709260865133251
+========================================

@@ -1,0 +1,42 @@
+===========================================
+        SYSTEM METRICS OVERVIEW            
+===========================================
+Report Date: Fri Mar 27 16:17:58 WAT 2026
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  151G   87G  64% /usr/lib/wsl/drivers
+/dev/sdd       1007G  7.0G  949G   1% /
+none            1.9G  132K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  508K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  151G   87G  64% /mnt/c
+tmpfs           383M   20K  383M   1% /run/user/1000
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:            3826        1062        2397           3         529        2763
+Swap:           1024           0        1024
+
+--- CPU Load ---
+ 16:17:58 up  2:22,  1 user,  load average: 0.14, 0.17, 0.17
+
+--- Running Processes ---
+Total processes currently running: 43
+
+--- Top 5 Memory Consumers ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+daniel     31172  6.6  7.6 33572928 298908 pts/0 Sl+  16:08   0:39 /home/daniel/.antigravity-server/bin/1.21.6-497c5f20052b4227f87cf8e71e2a9328ca9a6b66/node --dns-result-order=ipv4first /home/daniel/.antigravity-server/bin/1.21.6-497c5f20052b4227f87cf8e71e2a9328ca9a6b66/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+daniel     31345  9.3  5.7 3770640 225828 pts/0  Sl+  16:08   0:54 /home/daniel/.antigravity-server/bin/1.21.6-497c5f20052b4227f87cf8e71e2a9328ca9a6b66/extensions/antigravity/bin/language_server_linux_x64 --enable_lsp --csrf_token 15893b26-892f-4f84-97cd-0928ac894dde --extension_server_port 45221 --extension_server_csrf_token 1d168e33-4ddc-4e4c-9dd9-82ac9f846cdd --workspace_id file_home_daniel_bash_assignment --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --app_data_dir antigravity --parent_pipe_path /tmp/server_283a7eb3cec61bcd
+daniel     31112  1.2  3.0 11841332 120696 pts/0 Sl+  16:08   0:07 /home/daniel/.antigravity-server/bin/1.21.6-497c5f20052b4227f87cf8e71e2a9328ca9a6b66/node /home/daniel/.antigravity-server/bin/1.21.6-497c5f20052b4227f87cf8e71e2a9328ca9a6b66/out/server-main.js --start-server --host=127.0.0.1 --port=0 --connection-token-file /home/daniel/.antigravity-server/.497c5f20052b4227f87cf8e71e2a9328ca9a6b66.token --telemetry-level off --use-host-proxy --disable-websocket-compression --without-browser-env-var --enable-remote-auto-shutdown --accept-server-license-terms
+daniel     31302  0.4  1.9 1063164 76824 pts/0   Sl+  16:08   0:02 /home/daniel/.antigravity-server/bin/1.21.6-497c5f20052b4227f87cf8e71e2a9328ca9a6b66/node /home/daniel/.antigravity-server/bin/1.21.6-497c5f20052b4227f87cf8e71e2a9328ca9a6b66/out/bootstrap-fork --type=ptyHost --logsPath /home/daniel/.antigravity-server/data/logs/20260327T160804
+daniel      7608  0.0  1.7 156480 67284 pts/9    S+   14:08   0:02 /home/daniel/.local/share/pipx/venvs/poetry/bin/python /home/daniel/.local/bin/poetry shell
+
+===========================================

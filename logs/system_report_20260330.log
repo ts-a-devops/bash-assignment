@@ -1,0 +1,134 @@
+System Report - Mon Mar 30 12:34:06 WAT 2026
+-----------------------------------
+Disk Usage:
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    10Gi   1.7Gi    86%    412k   18M    2%   /
+devfs            233Ki   233Ki     0Bi   100%     806     0  100%   /dev
+/dev/disk3s6     228Gi   2.0Gi   1.7Gi    54%       2   18M    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   6.4Gi   1.7Gi    79%    1.2k   18M    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   2.9Mi   1.7Gi     1%      52   18M    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   483Mi     2%       4  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.4Mi   483Mi     2%      32  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   496Ki   483Mi     1%      41  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   207Gi   1.7Gi   100%    2.4M   18M   11%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk3s3     228Gi   987Mi   1.7Gi    36%      37   18M    0%   /Volumes/Recovery
+/dev/disk5s1      16Gi    16Gi   467Mi    98%    507k  4.8M   10%   /Library/Developer/CoreSimulator/Volumes/iOS_21C62
+/dev/disk7s1     4.0Gi   3.6Gi   375Mi    91%    212k  3.8M    5%   /Library/Developer/CoreSimulator/Volumes/tvOS_21J353
+/dev/disk9s1      16Gi    16Gi   460Mi    98%    521k  4.7M   10%   /Library/Developer/CoreSimulator/Volumes/iOS_21E213
+/dev/disk11s1    8.5Gi   8.2Gi   257Mi    98%    216k  2.6M    8%   /Library/Developer/CoreSimulator/Volumes/tvOS_21K364
+/dev/disk13s1    8.4Gi   8.1Gi   248Mi    98%      13  2.5M    0%   /Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-5A228836-ADF7-4C98-B2AB-F26EBA82F3D6
+/dev/disk15s1     18Gi    18Gi   472Mi    98%    459k  4.8M    9%   /Library/Developer/CoreSimulator/Volumes/iOS_22C150
+/dev/disk17s1    4.3Gi   4.0Gi   279Mi    94%    328k  2.9M   10%   /Library/Developer/CoreSimulator/Volumes/watchOS_21R355
+WARNING: High disk usage on 412k
+WARNING: High disk usage on 806
+WARNING: High disk usage on 2.4M
+WARNING: High disk usage on 507k
+WARNING: High disk usage on 212k
+WARNING: High disk usage on 521k
+WARNING: High disk usage on 216k
+WARNING: High disk usage on 13
+WARNING: High disk usage on 459k
+WARNING: High disk usage on 328k
+Memory Usage:
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                                3871.
+Pages active:                             90398.
+Pages inactive:                           82055.
+Pages speculative:                         9181.
+Pages throttled:                              0.
+Pages wired down:                        115164.
+Pages purgeable:                              2.
+"Translation faults":                 221800379.
+Pages copy-on-write:                    9451337.
+Pages zero filled:                     63739297.
+Pages reactivated:                     55401188.
+Pages purged:                           6428208.
+File-backed pages:                        64200.
+Anonymous pages:                         117434.
+Pages stored in compressor:              667993.
+Pages occupied by compressor:            187887.
+Decompressions:                        43562298.
+Compressions:                          51349204.
+Pageins:                               22743710.
+Pageouts:                                299040.
+Swapins:                                  84254.
+Swapouts:                                204444.
+CPU Load:
+12:34  up 5 days,  5:19, 2 users, load averages: 2.17 4.84 6.85
+Total Running Processes:
+     729
+Top 5 Memory-Consuming Processes:
+ayoade           24703   0.1  4.0 1865726128 332560   ??  S    Fri12PM   2:17.86 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.155/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=f14357b9-960c-4cbe-8f81-97e8baaf0b48 --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2338 --time-ticks-at-unix-epoch=-1774419306328971 --launch-time-ticks=40839289526 --shared-files --metrics-shmem-handle=1752395122,r,1640216928290796947,12913843801347052527,2097152 --field-trial-handle=1718379636,r,7112977736641214464,15925235316742163624,262144 --variations-seed-version=20260324-010050.216000-production --pseudonymization-salt-handle=1935764596,r,11515568580470352292,7815071642821036312,4 --trace-process-track-uuid=3190711177115714456 --seatbelt-client=80
+ayoade            1236   0.0  2.7 512188224 226416   ??  S    Wed07AM  19:24.29 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+ayoade           21990   0.0  1.3 1865707424 109440   ??  S    Fri07AM   0:44.90 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.155/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=f14357b9-960c-4cbe-8f81-97e8baaf0b48 --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2040 --time-ticks-at-unix-epoch=-1774419306328971 --launch-time-ticks=35838051805 --shared-files --metrics-shmem-handle=1752395122,r,18176651892232981801,1664188790706437904,2097152 --field-trial-handle=1718379636,r,7112977736641214464,15925235316742163624,262144 --variations-seed-version=20260324-010050.216000-production --pseudonymization-salt-handle=1935764596,r,11515568580470352292,7815071642821036312,4 --trace-process-track-uuid=3190710897877243454 --seatbelt-client=200
+ayoade           28062   0.0  1.1 1867411168  92000   ??  S    12:33PM   0:00.07 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.155/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=f14357b9-960c-4cbe-8f81-97e8baaf0b48 --extension-process --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2557 --time-ticks-at-unix-epoch=-1774419306328971 --launch-time-ticks=45322419935 --shared-files --metrics-shmem-handle=1752395122,r,5098833238239423918,9743537542449916836,2097152 --field-trial-handle=1718379636,r,7112977736641214464,15925235316742163624,262144 --variations-seed-version=20260324-010050.216000-production --pseudonymization-salt-handle=1935764596,r,11515568580470352292,7815071642821036312,4 --trace-process-track-uuid=3190711382327879387 --seatbelt-client=217
+ayoade            2028   0.0  1.1 1867494880  96240   ??  S    Wed07AM   1:28.14 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.155/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=f14357b9-960c-4cbe-8f81-97e8baaf0b48 --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=65 --time-ticks-at-unix-epoch=-1774419306328971 --launch-time-ticks=1294732249 --shared-files --metrics-shmem-handle=1752395122,r,10008113660763673291,9641004680315491724,2097152 --field-trial-handle=1718379636,r,7112977736641214464,15925235316742163624,262144 --variations-seed-version=20260324-010050.216000-production --pseudonymization-salt-handle=1935764596,r,11515568580470352292,7815071642821036312,4 --trace-process-track-uuid=3190709047219591679 --seatbelt-client=161
+ayoade           21857   0.0  0.9 1867680736  71472   ??  S    Fri07AM   0:38.23 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.155/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=f14357b9-960c-4cbe-8f81-97e8baaf0b48 --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2021 --time-ticks-at-unix-epoch=-1774419306328971 --launch-time-ticks=35434755914 --shared-files --metrics-shmem-handle=1752395122,r,1139621957501309030,14249612403380369907,2097152 --field-trial-handle=1718379636,r,7112977736641214464,15925235316742163624,262144 --variations-seed-version=20260324-010050.216000-production --pseudonymization-salt-handle=1935764596,r,11515568580470352292,7815071642821036312,4 --trace-process-track-uuid=3190710880073448323 --seatbelt-client=200
+System Report - Mon Mar 30 12:34:34 WAT 2026
+-----------------------------------
+Disk Usage:
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    10Gi   1.7Gi    86%    412k   18M    2%   /
+devfs            233Ki   233Ki     0Bi   100%     806     0  100%   /dev
+/dev/disk3s6     228Gi   2.0Gi   1.7Gi    54%       2   18M    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   6.4Gi   1.7Gi    79%    1.2k   18M    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   2.9Mi   1.7Gi     1%      52   18M    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   483Mi     2%       4  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.4Mi   483Mi     2%      32  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   496Ki   483Mi     1%      41  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   207Gi   1.7Gi   100%    2.4M   18M   11%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk3s3     228Gi   987Mi   1.7Gi    36%      37   18M    0%   /Volumes/Recovery
+/dev/disk5s1      16Gi    16Gi   467Mi    98%    507k  4.8M   10%   /Library/Developer/CoreSimulator/Volumes/iOS_21C62
+/dev/disk7s1     4.0Gi   3.6Gi   375Mi    91%    212k  3.8M    5%   /Library/Developer/CoreSimulator/Volumes/tvOS_21J353
+/dev/disk9s1      16Gi    16Gi   460Mi    98%    521k  4.7M   10%   /Library/Developer/CoreSimulator/Volumes/iOS_21E213
+/dev/disk11s1    8.5Gi   8.2Gi   257Mi    98%    216k  2.6M    8%   /Library/Developer/CoreSimulator/Volumes/tvOS_21K364
+/dev/disk13s1    8.4Gi   8.1Gi   248Mi    98%      13  2.5M    0%   /Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-5A228836-ADF7-4C98-B2AB-F26EBA82F3D6
+/dev/disk15s1     18Gi    18Gi   472Mi    98%    459k  4.8M    9%   /Library/Developer/CoreSimulator/Volumes/iOS_22C150
+/dev/disk17s1    4.3Gi   4.0Gi   279Mi    94%    328k  2.9M   10%   /Library/Developer/CoreSimulator/Volumes/watchOS_21R355
+WARNING: High disk usage on 412k
+WARNING: High disk usage on 806
+WARNING: High disk usage on 2.4M
+WARNING: High disk usage on 507k
+WARNING: High disk usage on 212k
+WARNING: High disk usage on 521k
+WARNING: High disk usage on 216k
+WARNING: High disk usage on 13
+WARNING: High disk usage on 459k
+WARNING: High disk usage on 328k
+Memory Usage:
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                                3673.
+Pages active:                             91754.
+Pages inactive:                           83963.
+Pages speculative:                         7075.
+Pages throttled:                              0.
+Pages wired down:                        114906.
+Pages purgeable:                             68.
+"Translation faults":                 221967399.
+Pages copy-on-write:                    9459103.
+Pages zero filled:                     63779809.
+Pages reactivated:                     55448666.
+Pages purged:                           6453381.
+File-backed pages:                        66272.
+Anonymous pages:                         116520.
+Pages stored in compressor:              671969.
+Pages occupied by compressor:            187170.
+Decompressions:                        43622166.
+Compressions:                          51417987.
+Pageins:                               22760665.
+Pageouts:                                299301.
+Swapins:                                  84270.
+Swapouts:                                204444.
+CPU Load:
+12:34  up 5 days,  5:19, 2 users, load averages: 1.97 4.54 6.66
+Total Running Processes:
+     731
+Top 5 Memory-Consuming Processes:
+ayoade           24703   0.0  4.0 1865717904 331792   ??  S    Fri12PM   2:19.52 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.155/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=f14357b9-960c-4cbe-8f81-97e8baaf0b48 --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2338 --time-ticks-at-unix-epoch=-1774419306328971 --launch-time-ticks=40839289526 --shared-files --metrics-shmem-handle=1752395122,r,1640216928290796947,12913843801347052527,2097152 --field-trial-handle=1718379636,r,7112977736641214464,15925235316742163624,262144 --variations-seed-version=20260324-010050.216000-production --pseudonymization-salt-handle=1935764596,r,11515568580470352292,7815071642821036312,4 --trace-process-track-uuid=3190711177115714456 --seatbelt-client=80
+ayoade            1236   0.4  2.5 512190464 213040   ??  S    Wed07AM  19:25.04 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+ayoade           28124   0.0  1.7 1867419536 142976   ??  S    12:34PM   0:00.16 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.155/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=f14357b9-960c-4cbe-8f81-97e8baaf0b48 --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2559 --time-ticks-at-unix-epoch=-1774419306328971 --launch-time-ticks=45374781760 --shared-files --metrics-shmem-handle=1752395122,r,3766190726674139243,10003119290405604998,2097152 --field-trial-handle=1718379636,r,7112977736641214464,15925235316742163624,262144 --variations-seed-version=20260324-010050.216000-production --pseudonymization-salt-handle=1935764596,r,11515568580470352292,7815071642821036312,4 --trace-process-track-uuid=3190711384201963085 --seatbelt-client=84
+ayoade            2028   0.0  1.7 1867494784 142304   ??  S    Wed07AM   1:28.43 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.155/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=f14357b9-960c-4cbe-8f81-97e8baaf0b48 --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=65 --time-ticks-at-unix-epoch=-1774419306328971 --launch-time-ticks=1294732249 --shared-files --metrics-shmem-handle=1752395122,r,10008113660763673291,9641004680315491724,2097152 --field-trial-handle=1718379636,r,7112977736641214464,15925235316742163624,262144 --variations-seed-version=20260324-010050.216000-production --pseudonymization-salt-handle=1935764596,r,11515568580470352292,7815071642821036312,4 --trace-process-track-uuid=3190709047219591679 --seatbelt-client=161
+ayoade           28115   0.0  1.1 1867410144  89344   ??  S    12:34PM   0:00.06 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.155/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=f14357b9-960c-4cbe-8f81-97e8baaf0b48 --extension-process --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2558 --time-ticks-at-unix-epoch=-1774419306328971 --launch-time-ticks=45352683175 --shared-files --metrics-shmem-handle=1752395122,r,11491487747165801784,7280318398883525970,2097152 --field-trial-handle=1718379636,r,7112977736641214464,15925235316742163624,262144 --variations-seed-version=20260324-010050.216000-production --pseudonymization-salt-handle=1935764596,r,11515568580470352292,7815071642821036312,4 --trace-process-track-uuid=3190711383264921236 --seatbelt-client=84
+ayoade           21990   0.0  1.1 1867681728  96096   ??  S    Fri07AM   0:44.95 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.155/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --metrics-client-id=f14357b9-960c-4cbe-8f81-97e8baaf0b48 --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2040 --time-ticks-at-unix-epoch=-1774419306328971 --launch-time-ticks=35838051805 --shared-files --metrics-shmem-handle=1752395122,r,18176651892232981801,1664188790706437904,2097152 --field-trial-handle=1718379636,r,7112977736641214464,15925235316742163624,262144 --variations-seed-version=20260324-010050.216000-production --pseudonymization-salt-handle=1935764596,r,11515568580470352292,7815071642821036312,4 --trace-process-track-uuid=3190710897877243454 --seatbelt-client=200

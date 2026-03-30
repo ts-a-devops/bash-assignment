@@ -1,0 +1,33 @@
+System Report - Tue Mar 31 00:42:17 WAT 2026
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         465G   84G  382G  18% /usr/lib/wsl/drivers
+/dev/sdd        251G  1.6G  237G   1% /
+none            1.9G   76K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  500K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             465G   84G  382G  18% /mnt/c
+tmpfs           382M  8.0K  382M   1% /run/user/1000
+WARNING: High disk usage on Filesystem
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3818         324        3397           3          96        3378
+Swap:           1024           0        1024
+CPU Load:
+ 00:42:17 up 49 min,  1 user,  load average: 0.00, 0.00, 0.00
+Total Processes:
+31
+Top 5 Memory Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         248  0.0  0.5 107164 21632 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         197  0.0  0.4  30136 18816 ?        Ss   Mar30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          66  0.0  0.3  47824 14592 ?        S<s  Mar30   0:00 /lib/systemd/systemd-journald
+systemd+      98  0.0  0.3  25672 13184 ?        Ss   Mar30   0:00 /lib/systemd/systemd-resolved
+root           1  0.0  0.2 166048 10724 ?        Ss   Mar30   0:02 /sbin/init

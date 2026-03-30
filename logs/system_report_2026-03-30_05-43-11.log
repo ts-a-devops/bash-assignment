@@ -1,0 +1,30 @@
+System Report - 2026-03-30_05-43-11
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           782M  2.2M  780M   1% /run
+/dev/sda5       116G   44G   66G  40% /
+tmpfs           3.9G  126M  3.7G   4% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        384K   83K  297K  22% /sys/firmware/efi/efivars
+/dev/sda1        96M   38M   59M  39% /boot/efi
+tmpfs           782M  144K  782M   1% /run/user/1000
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7816        4736         514         555        3439        3079
+Swap:           4095           0        4095
+
+CPU Load:
+ 05:43:11 up  2:13,  1 user,  load average: 0.87, 0.60, 0.57
+
+Total Processes:
+315
+
+Top 5 Memory Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+david       3759  4.8  6.0 34540972 482808 ?     SLl  03:33   6:18 /opt/google/chrome/chrome
+david       4027  1.1  5.3 1461515740 429716 ?   Sl   03:33   1:28 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3768 --enable-crash-reporter=e31068ac-8a55-4194-99fb-82744c597e21, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=15 --time-ticks-at-unix-epoch=-1774837758544196 --launch-time-ticks=260180231 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9221451567913470755,5246252259357545425,2097152 --field-trial-handle=3,i,3743922320763371608,8536942850852400954,262144 --disable-features=EyeDropper --variations-seed-version=20260325-170054.101000-production --trace-process-track-uuid=3190709000367499229
+david       4659  6.2  5.1 1459851140 416068 ?   Sl   03:36   7:51 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3768 --enable-crash-reporter=e31068ac-8a55-4194-99fb-82744c597e21, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=57 --time-ticks-at-unix-epoch=-1774837758544196 --launch-time-ticks=448788935 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,703070976996759797,16802168907385774029,2097152 --field-trial-handle=3,i,3743922320763371608,8536942850852400954,262144 --disable-features=EyeDropper --variations-seed-version=20260325-170054.101000-production --trace-process-track-uuid=3190709039723256887
+david       3907  1.0  5.1 1459829324 414968 ?   Sl   03:33   1:22 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3768 --enable-crash-reporter=e31068ac-8a55-4194-99fb-82744c597e21, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1774837758544196 --launch-time-ticks=259707150 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15265510196607374918,4408822753957893753,2097152 --field-trial-handle=3,i,3743922320763371608,8536942850852400954,262144 --disable-features=EyeDropper --variations-seed-version=20260325-170054.101000-production --trace-process-track-uuid=3190708995682289984
+david      17405  7.2  4.9 1459849384 397448 ?   Sl   04:59   3:11 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3768 --enable-crash-reporter=e31068ac-8a55-4194-99fb-82744c597e21, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=332 --time-ticks-at-unix-epoch=-1774837758544196 --launch-time-ticks=5389976253 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,7118204965228916409,7864671935381515696,2097152 --field-trial-handle=3,i,3743922320763371608,8536942850852400954,262144 --disable-features=EyeDropper --variations-seed-version=20260325-170054.101000-production --trace-process-track-uuid=3190709297409765362

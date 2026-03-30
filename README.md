@@ -228,3 +228,96 @@ logs/app.log
 * Handle script failures gracefully
   
 **Submission link:** [CLICK HERE](https://forms.gle/jrhpKjXsQXZxLopN6)
+
+---
+
+## ✅ Implementation Notes (This Repo)
+
+All required scripts are implemented:
+
+- `scripts/user_info.sh`
+- `scripts/system_check.sh`
+- `scripts/file_manager.sh`
+- `scripts/backup.sh`
+- `scripts/process_monitor.sh` (bonus)
+- `run_all.sh` (bonus)
+
+---
+
+## 🔧 Correct Git Setup (If You Cloned The Source Directly)
+
+If you cloned from the upstream assignment repo instead of your fork, update `origin` to your own GitHub repo URL:
+
+```bash
+git remote -v
+git remote set-url origin <your-fork-url>
+git remote -v
+```
+
+Optional: keep the source assignment repo as `upstream` for pulling updates:
+
+```bash
+git remote add upstream https://github.com/ts-a-devops/bash-assignment.git
+git remote -v
+```
+
+Create your feature branch using your name:
+
+```bash
+git checkout -b feature/awe-joseph-olaitan
+```
+
+Commit message to use:
+
+```bash
+git add scripts run_all.sh README.md
+git commit -m "feat: complete bash toolkit scripts"
+git push -u origin feature/awe-joseph-olaitan
+```
+
+---
+
+## ▶️ How To Run (By Platform)
+
+### macOS / Linux
+
+```bash
+chmod +x scripts/*.sh run_all.sh
+./scripts/user_info.sh
+./scripts/system_check.sh
+./scripts/file_manager.sh create file.txt
+./scripts/backup.sh .
+./scripts/process_monitor.sh nginx
+./run_all.sh
+```
+
+### Windows (PowerShell + Git Bash/WSL installed)
+
+`chmod` is not a PowerShell command. Run scripts through Bash:
+
+```powershell
+bash ./scripts/user_info.sh
+bash ./scripts/system_check.sh
+bash ./scripts/file_manager.sh create file.txt
+bash ./scripts/backup.sh .
+bash ./scripts/process_monitor.sh nginx
+bash ./run_all.sh
+```
+
+If `bash` is not available, install one of:
+
+- Git for Windows (Git Bash)
+- WSL with Ubuntu
+
+---
+
+## 🛠️ Cross-Platform Fixes Applied
+
+- `system_check.sh`
+  - Uses `free -m` on Linux.
+  - Falls back to `vm_stat` on macOS.
+  - Uses a portable process listing for top memory usage when GNU `ps --sort` is unavailable.
+
+- `backup.sh`
+  - Avoids backing up `backups/` and `logs/` into the archive when source is project root.
+  - Replaced `mapfile` with a portable cleanup pipeline so it works on macOS default Bash.

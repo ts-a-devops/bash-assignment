@@ -1,0 +1,6 @@
+# Runtime outputs
+logs/
+backups/
+
+# Local test artifacts
+file.txt

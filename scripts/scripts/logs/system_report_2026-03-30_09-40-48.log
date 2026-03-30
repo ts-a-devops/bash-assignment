@@ -1,0 +1,44 @@
+System Check Report - 2026-03-30_09-40-48
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            799M     0  799M   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            799M  4.0K  799M   1% /mnt/wsl
+drivers         238G  193G   46G  82% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.5G  954G   1% /
+none            799M   84K  799M   1% /mnt/wslg
+none            799M     0  799M   0% /usr/lib/wsl/lib
+rootfs          794M  2.7M  792M   1% /init
+none            799M  836K  798M   1% /run
+none            799M     0  799M   0% /run/lock
+none            799M     0  799M   0% /run/shm
+none            799M  212K  799M   1% /mnt/wslg/versions.txt
+none            799M  212K  799M   1% /mnt/wslg/doc
+C:\             238G  193G   46G  82% /mnt/c
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse         64M   64M     0 100% /snap/core20/2717
+snapfuse         74M   74M     0 100% /snap/core22/2339
+snapfuse        346M  346M     0 100% /snap/code/228
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+snapfuse        4.5M  4.5M     0 100% /snap/tree/54
+tmpfs           160M  8.0K  160M   1% /run/user/0
+tmpfs           160M  8.0K  160M   1% /run/user/1000
+snapfuse         64M   64M     0 100% /snap/core20/2769
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            1597         375        1015           3         206        1143
+Swap:           1024           0        1024
+
+CPU Load:
+ 09:40:48 up  1:44,  1 user,  load average: 0.00, 0.00, 0.00
+
+Total Running Processes:
+41
+
+Top 5 Memory Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         225  0.7  2.4 2294068 39388 ?       Ssl  07:56   0:47 /snap/snapd/current/usr/lib/snapd/snapd
+root         257  0.0  1.2 107172 20864 ?        Ssl  07:56   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         868  0.0  1.2 293036 19968 ?        Ssl  07:57   0:01 /usr/libexec/packagekitd
+root         222  0.0  1.1  30096 18560 ?        Ss   07:56   0:01 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         781  0.0  1.0  64104 17024 ?        S<s  07:57   0:03 /lib/systemd/systemd-journald

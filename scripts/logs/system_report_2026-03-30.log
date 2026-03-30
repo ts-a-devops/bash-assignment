@@ -1,0 +1,29 @@
+--- System Check Report ---
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           784M  2.2M  782M   1% /run
+/dev/sda5       198G  167G   22G  89% /
+tmpfs           3.9G  150M  3.7G   4% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           784M  136K  784M   1% /run/user/1000
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7836        5222         956         445        2371        2613
+Swap:           1368           4        1363
+
+CPU Load:
+ 10:47:09 up 52 min,  1 user,  load average: 1.92, 2.47, 2.85
+
+Total Running Processes:
+263
+
+Top 5 Memory-Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+nunu        3317 27.1  6.8 51341244 553100 ?     RLl  09:58  13:12 /opt/brave.com/brave/brave
+nunu        4639 25.7  6.8 1459829500 552656 ?   Sl   10:04  10:58 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=3321 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=94 --time-ticks-at-unix-epoch=-1774860894877215 --launch-time-ticks=581679127 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9120929906603979633,15863359100845346703,2097152 --field-trial-handle=3,i,16959471522815610958,10397814994463223184,262144 --disable-features=EyeDropper --variations-seed-version=main@a2a30e72455052950135639b6edd69601a8cebf4 --trace-process-track-uuid=3190709074393805300
+nunu        4204  7.8  5.9 1459823204 477324 ?   Sl   10:00   3:40 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=3321 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=59 --time-ticks-at-unix-epoch=-1774860894877215 --launch-time-ticks=334789185 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12094325863916273818,14606761741784091130,2097152 --field-trial-handle=3,i,16959471522815610958,10397814994463223184,262144 --disable-features=EyeDropper --variations-seed-version=main@a2a30e72455052950135639b6edd69601a8cebf4 --trace-process-track-uuid=3190709041597340585
+nunu        4118  7.7  5.8 1461517780 468524 ?   Sl   10:00   3:38 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=3321 --enable-crash-reporter=, --extension-process --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=53 --time-ticks-at-unix-epoch=-1774860894877215 --launch-time-ticks=318487990 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15746782066792463675,12951027914541643747,2097152 --field-trial-handle=3,i,16959471522815610958,10397814994463223184,262144 --disable-features=EyeDropper --variations-seed-version=main@a2a30e72455052950135639b6edd69601a8cebf4 --trace-process-track-uuid=3190709035975089491
+nunu        5141 10.9  5.2 1459859600 424396 ?   Sl   10:09   4:10 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=3321 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=118 --time-ticks-at-unix-epoch=-1774860894877215 --launch-time-ticks=848409449 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,8703858696374055244,6456689026698309272,2097152 --field-trial-handle=3,i,16959471522815610958,10397814994463223184,262144 --disable-features=EyeDropper --variations-seed-version=main@a2a30e72455052950135639b6edd69601a8cebf4 --trace-process-track-uuid=3190709096882809676
+
+WARNING: Disk usage exceeds 80% (Current: 89%)

@@ -1,0 +1,29 @@
+--- System Check Report ---
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           784M  2.2M  782M   1% /run
+/dev/sda5       198G  167G   22G  89% /
+tmpfs           3.9G  146M  3.7G   4% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           784M  136K  784M   1% /run/user/1000
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7836        5048        1222         348        2183        2788
+Swap:           1368         122        1245
+
+CPU Load:
+ 12:48:16 up  2:53,  1 user,  load average: 1.27, 2.09, 1.93
+
+Total Running Processes:
+264
+
+Top 5 Memory-Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+nunu        4639 21.1  7.3 1459830148 593032 ?   Sl   10:04  34:35 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=3321 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=94 --time-ticks-at-unix-epoch=-1774860894877215 --launch-time-ticks=581679127 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9120929906603979633,15863359100845346703,2097152 --field-trial-handle=3,i,16959471522815610958,10397814994463223184,262144 --disable-features=EyeDropper --variations-seed-version=main@a2a30e72455052950135639b6edd69601a8cebf4 --trace-process-track-uuid=3190709074393805300
+nunu        3317 17.5  6.0 51339364 482772 ?     SLl  09:58  29:47 /opt/brave.com/brave/brave
+nunu        5141  3.6  5.4 1459859344 436776 ?   Sl   10:09   5:48 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=3321 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=118 --time-ticks-at-unix-epoch=-1774860894877215 --launch-time-ticks=848409449 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,8703858696374055244,6456689026698309272,2097152 --field-trial-handle=3,i,16959471522815610958,10397814994463223184,262144 --disable-features=EyeDropper --variations-seed-version=main@a2a30e72455052950135639b6edd69601a8cebf4 --trace-process-track-uuid=3190709096882809676
+nunu        4204  2.6  5.2 1459818912 424180 ?   Sl   10:00   4:23 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=3321 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=59 --time-ticks-at-unix-epoch=-1774860894877215 --launch-time-ticks=334789185 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12094325863916273818,14606761741784091130,2097152 --field-trial-handle=3,i,16959471522815610958,10397814994463223184,262144 --disable-features=EyeDropper --variations-seed-version=main@a2a30e72455052950135639b6edd69601a8cebf4 --trace-process-track-uuid=3190709041597340585
+nunu        6809  2.1  4.9 1459870768 399292 ?   Sl   10:20   3:11 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=3321 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=153 --time-ticks-at-unix-epoch=-1774860894877215 --launch-time-ticks=1527157952 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,325894277819513782,12212550678013436902,2097152 --field-trial-handle=3,i,16959471522815610958,10397814994463223184,262144 --disable-features=EyeDropper --variations-seed-version=main@a2a30e72455052950135639b6edd69601a8cebf4 --trace-process-track-uuid=3190709129679274391
+
+WARNING: Disk usage exceeds 80% (Current: 89%)

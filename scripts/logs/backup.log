@@ -1,0 +1,4 @@
+Error: No directory provided. Usage: ./backup.sh <directory>
+Error: Directory 'lawal' does not exist.
+Backup successful: backup_20260330_113951.tar.gz
+Retention check complete. Kept only the 5 most recent backups.

@@ -1,0 +1,67 @@
+total 24K
+-rw-rw-r-- 1 dera dera 609 Mar 30 15:39 backup.sh
+-rw-rw-r-- 1 dera dera 925 Mar 30 15:23 file_manager.sh
+-rw-rw-r-- 1 dera dera 385 Mar 30 16:40 process_monitor.sh
+-rw-rw-r-- 1 dera dera   0 Mar 30 17:00 rn
+-rw-rw-r-- 1 dera dera 613 Mar 30 17:03 run_all.sh
+-rw-rw-r-- 1 dera dera 839 Mar 30 14:28 system_check.sh
+-rw-rw-r-- 1 dera dera 667 Mar 30 13:55 user_info.sh
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           378M  2.1M  376M   1% /run
+/dev/sda2        30G   12G   16G  44% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           378M  140K  378M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/dera/CDROM
+/dev/sr1        6.2G  6.2G     0 100% /media/dera/Ubuntu 24.04.4 LTS amd64
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            3771        1329         676          35        2034        2442
+Swap:           3770           0        3770
+---------- CPU Load ----------
+ 17:05:12 up  3:40,  1 user,  load average: 0.06, 0.05, 0.08
+----- Total running processes: 313
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dera        2546 11.6 11.2 4042116 433408 ?      Ssl  13:28  25:21 /usr/bin/gnome-shell
+dera        3381  0.0  2.6 1128428 104072 ?      Sl   13:29   0:03 /usr/libexec/mutter-x11-frames
+dera        3315  0.0  2.2 651068 85060 ?        Ssl  13:28   0:03 /usr/libexec/gsd-xsettings
+dera        3038  0.0  1.7 245464 69488 ?        S    13:28   0:04 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.ZTHMM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+dera        3727  0.4  1.6 737988 65596 ?        Ssl  13:32   0:53 /usr/libexec/gnome-terminal-server
+Backup created: ../backups/backup_20260330_170512.tar.gz
+Old backups cleaned up
+nginx is Stopped. Restarting...
+nginx Restarted
+ssh is Stopped. Restarting...
+ssh Restarted
+docker is Stopped. Restarting...
+docker Restarted
+Hello Justus from Nigeria! You are an Adult.
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           378M  2.1M  376M   1% /run
+/dev/sda2        30G   12G   16G  44% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           378M  140K  378M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/dera/CDROM
+/dev/sr1        6.2G  6.2G     0 100% /media/dera/Ubuntu 24.04.4 LTS amd64
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            3771        1325         680          35        2034        2446
+Swap:           3770           0        3770
+---------- CPU Load ----------
+ 17:12:57 up  3:47,  1 user,  load average: 0.70, 0.27, 0.15
+----- Total running processes: 311
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dera        2546 11.3 11.2 4038260 433436 ?      Ssl  13:28  25:30 /usr/bin/gnome-shell
+dera        3381  0.0  2.6 1128428 104072 ?      Sl   13:29   0:03 /usr/libexec/mutter-x11-frames
+dera        3315  0.0  2.2 651068 85060 ?        Ssl  13:28   0:03 /usr/libexec/gsd-xsettings
+dera        3038  0.0  1.7 245464 69488 ?        S    13:28   0:04 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.ZTHMM3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+dera        3727  0.4  1.6 737988 65600 ?        Ssl  13:32   0:54 /usr/libexec/gnome-terminal-server
+Backup created: ../backups/backup_20260330_171315.tar.gz
+Old backups cleaned up

@@ -4,7 +4,7 @@ LOG_DIR="logs"
 LOG_FILE="$LOG_DIR/file_manager.log"
 
 # Create logs directory if it doesn't exist
-mkdir -p $LOG_DIR
+mkdir -p "$LOG_DIR"
 
 action=$1
 file1=$2
@@ -12,6 +12,10 @@ file2=$3
 
 case $action in
     create)
+        if [ -z "$file1" ]; then
+            echo "Error: No filename specified."
+            exit 1
+        fi
         if [[ -f "$file1" ]]; then
             echo "File already exists!"
         else
@@ -22,6 +26,10 @@ case $action in
         ;;
         
     delete)
+        if [ -z "$file1" ]; then
+            echo "Error: No filename specified."
+            exit 1
+        fi
         if [[ -f "$file1" ]]; then
             rm "$file1"
             echo "File deleted: $file1"
@@ -36,6 +44,10 @@ case $action in
         ;;
         
     rename)
+        if [ -z "$file1" ] || [ -z "$file2" ]; then
+            echo "Error: Two filenames required for rename."
+            exit 1
+        fi
         if [[ -f "$file1" ]]; then
             mv "$file1" "$file2"
             echo "Renamed $file1 to $file2"

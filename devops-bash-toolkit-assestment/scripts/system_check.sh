@@ -9,7 +9,7 @@ DATE=$(date +"%Y-%m-%d")
 LOG_FILE="logs/system_report_$DATE.log"
 
 # Start report
-echo "SYSTEM REPORT - $(date)" | tee $LOG_FILE
+echo "SYSTEM REPORT - $(date)" | tee "$LOG_FILE"
 echo "---------------------------------" | tee -a $LOG_FILE
 
 # Disk usage
@@ -25,7 +25,7 @@ df -h | awk 'NR>1 {print $5,$1}' | while read usage disk
 do
     usage_num=$(echo $usage | sed 's/%//')
 
-    if [ "$usage_num" -gt 80 ]
+    if [[ "$usage_num" =~ ^[0-9]+$ ]] && [ "$usage_num" -gt 80 ]
     then
         echo "WARNING: $disk usage is above 80% ($usage)" | tee -a $LOG_FILE
     fi

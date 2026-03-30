@@ -8,7 +8,7 @@ LOG_DIR="logs"
 LOG_FILE="$LOG_DIR/process_monitor.log"
 
 # Create logs directory if it does not exist
-mkdir -p $LOG_DIR
+mkdir -p "$LOG_DIR"
 
 # Check if argument was provided
 if [ -z "$1" ]; then
@@ -30,7 +30,7 @@ done
 
 if [ "$found" = false ]; then
     echo "Process not in monitored services list"
-    echo "$(date) - $process - Not monitored" >> $LOG_FILE
+    echo "$(date) - $process - Not monitored" >> "$LOG_FILE"
     exit 1
 fi
 
@@ -38,20 +38,20 @@ fi
 if pgrep -x "$process" > /dev/null
 then
     echo "Running"
-    echo "$(date) - $process - Running" >> $LOG_FILE
+    echo "$(date) - $process - Running" >> "$LOG_FILE"
 else
     echo "Stopped"
-    echo "$(date) - $process - Stopped" >> $LOG_FILE
+    echo "$(date) - $process - Stopped" >> "$LOG_FILE"
 
     echo "Attempting restart..."
 
-    # Restart attempt (simulation if restart fails)
+    # Restart attempt (requires elevated privileges)
     if systemctl start "$process" 2>/dev/null
     then
         echo "Restarted"
-        echo "$(date) - $process - Restarted" >> $LOG_FILE
+        echo "$(date) - $process - Restarted" >> "$LOG_FILE"
     else
         echo "Restart simulated (no permission or service unavailable)"
-        echo "$(date) - $process - Restart simulated" >> $LOG_FILE
+        echo "$(date) - $process - Restart simulated" >> "$LOG_FILE"
     fi
 fi

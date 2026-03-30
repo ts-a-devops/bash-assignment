@@ -1,0 +1,90 @@
+The following are the disk usage
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         466G  125G  341G  27% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.7G  954G   1% /
+none            1.9G   72K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  776K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             466G  125G  341G  27% /mnt/c
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+snapfuse        4.5M  4.5M     0 100% /snap/tree/54
+snapfuse         74M   74M     0 100% /snap/core22/2339
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+tmpfs           385M   20K  385M   1% /run/user/1000
+The following are the memory usage
+               total        used        free      shared  buff/cache   available
+Mem:            3847         930        2426           3         630        2916
+Swap:           1024           0        1024
+The following are the cpu load
+ 11:53:43 up 40 min,  1 user,  load average: 0.90, 0.51, 0.78
+The following are the list process
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  21736 12416 ?        Ss   11:23   0:01 /sbin/init
+root           2  0.0  0.0   3120  2048 ?        Sl   11:23   0:00 /init
+root           6  0.0  0.0   3120  1792 ?        Sl   11:23   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          48  0.0  0.1   6696  4224 pts/1    Ss   11:24   0:00 /bin/login -f
+root         168  0.0  0.0   3124   904 ?        Ss   11:24   0:00 /init
+root         169  0.0  0.0   3140  1164 ?        S    11:24   0:00 /init
+hpvako       170  0.0  0.0   2800  1536 pts/0    Ss+  11:24   0:00 sh -c "$VSCODE_WSL_EXT_LOCATION/scripts/wslServer.sh" cfbea10c5ffb233ea9177d34726e6056e89913dc stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=568577915-760788665-2858671428-3094782486 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+hpvako       171  0.0  0.0   2800  1792 pts/0    S+   11:24   0:00 sh /mnt/c/Users/HP/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3/scripts/wslServer.sh cfbea10c5ffb233ea9177d34726e6056e89913dc stable code-server .vscode-server --host=127.0.0.1 --port=0 --connection-token=568577915-760788665-2858671428-3094782486 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+hpvako       177  0.0  0.0   2800  1792 pts/0    S+   11:24   0:00 sh /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/bin/code-server --host=127.0.0.1 --port=0 --connection-token=568577915-760788665-2858671428-3094782486 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+hpvako       181  0.7  3.6 11873392 145584 pts/0 Sl+  11:24   0:13 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=568577915-760788665-2858671428-3094782486 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root         186  0.0  0.3  50432 15104 ?        S<s  11:24   0:00 /usr/lib/systemd/systemd-journald
+root         230  0.0  0.1  25408  6528 ?        Ss   11:24   0:00 /usr/lib/systemd/systemd-udevd
+root         246  0.1  0.3 451992 11888 ?        Ssl  11:24   0:03 snapfuse /var/lib/snapd/snaps/snapd_26382.snap /snap/snapd/26382 -o ro,nodev,allow_other,suid
+root         249  0.0  0.0 153068  1668 ?        Ssl  11:24   0:00 snapfuse /var/lib/snapd/snaps/tree_54.snap /snap/tree/54 -o ro,nodev,allow_other,suid
+root         252  0.0  0.0 153068  1668 ?        Ssl  11:24   0:00 snapfuse /var/lib/snapd/snaps/core22_2339.snap /snap/core22/2339 -o ro,nodev,allow_other,suid
+root         255  0.0  0.0 152936  1668 ?        Ssl  11:24   0:00 snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
+systemd+     313  0.0  0.3  21460 12800 ?        Ss   11:24   0:00 /usr/lib/systemd/systemd-resolved
+systemd+     314  0.0  0.1  91028  7552 ?        Ssl  11:24   0:00 /usr/lib/systemd/systemd-timesyncd
+root         320  0.0  0.0   4236  2560 ?        Ss   11:24   0:00 /usr/sbin/cron -f -P
+message+     321  0.0  0.1   9584  4608 ?        Ss   11:24   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         334  0.1  0.9 1997988 38156 ?       Ssl  11:24   0:02 /snap/snapd/current/usr/lib/snapd/snapd
+root         335  0.0  0.2  17964  8320 ?        Ss   11:24   0:00 /usr/lib/systemd/systemd-logind
+root         342  0.0  0.0   3160  1920 hvc0     Ss+  11:24   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+syslog       346  0.0  0.1 222508  5120 ?        Ssl  11:24   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         348  0.0  0.0   3116  1920 tty1     Ss+  11:24   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         349  0.0  0.5 107024 22528 ?        Ssl  11:24   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         355  0.0  0.0  11160  1716 ?        Ss   11:24   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data     356  0.0  0.1  12884  4276 ?        S    11:24   0:00 nginx: worker process
+www-data     357  0.0  0.1  12884  4276 ?        S    11:24   0:00 nginx: worker process
+www-data     358  0.0  0.1  12884  4276 ?        S    11:24   0:00 nginx: worker process
+www-data     359  0.0  0.1  12884  4276 ?        S    11:24   0:00 nginx: worker process
+hpvako       441  0.0  0.2  20368 10880 ?        Ss   11:24   0:00 /usr/lib/systemd/systemd --user
+hpvako       442  0.0  0.0  21156  3648 ?        S    11:24   0:00 (sd-pam)
+hpvako       473  0.0  0.1   6072  4992 pts/1    S+   11:24   0:00 -bash
+root         510  0.0  0.0   3136   904 ?        Ss   11:25   0:00 /init
+root         511  0.0  0.0   3136  1168 ?        S    11:25   0:00 /init
+hpvako       517  0.1  1.5 1019076 59584 pts/2   Ssl+ 11:25   0:02 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42157 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+root         556  0.0  0.0   3136   904 ?        Ss   11:25   0:00 /init
+root         557  0.5  0.0   3136  1168 ?        S    11:25   0:09 /init
+hpvako       562  0.8  1.6 1024136 65228 pts/3   Ssl+ 11:25   0:13 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42157 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+hpvako       618  0.2  1.6 1263812 63264 pts/0   Sl+  11:25   0:04 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=fileWatcher
+hpvako       626 18.2  7.8 33590372 310356 pts/0 Sl+  11:25   5:08 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node --dns-result-order=ipv4first /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+hpvako       642  0.5  1.8 1159388 71648 pts/0   Sl+  11:25   0:08 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=ptyHost --logsPath /home/hpvako/.vscode-server/data/logs/20260330T112503
+hpvako       779  0.0  0.1   6192  5248 pts/6    Ss+  11:26   0:00 /bin/bash --init-file /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+hpvako       782  0.0  0.1   6192  5120 pts/7    Ss   11:26   0:00 /bin/bash --init-file /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+hpvako      3672  0.0  1.6 1093728 64072 pts/0   Sl+  11:38   0:00 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=626
+hpvako      6447  0.0  0.0   2800  1536 pts/0    S+   11:53   0:00 /bin/sh -c "/home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/vs/base/node/cpuUsage.sh" 782
+hpvako      6448  0.0  0.0   4752  3328 pts/0    S+   11:53   0:00 /bin/bash /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/vs/base/node/cpuUsage.sh 782
+hpvako      6451  0.0  0.0   3124  1792 pts/0    S+   11:53   0:00 sleep 1
+hpvako      6453  1.4  0.0   4752  3328 pts/7    S+   11:53   0:00 /bin/bash ./vakosystem_check.sh
+hpvako      6458  1.6  0.0   4752  2092 pts/7    S+   11:53   0:00 /bin/bash ./vakosystem_check.sh
+hpvako      6459  0.0  0.0   3132  1664 pts/7    S+   11:53   0:00 tee -a logs/mysystem_report_2026-03-30.log
+hpvako      6467  100  0.1   9580  4864 pts/7    R+   11:53   0:00 ps -aux
+The following are the process verification count
+55
+The following are the 5 processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+hpvako       626 18.2  7.8 33590372 310356 pts/0 Sl+  11:25   5:08 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node --dns-result-order=ipv4first /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+hpvako       181  0.7  3.6 11873392 145584 pts/0 Rl+  11:24   0:13 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=568577915-760788665-2858671428-3094782486 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+hpvako       642  0.5  1.8 1159388 71856 pts/0   Sl+  11:25   0:08 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=ptyHost --logsPath /home/hpvako/.vscode-server/data/logs/20260330T112503
+hpvako       562  0.8  1.6 1024136 65228 pts/3   Ssl+ 11:25   0:13 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42157 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+hpvako      3672  0.0  1.6 1093728 64072 pts/0   Sl+  11:38   0:00 /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/hpvako/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=626

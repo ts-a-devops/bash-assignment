@@ -1,0 +1,39 @@
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem                                                   Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1                                              926Gi    12Gi   525Gi     3%    455k  4.3G    0%   /
+devfs                                                       201Ki   201Ki     0Bi   100%     694     0  100%   /dev
+/dev/disk3s6                                                926Gi   7.0Gi   525Gi     2%       7  5.5G    0%   /System/Volumes/VM
+/dev/disk3s2                                                926Gi    15Gi   525Gi     3%    1.5k  5.5G    0%   /System/Volumes/Preboot
+/dev/disk3s4                                                926Gi    14Mi   525Gi     1%     109  5.5G    0%   /System/Volumes/Update
+/dev/disk1s2                                                500Mi   6.0Mi   481Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1                                                500Mi   5.6Mi   481Mi     2%      31  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3                                                500Mi   2.8Mi   481Mi     1%      57  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5                                                926Gi   367Gi   525Gi    42%    4.0M  5.5G    0%   /System/Volumes/Data
+map auto_home                                                 0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/Users/abdulazeemabdullahi/Desktop/Visual Studio Code.app   926Gi   355Gi   550Gi    40%    3.9M  5.8G    0%   /private/var/folders/x3/spshmrjj0395m3p72y4qtx7c0000gn/T/AppTranslocation/9AAB2745-4851-475F-9ACC-CCAFB58FB079
+---------- Memory Usage ----------
+---------- CPU Load ----------
+14:19  up 11 days, 21:01, 2 users, load averages: 4.18 3.52 3.27
+WARNING: Disk usage is above 80%
+----- Total running processes:      559
+---------- Top 5 memory-consuming processes ----------
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem                                                   Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1                                              926Gi    12Gi   525Gi     3%    455k  4.3G    0%   /
+devfs                                                       201Ki   201Ki     0Bi   100%     694     0  100%   /dev
+/dev/disk3s6                                                926Gi   7.0Gi   525Gi     2%       7  5.5G    0%   /System/Volumes/VM
+/dev/disk3s2                                                926Gi    15Gi   525Gi     3%    1.5k  5.5G    0%   /System/Volumes/Preboot
+/dev/disk3s4                                                926Gi    14Mi   525Gi     1%     109  5.5G    0%   /System/Volumes/Update
+/dev/disk1s2                                                500Mi   6.0Mi   481Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1                                                500Mi   5.6Mi   481Mi     2%      31  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3                                                500Mi   2.8Mi   481Mi     1%      57  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5                                                926Gi   367Gi   525Gi    42%    4.0M  5.5G    0%   /System/Volumes/Data
+map auto_home                                                 0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/Users/abdulazeemabdullahi/Desktop/Visual Studio Code.app   926Gi   355Gi   550Gi    40%    3.9M  5.8G    0%   /private/var/folders/x3/spshmrjj0395m3p72y4qtx7c0000gn/T/AppTranslocation/9AAB2745-4851-475F-9ACC-CCAFB58FB079
+---------- Memory Usage ----------
+---------- CPU Load ----------
+14:20  up 11 days, 21:02, 2 users, load averages: 2.74 3.24 3.17
+----- Total running processes:      553
+---------- Top 5 memory-consuming processes ----------

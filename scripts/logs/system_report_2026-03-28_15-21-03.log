@@ -1,0 +1,28 @@
+System Report - 2026-03-28_15-21-03
+------------------------
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          238G  194G   45G  82% /
+none            238G  194G   45G  82% /dev
+none            238G  194G   45G  82% /run
+none            238G  194G   45G  82% /run/lock
+none            238G  194G   45G  82% /run/shm
+none            238G  194G   45G  82% /run/user
+tmpfs           238G  194G   45G  82% /sys/fs/cgroup
+C:\             238G  194G   45G  82% /mnt/c
+WARNING: Disk usage is above 80%!
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            8109        6049        1836          17         223        1929
+Swap:          24576        1020       23555
+CPU Load:
+ 15:21:03 up 45 min,  0 users,  load average: 0.52, 0.58, 0.59
+Total Processes:
+8
+Top 5 Memory Consuming Processes:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+austino+     8  0.0  0.0  14284  3876 tty1     S    14:35   0:00 -bash
+austino+   104  0.0  0.0  12956  2116 tty1     S    15:21   0:00 bash system_check.sh
+austino+   136  0.0  0.0  15524  1860 tty1     R    15:21   0:00 ps aux --sort=-%mem
+austino+   137  0.0  0.0  11264   916 tty1     S    15:21   0:00 head -n 6
+austino+   138  0.0  0.0  10904   840 tty1     R    15:21   0:00 tee -a logs/system_report_2026-03-28_15-21-03.log

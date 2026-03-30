@@ -11,4 +11,6 @@ then
     then
         ls -1t ./backups/backup_*.tar.gz | tail -n +6 | xargs rm -rf
     fi
+else
+    echo "$1 is not a valid directory"
 fi

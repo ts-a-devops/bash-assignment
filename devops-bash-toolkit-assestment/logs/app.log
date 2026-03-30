@@ -1,0 +1,30 @@
+2026-03-27 16:50:08 - Running all scripts
+2026-03-27 16:50:08 - ERROR: scripts/*.sh not found
+2026-03-27 16:54:24 - Running all scripts
+2026-03-27 16:54:24 - Running backup.sh
+2026-03-27 16:54:24 - backup.sh failed
+2026-03-27 16:54:24 - Running file_manager.sh
+2026-03-27 16:54:24 - file_manager.sh failed
+2026-03-27 16:54:24 - Running process_monitor.sh
+2026-03-27 16:54:24 - process_monitor.sh failed
+2026-03-27 16:54:24 - Running system_check.sh
+2026-03-27 16:54:24 - system_check.sh failed
+2026-03-27 16:54:24 - Running user_info.sh
+2026-03-27 16:54:24 - user_info.sh failed
+2026-03-27 16:56:46 - Running system_check.sh
+2026-03-27 16:56:46 - system_check.sh failed
+2026-03-27 16:58:43 - Exiting Application
+2026-03-27 16:58:52 - Running backup.sh
+2026-03-27 16:58:52 - backup.sh failed
+2026-03-27 17:09:18 - Running all scripts
+2026-03-27 17:09:18 - Running backup.sh
+2026-03-27 17:09:18 - backup.sh executed successfully
+2026-03-27 17:09:18 - Running file_manager.sh
+2026-03-27 17:09:18 - file_manager.sh executed successfully
+2026-03-27 17:09:18 - Running process_monitor.sh
+2026-03-27 17:09:18 - process_monitor.sh executed successfully
+2026-03-27 17:09:18 - Running system_check.sh
+2026-03-27 17:09:27 - system_check.sh executed successfully
+2026-03-27 17:09:27 - Running user_info.sh
+2026-03-27 17:09:43 - user_info.sh executed successfully
+2026-03-27 17:10:19 - Exiting Application

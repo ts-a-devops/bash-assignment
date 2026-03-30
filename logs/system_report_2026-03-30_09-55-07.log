@@ -1,0 +1,41 @@
+=== SYSTEM REPORT (2026-03-30_09-55-07) ===
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.7G  954G   1% /
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G     0  1.9G   0% /dev/shm
+none            1.9G  508K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G  584K  1.9G   1% /run/user
+tmpfs           385M  8.0K  385M   1% /run/user/1000
+drivers         238G  234G  4.3G  99% /usr/lib/wsl/drivers
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+C:\             238G  234G  4.3G  99% /mnt/c
+
+--- Disk Warning (>80%) ---
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:            3842         376        3305           3         159        3317
+Swap:           1024           0        1024
+
+--- CPU LOAD ---
+ 09:55:07 up 2 days, 22:27,  1 user,  load average: 0.00, 0.00, 0.00
+
+--- Total Running Process ---
+36
+
+--- Top five memory consuming processes ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         220  0.0  0.5 107164 21368 ?        Ssl  Mar27   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1655  0.0  0.5 293008 19968 ?        Ssl  Mar27   0:03 /usr/libexec/packagekitd
+root         186  0.0  0.4  30136 18284 ?        Ss   Mar27   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        3144  0.0  0.3  47704 13928 ?        S<s  Mar28   0:47 /lib/systemd/systemd-journald
+systemd+    3142  0.0  0.3  25672 13380 ?        Ss   Mar28   0:06 /lib/systemd/systemd-resolved
+
+==== END OF REPORT ====

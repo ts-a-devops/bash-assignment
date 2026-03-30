@@ -1,0 +1,16 @@
+File created: sample.txt
+File already exists!
+total 12K
+-rw-rw-r-- 1 yusuf yusuf 927 Mar 30 19:51 file_manager.sh
+-rw-rw-r-- 1 yusuf yusuf   0 Mar 30 19:52 sample.txt
+-rw-rw-r-- 1 yusuf yusuf 839 Mar 30 19:35 system_check.sh
+-rwxrw-r-- 1 yusuf yusuf 820 Mar 30 17:45 user_info.sh
+Renamed sample.txt to game.txt
+File deleted: game.txt
+total 24K
+-rw-rw-r-- 1 yusuf yusuf 612 Mar 30 20:10 backup.sh
+-rw-rw-r-- 1 yusuf yusuf 927 Mar 30 19:51 file_manager.sh
+-rw-rw-r-- 1 yusuf yusuf 385 Mar 30 20:21 process_monitor.sh
+-rw-rw-r-- 1 yusuf yusuf 613 Mar 30 20:48 rn.sh
+-rw-rw-r-- 1 yusuf yusuf 839 Mar 30 19:35 system_check.sh
+-rwxrw-r-- 1 yusuf yusuf 820 Mar 30 17:45 user_info.sh

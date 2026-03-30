@@ -35,14 +35,14 @@ bash-assignment/
 
 ## 📊 Implementation Matrix
 
-| Script                       | Status          | Highlights                                                                                                                        |
-| ---------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Script                       | Status          | Highlights                                                                                                                      |
+| ---------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | `scripts/user_info.sh`       | Completed       | Prompts for name/age/country, validates numeric age, prints age category, logs output                                           |
 | `scripts/system_check.sh`    | Completed       | Reports disk/memory/CPU info, warns on high disk usage, counts processes, shows top memory processes, writes timestamped report |
 | `scripts/file_manager.sh`    | Completed       | Supports `create`, `delete`, `list`, `rename`, prevents overwrite collisions, logs actions                                      |
 | `scripts/backup.sh`          | Completed       | Validates input dir, creates `backup_<timestamp>.tar.gz`, keeps latest 5 backups, logs activity                                 |
 | `scripts/process_monitor.sh` | Bonus Completed | Checks service status (`nginx`, `ssh`, `docker`), attempts restart or simulated restart, logs result                            |
-| `run_all.sh`                 | Bonus Completed | Interactive menu, runs scripts from `scripts/`, uses `set -euo pipefail`, logs app actions                                     |
+| `run_all.sh`                 | Bonus Completed | Interactive menu, runs scripts from `scripts/`, uses `set -euo pipefail`, logs app actions                                      |
 
 ---
 

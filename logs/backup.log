@@ -1,0 +1,9 @@
+Error: No directory provided. Usage: scripts/backup_rotation.sh [directory]
+Starting backup of scripts...
+SUCCESS: Saved to backups/backup_20260329_204747.tar.gz
+Cleaning up... (Keeping 5 most recent)
+Backup process finished at Sun Mar 29 08:47:47 PM WAT 2026
+Starting backup of scripts...
+SUCCESS: Saved to backups/backup_20260329_205006.tar.gz
+Cleaning up... (Keeping 5 most recent)
+Backup process finished at Sun Mar 29 08:50:06 PM WAT 2026

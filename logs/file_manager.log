@@ -1,0 +1,17 @@
+Usage: file_manager.sh {create|delete|list|rename} filename filename?
+File created: sample.txt
+total 12K
+-rw-rw-r-- 1 dera dera 925 Mar 30 15:23 file_manager.sh
+-rw-rw-r-- 1 dera dera   0 Mar 30 15:25 sample.txt
+-rw-rw-r-- 1 dera dera 839 Mar 30 14:28 system_check.sh
+-rw-rw-r-- 1 dera dera 667 Mar 30 13:55 user_info.sh
+Renamed sample.txt to sample1.txt
+File deleted: sample1.txt
+total 24K
+-rw-rw-r-- 1 dera dera 609 Mar 30 15:39 backup.sh
+-rw-rw-r-- 1 dera dera 925 Mar 30 15:23 file_manager.sh
+-rw-rw-r-- 1 dera dera 385 Mar 30 16:40 process_monitor.sh
+-rw-rw-r-- 1 dera dera   0 Mar 30 17:00 rn
+-rw-rw-r-- 1 dera dera 613 Mar 30 17:03 run_all.sh
+-rw-rw-r-- 1 dera dera 839 Mar 30 14:28 system_check.sh
+-rw-rw-r-- 1 dera dera 667 Mar 30 13:55 user_info.sh

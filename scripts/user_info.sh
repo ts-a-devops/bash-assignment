@@ -11,12 +11,14 @@ fi
 
 
 
-#Ask and validate for age
+# Ask and validate for age
 read -p "What is your age?: " age
 if [[ -z "$age" ]]; then
     echo "Age input cannot be empty"
-elif [[ ! "$age" =~ ^[1-9][0-9]*$ ]] then
+    exit 1
+elif [[ ! "$age" =~ ^[1-9][0-9]*$ ]]; then
     echo "Invalid input. Ensure the number is a decimal and above 0."
+    exit 1
 fi
 
 

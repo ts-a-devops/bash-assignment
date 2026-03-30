@@ -11,8 +11,8 @@ REPORT_FILE="$LOG_DIR/system_report_$(date '+%Y%m%d_%H%M%S').log"
   echo "Generated: $(date '+%Y-%m-%d %H:%M:%S')"
   echo
 
-  echo "=== Disk Usage (df -h) ==="
-  df -h
+  echo "=== Disk Usage (df -P -h) ==="
+  df -P -h
   echo
 
   echo "=== Memory Usage ==="
@@ -53,18 +53,28 @@ REPORT_FILE="$LOG_DIR/system_report_$(date '+%Y%m%d_%H%M%S').log"
   echo
 
   echo "=== CPU Load (uptime) ==="
-  uptime
+  if command -v uptime >/dev/null 2>&1; then
+    uptime
+  elif command -v wmic >/dev/null 2>&1; then
+    boot_time="$(wmic os get lastbootuptime | awk 'NR==2 {print $1}')"
+    if [[ -n "$boot_time" ]]; then
+      echo "Windows last boot time: $boot_time"
+    else
+      echo "CPU load command not available on this system."
+    fi
+  else
+    echo "CPU load command not available on this system."
+  fi
   echo
 
   echo "=== Disk Usage Warnings (>80%) ==="
   warnings=0
-  while read -r filesystem size used avail use_percent mount; do
-    percent="${use_percent%%%}"
+  while read -r mount percent; do
     if [[ "$percent" =~ ^[0-9]+$ ]] && (( percent > 80 )); then
       echo "WARNING: $mount is at ${percent}% usage"
       warnings=$((warnings + 1))
     fi
-  done < <(df -P -h | tail -n +2)
+  done < <(df -P -h | awk 'NR>1 {use=$(NF-1); gsub("%", "", use); print $NF, use}')
 
   if (( warnings == 0 )); then
     echo "No partitions above 80% usage."
@@ -74,9 +84,12 @@ REPORT_FILE="$LOG_DIR/system_report_$(date '+%Y%m%d_%H%M%S').log"
   echo "=== Total Running Processes ==="
   if ps -e --no-headers >/dev/null 2>&1; then
     process_count="$(ps -e --no-headers | wc -l | tr -d ' ')"
-  else
-    # macOS/BSD ps fallback
+  elif ps -A >/dev/null 2>&1; then
     process_count="$(ps -A | tail -n +2 | wc -l | tr -d ' ')"
+  elif ps -e >/dev/null 2>&1; then
+    process_count="$(ps -e | tail -n +2 | wc -l | tr -d ' ')"
+  else
+    process_count="$(ps | tail -n +2 | wc -l | tr -d ' ')"
   fi
   echo "$process_count"
   echo
@@ -84,8 +97,13 @@ REPORT_FILE="$LOG_DIR/system_report_$(date '+%Y%m%d_%H%M%S').log"
   echo "=== Top 5 Memory-Consuming Processes ==="
   if ps -eo pid,comm,%mem,%cpu --sort=-%mem >/dev/null 2>&1; then
     ps -eo pid,comm,%mem,%cpu --sort=-%mem | head -n 6
+  elif ps aux >/dev/null 2>&1 && ps aux | head -n 1 | grep -q "%MEM"; then
+    {
+      echo "PID COMMAND %MEM %CPU"
+      ps aux | awk 'NR>1 {print $2, $11, $4, $3}' | sort -k3 -nr | head -n 5
+    }
   else
-    ps -axo pid,comm,%mem,%cpu | sort -k3 -nr | head -n 6
+    echo "Top memory process list is unavailable on this system."
   fi
 } | tee "$REPORT_FILE"
 

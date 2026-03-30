@@ -31,11 +31,13 @@ run_all() {
   run_with_handling "user_info" bash "$SCRIPTS_PATH/user_info.sh"
   run_with_handling "system_check" bash "$SCRIPTS_PATH/system_check.sh"
 
-  read -r -p "Enter directory for backup: " backup_target
+  read -r -p "Enter directory for backup [default: .]: " backup_target
+  backup_target="${backup_target:-.}"
   run_with_handling "backup" bash "$SCRIPTS_PATH/backup.sh" "$backup_target"
 
   if [[ -f "$SCRIPTS_PATH/process_monitor.sh" ]]; then
-    read -r -p "Enter process name to monitor: " process_name
+    read -r -p "Enter process name to monitor [default: nginx]: " process_name
+    process_name="${process_name:-nginx}"
     run_with_handling "process_monitor" bash "$SCRIPTS_PATH/process_monitor.sh" "$process_name"
   fi
 }
@@ -45,7 +47,8 @@ run_system_check() {
 }
 
 run_backup() {
-  read -r -p "Enter directory for backup: " backup_target
+  read -r -p "Enter directory for backup [default: .]: " backup_target
+  backup_target="${backup_target:-.}"
   run_with_handling "backup" bash "$SCRIPTS_PATH/backup.sh" "$backup_target"
 }
 

@@ -1,230 +1,186 @@
 # 🚀 DevOps Bash Toolkit Assessment
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/your-username/devops-bash-toolkit/grade.yml)
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/devops-bash-toolkit)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/devops-bash-toolkit)
-![License](https://img.shields.io/badge/license-MIT-blue)
+This project is a collection of Bash scripts designed to demonstrate core DevOps fundamentals including automation, system monitoring, logging, and efficient command-line operations.
 
----
-
-## 📌 Overview
-
-This assignment tests your **DevOps fundamentals**:
-
-- Bash scripting  
-- Git workflow (branching, commits, pull requests)  
-- Automation mindset  
-- System monitoring and logging  
-
-You will build a **real-world automation toolkit** and submit it via a **Pull Request (PR)**.
+It was built as part of a DevOps assessment to showcase practical skills in:
+- Bash scripting
+- Git workflow (branching, commits, pull requests)
+- System monitoring and logging
+- Automation mindset
 
 ---
 
 ## 📁 Project Structure
 
-```text
-devops-bash-toolkit-assestment/
-│
+
+.
 ├── scripts/
-│   ├── user_info.sh
-│   ├── system_check.sh
-│   ├── file_manager.sh
-│   ├── backup.sh
-│   ├── process_monitor.sh
+│ ├── user_info.sh
+│ ├── system_check.sh
+│ ├── file_manager.sh
+│ ├── backup.sh
+│ ├── process_monitor.sh
 │
-├── run_all.sh              # OPTIONAL (Bonus)
-│
-├── README.md
-```
+├── logs/
+├── backups/
+├── run_all.sh
+├── .gitignore
+└── README.md
 
-🧑‍💻 Getting Started
-1. Fork the Repository
 
-Click the Fork button on GitHub.
+---
 
-2. Clone Your Fork
+## ⚙️ Setup Instructions
+
+Clone the repository:
+
 ```bash
 git clone <your-fork-url>
 cd devops-bash-toolkit
-```
 
-3. Create a Feature Branch
-```bash
-git checkout -b feature/<your-name>
-```
+Make scripts executable:
 
-4. Complete the Scripts
-Implement all required scripts inside:
-```bash
-scripts/
-```
-
-5. Make Scripts Executable
-```bash
 chmod +x scripts/*.sh
-```
+chmod +x run_all.sh
+🧠 Scripts Overview
+🔹 user_info.sh
 
-6. Commit Your Work
-```bash
-git add .
-git commit -m "feat: complete bash scripts"
-```
+Prompts user for name, age, and country
 
-7. Push to GitHub
-```bash
-git push origin feature/<your-name>
-```
+Validates input (age must be numeric)
 
-8. Create Pull Request
+Categorizes age:
 
-Open a Pull Request to the main repository.
+Minor (<18)
 
+Adult (18–65)
 
-🧠 Assignment Tasks
---------------------------------------------------------------------------------
-🔹 A. user_info.sh
-Requirements
+Senior (65+)
 
-* Prompt the user for:
+Logs output to logs/user_info.log
 
-  * Name
+🔹 system_check.sh
 
-  * Age
+Displays:
 
-  * Country
+Disk usage (df -h)
 
-* Validate:
+Memory usage (free -m)
 
-  * Age must be numeric
+CPU load (uptime)
 
-* Output:
+Warns if disk usage exceeds 80%
 
-  * A greeting message
+Counts total running processes
 
-* Age category:
+Shows top 5 memory-consuming processes
 
-  * Minor (<18)
+Logs output to logs/system_report_<date>.log
 
-  * Adult (18–65)
+🔹 file_manager.sh
 
-  * Senior (65+)
+Supports the following commands:
 
-* Handle missing or invalid input gracefully
+./scripts/file_manager.sh create file.txt
+./scripts/file_manager.sh delete file.txt
+./scripts/file_manager.sh list
+./scripts/file_manager.sh rename old.txt new.txt
 
-* Save output to:
-```bash
-logs/user_info.log
-```
----
-🔹 B. system_check.sh
-Requirements
+Features:
 
-* Display:
+Prevents overwriting existing files
 
-  * Disk usage (df -h)
+Handles missing files gracefully
 
-  * Memory usage (free -m)
+Logs all actions to logs/file_manager.log
 
-  * CPU load (uptime)
+🔹 backup.sh
 
-* Warn if disk usage exceeds 80%
+Accepts a directory as input
 
-* Save report to:
-```bash
-logs/system_report_<date>.log
-```
-* Count total running processes
+Validates directory existence
 
-* Display top 5 memory-consuming processes
----
-🔹 C. file_manager.sh
-Requirements
+Creates compressed backups:
 
-* Support the following commands:
-
-  * create
-
-  * delete
-
-  * list
-
-  * rename
-
-* Example usage:
-```bash
-./file_manager.sh create file.txt
-```
-* Prevent overwriting existing files
-
-* Log all actions to:
-```bash
-logs/file_manager.log
-```
----
-🔹 D. backup.sh
-Requirements
-
-* Accept a directory as input
-
-* Validate that the directory exists
-
-* Create a compressed backup:
-```bash
 backup_<timestamp>.tar.gz
-```
-* Store backups in:
-```bash
-backups/
-```
-* Keep only the last 5 backups (delete older ones)
 
-* Log backup activity
----
-⭐ E. process_monitor.sh(Optional Bonus)
-Requirements
+Stores backups in backups/
 
-* Accept a process name as input
+Retains only the last 5 backups
 
-* Check if the process is running
+Logs activity to logs/backup.log
 
-* If NOT running:
+⭐ process_monitor.sh (Bonus)
 
-  * Attempt restart (or simulate restart)
+Monitors services:
 
-* Output:
+nginx, ssh, docker
 
-  * Running
+Accepts optional process name input
 
-  * Stopped
+Checks if process is running
 
-  * Restarted
+Attempts restart if stopped (or simulates)
 
-* Use an array:
-```bash
-services=("nginx" "ssh" "docker")
-```
-* Log monitoring results
----
-⭐ F. run_all.sh (Optional Bonus)
-Requirements
+Logs results to logs/process_monitor.log
 
-Provide an interactive menu:
-1. Run all
-2. System check
-3. Backup
-4. Exit
-* Use functions to organize logic
+⭐ run_all.sh (Bonus)
 
-* Call scripts from the scripts/ directory
+Interactive menu:
 
-* Include:
-  ```bash
-  set -euo pipefail
-  ```
-* Log all actions to:
-```bash
-logs/app.log
-```
-* Handle script failures gracefully
-  
-**Submission link:** [CLICK HERE](https://forms.gle/jrhpKjXsQXZxLopN6)
+Run all scripts
+
+System check
+
+Backup
+
+Exit
+
+Uses functions and structured logic
+
+Implements strict error handling:
+
+set -euo pipefail
+
+Logs all actions to logs/app.log
+
+📊 Logging
+
+All scripts log their output and activities to the logs/ directory for traceability and debugging.
+
+🧪 Example Usage
+./scripts/user_info.sh
+./scripts/system_check.sh
+./scripts/file_manager.sh list
+./scripts/backup.sh scripts
+./run_all.sh
+🛠️ Technologies Used
+
+Bash (Shell Scripting)
+
+Linux Utilities (df, free, ps, tar, awk)
+
+Git & GitHub
+
+🚀 Key Highlights
+
+Input validation and error handling
+
+Modular script design
+
+Logging and monitoring implementation
+
+Automated backup with retention policy
+
+Interactive CLI tool
+
+👨 Author
+
+Adedeji Olajoto
+DevOps Engineer
+
+📌 Notes
+
+Ensure you run scripts from the project root directory
+
+Some operations (e.g., restarting services) may require sudo

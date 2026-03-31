@@ -1,0 +1,13 @@
+--- Process Monitoring Report ---
+nginx: Stopped
+Attempting restart for nginx...
+nginx: Restarted
+----------------------------
+ssh: Stopped
+Attempting restart for ssh...
+ssh: Restarted
+----------------------------
+docker: Stopped
+Attempting restart for docker...
+docker: Restarted
+----------------------------

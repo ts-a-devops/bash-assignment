@@ -1,0 +1,13 @@
+[2026-03-31 16:45:26] SERVICE 'nginx' STATUS: Stopped
+[2026-03-31 16:45:26] SERVICE 'nginx' STATUS: Restarted (simulated)
+Usage: ./process_monitor.sh <process_name>
+Stopped
+Restarted
+Stopped
+Restarted
+Running
+Running
+Running
+Usage: ./process_monitor.sh <process_name>
+Stopped
+Restarted

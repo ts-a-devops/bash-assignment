@@ -1,0 +1,11 @@
+[2026-03-31 16:22:59] Hello, Opeyemi from Nigeria. You are 31 years old and belong to the 'Adult' category.
+[2026-03-31 16:23:12] Hello, 122 from 222. You are 222 years old and belong to the 'Senior' category.
+[2026-03-31 16:24:03] Hello, Opeyemi from Nigeria. You are 32 years old and belong to the 'Adult' category.
+[2026-03-31 16:24:41] Error: name, age, and country are required.
+[2026-03-31 16:29:42] Error: name cannot be numeric only.
+[2026-03-31 16:30:05] Error: country cannot be numeric only.
+[2026-03-31 16:34:17] Error: name, age, and country are required.
+[2026-03-31 16:34:49] Hello, Opeyemi from Nigeria. You are 43 years old and belong to the 'Adult' category.
+Error: Age must be numeric
+Hello, ope from nigeria. You are 23 years old and belong to the 'Adult' category.
+Hello, ope from Nigeria. You are 57 years old and belong to the 'Adult' category.

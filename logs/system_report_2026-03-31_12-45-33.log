@@ -1,0 +1,8 @@
+System Health Report — 2026-03-31 12:45:33
+Hostname: PowerHouse
+
+===== DISK USAGE =====
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  953G  651G  303G  69% /
+
+===== MEMORY USAGE (MB) =====

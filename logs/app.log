@@ -1,0 +1,43 @@
+[2026-03-31 13:58:40] INFO: Running all scripts
+[2026-03-31 13:58:40] INFO: Running ./scripts/user_info.sh
+[2026-03-31 13:59:38] INFO: ./scripts/user_info.sh completed successfully
+[2026-03-31 13:59:38] INFO: Running ./scripts/system_check.sh
+[2026-03-31 13:59:42] INFO: ./scripts/system_check.sh completed successfully
+[2026-03-31 13:59:42] INFO: Running ./scripts/file_manager.sh list
+[2026-03-31 13:59:42] ERROR: ./scripts/file_manager.sh list failed — continuing
+[2026-03-31 13:59:42] INFO: Running ./scripts/backup.sh ./
+[2026-03-31 13:59:42] ERROR: ./scripts/backup.sh ./ failed — continuing
+[2026-03-31 13:59:42] INFO: Running ./scripts/process_monitor.sh nginx
+[2026-03-31 13:59:43] ERROR: ./scripts/process_monitor.sh nginx failed — continuing
+[2026-03-31 14:04:18] INFO: Exiting
+[2026-03-31 14:06:22] INFO: Running all scripts
+[2026-03-31 14:06:22] INFO: Running scripts/system_check.sh
+[2026-03-31 14:06:28] INFO: scripts/system_check.sh completed successfully
+[2026-03-31 14:06:28] INFO: Running scripts/file_manager.sh list
+[2026-03-31 14:06:29] INFO: scripts/file_manager.sh list completed successfully
+[2026-03-31 14:06:29] INFO: Running scripts/backup.sh .
+[2026-03-31 14:06:30] INFO: scripts/backup.sh . completed successfully
+[2026-03-31 14:06:30] INFO: Running scripts/process_monitor.sh nginx
+[2026-03-31 14:06:30] INFO: scripts/process_monitor.sh nginx completed successfully
+[2026-03-31 14:07:49] INFO: Running ./scripts/system_check.sh
+[2026-03-31 14:07:54] INFO: ./scripts/system_check.sh completed successfully
+[2026-03-31 14:10:18] INFO: Running all scripts
+[2026-03-31 14:10:18] INFO: Running scripts/system_check.sh
+[2026-03-31 14:10:23] INFO: scripts/system_check.sh completed successfully
+[2026-03-31 14:10:24] INFO: Running scripts/file_manager.sh list
+[2026-03-31 14:10:24] INFO: scripts/file_manager.sh list completed successfully
+[2026-03-31 14:10:24] INFO: Running scripts/backup.sh .
+[2026-03-31 14:10:26] INFO: scripts/backup.sh . completed successfully
+[2026-03-31 14:10:26] INFO: Running scripts/process_monitor.sh nginx
+[2026-03-31 14:10:26] INFO: scripts/process_monitor.sh nginx completed successfully
+[2026-03-31 14:15:28] INFO: Exiting
+[2026-03-31 14:15:35] INFO: Running all scripts
+[2026-03-31 14:15:35] INFO: Running scripts/system_check.sh
+[2026-03-31 14:15:41] INFO: scripts/system_check.sh completed successfully
+[2026-03-31 14:15:41] INFO: Running scripts/file_manager.sh list
+[2026-03-31 14:15:41] INFO: scripts/file_manager.sh list completed successfully
+[2026-03-31 14:15:41] INFO: Running scripts/backup.sh .
+[2026-03-31 14:15:42] INFO: scripts/backup.sh . completed successfully
+[2026-03-31 14:15:42] INFO: Running scripts/process_monitor.sh nginx
+[2026-03-31 14:15:42] INFO: scripts/process_monitor.sh nginx completed successfully
+[2026-03-31 14:17:09] INFO: Exiting

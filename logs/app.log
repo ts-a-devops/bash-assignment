@@ -1,0 +1,68 @@
+total 72K
+-rw-rw-r-- 1 tech tech 612 Mar 31 04:48 backup.sh
+-rw-rw-r-- 1 tech tech 925 Mar 31 04:34 file_manager.sh
+-rw-rw-r-- 1 tech tech 385 Mar 31 04:58 process_monitor.sh
+-rw-rw-r-- 1 tech tech 613 Mar 31 05:05 run_all.sh
+-rw-rw-r-- 1 tech tech 837 Mar 31 04:15 system_check.sh
+-rw-rw-r-- 1 tech tech 668 Mar 31 03:51 user_info.sh
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem           Size  Used Avail Use% Mounted on
+tmpfs                787M  1.7M  786M   1% /run
+efivarfs             124K   37K   83K  31% /sys/firmware/efi/efivars
+/dev/sda2            457G   41G  393G  10% /
+tmpfs                3.9G  4.0K  3.9G   1% /dev/shm
+tmpfs                5.0M   12K  5.0M   1% /run/lock
+/dev/sda1            511M  6.2M  505M   2% /boot/efi
+tmpfs                787M  200K  787M   1% /run/user/1000
+/home/tech/.Private  457G   41G  393G  10% /home/tech
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7867        2331        1527         352        4649        5535
+Swap:           2047           0        2047
+---------- CPU Load ----------
+ 05:08:36 up  2:32,  1 user,  load average: 3.00, 3.32, 3.41
+----- Total running processes: 226
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+tech        2752  4.5  7.8 4132224 628872 ?      Sl   02:53   6:08 /usr/lib/firefox/firefox
+tech        2487  103  4.2 2833664 338692 ?      Sl   02:42 150:42 /usr/bin/vlc --started-from-file /home/tech/Desktop/Tech Projects/Cloud & DevOps/More/TS Academy Complete Bash Scripting Assignment (5 Projects)_HD.mp4
+tech        2950  0.9  3.9 3081888 321992 ?      Sl   02:53   1:15 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:31920 -prefMapHandle 1:283995 -jsInitHandle 2:156136 -parentBuildID 20260318190823 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9c43eb4f-84fa-43ab-af1f-0d85d7b8dc33} -parentPid 2752 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 7 tab
+tech        1509 12.2  2.9 4530748 237320 ?      Sl   02:37  18:29 /usr/bin/cinnamon --replace
+tech        3227  0.6  2.7 2892628 220048 ?      Sl   02:55   0:54 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:43036 -prefMapHandle 1:283995 -jsInitHandle 2:156136 -parentBuildID 20260318190823 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {299af1da-7861-4448-8e35-015966c1b573} -parentPid 2752 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 11 tab
+Backup created: ../backups/backup_20260331_050836.tar.gz
+Old backups cleaned up
+nginx is Stopped. Restarting...
+nginx Restarted
+ssh is Stopped. Restarting...
+ssh Restarted
+docker is Stopped. Restarting...
+docker Restarted
+Hello Segun from Nigeria! You are an Adult.
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem           Size  Used Avail Use% Mounted on
+tmpfs                787M  1.7M  786M   1% /run
+efivarfs             124K   37K   83K  31% /sys/firmware/efi/efivars
+/dev/sda2            457G   41G  393G  10% /
+tmpfs                3.9G  4.0K  3.9G   1% /dev/shm
+tmpfs                5.0M   12K  5.0M   1% /run/lock
+/dev/sda1            511M  6.2M  505M   2% /boot/efi
+tmpfs                787M  200K  787M   1% /run/user/1000
+/home/tech/.Private  457G   41G  393G  10% /home/tech
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7867        2327        1530         352        4649        5539
+Swap:           2047           0        2047
+---------- CPU Load ----------
+ 05:13:50 up  2:37,  1 user,  load average: 2.53, 2.79, 3.13
+----- Total running processes: 224
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+tech        2752  4.3  7.8 4132176 628460 ?      Sl   02:53   6:09 /usr/lib/firefox/firefox
+tech        2487  103  4.2 2833664 338916 ?      Sl   02:42 156:09 /usr/bin/vlc --started-from-file /home/tech/Desktop/Tech Projects/Cloud & DevOps/More/TS Academy Complete Bash Scripting Assignment (5 Projects)_HD.mp4
+tech        2950  0.8  4.0 3081888 322572 ?      Sl   02:53   1:15 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:31920 -prefMapHandle 1:283995 -jsInitHandle 2:156136 -parentBuildID 20260318190823 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9c43eb4f-84fa-43ab-af1f-0d85d7b8dc33} -parentPid 2752 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 7 tab
+tech        1509 12.1  2.9 4531164 237420 ?      Sl   02:37  19:02 /usr/bin/cinnamon --replace
+tech        3227  0.6  2.7 2892628 220524 ?      Sl   02:55   0:54 /usr/lib/firefox/firefox-bin -contentproc -isForBrowser -prefsHandle 0:43036 -prefMapHandle 1:283995 -jsInitHandle 2:156136 -parentBuildID 20260318190823 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {299af1da-7861-4448-8e35-015966c1b573} -parentPid 2752 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appDir /usr/lib/firefox/browser 11 tab
+Backup created: ../backups/backup_20260331_051428.tar.gz
+Old backups cleaned up

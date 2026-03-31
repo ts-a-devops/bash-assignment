@@ -1,0 +1,16 @@
+File created: sample.txt
+File already exists!
+total 44K
+-rw-rw-r-- 1 tech tech 925 Mar 31 04:34 file_manager.sh
+-rw-rw-r-- 1 tech tech   0 Mar 31 04:35 sample.txt
+-rw-rw-r-- 1 tech tech 837 Mar 31 04:15 system_check.sh
+-rw-rw-r-- 1 tech tech 668 Mar 31 03:51 user_info.sh
+Renamed sample.txt to sample1.txt
+File deleted: sample1.txt
+total 72K
+-rw-rw-r-- 1 tech tech 612 Mar 31 04:48 backup.sh
+-rw-rw-r-- 1 tech tech 925 Mar 31 04:34 file_manager.sh
+-rw-rw-r-- 1 tech tech 385 Mar 31 04:58 process_monitor.sh
+-rw-rw-r-- 1 tech tech 613 Mar 31 05:05 run_all.sh
+-rw-rw-r-- 1 tech tech 837 Mar 31 04:15 system_check.sh
+-rw-rw-r-- 1 tech tech 668 Mar 31 03:51 user_info.sh

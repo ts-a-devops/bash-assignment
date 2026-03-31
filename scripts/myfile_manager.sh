@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LOG_DIR="logs"
-LOG_FILE="$LOG_DIR/file_manager.log"
+LOG_FILE="$LOG_DIR/myfile_manager.log"
 
 # Create logs directory if it doesn't exist
 mkdir -p $LOG_DIR

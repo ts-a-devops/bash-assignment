@@ -88,25 +88,25 @@ Requirements
 * Prompt the user for:
 
   * Name
-
+Agbaje Blessing
   * Age
-
+28
   * Country
-
+Nigeria
 * Validate:
-
+ok
   * Age must be numeric
 
 * Output:
 
   * A greeting message
-
+Hello Github
 * Age category:
 
   * Minor (<18)
 
   * Adult (18–65)
-
+yeah
   * Senior (65+)
 
 * Handle missing or invalid input gracefully
@@ -114,7 +114,7 @@ Requirements
 * Save output to:
 ```bash
 logs/user_info.log
-```
+```Agbajebaba
 ---
 🔹 B. system_check.sh
 Requirements
@@ -122,7 +122,20 @@ Requirements
 * Display:
 
   * Disk usage (df -h)
+#!/bin/bash
 
+echo "===== SYSTEM CHECK ====="
+
+echo ""
+echo "Disk Usage:"
+df -h
+
+echo ""
+echo "Available Disk Space (root):"
+df -h /
+
+echo ""
+echo "Done checking system disk."
   * Memory usage (free -m)
 
   * CPU load (uptime)
@@ -143,13 +156,16 @@ Requirements
 * Support the following commands:
 
   * create
-
+#!/bin/bash
+echo "My first command script"
+date
+whoami
   * delete
-
+rm -r foldername
   * list
-
+ls
   * rename
-
+mv oldname.sh newname.sh
 * Example usage:
 ```bash
 ./file_manager.sh create file.txt

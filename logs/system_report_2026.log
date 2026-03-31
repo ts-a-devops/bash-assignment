@@ -1,0 +1,131 @@
+===My System Health Report====
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  151G   88G  64% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            1.9G  152K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.8G  2.7M  1.8G   1% /init
+none            1.9G  476K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  151G   88G  64% /mnt/c
+tmpfs           369M   20K  369M   1% /run/user/1000
+===My System Health Report===
+===My Disk Report===
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  152G   87G  64% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            1.9G  156K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.8G  2.7M  1.8G   1% /init
+none            1.9G  480K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  152G   87G  64% /mnt/c
+tmpfs           369M   20K  369M   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:            3689         427        3196           3         141        3262
+Swap:           1024           0        1024
+ 21:42:39 up 15:02,  1 user,  load average: 0.00, 0.00, 0.00
+===My System Health Report===
+===My Disk Report===
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  152G   87G  64% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            1.9G  156K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.8G  2.7M  1.8G   1% /init
+none            1.9G  476K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  152G   87G  64% /mnt/c
+tmpfs           369M   20K  369M   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:            3689         421        3221           3         122        3267
+Swap:           1024           0        1024
+ 21:56:36 up 15:16,  1 user,  load average: 0.00, 0.00, 0.00
+===My System Health Report===
+===My Disk Report===
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  152G   87G  64% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            1.9G  156K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.8G  2.7M  1.8G   1% /init
+none            1.9G  476K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  152G   87G  64% /mnt/c
+tmpfs           369M   20K  369M   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:            3689         427        3212           3         125        3261
+Swap:           1024           0        1024
+ 22:05:54 up 15:25,  1 user,  load average: 0.00, 0.00, 0.00
+===Total processes running : 
+===My System Health Report===
+===My Disk Report===
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  152G   87G  64% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            1.9G  156K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.8G  2.7M  1.8G   1% /init
+none            1.9G  476K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  152G   87G  64% /mnt/c
+tmpfs           369M   20K  369M   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:            3689         428        3210           3         126        3260
+Swap:           1024           0        1024
+ 22:09:49 up 15:29,  1 user,  load average: 0.00, 0.00, 0.00
+===Total processes running : 29
+===My System Health Report===
+===My Disk Report===
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  152G   87G  64% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            1.9G  156K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.8G  2.7M  1.8G   1% /init
+none            1.9G  480K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  152G   87G  64% /mnt/c
+tmpfs           369M   20K  369M   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:            3689         436        3210           3         119        3253
+Swap:           1024           0        1024
+ 22:15:26 up 15:34,  1 user,  load average: 0.00, 0.00, 0.00
+===Total processes running : 30
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         233  0.0  0.5 107024 22016 ?        Ssl  06:41   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          66  0.0  0.5  66752 19168 ?        S<s  06:41   0:19 /usr/lib/systemd/systemd-journald
+root        3195  0.4  0.3 1756364 13056 ?       Ssl  22:14   0:00 /usr/libexec/wsl-pro-service
+systemd+     141  0.0  0.3  21460 12800 ?        Ss   06:41   0:01 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.3  21924 12792 ?        Ss   06:40   0:22 /sbin/init

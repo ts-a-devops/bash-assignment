@@ -1,0 +1,20 @@
+file created: sample.txt
+file already exists!
+total 12K
+-rw-rw-r-- 1 joseph joseph 852 Mar 31 17:16 file_manager.sh
+-rw-rw-r-- 1 joseph joseph   0 Mar 31 17:16 sample.txt
+-rw-rw-r-- 1 joseph joseph 841 Mar 31 15:16 system_check.sh
+-rw-rw-r-- 1 joseph joseph 646 Mar 31 14:12 user_info.sh
+Renamed sample.txt to sample2.txt
+Renamed sample.txt to sample2.txt
+Renamed sample.txt to sample1.txt
+Renamed sample.txt to sample1.txt
+Renamed sample.txt to sample1.txt
+file deleted: sample1.txt
+total 24K
+-rw-rw-r-- 1 joseph joseph 603 Mar 31 20:06 backup.sh
+-rw-rw-r-- 1 joseph joseph 863 Mar 31 18:00 file_manager.sh
+-rw-rw-r-- 1 joseph joseph 385 Mar 31 20:58 process_monitor.sh
+-rw-rw-r-- 1 joseph joseph 626 Mar 31 21:23 run_all.sh
+-rw-rw-r-- 1 joseph joseph 841 Mar 31 15:16 system_check.sh
+-rw-rw-r-- 1 joseph joseph 646 Mar 31 14:12 user_info.sh

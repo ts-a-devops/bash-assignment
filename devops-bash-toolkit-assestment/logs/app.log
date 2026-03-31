@@ -1,2 +1,34 @@
 Sun Mar 29 12:20:25 PDT 2026: Running all scripts
 Sun Mar 29 12:21:07 PDT 2026: backup failed - invalid directory ~/bash-assignment
+Tue Mar 31 10:40:22 PDT 2026: Running all scripts
+Tue Mar 31 10:40:36 PDT 2026: user_info.sh failed
+Tue Mar 31 10:40:36 PDT 2026: system_check.sh executed successfully
+Tue Mar 31 10:42:10 PDT 2026: backup.sh executed successfully for devops-bash-toolkit-assestment
+Tue Mar 31 10:42:57 PDT 2026: All scripts executed
+Tue Mar 31 10:43:23 PDT 2026: User exited application
+Tue Mar 31 11:28:06 PDT 2026: Running all scripts
+Tue Mar 31 11:28:16 PDT 2026: user_info.sh executed successfully
+Tue Mar 31 11:28:16 PDT 2026: system_check.sh executed successfully, saved to /home/zugy/bash-assignment/devops-bash-toolkit-assestment/logs/system_report_2026-03-31_11-28-16.log
+Tue Mar 31 11:29:41 PDT 2026: backup.sh executed successfully for /home/zugy/bash-assignment/devops-bash-toolkit-assestment/scripts
+Tue Mar 31 11:30:27 PDT 2026: All scripts executed
+Tue Mar 31 11:30:41 PDT 2026: User exited application
+Tue Mar 31 11:32:04 PDT 2026: Running all scripts
+Tue Mar 31 11:32:13 PDT 2026: user_info.sh failed
+Tue Mar 31 11:32:14 PDT 2026: system_check.sh executed successfully, saved to /home/zugy/bash-assignment/devops-bash-toolkit-assestment/logs/system_report_2026-03-31_11-32-13.log
+Tue Mar 31 11:32:25 PDT 2026: backup.sh executed successfully for /home/zugy/bash-assignment/devops-bash-toolkit-assestment
+Tue Mar 31 11:32:47 PDT 2026: All scripts executed
+Tue Mar 31 11:32:56 PDT 2026: User exited application
+Tue Mar 31 11:52:15 PDT 2026: Running all scripts
+Tue Mar 31 11:52:25 PDT 2026: user_info.sh failed
+Tue Mar 31 11:52:25 PDT 2026: system_check.sh executed successfully, saved to /home/zugy/bash-assignment/devops-bash-toolkit-assestment/logs/system_report_2026-03-31_11-52-25.log
+Tue Mar 31 11:52:38 PDT 2026: backup.sh executed successfully for /home/zugy/bash-assignment/devops-bash-toolkit-assestment/logs
+Tue Mar 31 11:53:13 PDT 2026: All scripts executed
+Tue Mar 31 11:53:26 PDT 2026: User exited application
+Tue Mar 31 12:27:31 PDT 2026: Running all scripts
+Tue Mar 31 12:27:49 PDT 2026: user_info.sh executed successfully
+Tue Mar 31 12:27:50 PDT 2026: system_check.sh executed successfully, saved to /home/zugy/bash-assignment/devops-bash-toolkit-assestment/logs/system_report.log/system_report_2026-03-31_12-27-49.log
+Tue Mar 31 12:28:17 PDT 2026: backup failed - invalid directory: /home/zugy/bash-assignment/devops-bash-toolkit-assestment/logs/file_manager.log
+Tue Mar 31 12:28:44 PDT 2026: All scripts executed
+Tue Mar 31 12:28:49 PDT 2026: User exited application
+Tue Mar 31 12:51:06 PDT 2026: user_info.sh executed successfully
+Tue Mar 31 12:51:12 PDT 2026: User exited application

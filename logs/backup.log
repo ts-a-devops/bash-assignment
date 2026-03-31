@@ -1,0 +1,8 @@
+[2026-03-31 13:42:51] [INFO] Backup created: './../backups/backup_20260331_134250.tar.gz' (size: 24K)
+[2026-03-31 13:42:51] [INFO] Backup complete. 1 backup(s) retained (max: 5).
+[2026-03-31 14:06:30] [INFO] Backup created: 'scripts/../backups/backup_20260331_140629.tar.gz' (size: 52K)
+[2026-03-31 14:06:30] [INFO] Backup complete. 2 backup(s) retained (max: 5).
+[2026-03-31 14:10:25] [INFO] Backup created: 'scripts/../backups/backup_20260331_141024.tar.gz' (size: 100K)
+[2026-03-31 14:10:25] [INFO] Backup complete. 3 backup(s) retained (max: 5).
+[2026-03-31 14:15:41] [INFO] Backup created: 'scripts/../backups/backup_20260331_141541.tar.gz' (size: 196K)
+[2026-03-31 14:15:42] [INFO] Backup complete. 4 backup(s) retained (max: 5).

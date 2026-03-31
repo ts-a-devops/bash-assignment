@@ -1,0 +1,9 @@
+[2026-03-31 13:37:07] [INFO] Created file: 'test.txt'
+[2026-03-31 13:37:19] [ERROR] Cannot create 'test.txt' — file already exists.
+[2026-03-31 13:41:15] [INFO] Listed directory: '.'
+[2026-03-31 13:41:15] [INFO] Deleted file: 'test.txt'
+[2026-03-31 13:41:15] [INFO] Created file: 'test.txt'
+[2026-03-31 13:41:15] [INFO] Renamed: 'test.txt' → 'newname.txt'
+[2026-03-31 14:06:29] [INFO] Listed directory: '.'
+[2026-03-31 14:10:24] [INFO] Listed directory: '.'
+[2026-03-31 14:15:41] [INFO] Listed directory: '.'

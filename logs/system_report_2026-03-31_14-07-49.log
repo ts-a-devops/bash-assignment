@@ -1,0 +1,26 @@
+System Health Report - 2026-03-31 14:07:49
+Hostname: PowerHouse
+
+===== DISK USAGE =====
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  953G  651G  303G  69% /
+
+===== MEMORY USAGE =====
+Memory details via systeminfo:
+Total Physical Memory:         32,514 MB
+Available Physical Memory:     20,595 MB
+
+===== CPU LOAD =====
+LoadPercentage  
+3               
+
+===== TOTAL RUNNING PROCESSES =====
+Total processes: 303
+
+===== TOP 5 MEMORY-CONSUMING PROCESSES =====
+PID      %CPU   %MEM   COMMAND
+msedgewebview2.exe           14740 Console                    1    871,128 K
+WhatsApp.Root.exe             8984 Console                    1    608,816 K
+explorer.exe                 10124 Console                    1    447,476 K
+msedgewebview2.exe            4688 Console                    1    427,924 K
+firefox.exe                   5212 Console                    1    422,188 K

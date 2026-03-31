@@ -1,0 +1,117 @@
+The following are the disk usage
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         238G  105G  134G  44% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            3.9G   80K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             238G  105G  134G  44% /mnt/c
+tmpfs           781M   20K  781M   1% /run/user/1000
+The following are the memory usage
+               total        used        free      shared  buff/cache   available
+Mem:            7808         474        7240           3         247        7333
+Swap:           2048           0        2048
+The following are the cpu load
+ 12:12:58 up  3:15,  1 user,  load average: 0.00, 0.00, 0.00
+The following are the list process
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  21780 12524 ?        Ss   08:57   0:01 /sbin/init
+root           2  0.0  0.0   3120  2048 ?        Sl   08:57   0:00 /init
+root           6  0.0  0.0   3168  2016 ?        Sl   08:57   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          52  0.0  0.2  66824 18820 ?        S<s  08:57   0:00 /usr/lib/systemd/systemd-journald
+root         101  0.0  0.0  25276  6144 ?        Ss   08:57   0:02 /usr/lib/systemd/systemd-udevd
+systemd+     163  0.0  0.1  21460 12800 ?        Ss   08:57   0:00 /usr/lib/systemd/systemd-resolved
+systemd+     164  0.0  0.0  91028  7680 ?        Ssl  08:57   0:00 /usr/lib/systemd/systemd-timesyncd
+root         170  0.0  0.0   4236  2560 ?        Ss   08:57   0:00 /usr/sbin/cron -f -P
+message+     171  0.0  0.0   9632  4992 ?        Ss   08:57   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         184  0.0  0.1  17968  8448 ?        Ss   08:57   0:00 /usr/lib/systemd/systemd-logind
+root         189  0.0  0.0   3160  2048 hvc0     Ss+  08:57   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+syslog       192  0.0  0.0 222508  5504 ?        Ssl  08:57   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         205  0.0  0.0   3116  1920 tty1     Ss+  08:57   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         215  0.0  0.2 107024 22400 ?        Ssl  08:57   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         309  0.0  0.0   3128   900 ?        Ss   08:57   0:00 /init
+root         310  0.0  0.0   3144  1288 ?        S    08:57   0:01 /init
+godwin       311  0.0  0.0   7296  6272 pts/0    Ss   08:57   0:00 -bash
+root         312  0.0  0.0   6692  4352 pts/1    Ss   08:57   0:00 /bin/login -f
+godwin       358  0.0  0.1  20312 11136 ?        Ss   08:57   0:00 /usr/lib/systemd/systemd --user
+godwin       359  0.0  0.0  21152  3516 ?        S    08:57   0:00 (sd-pam)
+godwin       383  0.0  0.0   6072  4992 pts/1    S+   08:57   0:00 -bash
+root        2109  0.0  0.1 1830352 12800 ?       Ssl  12:03   0:00 /usr/libexec/wsl-pro-service
+godwin      2202  0.0  0.0   4752  3456 pts/0    S+   12:12   0:00 /bin/bash ./mysystem_check.sh
+godwin      2205  0.0  0.0   4752  1956 pts/0    S+   12:12   0:00 /bin/bash ./mysystem_check.sh
+godwin      2207  0.0  0.0   3132  1664 pts/0    S+   12:12   0:00 tee -a logs/mysystem_report_2026-03-27.log
+godwin      2210  0.0  0.0   9580  4992 pts/0    R+   12:12   0:00 ps -aux
+The following are the process verification count
+28
+The following are the 5 processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         215  0.0  0.2 107024 22400 ?        Ssl  08:57   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          52  0.0  0.2  66824 18820 ?        S<s  08:57   0:00 /usr/lib/systemd/systemd-journald
+systemd+     163  0.0  0.1  21460 12800 ?        Ss   08:57   0:00 /usr/lib/systemd/systemd-resolved
+root        2109  0.0  0.1 1830352 12800 ?       Ssl  12:03   0:00 /usr/libexec/wsl-pro-service
+The following are the disk usage
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         238G  105G  134G  44% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            3.9G   80K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             238G  105G  134G  44% /mnt/c
+tmpfs           781M   20K  781M   1% /run/user/1000
+The following are the memory usage
+               total        used        free      shared  buff/cache   available
+Mem:            7808         472        7242           3         247        7335
+Swap:           2048           0        2048
+The following are the cpu load
+ 12:14:39 up  3:17,  1 user,  load average: 0.00, 0.00, 0.00
+The following are the list process
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  21780 12524 ?        Ss   08:57   0:01 /sbin/init
+root           2  0.0  0.0   3120  2048 ?        Sl   08:57   0:00 /init
+root           6  0.0  0.0   3168  1968 ?        Sl   08:57   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          52  0.0  0.2  66824 18820 ?        S<s  08:57   0:00 /usr/lib/systemd/systemd-journald
+root         101  0.0  0.0  25276  6144 ?        Ss   08:57   0:02 /usr/lib/systemd/systemd-udevd
+systemd+     163  0.0  0.1  21460 12800 ?        Ss   08:57   0:00 /usr/lib/systemd/systemd-resolved
+systemd+     164  0.0  0.0  91028  7680 ?        Ssl  08:57   0:00 /usr/lib/systemd/systemd-timesyncd
+root         170  0.0  0.0   4236  2560 ?        Ss   08:57   0:00 /usr/sbin/cron -f -P
+message+     171  0.0  0.0   9632  4992 ?        Ss   08:57   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         184  0.0  0.1  17968  8448 ?        Ss   08:57   0:00 /usr/lib/systemd/systemd-logind
+root         189  0.0  0.0   3160  2048 hvc0     Ss+  08:57   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+syslog       192  0.0  0.0 222508  5504 ?        Ssl  08:57   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         205  0.0  0.0   3116  1920 tty1     Ss+  08:57   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         215  0.0  0.2 107024 22400 ?        Ssl  08:57   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         309  0.0  0.0   3128   900 ?        Ss   08:57   0:00 /init
+root         310  0.0  0.0   3144  1288 ?        S    08:57   0:01 /init
+godwin       311  0.0  0.0   7296  6272 pts/0    Ss   08:57   0:00 -bash
+root         312  0.0  0.0   6692  4352 pts/1    Ss   08:57   0:00 /bin/login -f
+godwin       358  0.0  0.1  20312 11136 ?        Ss   08:57   0:00 /usr/lib/systemd/systemd --user
+godwin       359  0.0  0.0  21152  3516 ?        S    08:57   0:00 (sd-pam)
+godwin       383  0.0  0.0   6072  4992 pts/1    S+   08:57   0:00 -bash
+root        2109  0.0  0.1 1830352 12800 ?       Ssl  12:03   0:00 /usr/libexec/wsl-pro-service
+godwin      2232  0.0  0.0   4752  3456 pts/0    S+   12:14   0:00 /bin/bash ./mysystem_check.sh
+godwin      2235  0.0  0.0   4752  1828 pts/0    S+   12:14   0:00 /bin/bash ./mysystem_check.sh
+godwin      2236  0.0  0.0   3132  1664 pts/0    S+   12:14   0:00 tee -a logs/mysystem_report_2026-03-27.log
+godwin      2240  0.0  0.0   9580  4864 pts/0    R+   12:14   0:00 ps -aux
+The following are the process verification count
+28
+The following are the 5 processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         215  0.0  0.2 107024 22400 ?        Ssl  08:57   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          52  0.0  0.2  66824 18820 ?        S<s  08:57   0:00 /usr/lib/systemd/systemd-journald
+systemd+     163  0.0  0.1  21460 12800 ?        Ss   08:57   0:00 /usr/lib/systemd/systemd-resolved
+root        2109  0.0  0.1 1830352 12800 ?       Ssl  12:03   0:00 /usr/libexec/wsl-pro-service
+root           1  0.0  0.1  21780 12524 ?        Ss   08:57   0:01 /sbin/init

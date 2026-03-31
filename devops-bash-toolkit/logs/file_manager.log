@@ -1,0 +1,7 @@
+total 12K
+drwxr-xr-x 1 Owner 197121    0 Mar 30 20:25 backups
+drwxr-xr-x 1 Owner 197121    0 Mar 30 20:47 logs
+-rw-r--r-- 1 Owner 197121    0 Mar 30 20:25 README.md
+-rwxr-xr-x 1 Owner 197121  733 Mar 30 20:43 run_all.sh
+-rwxr-xr-x 1 Owner 197121 2.3K Mar 25 11:09 script.sh
+drwxr-xr-x 1 Owner 197121    0 Mar 30 20:41 scripts

@@ -1,0 +1,152 @@
+--- System Check Report ---
+
+[Disk Usage]
+Filesystem      Size  Used Avail Use% Mounted on
+none            929M     0  929M   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            929M  4.0K  929M   1% /mnt/wsl
+drivers          58G   56G  2.4G  96% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.9G  953G   1% /
+none            929M   92K  929M   1% /mnt/wslg
+none            929M     0  929M   0% /usr/lib/wsl/lib
+rootfs          924M  2.7M  921M   1% /init
+none            929M  460K  928M   1% /run
+none            929M     0  929M   0% /run/lock
+none            929M     0  929M   0% /run/shm
+none            929M   76K  929M   1% /mnt/wslg/versions.txt
+none            929M   76K  929M   1% /mnt/wslg/doc
+C:\              58G   56G  2.4G  96% /mnt/c
+
+[Memory Usage]
+               total        used        free      shared  buff/cache   available
+Mem:            1856         339        1479           3         113        1516
+Swap:           1024           0        1024
+
+[CPU Load]
+ 21:24:44 up  5:17,  0 user,  load average: 0.00, 0.00, 0.00
+
+[Total Running Processes]
+26
+
+[Top 5 Memory-Consuming Processes]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         406  0.0  1.1 107020 22528 ?        Ssl  16:08   0:02 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         368  0.0  0.8 1681852 15488 ?       Ssl  16:08   0:07 /usr/libexec/wsl-pro-service -vv
+root         103  0.0  0.6  34032 12804 ?        S<s  16:08   0:16 /usr/lib/systemd/systemd-journald
+systemd+     253  0.0  0.6  21456 12800 ?        Ss   16:08   0:04 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.6  21580 12740 ?        Ss   16:07   0:28 /sbin/init
+
+Disk usage is healthy at /dev/sdd       1055762868 2955420 999103976   1 /%.
+--- System Check Report ---
+
+[Disk Usage]
+Filesystem      Size  Used Avail Use% Mounted on
+none            929M     0  929M   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            929M  4.0K  929M   1% /mnt/wsl
+drivers          58G   56G  2.4G  96% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.9G  953G   1% /
+none            929M   92K  929M   1% /mnt/wslg
+none            929M     0  929M   0% /usr/lib/wsl/lib
+rootfs          924M  2.7M  921M   1% /init
+none            929M  460K  928M   1% /run
+none            929M     0  929M   0% /run/lock
+none            929M     0  929M   0% /run/shm
+none            929M   76K  929M   1% /mnt/wslg/versions.txt
+none            929M   76K  929M   1% /mnt/wslg/doc
+C:\              58G   56G  2.4G  96% /mnt/c
+
+[Memory Usage]
+               total        used        free      shared  buff/cache   available
+Mem:            1856         351        1468           3         111        1504
+Swap:           1024           0        1024
+
+[CPU Load]
+ 21:29:02 up  5:21,  0 user,  load average: 0.03, 0.02, 0.00
+
+[Total Running Processes]
+26
+
+[Top 5 Memory-Consuming Processes]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         406  0.0  1.1 107020 22528 ?        Ssl  16:08   0:02 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         368  0.0  0.8 1681852 15488 ?       Ssl  16:08   0:07 /usr/libexec/wsl-pro-service -vv
+root         103  0.0  0.6  34032 12804 ?        S<s  16:08   0:16 /usr/lib/systemd/systemd-journald
+systemd+     253  0.0  0.6  21456 12800 ?        Ss   16:08   0:04 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.6  21580 12740 ?        Ss   16:07   0:28 /sbin/init
+
+Disk usage is healthy at /dev/sdd       1055762868 2955428 999103968   1 /%.
+--- System Check Report ---
+
+[Disk Usage]
+Filesystem      Size  Used Avail Use% Mounted on
+none            929M     0  929M   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            929M  4.0K  929M   1% /mnt/wsl
+drivers          58G   56G  2.4G  96% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.9G  953G   1% /
+none            929M  100K  929M   1% /mnt/wslg
+none            929M     0  929M   0% /usr/lib/wsl/lib
+rootfs          924M  2.7M  921M   1% /init
+none            929M  460K  928M   1% /run
+none            929M     0  929M   0% /run/lock
+none            929M     0  929M   0% /run/shm
+none            929M   76K  929M   1% /mnt/wslg/versions.txt
+none            929M   76K  929M   1% /mnt/wslg/doc
+C:\              58G   56G  2.4G  96% /mnt/c
+
+[Memory Usage]
+               total        used        free      shared  buff/cache   available
+Mem:            1856         340        1414           3         177        1516
+Swap:           1024           0        1024
+
+[CPU Load]
+ 22:03:28 up  5:35,  0 user,  load average: 0.02, 0.04, 0.01
+
+[Total Running Processes]
+26
+
+[Top 5 Memory-Consuming Processes]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         406  0.0  1.1 107020 22528 ?        Ssl  16:28   0:02 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         368  0.0  0.8 1681852 15744 ?       Ssl  16:28   0:08 /usr/libexec/wsl-pro-service -vv
+root         103  0.0  0.6  34032 12804 ?        S<s  16:28   0:19 /usr/lib/systemd/systemd-journald
+systemd+     253  0.0  0.6  21456 12800 ?        Ss   16:28   0:07 /usr/lib/systemd/systemd-resolved
+root           1  0.2  0.6  21580 12740 ?        Ss   16:28   0:49 /sbin/init
+
+Disk usage is healthy at 1%.
+--- System Check Report ---
+
+[Disk Usage]
+Filesystem      Size  Used Avail Use% Mounted on
+none            929M     0  929M   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            929M  4.0K  929M   1% /mnt/wsl
+drivers          58G   56G  2.4G  96% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.9G  953G   1% /
+none            929M  100K  929M   1% /mnt/wslg
+none            929M     0  929M   0% /usr/lib/wsl/lib
+rootfs          924M  2.7M  921M   1% /init
+none            929M  460K  928M   1% /run
+none            929M     0  929M   0% /run/lock
+none            929M     0  929M   0% /run/shm
+none            929M   76K  929M   1% /mnt/wslg/versions.txt
+none            929M   76K  929M   1% /mnt/wslg/doc
+C:\              58G   56G  2.4G  96% /mnt/c
+
+[Memory Usage]
+               total        used        free      shared  buff/cache   available
+Mem:            1856         352        1472           3         107        1504
+Swap:           1024           0        1024
+
+[CPU Load]
+ 23:07:38 up  6:39,  0 user,  load average: 0.00, 0.00, 0.00
+
+[Total Running Processes]
+26
+
+[Top 5 Memory-Consuming Processes]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         406  0.0  1.1 107020 22528 ?        Ssl  16:28   0:02 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         368  0.0  0.8 1681852 16000 ?       Ssl  16:28   0:09 /usr/libexec/wsl-pro-service -vv
+root         103  0.0  0.6  34032 12932 ?        S<s  16:28   0:20 /usr/lib/systemd/systemd-journald
+systemd+     253  0.0  0.6  21456 12800 ?        Ss   16:28   0:07 /usr/lib/systemd/systemd-resolved
+root           1  0.2  0.6  21580 12740 ?        Ss   16:28   0:49 /sbin/init
+
+Disk usage is healthy at 1%.

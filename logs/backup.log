@@ -1,0 +1,6 @@
+[2026-03-31 16:45:06] BACKUP FAILED - directory '/path/to/directory' does not exist
+[2026-03-31 16:51:04] BACKUP CREATED - 'backups/backup_scripts_2026-03-31_16-51-04.tar.gz' from 'scripts'
+[2026-03-31 17:00:15] BACKUP CREATED - '/Users/opeyemiadeniji/documents/ts-academy/bash-assignment/backups/backup_scripts_2026-03-31_17-00-15.tar.gz' from 'scripts'
+Error: Directory does not exist
+Usage: ./scripts/backup.sh <directory>
+Backup created: backups/backup_scripts_2026-03-31_18-25-36.tar.gz

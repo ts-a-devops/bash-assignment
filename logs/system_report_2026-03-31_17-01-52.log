@@ -1,0 +1,16 @@
+==============================
+System Check Report
+Generated: Tue Mar 31 17:01:52 IST 2026
+==============================
+
+---- Disk Usage ----
+Filesystem       Size   Used  Avail Capacity iused    ifree %iused  Mounted on
+/dev/disk1s1s1  233Gi  8.7Gi  8.2Gi    52%  356882 86010600    0%   /
+devfs           188Ki  188Ki    0Bi   100%     650        0  100%   /dev
+/dev/disk1s2    233Gi  2.0Gi  8.2Gi    20%    1306 86010600    0%   /System/Volumes/Preboot
+/dev/disk1s4    233Gi   10Gi  8.2Gi    55%      11 86010600    0%   /System/Volumes/VM
+/dev/disk1s6    233Gi   26Mi  8.2Gi     1%     111 86010600    0%   /System/Volumes/Update
+/dev/disk1s5    233Gi  203Gi  8.2Gi    97% 2833782 86010600    3%   /System/Volumes/Data
+map auto_home     0Bi    0Bi    0Bi   100%       0        0  100%   /System/Volumes/Data/home
+
+---- Memory Usage ----

@@ -1,0 +1,53 @@
+System Check Report - Tue Mar 31 18:24:05 IST 2026
+------------------------------
+Disk Usage:
+Filesystem       Size   Used  Avail Capacity iused    ifree %iused  Mounted on
+/dev/disk1s1s1  233Gi  8.7Gi  8.3Gi    52%  356882 86790920    0%   /
+devfs           188Ki  188Ki    0Bi   100%     650        0  100%   /dev
+/dev/disk1s2    233Gi  2.0Gi  8.3Gi    20%    1306 86790920    0%   /System/Volumes/Preboot
+/dev/disk1s4    233Gi   10Gi  8.3Gi    55%      11 86790920    0%   /System/Volumes/VM
+/dev/disk1s6    233Gi   26Mi  8.3Gi     1%     111 86790920    0%   /System/Volumes/Update
+/dev/disk1s5    233Gi  203Gi  8.3Gi    97% 2826505 86790920    3%   /System/Volumes/Data
+map auto_home     0Bi    0Bi    0Bi   100%       0        0  100%   /System/Volumes/Data/home
+
+Memory Usage:
+Mach Virtual Memory Statistics: (page size of 4096 bytes)
+Pages free:                               50431.
+Pages active:                            385770.
+Pages inactive:                          373318.
+Pages speculative:                        11974.
+Pages throttled:                              0.
+Pages wired down:                        659647.
+Pages purgeable:                            905.
+"Translation faults":                1717879791.
+Pages copy-on-write:                  187823474.
+Pages zero filled:                    636969115.
+Pages reactivated:                    169289110.
+Pages purged:                          13687052.
+File-backed pages:                       254140.
+Anonymous pages:                         516922.
+Pages stored in compressor:             5118186.
+Pages occupied by compressor:            615808.
+Decompressions:                       263390032.
+Compressions:                         310807372.
+Pageins:                               19013906.
+Pageouts:                               1515002.
+Swapins:                              376276116.
+Swapouts:                             380364443.
+
+CPU Load:
+18:24  up 23:29, 2 users, load averages: 31.99 29.40 26.16
+
+Disk Warning (above 80%):
+Warning: /System/Volumes/Data is at 97%
+
+Total Running Processes:
+     412
+
+Top 5 Memory-Consuming Processes:
+opeyemiadeniji    9853   0.4  4.4 1489316444 372088   ??  S     8:13PM  45:37.31 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.165/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=280 --time-ticks-at-unix-epoch=-1774893281110667 --launch-time-ticks=3093225729 --shared-files --metrics-shmem-handle=1752395122,r,16552616182547848002,7436429218973964247,2097152 --field-trial-handle=1718379636,r,5153348897521595253,15701392539905932679,262144 --variations-seed-version=20260330-010045.844000-production --pseudonymization-salt-handle=1935764596,r,12817907227150972696,18398955836391688628,4 --trace-process-track-uuid=3190709248683589214 --seatbelt-client=405
+opeyemiadeniji     784   1.6  2.5 135876168 206512   ??  S     6:55PM  49:30.51 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+opeyemiadeniji   88998   0.0  2.3 1489122768 193452   ??  S     8:52PM   6:33.87 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.165/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=503 --time-ticks-at-unix-epoch=-1774893281110667 --launch-time-ticks=5383276718 --shared-files --metrics-shmem-handle=1752395122,r,7950547151920630602,2508003040805019320,2097152 --field-trial-handle=1718379636,r,5153348897521595253,15701392539905932679,262144 --variations-seed-version=20260330-010045.844000-production --pseudonymization-salt-handle=1935764596,r,12817907227150972696,18398955836391688628,4 --trace-process-track-uuid=3190709457643921541 --seatbelt-client=234
+opeyemiadeniji   55683   0.0  2.2 1489332864 187824   ??  S     4:30PM   2:10.92 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.165/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=4287 --time-ticks-at-unix-epoch=-1774893281110667 --launch-time-ticks=41539894671 --shared-files --metrics-shmem-handle=1752395122,r,971459372654929277,9381779272888724334,2097152 --field-trial-handle=1718379636,r,5153348897521595253,15701392539905932679,262144 --variations-seed-version=20260330-010045.844000-production --pseudonymization-salt-handle=1935764596,r,12817907227150972696,18398955836391688628,4 --trace-process-track-uuid=3190713003410278157 --seatbelt-client=696
+root               311  13.1  1.4 36244736 118896   ??  Rs    6:54PM  46:39.89 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+opeyemiadeniji   68611   0.9  1.4 1489495544 119368   ??  S     3:01PM   1:47.14 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/146.0.7680.165/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=3658 --time-ticks-at-unix-epoch=-1774893281110667 --launch-time-ticks=36176479596 --shared-files --metrics-shmem-handle=1752395122,r,12037382034646607883,16279749470701998931,2097152 --field-trial-handle=1718379636,r,5153348897521595253,15701392539905932679,262144 --variations-seed-version=20260330-010045.844000-production --pseudonymization-salt-handle=1935764596,r,12817907227150972696,18398955836391688628,4 --trace-process-track-uuid=3190712414010955136 --seatbelt-client=216

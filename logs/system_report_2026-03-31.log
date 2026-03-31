@@ -1,0 +1,25 @@
+===== SYSTEM REPORT =====
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.1G  1.9M  1.1G   1% /run
+/dev/sda2        25G  9.1G   15G  39% /
+tmpfs           5.4G     0  5.4G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.1G  144K  1.1G   1% /run/user/1000
+/dev/sr0         51M   51M     0 100% /media/rectorx/VBox_GAs_7.2.6
+WARNING: /dev/sr0 is at 100% usage!
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           11059        2966        3460         130        4399        8092
+Swap:              0           0           0
+CPU Load:
+ 21:51:36 up  2:13,  1 user,  load average: 0.20, 0.69, 0.84
+Total Processes:
+258
+Top 5 Memory-consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rectorx     8932 18.5  7.7 12618524 877904 ?     Sl   19:42  23:55 /snap/firefox/7836/usr/lib/firefox/firefox
+rectorx     9744  3.9  6.6 3611316 758472 ?      Sl   19:42   5:07 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:42873 -prefMapHandle 1:277219 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {41ab2770-de8f-4450-a6b2-a9a67047317c} -parentPid 8932 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 9 tab
+rectorx     8111 11.1  4.2 4982156 481132 ?      Rsl  19:42  14:22 /usr/bin/gnome-shell
+rectorx     9563  1.6  3.3 24057136 377300 ?     Sl   19:42   2:06 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:42000 -prefMapHandle 1:277219 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3de9f289-2f90-4c99-8ebd-649e0910e130} -parentPid 8932 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 6 tab
+rectorx    12416  0.8  2.3 2790096 266460 ?      Sl   21:18   0:17 /snap/firefox/7836/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43042 -prefMapHandle 1:277219 -jsInitHandle 2:223968 -parentBuildID 20260214051242 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {42256ec0-95e2-4de0-bc11-f62cfa6a1804} -parentPid 8932 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7836/usr/lib/firefox/omni.ja -appomni /snap/firefox/7836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7836/usr/lib/firefox/browser 21 tab

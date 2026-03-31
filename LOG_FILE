@@ -1,0 +1,2 @@
+Hello tee from nigeria. You are an Adult.
+Usage: ./scripts/file_manager.sh {create|delete|list|rename} <file> [new_name]

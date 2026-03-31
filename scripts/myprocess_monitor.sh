@@ -1,12 +1,12 @@
-
 #!/bin/bash
 # Array of allowed services
 services=("nginx" "ssh" "docker")
 # Log directory and file
 LOG_DIR="logs"
-LOG_FILE="$LOG_DIR/process_monitor.log"
+LOG_FILE="$LOG_DIR/myprocess_monitor.log"
 # Create logs directory if it does not exist
 mkdir -p $LOG_DIR
+
 # Check if argument was provided
 if [ -z "$1" ]; then
    echo "Usage: $0 <process_name>"
@@ -14,6 +14,7 @@ if [ -z "$1" ]; then
 fi
 process=$1
 found=false
+
 # Check if process is in services array
 for service in "${services[@]}"
 do
@@ -27,6 +28,7 @@ if [ "$found" = false ]; then
    echo "$(date) - $process - Not monitored" >> $LOG_FILE
    exit 1
 fi
+
 # Check if process is running
 if pgrep -x "$process" > /dev/null
 then
@@ -36,7 +38,8 @@ else
    echo "Stopped"
    echo "$(date) - $process - Stopped" >> $LOG_FILE
    echo "Attempting restart..."
-   # Restart attempt (simulation if restart fails)
+  
+ # Restart attempt (simulation if restart fails)
    if systemctl start "$process" 2>/dev/null
    then
        echo "Restarted"

@@ -32,7 +32,14 @@ case $action in
        ;;
 
    list)
+	   if [[ "ls -A" ]];  then
+	 echo "---current files---"
        ls
+       echo "file listed"
+       echo "$(date): file succesfully listed" >> "$LOG_FILE"
+else
+	echo "No files found" >> "$LOG_FILE"
+	   fi
        ;;
 
    rename)
@@ -46,6 +53,7 @@ case $action in
        ;;
 
    *)
-       echo "Usage: $0 {create|delete|list|rename} filename [newname]"
+       
+	  echo "Usage: $0 {create|delete|list|rename} filename [newname]"
        ;;
 esac

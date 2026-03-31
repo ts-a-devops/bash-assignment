@@ -1,0 +1,8 @@
+Total processes: 37
+Top 5 memory processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         241  0.0  0.2 107172 21248 ?        Ssl  15:49   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         202  0.0  0.2  30184 18432 ?        Ss   15:49   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          66  0.1  0.1  47740 14720 ?        S<s  15:49   0:00 /lib/systemd/systemd-journald
+systemd+     183  0.0  0.1  26204 13784 ?        Ss   15:49   0:00 /lib/systemd/systemd-resolved
+root         208  0.0  0.1 1756716 12544 ?       Ssl  15:49   0:00 /usr/libexec/wsl-pro-service

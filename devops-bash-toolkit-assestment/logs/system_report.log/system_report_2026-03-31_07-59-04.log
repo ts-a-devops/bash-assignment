@@ -1,0 +1,49 @@
+===== SYSTEM REPORT =====
+Date: Tue Mar 31 07:59:04 PDT 2026
+
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         119G  105G   15G  88% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            1.9G   76K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  764K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             119G  105G   15G  88% /mnt/c
+snapfuse         67M   67M     0 100% /snap/core24/1499
+snapfuse         11M   11M     0 100% /snap/htop/5548
+snapfuse         11M   11M     0 100% /snap/htop/5716
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+
+---- Disk Warning ----
+WARNING: drivers is above 80% usage (88%)
+WARNING: C:100% snapfuse is above 80% usage (88%)
+WARNING: snapfuse is above 80% usage (100%)
+WARNING: snapfuse is above 80% usage (100%)
+WARNING: snapfuse is above 80% usage (100%)
+
+---- Memory Usage ----
+               total        used        free      shared  buff/cache   available
+Mem:            3817         438        3379           3         134        3379
+Swap:           1024           0        1024
+
+---- CPU Load ----
+ 07:59:05 up 37 min,  0 user,  load average: 0.00, 0.00, 0.00
+
+---- Running Processes ----
+33
+
+---- Top 5 Memory Consuming Processes ----
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         510  0.0  0.9 1997476 37732 ?       Ssl  07:22   0:01 /snap/snapd/current/usr/lib/snapd/snapd
+root         542  0.0  0.5 107024 22400 ?        Ssl  07:22   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1160  0.0  0.3 1830352 13312 ?       Ssl  07:53   0:00 /usr/libexec/wsl-pro-service
+systemd+     479  0.0  0.3  21460 12800 ?        Ss   07:22   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.1  0.3  21708 12368 ?        Ss   07:21   0:03 /sbin/init
+

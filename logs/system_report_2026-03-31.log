@@ -1,0 +1,228 @@
+System report - Tue Mar 31 11:07:21 WAT 2026
+Disk Usage - Tue Mar 31 11:07:21 WAT 2026
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  223G   16G  94% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.5G  954G   1% /
+none            1.9G  208K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  496K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G  104K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G  104K  1.9G   1% /mnt/wslg/doc
+C:\             238G  223G   16G  94% /mnt/c
+tmpfs           386M   20K  386M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3853         466        3397           3         114        3387
+Swap:           1024           0        1024
+CPU load
+ 11:07:21 up 12:22,  1 user,  load average: 0.00, 0.00, 0.00
+Total Processes
+27
+Top 5 Memory processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         222  0.0  0.5 107024 22528 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          48  0.0  0.4  66756 16332 ?        S<s  Mar30   0:21 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.3 1830468 14644 ?       Ssl  Mar30   0:11 /usr/libexec/wsl-pro-service -vv
+redis        181  0.3  0.3  64916 13312 ?        Ssl  Mar30   2:35 /usr/bin/redis-server 127.0.0.1:6379
+systemd+     148  0.0  0.3  21460 12416 ?        Ss   Mar30   0:01 /usr/lib/systemd/systemd-resolved
+System report - Tue Mar 31 11:07:44 WAT 2026
+Disk Usage - Tue Mar 31 11:07:44 WAT 2026
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  223G   16G  94% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.5G  954G   1% /
+none            1.9G  208K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  496K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G  104K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G  104K  1.9G   1% /mnt/wslg/doc
+C:\             238G  223G   16G  94% /mnt/c
+tmpfs           386M   20K  386M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3853         451        3412           3         115        3402
+Swap:           1024           0        1024
+CPU load
+ 11:07:44 up 12:22,  1 user,  load average: 0.00, 0.00, 0.00
+Total Processes
+27
+Top 5 Memory processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         222  0.0  0.5 107024 22528 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          48  0.0  0.4  66756 16332 ?        S<s  Mar30   0:21 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.3 1830468 14644 ?       Ssl  Mar30   0:11 /usr/libexec/wsl-pro-service -vv
+redis        181  0.3  0.3  64916 13312 ?        Ssl  Mar30   2:35 /usr/bin/redis-server 127.0.0.1:6379
+systemd+     148  0.0  0.3  21460 12416 ?        Ss   Mar30   0:01 /usr/lib/systemd/systemd-resolved
+System report - Tue Mar 31 11:08:05 WAT 2026
+Disk Usage - Tue Mar 31 11:08:05 WAT 2026
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  223G   16G  94% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.5G  954G   1% /
+none            1.9G  208K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  496K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G  104K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G  104K  1.9G   1% /mnt/wslg/doc
+C:\             238G  223G   16G  94% /mnt/c
+tmpfs           386M   20K  386M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3853         452        3410           3         115        3400
+Swap:           1024           0        1024
+CPU load
+ 11:08:05 up 12:23,  1 user,  load average: 0.11, 0.03, 0.01
+Total Processes
+27
+Top 5 Memory processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         222  0.0  0.5 107024 22528 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          48  0.0  0.4  66756 16332 ?        S<s  Mar30   0:21 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.3 1830468 14644 ?       Ssl  Mar30   0:11 /usr/libexec/wsl-pro-service -vv
+redis        181  0.3  0.3  64916 13312 ?        Ssl  Mar30   2:35 /usr/bin/redis-server 127.0.0.1:6379
+systemd+     148  0.0  0.3  21460 12416 ?        Ss   Mar30   0:01 /usr/lib/systemd/systemd-resolved
+System report - Tue Mar 31 11:14:34 WAT 2026
+Disk Usage - Tue Mar 31 11:14:34 WAT 2026
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  223G   16G  94% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.5G  954G   1% /
+none            1.9G  208K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  496K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G  104K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G  104K  1.9G   1% /mnt/wslg/doc
+C:\             238G  223G   16G  94% /mnt/c
+tmpfs           386M   20K  386M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3853         458        3404           3         115        3394
+Swap:           1024           0        1024
+CPU load
+ 11:14:34 up 12:29,  1 user,  load average: 0.00, 0.00, 0.00
+Total Processes
+27
+Top 5 Memory processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         222  0.0  0.5 107024 22528 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          48  0.0  0.4  66756 16460 ?        S<s  Mar30   0:21 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.3 1830468 14772 ?       Ssl  Mar30   0:11 /usr/libexec/wsl-pro-service -vv
+redis        181  0.3  0.3  64916 13312 ?        Ssl  Mar30   2:36 /usr/bin/redis-server 127.0.0.1:6379
+systemd+     148  0.0  0.3  21460 12416 ?        Ss   Mar30   0:01 /usr/lib/systemd/systemd-resolved
+Warning: Disk usage above 80%
+System report - Tue Mar 31 11:14:53 WAT 2026
+Disk Usage - Tue Mar 31 11:14:53 WAT 2026
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  223G   16G  94% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.5G  954G   1% /
+none            1.9G  208K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  496K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G  104K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G  104K  1.9G   1% /mnt/wslg/doc
+C:\             238G  223G   16G  94% /mnt/c
+tmpfs           386M   20K  386M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3853         446        3415           3         118        3406
+Swap:           1024           0        1024
+CPU load
+ 11:14:53 up 12:29,  1 user,  load average: 0.00, 0.00, 0.00
+Total Processes
+27
+Top 5 Memory processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         222  0.0  0.5 107024 22528 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          48  0.0  0.4  66756 16460 ?        S<s  Mar30   0:21 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.3 1830468 14772 ?       Ssl  Mar30   0:11 /usr/libexec/wsl-pro-service -vv
+redis        181  0.3  0.3  64916 13312 ?        Ssl  Mar30   2:36 /usr/bin/redis-server 127.0.0.1:6379
+systemd+     148  0.0  0.3  21460 12416 ?        Ss   Mar30   0:01 /usr/lib/systemd/systemd-resolved
+Warning: Disk usage above 80%
+System report - Tue Mar 31 15:54:13 WAT 2026
+Disk Usage - Tue Mar 31 15:54:13 WAT 2026
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  223G   16G  94% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.5G  954G   1% /
+none            1.9G  228K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  496K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G  104K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G  104K  1.9G   1% /mnt/wslg/doc
+C:\             238G  223G   16G  94% /mnt/c
+tmpfs           386M   20K  386M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3853         477        3389           3         108        3375
+Swap:           1024           0        1024
+CPU load
+ 15:54:13 up 15:23,  1 user,  load average: 0.00, 0.00, 0.00
+Total Processes
+28
+Top 5 Memory processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         222  0.0  0.5 107024 22528 ?        Ssl  00:30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          48  0.0  0.4  66756 16588 ?        S<s  00:30   0:25 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.3 1830468 14764 ?       Ssl  00:30   0:13 /usr/libexec/wsl-pro-service -vv
+redis        181  0.3  0.3  64916 13312 ?        Ssl  00:30   3:11 /usr/bin/redis-server 127.0.0.1:6379
+systemd+     148  0.0  0.3  21460 12416 ?        Ss   00:30   0:02 /usr/lib/systemd/systemd-resolved
+Warning: Disk usage above 80%
+System report - Tue Mar 31 15:55:54 WAT 2026
+Disk Usage - Tue Mar 31 15:55:54 WAT 2026
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  223G   16G  94% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.5G  954G   1% /
+none            1.9G  228K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  496K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G  104K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G  104K  1.9G   1% /mnt/wslg/doc
+C:\             238G  223G   16G  94% /mnt/c
+tmpfs           386M   20K  386M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            3853         479        3388           3         107        3374
+Swap:           1024           0        1024
+CPU load
+ 15:55:54 up 15:25,  1 user,  load average: 0.02, 0.01, 0.00
+Total Processes
+28
+Top 5 Memory processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         222  0.0  0.5 107024 22528 ?        Ssl  00:30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          48  0.0  0.4  66756 16588 ?        S<s  00:30   0:25 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.3 1830468 14764 ?       Ssl  00:30   0:13 /usr/libexec/wsl-pro-service -vv
+redis        181  0.3  0.3  64916 13312 ?        Ssl  00:30   3:11 /usr/bin/redis-server 127.0.0.1:6379
+systemd+     148  0.0  0.3  21460 12416 ?        Ss   00:30   0:02 /usr/lib/systemd/systemd-resolved
+Warning: Disk usage above 80%

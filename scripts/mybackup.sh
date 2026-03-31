@@ -10,7 +10,7 @@ BACKUP_DIR="backups"
 
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 
-LOG_FILE="logs/backup.log"
+LOG_FILE="logs/mybackup.log"
 
 # Ensure log directory exists
 

@@ -1,45 +1,51 @@
 #!/bin/bash
 
-#Input from user
+LOG_DIR="logs"
+LOG_FILE="$LOG_DIR/file_manager.log"
 
-ACTION=$1
+# Create logs directory if it doesn't exist
+mkdir -p $LOG_DIR
 
-TARGET=$2
+action=$1
+file1=$2
+file2=$3
 
-NEW_NAME=$3
+case $action in
+   create)
+       if [[ -f "$file1" ]]; then
+           echo "File already exists!"
+       else
+           touch "$file1"
+           echo "File created: $file1"
+           echo "$(date): Created $file1" >> "$LOG_FILE"
+       fi
+       ;;
 
-LOG_FILE="logs/myfile_manager.log"
+   delete)
+       if [[ -f "$file1" ]]; then
+           rm "$file1"
+           echo "File deleted: $file1"
+           echo "$(date): Deleted $file1" >> "$LOG_FILE"
+       else
+           echo "File not found!"
+       fi
+       ;;
 
-mkdir -p logs
+   list)
+       ls
+       ;;
 
-#Create Command
+   rename)
+       if [[ -f "$file1" ]]; then
+           mv "$file1" "$file2"
+           echo "Renamed $file1 to $file2"
+           echo "$(date): Renamed $file1 to $file2" >> "$LOG_FILE"
+       else
+           echo "File not found!"
+       fi
+       ;;
 
-if [[ "$ACTION" == "create" ]]; then
-
-   if [[ -e "$TARGET" ]]; then
-       echo "Error: '$TARGET' already exists!" | tee -a "$LOG_FILE"
-   else
-       touch "$TARGET"
-echo "[$(date)] SUCCESS: Created $TARGET" | tee -a "$LOG_FILE"
-
-fi
-fi
-
-#Delete Command
-
-if [[ "$ACTION" == "delete" ]]; then
-
-   if [[ -f "$TARGET" ]]; then
-       
-	   rm "$TARGET"
-       echo "[$(date)]'$TARGET' deleted!" | tee -a "$LOG_FILE"
-   else
-       
-echo "$TARGET is not found" | tee -a "$LOG_FILE"
-
-fi
-fi
-
-#List Command
-
-
+   *)
+       echo "Usage: $0 {create|delete|list|rename} filename [newname]"
+       ;;
+esac

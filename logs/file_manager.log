@@ -1,0 +1,16 @@
+File exists!
+total 12K
+-rw-r--r-- 1 justlola justlola 837 Mar 31 02:28 file_manager.sh
+-rw-r--r-- 1 justlola justlola   0 Mar 31 02:24 sample.txt
+-rw-r--r-- 1 justlola justlola 862 Mar 31 01:35 system_check.sh
+-rw-r--r-- 1 justlola justlola 645 Mar 31 00:58 user_info.sh
+Renamed  to sample1.txt
+Renamed sample.txt to sample1.txt
+File deleted: sample1.txt
+total 24K
+-rw-r--r-- 1 justlola justlola 598 Mar 31 03:16 backup.sh
+-rw-r--r-- 1 justlola justlola 837 Mar 31 02:35 file_manager.sh
+-rw-r--r-- 1 justlola justlola 380 Mar 31 03:32 process_monitor.sh
+-rw-r--r-- 1 justlola justlola 588 Mar 31 04:03 run_all.sh
+-rw-r--r-- 1 justlola justlola 862 Mar 31 01:35 system_check.sh
+-rw-r--r-- 1 justlola justlola 645 Mar 31 00:58 user_info.sh

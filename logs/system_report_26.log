@@ -1,0 +1,105 @@
+===== System Report =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         953G  258G  696G  28% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.0G  954G   1% /
+none            3.8G  176K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  856K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             953G  258G  696G  28% /mnt/c
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse         74M   74M     0 100% /snap/core22/2339
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+snapfuse        4.5M  4.5M     0 100% /snap/tree/54
+tmpfs           778M   20K  778M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7773         573        7172           3         182        7199
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 01:28:40 up  3:35,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total Running Processes: 34
+---------- Top 5 Memory Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         222  0.0  0.4 2220464 38416 ?       Ssl  Mar30   0:01 /snap/snapd/current/usr/lib/snapd/snapd
+root         257  0.0  0.2 107024 22400 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          39  0.0  0.1  50436 15360 ?        S<s  Mar30   0:00 /usr/lib/systemd/systemd-journald
+systemd+     146  0.0  0.1  21460 12320 ?        Ss   Mar30   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.1  21864 12292 ?        Ss   Mar30   0:00 /sbin/init
+===== System Report =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         953G  258G  696G  28% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.0G  954G   1% /
+none            3.8G  216K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  860K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             953G  258G  696G  28% /mnt/c
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse         74M   74M     0 100% /snap/core22/2339
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+snapfuse        4.5M  4.5M     0 100% /snap/tree/54
+tmpfs           778M   20K  778M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7773         568        7164           3         195        7204
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 04:04:40 up  5:51,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total Running Processes: 38
+---------- Top 5 Memory Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         222  0.0  0.4 2220464 38552 ?       Ssl  Mar30   0:02 /snap/snapd/current/usr/lib/snapd/snapd
+root         257  0.0  0.2 107024 22400 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          39  0.0  0.1  50436 15360 ?        S<s  Mar30   0:00 /usr/lib/systemd/systemd-journald
+root        2239  0.0  0.1 1830352 12640 ?       Ssl  03:55   0:00 /usr/libexec/wsl-pro-service
+systemd+     146  0.0  0.1  21460 12320 ?        Ss   Mar30   0:00 /usr/lib/systemd/systemd-resolved
+===== System Report =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         953G  258G  696G  28% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.0G  954G   1% /
+none            3.8G  216K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  856K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             953G  258G  696G  28% /mnt/c
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse         74M   74M     0 100% /snap/core22/2339
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+snapfuse        4.5M  4.5M     0 100% /snap/tree/54
+tmpfs           778M   20K  778M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7773         582        7151           3         195        7190
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 04:09:42 up  5:56,  1 user,  load average: 0.05, 0.01, 0.00
+----- Total Running Processes: 36
+---------- Top 5 Memory Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         222  0.0  0.4 2220464 38368 ?       Ssl  Mar30   0:02 /snap/snapd/current/usr/lib/snapd/snapd
+root         257  0.0  0.2 107024 22400 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          39  0.0  0.1  50436 15360 ?        S<s  Mar30   0:00 /usr/lib/systemd/systemd-journald
+systemd+     146  0.0  0.1  21460 12320 ?        Ss   Mar30   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.1  21864 12292 ?        Ss   Mar30   0:01 /sbin/init

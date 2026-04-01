@@ -25,8 +25,8 @@ menu() {
 
      case $choice in
        1) run_all | tee -a "$LOG_FILE" ;;
-       2) bash scripts/system_check.sh | tee -a "$LOG_FILE" ;;
-       3) bash scripts/backup.sh . | tee -a "$LOG_FILE" ;;
+       2) bash system_check.sh | tee -a "$LOG_FILE" ;;
+       3) bash backup.sh . | tee -a "$LOG_FILE" ;;
        4) exit 0 ;;
        *) echo "Invalid option" ;;
      esac

@@ -1,9 +1,8 @@
 #!/bin/bash
-
+mkdir -p logs
 OUTPUT_FILE="logs/user_info.log"
 
 # Function to prompt user and validate age
-prompt_user() {
   # Prompt for Name
   read -p "Enter your Name: " NAME
   while [[ -z "$NAME" ]]; do
@@ -24,10 +23,10 @@ prompt_user() {
     echo "Country cannot be empty. Please enter your Country."
     read -p "Enter your Country: " COUNTRY
   done
-}
+
 
 # Function to determine age category
-get_age_category() {
+
   if (( AGE < 18 )); then
     CATEGORY="Minor"
   elif (( AGE < 65 )); then
@@ -35,12 +34,11 @@ get_age_category() {
   else
     CATEGORY="Senior"
   fi
-}# Prepare output message
+# Prepare output message
 MESSAGE="Hello $NAME from $COUNTRY!
 Age: $AGE
 Category: $CATEGORY"
 
 echo -e "$MESSAGE"
 
-echo -e "$MESSAGE" > "$OUTPUT_FILE"
-echo "Output saved to $OUTPUT_FILE"
+echo -e "$MESSAGE" > "$OUTPUT_FILE" || echo "Failed to write to log file"

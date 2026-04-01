@@ -30,3 +30,8 @@ if [[ -d $dir ]]; then
 
 else echo "input a valid directory path"
 fi
+
+ls -t "$backup"/backup_*.tar.gz | tail -n +6 | while read old_backup; do
+    rm "$old_backup"
+    echo "$(date +"%Y-%m-%d %H:%M:%S") - Deleted old backup: $old_backup" | tee "$log_dir/backup.log"
+done

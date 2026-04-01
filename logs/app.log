@@ -1,0 +1,5 @@
+[2026-04-01 06:35:50] Running: process_monitor.sh
+[2026-04-01 06:35:50] WARNING: process_monitor.sh exited with error
+[2026-04-01 06:35:57] Running: user_info.sh
+[2026-04-01 06:36:11] WARNING: user_info.sh exited with error
+[2026-04-01 06:36:14] Exiting menu.

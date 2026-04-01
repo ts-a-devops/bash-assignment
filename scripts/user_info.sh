@@ -10,12 +10,12 @@ read -p "Enter your country: " COUNTRY
 
 # Validate inputs
 if [[ -z "$NAME" || -z "$AGE" || -z "$COUNTRY" ]]; then
-  echo "Error: All fields are required."
+  echo "Error: Missing input — please provide NAME, AGE, and COUNTRY before continuing."
   exit 1
 fi
 
 if ! [[ "$AGE" =~ ^[0-9]+$ ]]; then
-  echo "Error: Age must be a number."
+  echo "Error: Error: Invalid AGE — please enter a numeric value."
   exit 1
 fi
 

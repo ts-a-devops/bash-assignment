@@ -1,0 +1,7 @@
+Usage: file_manager.sh {create|delete|list|rename} filename filename?
+File created: file.txt
+total 12K
+-rw-rw-r-- 1 osamu osamu   0 Apr  1 12:42 file.txt
+-rw-rw-r-- 1 osamu osamu 966 Apr  1 12:40 file_manager.sh
+-rw-rw-r-- 1 osamu osamu 827 Apr  1 12:25 system_check.sh
+-rw-rw-r-- 1 osamu osamu 750 Apr  1 11:47 user_info.sh

@@ -1,0 +1,44 @@
+================ SYSTEM REPORT ================
+Generated On: Wed Apr  1 15:49:37 WAT 2026
+
+>>> Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  410G   67G  86% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.7G  954G   1% /
+none            3.9G  272K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  410G   67G  86% /mnt/c
+tmpfs           782M   20K  782M   1% /run/user/1000
+
+>>> Disk Usage Warnings (>80%):
+WARNING: drivers is at 86% usage
+WARNING: C:\ is at 86% usage
+
+>>> Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7814         478        7341           3         148        7335
+Swap:           2048           0        2048
+
+>>> CPU Load Average (uptime):
+ 15:49:37 up 20:37,  1 user,  load average: 0.00, 0.00, 0.00
+
+>>> Total Running Processes:
+29
+
+>>> Top 5 Memory Consuming Processes:
+    PID    PPID CMD                         %MEM %CPU
+    330       1 /usr/bin/python3 /usr/share  0.2  0.0
+      1       0 /usr/lib/systemd/systemd --  0.1  0.0
+   1910       1 /usr/lib/systemd/systemd-re  0.1  0.0
+   1747       1 /usr/lib/systemd/systemd-jo  0.1  0.0
+    453       1 /usr/lib/systemd/systemd --  0.1  0.0
+
+================ END OF REPORT ================

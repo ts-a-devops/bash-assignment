@@ -1,0 +1,43 @@
+ERROR: create requires a filename to work. What file do you intend to create, pass it as a second argument.
+ Viola! 'myname' Created
+This is the content of the file
+This is the content of the file
+w[kqpkkkkkkk
+woqdbjjj
+bqwdifuuu
+wdb	ooooooooo
+I have renamed '' to ''
+ERROR: I can't do what you ask of me cause 'myname' doesn't exist
+ERROR: 'yourname' already exists. I will not create to prevent overwriting the existing file.
+ERROR: I can't delete 'myname' because 'myname' does not exist.
+Viola! You have just deleted yourname. If that was a mistake I hope you had a backup.
+March 31 03:01:05
+
+ Viola! 'yourname' Created
+March 31 03:01:20
+
+ERROR: 'yourname' already exists. I will not create to prevent overwriting the existing file.
+
+March 31 03:02:12
+ERROR: I can't list what does not exist, 'myname' does not exist.
+
+March 31 03:02:18
+ERROR: I can't delete 'myname' because 'myname' does not exist.
+
+March 31 03:02:25
+ERROR: 'yourname' already exists. I will not create to prevent overwriting the existing file.
+
+March 31 03:02:47
+Viola! You have just deleted yourname. If that was a mistake I hope you had a backup.
+
+March 31 20:14:07
+ERROR: Unsupported command. Use: create, delete, list, rename
+
+March 31 20:14:22
+Voilà! 'Gift' created
+
+March 31 20:14:44
+I have renamed 'Gift' to 'Sifon'
+
+March 31 20:15:20
+Viola! You have just deleted Sifon. If that was a mistake I hope you had a backup.

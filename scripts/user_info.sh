@@ -27,9 +27,8 @@ fi
     echo "Your name is ${name} and you are from ${country}, the /$/{result of api_call /}"
     echo "Country: ${country}"
 }
-
-mkdir -p logs
-cd logs || exit
+[[ -d "logs" ]] || mkdir logs
+[[ -d "logs" ]] && cd logs || exit
 touch "user_info.log"
 
 prompt "$@" > "user_info.log"

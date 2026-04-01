@@ -1,0 +1,29 @@
+=======Disk usage==========
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         238G  137G  102G  58% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.0G  954G   1% /
+none            3.8G  152K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  532K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   96K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   96K  3.8G   1% /mnt/wslg/doc
+C:\             238G  137G  102G  58% /mnt/c
+tmpfs           760M   20K  760M   1% /run/user/1000
+=======Memory usage========
+               total        used        free      shared  buff/cache   available
+Mem:            7593         537        6452           3         765        7055
+Swap:           2048           0        2048
+=======System uptime=======
+up 5 hours, 21 minutes
+Apr_2026
+There are 28 active processes
+USER %MEM
+root 0.2
+root 0.1
+root 0.1
+root 0.1

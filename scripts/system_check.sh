@@ -28,10 +28,10 @@ uptime | tee -a "$LOG_FILE"
 
 # Total running processes
 echo -e "\n--- Total Running Processes ---" | tee -a "$LOG_FILE"
-ps -e --no-headers | wc -l | tee -a "$LOG_FILE"
+ps | wc -l | tee -a "$LOG_FILE"
 
 # Top 5 memory-consuming processes
 echo -e "\n--- Top 5 Memory-Consuming Processes ---" | tee -a "$LOG_FILE"
-ps aux --sort=-%mem | head -n 6 | tee -a "$LOG_FILE"
+ps aux | sort -rk 4 | head -n 6 | tee -a "$LOG_FILE"
 
 echo -e "\nReport saved to $LOG_FILE"

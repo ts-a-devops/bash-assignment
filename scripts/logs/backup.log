@@ -1,0 +1,8 @@
+2026-04-01 09:00:42 - ERROR: Directory '/scripts' does not exist.
+2026-04-01 09:01:49 - SUCCESS: Backup created at backups/backup_2026-04-01_09-01-49.tar.gz
+2026-04-01 09:01:49 - Cleaning old backups (keeping last 5)...
+2026-04-01 09:01:49 - Backup process completed.
+2026-04-01 11:17:02 - ERROR: Directory 'backup.sh' does not exist.
+2026-04-01 11:17:24 - SUCCESS: Backup created at backups/backup_2026-04-01_11-17-24.tar.gz
+2026-04-01 11:17:24 - Cleaning old backups (keeping last 5)...
+2026-04-01 11:17:24 - Backup process completed.

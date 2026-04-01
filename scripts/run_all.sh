@@ -1,19 +1,15 @@
 #!/bin/bash
 set -euo pipefail
 
-# Ensure logs directory exists
 mkdir -p logs
 LOG_FILE="logs/app.log"
 
-# Directory containing your scripts
 SCRIPTS_DIR="scripts"
 
-# Function to log messages
 log() {
     echo "$(date +"%Y-%m-%d %H:%M:%S") - $1" | tee -a "$LOG_FILE"
 }
 
-# Function to run system_check.sh
 run_system_check() {
     local script="$SCRIPTS_DIR/system_check.sh"
     if [[ -x "$script" ]]; then
@@ -24,7 +20,6 @@ run_system_check() {
     fi
 }
 
-# Function to run backup.sh (if it exists)
 run_backup() {
     local script="$SCRIPTS_DIR/backup.sh"
     if [[ -x "$script" ]]; then
@@ -35,7 +30,6 @@ run_backup() {
     fi
 }
 
-# Function to run all scripts
 run_all() {
     log "Running all scripts..."
     run_system_check
@@ -43,7 +37,6 @@ run_all() {
     log "All scripts completed."
 }
 
-# Interactive menu
 while true; do
     echo ""
     echo "===== DevOps Toolkit Menu ====="

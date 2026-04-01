@@ -1,0 +1,32 @@
+==============================
+     SYSTEM CHECK REPORT      
+==============================
+Generated on: Wed Apr  1 16:03:20 WAT 2026
+
+----- DISK USAGE (df -h) -----
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi   9.6Gi   373Gi     3%    404k  3.9G    0%   /
+devfs            199Ki   199Ki     0Bi   100%     688     0  100%   /dev
+/dev/disk3s6     460Gi    20Ki   373Gi     1%       0  3.9G    0%   /System/Volumes/VM
+/dev/disk3s2     460Gi   5.0Gi   373Gi     2%     175  3.9G    0%   /System/Volumes/Preboot
+/dev/disk3s4     460Gi   2.7Mi   373Gi     1%      91  3.9G    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   481Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   6.1Mi   481Mi     2%      21  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   2.2Mi   481Mi     1%      67  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     460Gi    72Gi   373Gi    17%    380k  3.9G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+----- DISK WARNING CHECK -----
+Disk usage is okay (below 80%).
+
+----- MEMORY USAGE (free -m) -----
+
+----- CPU LOAD (uptime) -----
+16:03  up 21 mins, 2 users, load averages: 1.45 1.91 2.81
+
+----- TOTAL RUNNING PROCESSES -----
+Total Running Processes:      531
+
+----- TOP 5 MEMORY CONSUMING PROCESSES -----
+
+System check completed successfully.

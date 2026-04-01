@@ -1,0 +1,164 @@
+===== SYSTEM REPORT =====
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         238G  107G  131G  45% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            3.8G   96K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  544K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             238G  107G  131G  45% /mnt/c
+tmpfs           761M   20K  761M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7608         518        6511           3         739        7090
+Swap:           2048           0        2048
+CPU Load:
+ 11:38:39 up  2:48,  1 user,  load average: 1.02, 0.47, 0.18
+Total running processes: 33
+Top 5 memory-consuming processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        5524  0.0  1.0 2136704 85112 ?       Ssl  11:04   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        5362  0.3  0.5 2162884 46068 ?       Ssl  11:04   0:06 /usr/bin/containerd
+root         207  0.0  0.2 107024 22400 ?        Ssl  08:50   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          42  0.6  0.1  66832 15096 ?        S<s  08:50   1:02 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.1  22116 12524 ?        Ss   08:50   0:11 /sbin/init
+Backup created: backups/backup_20260329_113855.tar.gz
+Old backups cleaned up
+Hello ibra from 9ja! You are an Adult.
+===== SYSTEM REPORT =====
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         238G  107G  131G  45% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            3.8G   96K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  544K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             238G  107G  131G  45% /mnt/c
+tmpfs           761M   20K  761M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7608         519        6506           3         743        7088
+Swap:           2048           0        2048
+CPU Load:
+ 11:40:01 up  2:49,  1 user,  load average: 0.27, 0.35, 0.16
+Total running processes: 34
+Top 5 memory-consuming processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        5524  0.0  1.0 2136704 85112 ?       Ssl  11:04   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        5362  0.3  0.5 2162884 46068 ?       Ssl  11:04   0:06 /usr/bin/containerd
+root         207  0.0  0.2 107024 22400 ?        Ssl  08:50   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          42  0.6  0.1  66832 14960 ?        S<s  08:50   1:02 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.1  22116 12524 ?        Ss   08:50   0:11 /sbin/init
+Backup created: backups/backup_20260329_114001.tar.gz
+Old backups cleaned up
+Backup created: backups/backup_20260329_114117.tar.gz
+Old backups cleaned up
+Error: Age must be numeric
+Hello msdfs from 9ja! You are an Minor.
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         238G  107G  131G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            3.8G  104K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  544K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             238G  107G  131G  46% /mnt/c
+tmpfs           761M   20K  761M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7608         529        6349           3         892        7078
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 14:47:59 up  5:24,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total running processes: 38
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        5524  0.0  1.0 2136704 85112 ?       Ssl  11:37   0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        5362  0.3  0.5 2162884 46196 ?       Ssl  11:37   0:36 /usr/bin/containerd
+root         207  0.0  0.2 107024 22400 ?        Ssl  09:23   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          42  1.0  0.1  66832 14956 ?        S<s  09:23   3:16 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.1  22116 12524 ?        Ss   09:23   0:22 /sbin/init
+Backup created: ../backups/backup_20260329_144759.tar.gz
+Old backups cleaned up
+nginx is Stopped. Restarting...
+nginx Restarted
+ssh is Stopped. Restarting...
+ssh Restarted
+docker is Stopped. Restarting...
+docker Restarted
+total 24K
+-rw-r--r-- 1 muhammad muhammad 614 Mar 29 14:41 backup.sh
+-rw-r--r-- 1 muhammad muhammad 926 Mar 29 14:26 file_manager.sh
+-rw-r--r-- 1 muhammad muhammad 385 Mar 29 14:26 process_monitor.sh
+-rw-r--r-- 1 muhammad muhammad 616 Mar 29 14:37 run_all.sh
+-rw-r--r-- 1 muhammad muhammad 839 Mar 29 14:31 system_check.sh
+-rw-r--r-- 1 muhammad muhammad 784 Mar 29 14:32 user_info.sh
+total 24K
+-rw-r--r-- 1 muhammad muhammad 614 Mar 29 14:41 backup.sh
+-rw-r--r-- 1 muhammad muhammad 926 Mar 29 14:26 file_manager.sh
+-rw-r--r-- 1 muhammad muhammad 385 Mar 29 14:26 process_monitor.sh
+-rw-r--r-- 1 muhammad muhammad 616 Mar 29 14:52 run_all.sh
+-rw-r--r-- 1 muhammad muhammad 839 Mar 29 14:31 system_check.sh
+-rw-r--r-- 1 muhammad muhammad 784 Mar 29 14:32 user_info.sh
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         238G  107G  131G  46% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.4G  954G   1% /
+none            3.8G  104K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  544K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             238G  107G  131G  46% /mnt/c
+tmpfs           761M   20K  761M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7608         524        6350           3         897        7083
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 14:53:00 up  5:29,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total running processes: 38
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        5524  0.0  1.0 2136704 85112 ?       Ssl  11:37   0:04 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        5362  0.3  0.5 2162884 46196 ?       Ssl  11:37   0:37 /usr/bin/containerd
+root         207  0.0  0.2 107024 22400 ?        Ssl  09:23   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          42  1.0  0.1  66832 15108 ?        S<s  09:23   3:24 /usr/lib/systemd/systemd-journald
+root           1  0.1  0.1  22116 12524 ?        Ss   09:23   0:23 /sbin/init
+Backup created: ../backups/backup_20260329_145300.tar.gz
+Old backups cleaned up
+nginx is Stopped. Restarting...
+nginx Restarted
+ssh is Stopped. Restarting...
+ssh Restarted
+docker is Stopped. Restarting...
+docker Restarted
+Hello muhammad from 9ja! You are an Adult.

@@ -1,0 +1,35 @@
+Usage: file_manager.sh {create|delete|list|rename} filename
+total 12K
+-rw-r--r-- 1 muhammad muhammad   0 Mar 26 22:09 backup.sh
+-rw-r--r-- 1 muhammad muhammad 916 Mar 27 19:32 file_manager.sh
+-rw-r--r-- 1 muhammad muhammad   0 Mar 26 22:09 process_monitor.sh
+-rw-r--r-- 1 muhammad muhammad 749 Mar 27 19:10 system_check.sh
+-rw-r--r-- 1 muhammad muhammad 784 Mar 26 22:26 user_info.sh
+File created: muhammad.txt
+File created: 
+File created: file1.txt
+File already exists!
+total 24K
+-rw-r--r-- 1 muhammad muhammad 614 Mar 29 14:41 backup.sh
+-rw-r--r-- 1 muhammad muhammad 926 Mar 29 14:26 file_manager.sh
+-rw-r--r-- 1 muhammad muhammad 385 Mar 29 14:26 process_monitor.sh
+-rw-r--r-- 1 muhammad muhammad 616 Mar 29 14:37 run_all.sh
+-rw-r--r-- 1 muhammad muhammad 839 Mar 29 14:31 system_check.sh
+-rw-r--r-- 1 muhammad muhammad 784 Mar 29 14:32 user_info.sh
+File created: sample.txt
+File not found!
+File deleted: sample.txt
+total 24K
+-rw-r--r-- 1 muhammad muhammad 614 Mar 29 14:41 backup.sh
+-rw-r--r-- 1 muhammad muhammad 926 Mar 29 14:26 file_manager.sh
+-rw-r--r-- 1 muhammad muhammad 385 Mar 29 14:26 process_monitor.sh
+-rw-r--r-- 1 muhammad muhammad 616 Mar 29 14:37 run_all.sh
+-rw-r--r-- 1 muhammad muhammad 839 Mar 29 14:31 system_check.sh
+-rw-r--r-- 1 muhammad muhammad 784 Mar 29 14:32 user_info.sh
+total 24K
+-rw-r--r-- 1 muhammad muhammad 614 Mar 29 14:41 backup.sh
+-rw-r--r-- 1 muhammad muhammad 926 Mar 29 14:26 file_manager.sh
+-rw-r--r-- 1 muhammad muhammad 385 Mar 29 14:26 process_monitor.sh
+-rw-r--r-- 1 muhammad muhammad 616 Mar 29 14:52 run_all.sh
+-rw-r--r-- 1 muhammad muhammad 839 Mar 29 14:31 system_check.sh
+-rw-r--r-- 1 muhammad muhammad 784 Mar 29 14:32 user_info.sh

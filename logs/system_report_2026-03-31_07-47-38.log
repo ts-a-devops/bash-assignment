@@ -1,0 +1,50 @@
+System Report - 2026-03-31_07-47-38
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  343G  134G  72% /usr/lib/wsl/drivers
+/dev/sdd       1007G  7.1G  949G   1% /
+none            3.9G   96K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  840K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  343G  134G  72% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         74M   74M     0 100% /snap/core22/2339
+snapfuse        255M  255M     0 100% /snap/firefox/7967
+snapfuse         74M   74M     0 100% /snap/core22/2411
+snapfuse        255M  255M     0 100% /snap/firefox/7901
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse        517M  517M     0 100% /snap/gnome-42-2204/226
+snapfuse        532M  532M     0 100% /snap/gnome-42-2204/247
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+tmpfs           782M   20K  782M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7816         514        7163           3         294        7301
+Swap:           2048           0        2048
+CPU Load:
+ 07:47:38 up  1:23,  1 user,  load average: 0.05, 0.03, 0.00
+WARNING: Disk usage on snapfuse is above 80%
+WARNING: Disk usage on snapfuse is above 80%
+WARNING: Disk usage on snapfuse is above 80%
+WARNING: Disk usage on snapfuse is above 80%
+WARNING: Disk usage on snapfuse is above 80%
+WARNING: Disk usage on snapfuse is above 80%
+WARNING: Disk usage on snapfuse is above 80%
+WARNING: Disk usage on snapfuse is above 80%
+WARNING: Disk usage on snapfuse is above 80%
+Total Processes: 45
+Top 5 Memory Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         264  0.0  0.4 2220208 39084 ?       Ssl  06:24   0:02 /snap/snapd/current/usr/lib/snapd/snapd
+root         303  0.0  0.3 112808 24064 ?        Ssl  06:24   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          45  0.0  0.1  66832 15088 ?        S<s  06:24   0:02 /usr/lib/systemd/systemd-journald
+root         272  0.0  0.1 1756096 12928 ?       Ssl  06:24   0:00 /usr/libexec/wsl-pro-service -vv
+systemd+     236  0.0  0.1  21460 12544 ?        Ss   06:24   0:00 /usr/lib/systemd/systemd-resolved

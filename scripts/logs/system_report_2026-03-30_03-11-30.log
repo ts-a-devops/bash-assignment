@@ -1,0 +1,43 @@
+----- DISK USAGE -----
+Filesystem                         Size  Used Avail Use% Mounted on
+tmpfs                              542M  1.2M  541M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   24G  9.0G   14G  41% /
+tmpfs                              2.7G     0  2.7G   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs                              2.7G     0  2.7G   0% /tmp
+/dev/sda2                          2.0G  240M  1.6G  14% /boot
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+tmpfs                              1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs                              542M   12K  542M   1% /run/user/1000
+/run is okay at 1%.
+/ is okay at 41%.
+/dev/shm is okay at 0%.
+/run/lock is okay at 0%.
+/run/credentials/systemd-journald.service is okay at 0%.
+/run/credentials/systemd-resolved.service is okay at 0%.
+/tmp is okay at 0%.
+/boot is okay at 14%.
+/run/credentials/systemd-networkd.service is okay at 0%.
+/run/credentials/getty@tty1.service is okay at 0%.
+/run/user/1000 is okay at 1%.
+
+----- MEMORY USAGE -----
+               total        used        free      shared  buff/cache   available
+Mem:            5412         526        4254           1         859        4886
+Swap:           4095           0        4095
+
+----- CPU LOAD -----
+ 03:11:30 up  2:47,  2 users,  load average: 0.07, 0.02, 0.00
+----- TOTAL RUNNING PROCESSES -----
+
+Total running processes: 135
+
+----- TOP 5 MEMORY-CONSUMING PROCESSES -----
+    PID COMMAND         %MEM %CPU
+   1427 prometheus       1.3  0.1
+   1912 fwupd            0.8  0.0
+    888 snapd            0.7  0.0
+    336 systemd-journal  0.6  0.0
+   1198 unattended-upgr  0.5  0.0

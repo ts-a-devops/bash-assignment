@@ -1,0 +1,150 @@
+
+===== DevOps Bash Toolkit Menu =====
+1. Run all
+2. System check
+3. Backup
+4. Exit
+
+Running all scripts...
+
+===== DevOps Bash Toolkit Menu =====
+1. Run all
+2. System check
+3. Backup
+4. Exit
+
+Running all scripts...
+
+===== DevOps Bash Toolkit Menu =====
+1. Run all
+2. System check
+3. Backup
+4. Exit
+
+Running all scripts...
+Starting Run All option
+[2026-04-01 03:26:48] Starting user_info.sh
+user_info.sh failed
+[2026-04-01 03:26:48] Starting system_check.sh
+system_check.sh failed
+File Manager options: create | delete | list | rename
+Invalid file manager command entered
+backup.sh failed
+process_monitor.sh failed
+Finished Run All option
+
+===== DevOps Bash Toolkit Menu =====
+1. Run all
+2. System check
+3. Backup
+4. Exit
+
+Exiting application
+
+===== DevOps Bash Toolkit Menu =====
+1. Run all
+2. System check
+3. Backup
+4. Exit
+
+Running all scripts...
+Starting Run All option
+[2026-04-01 03:33:55] Starting user_info.sh
+user_info.sh failed
+[2026-04-01 03:33:55] Starting system_check.sh
+system_check.sh failed
+File Manager options: create | delete | list | rename
+
+===== DevOps Bash Toolkit Menu =====
+1. Run all
+2. System check
+3. Backup
+4. Exit
+
+Running all scripts...
+Starting Run All option
+[2026-04-01 03:56:53] Starting user_info.sh
+countries.txt not found
+user_info.sh failed
+[2026-04-01 03:57:07] Starting system_check.sh
+system_check.sh failed
+File Manager options: create | delete | list | rename
+Invalid file manager command entered
+April 01 03:57:58
+ERROR: 'sifon_testground' is not a valid directory.
+backup.sh failed
+[2026-04-01 03:58:03]
+ssh is Running
+process_monitor.sh completed successfully
+Finished Run All option
+
+===== DevOps Bash Toolkit Menu =====
+1. Run all
+2. System check
+3. Backup
+4. Exit
+
+Exiting application
+Running all scripts...
+Starting Run All option
+[2026-04-01 04:11:48] Starting user_info.sh
+countries.txt not found
+user_info.sh failed
+[2026-04-01 04:11:56] Starting system_check.sh
+system_check.sh failed
+File Manager options: create | delete | list | rename
+Running all scripts...
+Starting Run All option
+[2026-04-01 04:15:34] Starting user_info.sh
+user_info.sh failed
+[2026-04-01 04:15:34] Starting system_check.sh
+system_check.sh failed
+File Manager options: create | delete | list | rename
+Invalid file manager command entered
+backup.sh failed
+process_monitor.sh failed
+Finished Run All option
+Exiting application
+Running all scripts...
+Starting Run All option
+[2026-04-01 04:27:46] Starting user_info.sh
+user_info.sh failed
+[2026-04-01 04:27:46] Starting system_check.sh
+system_check.sh failed
+File Manager options: create | delete | list | rename
+Invalid file manager command entered
+[2026-04-01 05:02:14] Running all scripts...
+[2026-04-01 05:02:14] Starting Run All option
+[2026-04-01 05:02:14] Starting user_info.sh
+[2026-04-01 05:04:08] Running all scripts...
+[2026-04-01 05:04:08] Starting Run All option
+[2026-04-01 05:04:08] Starting user_info.sh
+[2026-04-01 05:04:17] user_info.sh failed
+[2026-04-01 05:04:17] Starting system_check.sh
+[2026-04-01 05:04:17] system_check.sh failed
+[2026-04-01 05:04:44] file_manager.sh create completed successfully
+[2026-04-01 05:05:00] backup.sh failed
+[2026-04-01 05:05:08] process_monitor.sh completed successfully
+[2026-04-01 05:05:08] Finished Run All option
+[2026-04-01 05:05:29] Running system check...
+[2026-04-01 05:05:29] Starting system_check.sh
+[2026-04-01 05:05:29] system_check.sh failed
+[2026-04-01 05:05:37] Running backup...
+[2026-04-01 05:05:54] backup.sh failed
+[2026-04-01 05:06:03] Exiting application
+[2026-04-01 05:31:53] Running all scripts...
+[2026-04-01 05:31:53] Starting Run All option
+[2026-04-01 05:31:53] Starting user_info.sh
+[2026-04-01 05:36:04] Running all scripts...
+[2026-04-01 05:36:04] Starting Run All option
+[2026-04-01 05:36:04] Starting user_info.sh
+[2026-04-01 05:36:15] user_info.sh completed successfully
+[2026-04-01 05:36:15] Starting system_check.sh
+[2026-04-01 05:36:15] system_check.sh completed successfully
+[2026-04-01 05:36:46] file_manager.sh create completed successfully
+[2026-04-01 05:37:06] backup.sh failed
+[2026-04-01 05:37:15] process_monitor.sh completed successfully
+[2026-04-01 05:37:15] Finished Run All option
+[2026-04-01 05:37:27] Running backup...
+[2026-04-01 05:37:40] backup.sh completed successfully
+[2026-04-01 05:37:43] Exiting application

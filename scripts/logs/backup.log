@@ -1,0 +1,48 @@
+ERROR: Please provide a directory to back up.
+Usage: backup.sh <directory>
+ERROR: 'sifon_testground' is not a valid directory.
+Backup created successfully: backups/backup_20260331_225127.tar.gz
+Backup process completed.
+
+ERROR: Please provide a directory to back up.
+Usage: backup.sh <directory>
+
+ERROR: Please provide a directory to back up.
+Usage: backup.sh <directory>
+()
+ERROR: Please provide a directory to back up.
+Usage: backup.sh <directory>
+timestamp
+ERROR: Please provide a directory to back up.
+Usage: backup.sh <directory>
+{timestamp}
+ERROR: Please provide a directory to back up.
+Usage: backup.sh <directory>
+March3123:00:46
+ERROR: Please provide a directory to back up.
+Usage: backup.sh <directory>
+March 31 23:01:32
+ERROR: Please provide a directory to back up.
+Usage: backup.sh <directory>
+March 31 23:01:40
+ERROR: Please provide a directory to back up.
+Usage: backup.sh <directory>
+March 31 23:01:46
+ERROR: 'sifon_testground' is not a valid directory.
+March 31 23:01:55
+Backup created successfully: backups/backup_20260331_230155.tar.gz
+Backup process completed.
+
+March 31 23:05:26
+ERROR: Please provide a directory to back up.
+Usage: backup.sh <directory>
+March 31 23:05:35
+ERROR: Failed to create backup for '/home/jo_ha_ra/sifon_testground'
+March 31 23:11:15
+Backup created successfully: backups/sifon_testground_backup_20260331_231115.tar.gz
+Backup process completed.
+
+March 31 23:11:19
+Backup created successfully: backups/sifon_testground_backup_20260331_231119.tar.gz
+Backup process completed.
+

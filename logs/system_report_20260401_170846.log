@@ -1,0 +1,42 @@
+System Report - Wed Apr  1 17:08:46 WAT 2026
+========================================
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  206G  271G  44% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.2G  955G   1% /
+none            3.9G  160K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  206G  271G  44% /mnt/c
+tmpfs           785M   20K  785M   1% /run/user/1000
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7844         466        7337           3         192        7377
+Swap:           2048           0        2048
+
+CPU Load:
+ 17:08:46 up  2:19,  1 user,  load average: 0.15, 0.15, 0.10
+
+Disk Usage Warnings (>80%):
+No disk partitions above 80%.
+
+Total Running Processes:
+26
+
+Top 5 Memory-Consuming Processes:
+    PID COMMAND         %MEM %CPU
+     55 systemd-journal  0.5  0.1
+    204 unattended-upgr  0.2  0.0
+      1 systemd          0.1  0.6
+    110 systemd-resolve  0.1  0.0
+    339 systemd          0.1  0.0
+========================================

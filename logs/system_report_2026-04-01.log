@@ -1,0 +1,23 @@
+===== SYSTEM REPORT =====
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           261M  1.6M  259M   1% /run
+/dev/sda2        25G  9.5G   14G  41% /
+tmpfs           1.3G   89M  1.2G   7% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           261M  152K  261M   1% /run/user/1000
+/dev/sr0         51M   51M     0 100% /media/favychant/VBox_GAs_7.2.6
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            2605        2368          72         129         439         236
+Swap:              0           0           0
+CPU Load:
+ 03:21:31 up  2:15,  1 user,  load average: 0.38, 0.66, 0.52
+Total Processes: 253
+Top 5 Memory Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+favycha+    5149  5.3 13.3 1459830996 357128 ?   Sl   02:41   2:08 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3297 --enable-crash-reporter=021a7910-d1b6-451e-af1b-3026aca6d4ae, --change-stack-guard-on-fork=enable --ozone-platform=wayland --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=54 --time-ticks-at-unix-epoch=-1774961347098482 --launch-time-ticks=5752164160 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12262050703556910836,2736028334271339085,2097152 --field-trial-handle=3,i,5930445247697434075,16788458322611534687,262144 --disable-features=EyeDropper --variations-seed-version=20260331-010039.702000-production --pseudonymization-salt-handle=7,i,7497143872340667542,2038294664739431652,4 --trace-process-track-uuid=3190709036912131340
+favycha+    2370  4.2 12.7 4563484 340112 ?      Ssl  01:07   5:41 /usr/bin/gnome-shell
+favycha+    3037  0.2  7.7 2164768 208072 ?      Ssl  01:07   0:18 /usr/libexec/xdg-desktop-portal-gnome
+favycha+    5231  0.4  6.4 1886292 171024 ?      Sl   02:52   0:07 /usr/bin/nautilus --gapplication-service
+favycha+    3287  1.3  5.4 51337156 144200 ?     SLl  01:09   1:43 /opt/google/chrome/chrome

@@ -1,3 +1,4 @@
+
 # 🚀 DevOps Bash Toolkit Assessment
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/your-username/devops-bash-toolkit/grade.yml)
@@ -228,3 +229,68 @@ logs/app.log
 * Handle script failures gracefully
   
 **Submission link:** [CLICK HERE](https://forms.gle/jrhpKjXsQXZxLopN6)
+# DevOps Bash Toolkit Assessment
+
+## Overview
+This project contains Bash scripts that demonstrate DevOps fundamentals including:
+- Bash scripting
+- System monitoring
+- Logging
+- File management
+- Backup automation
+- Git workflow
+
+## Scripts
+
+### 1. user_info.sh
+Prompts the user for name, age, and country.
+Validates age input and classifies user as Minor, Adult, or Senior.
+Logs output to `logs/user_info.log`.
+
+### 2. system_check.sh
+Displays:
+- Disk usage
+- Memory usage
+- CPU load
+- Disk usage warnings above 80%
+- Total running processes
+- Top 5 memory-consuming processes
+
+Logs output to `logs/system_report_<date>.log`.
+
+### 3. file_manager.sh
+Supports:
+- create
+- delete
+- list
+- rename
+
+Logs actions to `logs/file_manager.log`.
+
+### 4. backup.sh
+Creates compressed backups of a given directory in `backups/`.
+Keeps only the latest 5 backups.
+Logs actions to `logs/backup.log`.
+
+### 5. process_monitor.sh
+Optional bonus script.
+Checks if a monitored process is running and simulates restart if not.
+Logs actions to `logs/process_monitor.log`.
+
+### 6. run_all.sh
+Optional bonus script with interactive menu.
+Uses `set -euo pipefail` and logs actions to `logs/app.log`.
+
+## How to Run
+
+```bash
+./scripts/user_info.sh
+./scripts/system_check.sh
+./scripts/file_manager.sh create test.txt
+./scripts/file_manager.sh list
+./scripts/file_manager.sh rename test.txt new.txt
+./scripts/file_manager.sh delete new.txt
+./scripts/backup.sh scripts
+./scripts/process_monitor.sh nginx
+./run_all.sh
+

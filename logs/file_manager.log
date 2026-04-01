@@ -1,0 +1,10 @@
+Usage: file_manager.sh {create|delete|list|rename} filename filename?
+File created: sample.txt
+File already exists!
+total 12K
+-rw-r--r-- 1 elayoinc elayoinc  844 Apr  1 07:38 file_manager.sh
+-rw-r--r-- 1 elayoinc elayoinc    0 Apr  1 07:39 sample.txt
+-rw-r--r-- 1 elayoinc elayoinc  881 Apr  1 07:27 system_check.sh
+-rw-r--r-- 1 elayoinc elayoinc 1.1K Apr  1 04:57 user_info.sh
+Renamed sample.txt to sample1.txt
+File deleted: sample1.txt

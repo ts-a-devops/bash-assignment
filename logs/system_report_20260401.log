@@ -1,0 +1,24 @@
+===== System Check =====
+Hostname: DESKTOP-CJ2TM4F
+Kernel: 6.6.87.2-microsoft-standard-WSL2
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G   12G  945G   2% /
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:            3857        1507         288           5        2212        2350
+Swap:           1024           0        1024
+
+--- CPU Load ---
+ 06:04:16 up 11 min,  1 user,  load average: 2.23, 1.78, 1.18
+
+--- Top 5 Memory Processes ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        1139 21.4 11.1 1618460 439448 ?      Ssl  05:53   2:22 /snap/microk8s/8697/kubelite --scheduler-args-file=/var/snap/microk8s/8697/args/kube-scheduler --controller-manager-args-file=/var/snap/microk8s/8697/args/kube-controller-manager --proxy-args-file=/var/snap/microk8s/8697/args/kube-proxy --kubelet-args-file=/var/snap/microk8s/8697/args/kubelet --apiserver-args-file=/var/snap/microk8s/8697/args/kube-apiserver --kubeconfig-file=/var/snap/microk8s/8697/credentials/client.config --start-control-plane=true
+root         231  4.5  7.0 1520276 278284 ?      Ssl  05:53   0:30 /snap/microk8s/8697/bin/k8s-dqlite --storage-dir=/var/snap/microk8s/8697/var/kubernetes/backend/ --listen=unix:///var/snap/microk8s/8697/var/kubernetes/backend/kine.sock:12379
+root         425  0.1  2.1 2283384 84448 ?       Ssl  05:53   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        5883  5.0  2.0 2240592 80624 ?       Sl   05:53   0:31 calico-node -felix
+root         227  3.8  1.8 3399960 72424 ?       Ssl  05:53   0:26 /snap/microk8s/8697/bin/containerd --config /var/snap/microk8s/8697/args/containerd.toml --root /var/snap/microk8s/common/var/lib/containerd --state /var/snap/microk8s/common/run/containerd --address /var/snap/microk8s/common/run/containerd.sock
+Total processes: 144

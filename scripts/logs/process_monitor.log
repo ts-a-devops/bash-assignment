@@ -1,0 +1,11 @@
+[2026-04-01 16:45:25] INFO: No argument provided. Monitoring default services array.
+[2026-04-01 16:45:25] WARNING: nginx is STOPPED
+[2026-04-01 16:45:25] ERROR: Failed to restart nginx (simulated restart)
+[2026-04-01 16:45:25] WARNING: ssh is STOPPED
+[2026-04-01 16:45:25] ERROR: Failed to restart ssh (simulated restart)
+[2026-04-01 16:45:25] WARNING: docker is STOPPED
+[2026-04-01 16:45:25] ERROR: Failed to restart docker (simulated restart)
+[2026-04-01 16:45:25] INFO: Process monitoring completed.
+[2026-04-01 16:46:05] INFO: Monitoring single process 'docker'.
+[2026-04-01 16:46:05] WARNING: docker is STOPPED
+[2026-04-01 16:46:05] ERROR: Failed to restart docker (simulated restart)

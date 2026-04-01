@@ -1,0 +1,4 @@
+[2026-04-01 16:16:11] SUCCESS: Created file 'test.txt'.
+[2026-04-01 16:16:47] INFO: Listed files in directory '/Users/Vivahjah/Documents/tsAcademy/bash-assignment/scripts'.
+[2026-04-01 16:17:37] SUCCESS: Renamed 'test.txt' to 'new.txt'.
+[2026-04-01 16:18:06] SUCCESS: Deleted file 'new.txt'.

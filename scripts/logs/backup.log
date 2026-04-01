@@ -1,0 +1,5 @@
+[2026-04-01 16:32:11] INFO: Starting backup for directory '/Users/Vivahjah/Documents/tsAcademy/bash-assignment/scripts/logs'.
+[2026-04-01 16:32:11] SUCCESS: Backup created successfully at 'backups/backup_logs_2026-04-01_16-32-11.tar.gz'.
+[2026-04-01 16:32:11] INFO: Cleaning old backups (keeping only latest 5).
+[2026-04-01 16:32:11] SUCCESS: Old backups cleanup completed.
+[2026-04-01 16:32:11] INFO: Backup process completed successfully.

@@ -1,0 +1,25 @@
+------------------------------------------------------------Disk Usage---------------------------------------------------------------
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           788M  2.1M  786M   1% /run
+/dev/sda3       916G   42G  828G   5% /
+tmpfs           3.9G  154M  3.7G   4% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+efivarfs         84K   60K   20K  76% /sys/firmware/efi/efivars
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+tmpfs           788M  128K  787M   1% /run/user/1000
+------------------------------------------------------------Memory Usage-------------------------------------------------------------
+               total        used        free      shared  buff/cache   available
+Mem:            7870        3777         699         444        3393        3329
+Swap:           2047           0        2047
+------------------------------------------------------------CPU load ----------------------------------------------------------------
+ 20:47:13 up 10:20,  1 user,  load average: 1.21, 1.35, 1.17
+
+There are a total of 261 running processes.
+
+----------------------------------------------------------Top 5 Memory Consuming Processes--------------------------------------------
+    PID    PPID CMD                         %MEM
+   9783    3086 /opt/google/chrome/chrome - 12.7
+   3457    3086 /opt/google/chrome/chrome -  8.0
+   3072    3071 /opt/google/chrome/chrome    5.4
+   3576    3086 /opt/google/chrome/chrome -  5.3
+   4539    3086 /opt/google/chrome/chrome -  4.3

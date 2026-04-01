@@ -1,0 +1,63 @@
+========================================
+  System Health Report
+  Generated: 2026-04-01 12:41:21
+  Host: DESKTOP-UFING0O
+========================================
+
+----------------------------------------
+  Disk Usage
+----------------------------------------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         477G  398G   79G  84% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.1G  954G   1% /
+none            3.9G  264K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  532K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             477G  398G   79G  84% /mnt/c
+tmpfs           788M   20K  788M   1% /run/user/1000
+none            3.9G  612K  3.9G   1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/sde       1007G   57M  956G   1% /mnt/wsl/docker-desktop/docker-desktop-user-distro
+/dev/loop0      511M  511M     0 100% /mnt/wsl/docker-desktop/cli-tools
+tmpfs           788M   20K  788M   1% /run/user/0
+
+  WARNING: '/usr/lib/wsl/drivers' is at 84% — exceeds 80% threshold!
+  WARNING: '/mnt/c' is at 84% — exceeds 80% threshold!
+  WARNING: '/mnt/wsl/docker-desktop/cli-tools' is at 100% — exceeds 80% threshold!
+
+----------------------------------------
+  Memory Usage (MB)
+----------------------------------------
+               total        used        free      shared  buff/cache   available
+Mem:            7879        2874         139          50        5105        5004
+Swap:           2048          12        2035
+
+----------------------------------------
+  CPU Load (uptime)
+----------------------------------------
+ 12:41:22 up 2 days, 12:24,  2 users,  load average: 1.28, 2.14, 2.42
+
+----------------------------------------
+  Running Processes
+----------------------------------------
+Total running processes: 39
+
+----------------------------------------
+  Top 5 Memory-Consuming Processes
+----------------------------------------
+PID      USER     %CPU   %MEM   COMMAND
+8577     root     0.0    0.2    /mnt/wsl/docker-desktop/docker-desktop-user-distro
+232      root     0.0    0.2    /usr/bin/python3
+3759     root     0.0    0.1    /usr/lib/systemd/systemd-journald
+201      root     0.0    0.1    /usr/libexec/wsl-pro-service
+1        root     0.0    0.1    /usr/lib/systemd/systemd
+
+========================================
+  Report saved to: ./scripts/../logs/system_report_2026-04-01_12-41-21.log
+========================================

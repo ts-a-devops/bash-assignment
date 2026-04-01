@@ -1,230 +1,130 @@
-# 🚀 DevOps Bash Toolkit Assessment
+# DevOps Bash Toolkit
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/your-username/devops-bash-toolkit/grade.yml)
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/devops-bash-toolkit)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/devops-bash-toolkit)
-![License](https://img.shields.io/badge/license-MIT-blue)
+A collection of Bash automation scripts covering system monitoring, file management, backups, and process control.
 
----
+# Project Structure
 
-## 📌 Overview
-
-This assignment tests your **DevOps fundamentals**:
-
-- Bash scripting  
-- Git workflow (branching, commits, pull requests)  
-- Automation mindset  
-- System monitoring and logging  
-
-You will build a **real-world automation toolkit** and submit it via a **Pull Request (PR)**.
-
----
-
-## 📁 Project Structure
-
-```text
-devops-bash-toolkit-assestment/
-│
-├── scripts/
-│   ├── user_info.sh
-│   ├── system_check.sh
-│   ├── file_manager.sh
-│   ├── backup.sh
-│   ├── process_monitor.sh
-│
-├── run_all.sh              # OPTIONAL (Bonus)
-│
-├── README.md
 ```
+devops-bash-toolkit/
+├── scripts/
+│   ├── user_info.sh        # Collect & validate user details
+│   ├── system_check.sh     # Disk / memory / CPU / process report
+│   ├── file_manager.sh     # Create, delete, list, rename files
+│   ├── backup.sh           # Compressed backup with auto-rotation
+│   └── process_monitor.sh  # Monitor & restart processes (bonus)
+├── run_all.sh              # Interactive menu runner (bonus)
+├── logs/                   # Auto-created at runtime
+├── backups/                # Auto-created by backup.sh
+└── README.md
 
-🧑‍💻 Getting Started
-1. Fork the Repository
 
-Click the Fork button on GitHub.
+# Quick Start
 
-2. Clone Your Fork
-```bash
+-bash
+# Clone and enter
 git clone <your-fork-url>
 cd devops-bash-toolkit
-```
 
-3. Create a Feature Branch
-```bash
+# Make all scripts executable
+chmod +x scripts/*.sh run_all.sh
+
+# Launch the interactive menu
+./run_all.sh
+
+
+---
+
+# Scripts
+
+# A. `user_info.sh`
+Prompts for name, age, and country. Validates age is numeric and classifies the user as Minor / Adult / Senior.
+
+-bash
+./scripts/user_info.sh
+
+
+Output saved to `logs/user_info.log`.
+
+
+
+# B. `system_check.sh`
+Displays disk usage, memory, CPU load, total running processes, and the top 5 memory-consuming processes. Warns if any filesystem exceeds 80% usage.
+
+-bash
+./scripts/system_check.sh
+
+
+Report saved to `logs/system_report_<timestamp>.log`.
+
+
+
+# C. `file_manager.sh`
+Supports `create`, `delete`, `list`, and `rename` operations. Prevents overwriting existing files.
+
+-bash
+./scripts/file_manager.sh create notes.txt
+./scripts/file_manager.sh rename notes.txt journal.txt
+./scripts/file_manager.sh list .
+./scripts/file_manager.sh delete journal.txt
+
+
+Actions logged to `logs/file_manager.log`.
+
+
+
+# D. `backup.sh`
+Accepts a source directory, creates a `backup_<timestamp>.tar.gz` in `backups/`, and automatically removes older backups beyond the last 5.
+
+-bash
+./scripts/backup.sh ./scripts
+
+
+Activity logged to `logs/backup.log`.
+
+
+
+ E. `process_monitor.sh` *(Bonus)*
+Checks whether one or more processes are running. If stopped, attempts a restart via `systemctl` → `service` → simulation fallback.
+
+-bash
+# Monitor specific process(es)
+./scripts/process_monitor.sh nginx
+
+# Monitor default services array: nginx, ssh, docker
+./scripts/process_monitor.sh
+
+
+Results logged to `logs/process_monitor.log`.
+
+
+
+# F. `run_all.sh` *(Bonus)*
+Interactive numbered menu to run any script without typing paths.
+
+-bash
+./run_all.sh
+
+
+All actions logged to `logs/app.log`. Uses `set -euo pipefail` and handles script failures gracefully.
+
+
+# Git Workflow
+
+-bash
 git checkout -b feature/<your-name>
-```
-
-4. Complete the Scripts
-Implement all required scripts inside:
-```bash
-scripts/
-```
-
-5. Make Scripts Executable
-```bash
-chmod +x scripts/*.sh
-```
-
-6. Commit Your Work
-```bash
 git add .
 git commit -m "feat: complete bash scripts"
-```
-
-7. Push to GitHub
-```bash
 git push origin feature/<your-name>
-```
-
-8. Create Pull Request
-
-Open a Pull Request to the main repository.
+# Then open a Pull Request on GitHub
 
 
-🧠 Assignment Tasks
---------------------------------------------------------------------------------
-🔹 A. user_info.sh
-Requirements
+# Logs Reference
 
-* Prompt the user for:
+ File | Written by 
 
-  * Name
-
-  * Age
-
-  * Country
-
-* Validate:
-
-  * Age must be numeric
-
-* Output:
-
-  * A greeting message
-
-* Age category:
-
-  * Minor (<18)
-
-  * Adult (18–65)
-
-  * Senior (65+)
-
-* Handle missing or invalid input gracefully
-
-* Save output to:
-```bash
-logs/user_info.log
-```
----
-🔹 B. system_check.sh
-Requirements
-
-* Display:
-
-  * Disk usage (df -h)
-
-  * Memory usage (free -m)
-
-  * CPU load (uptime)
-
-* Warn if disk usage exceeds 80%
-
-* Save report to:
-```bash
-logs/system_report_<date>.log
-```
-* Count total running processes
-
-* Display top 5 memory-consuming processes
----
-🔹 C. file_manager.sh
-Requirements
-
-* Support the following commands:
-
-  * create
-
-  * delete
-
-  * list
-
-  * rename
-
-* Example usage:
-```bash
-./file_manager.sh create file.txt
-```
-* Prevent overwriting existing files
-
-* Log all actions to:
-```bash
-logs/file_manager.log
-```
----
-🔹 D. backup.sh
-Requirements
-
-* Accept a directory as input
-
-* Validate that the directory exists
-
-* Create a compressed backup:
-```bash
-backup_<timestamp>.tar.gz
-```
-* Store backups in:
-```bash
-backups/
-```
-* Keep only the last 5 backups (delete older ones)
-
-* Log backup activity
----
-⭐ E. process_monitor.sh(Optional Bonus)
-Requirements
-
-* Accept a process name as input
-
-* Check if the process is running
-
-* If NOT running:
-
-  * Attempt restart (or simulate restart)
-
-* Output:
-
-  * Running
-
-  * Stopped
-
-  * Restarted
-
-* Use an array:
-```bash
-services=("nginx" "ssh" "docker")
-```
-* Log monitoring results
----
-⭐ F. run_all.sh (Optional Bonus)
-Requirements
-
-Provide an interactive menu:
-1. Run all
-2. System check
-3. Backup
-4. Exit
-* Use functions to organize logic
-
-* Call scripts from the scripts/ directory
-
-* Include:
-  ```bash
-  set -euo pipefail
-  ```
-* Log all actions to:
-```bash
-logs/app.log
-```
-* Handle script failures gracefully
-  
-**Submission link:** [CLICK HERE](https://forms.gle/jrhpKjXsQXZxLopN6)
+ `logs/user_info.log` | user_info.sh |
+ `logs/system_report_*.log` | system_check.sh |
+ `logs/file_manager.log` | file_manager.sh |
+ `logs/backup.log` | backup.sh |
+ `logs/process_monitor.log` | process_monitor.sh |
+ `logs/app.log` | run_all.sh |

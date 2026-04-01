@@ -1,0 +1,33 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         220  0.0  0.2 107012 22400 ?        Ssl  14:18   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          55  0.0  0.2  66824 16960 ?        S<s  14:18   0:00 /usr/lib/systemd/systemd-journald
+root         201  0.0  0.1 1756096 13056 ?       Ssl  14:18   0:00 /usr/libexec/wsl-pro-service -vv
+systemd+     155  0.0  0.1  21452 12672 ?        Ss   14:18   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.1  21648 12216 ?        Ss   14:18   0:02 /sbin/init
+File created: sample.txt
+total 16K
+-rw-r--r-- 1 rashydodo rashydodo 641 Mar 31 21:44 LOG_FILE
+-rw-r--r-- 1 rashydodo rashydodo 921 Mar 31 21:42 file_manager.sh
+-rw-r--r-- 1 rashydodo rashydodo   0 Mar 31 21:44 sample.txt
+-rw-r--r-- 1 rashydodo rashydodo 839 Mar 31 16:19 system_check.sh
+-rw-r--r-- 1 rashydodo rashydodo 659 Mar 31 15:33 user_info.sh
+total 28K
+-rw-r--r-- 1 rashydodo rashydodo 966 Mar 31 21:45 LOG_FILE
+-rw-r--r-- 1 rashydodo rashydodo 574 Apr  1 12:42 backup.sh
+-rw-r--r-- 1 rashydodo rashydodo 921 Mar 31 21:42 file_manager.sh
+-rw-r--r-- 1 rashydodo rashydodo 390 Apr  1 13:02 process_monitor.sh
+-rw-r--r-- 1 rashydodo rashydodo 604 Apr  1 13:24 run_all.sh
+-rw-r--r-- 1 rashydodo rashydodo 839 Mar 31 16:19 system_check.sh
+-rw-r--r-- 1 rashydodo rashydodo 659 Mar 31 15:33 user_info.sh
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         232  0.0  0.2 107012 22528 ?        Ssl  12:20   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          52  0.0  0.1  50444 15748 ?        S<s  12:20   0:00 /usr/lib/systemd/systemd-journald
+systemd+     158  0.0  0.1  21452 12544 ?        Ss   12:20   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.1  21688 12276 ?        Ss   12:20   0:00 /sbin/init
+root         191  0.0  0.1 1756096 12160 ?       Ssl  12:20   0:00 /usr/libexec/wsl-pro-service -vv
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         232  0.0  0.2 107012 22528 ?        Ssl  12:20   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          52  0.0  0.1  50444 15748 ?        S<s  12:20   0:00 /usr/lib/systemd/systemd-journald
+systemd+     158  0.0  0.1  21452 12544 ?        Ss   12:20   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.1  21688 12276 ?        Ss   12:20   0:00 /sbin/init
+root         191  0.0  0.1 1756096 12160 ?       Ssl  12:20   0:00 /usr/libexec/wsl-pro-service -vv

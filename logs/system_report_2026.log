@@ -1,0 +1,98 @@
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  127G  350G  27% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.7G  954G   1% /
+none            3.9G  108K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.9G  512K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  127G  350G  27% /mnt/c
+tmpfs           779M   20K  779M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7784         472        7092           3         370        7311
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 16:15:13 up  1:56,  1 user,  load average: 0.01, 0.01, 0.00
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  127G  350G  27% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.7G  954G   1% /
+none            3.9G  108K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.9G  512K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  127G  350G  27% /mnt/c
+tmpfs           779M   20K  779M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7784         474        7090           3         370        7309
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 16:19:19 up  2:00,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total running processes: 32
+----------Top 5 memory-consuming processes ----------
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  129G  347G  28% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.8G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  129G  347G  28% /mnt/c
+tmpfs           779M   20K  779M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7784         466        7305           3         160        7317
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 13:26:05 up  1:05,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total running processes: 32
+----------Top 5 memory-consuming processes ----------
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  129G  348G  28% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.8G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  129G  348G  28% /mnt/c
+tmpfs           779M   20K  779M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7784         463        7306           3         162        7320
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 13:30:04 up  1:09,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total running processes: 31
+----------Top 5 memory-consuming processes ----------

@@ -1,0 +1,7 @@
+# Ignore logs directory
+logs/
+
+# Ignore backup files (ending with .backup or ~)
+*.backup
+*~
+

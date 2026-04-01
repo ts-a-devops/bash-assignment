@@ -1,0 +1,30 @@
+=== System Report: Tue Mar 31 21:22:19 UTC 2026 ===
+
+[Disk Usage]
+Filesystem                         Size  Used Avail Use% Mounted on
+udev                               964M     0  964M   0% /dev
+tmpfs                              200M  748K  199M   1% /run
+/dev/mapper/ubuntu--vg-ubuntu--lv   20G  3.8G   15G  21% /
+tmpfs                              997M     0  997M   0% /dev/shm
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+tmpfs                              997M     0  997M   0% /sys/fs/cgroup
+/dev/sda2                          974M   80M  827M   9% /boot
+tmpfs                              200M     0  200M   0% /run/user/1000
+
+[Memory Usage (MB)]
+              total        used        free      shared  buff/cache   available
+Mem:           1993         107        1331           0         554        1737
+Swap:          2047           0        2047
+
+[CPU Load]
+ 21:22:19 up 56 min,  1 user,  load average: 0.09, 0.03, 0.01
+
+[Total Running Processes]: 99
+
+[Top 5 Memory-Consuming Processes]
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      1139  0.0  0.9 186032 19932 ?        Ssl  20:26   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1045  0.0  0.8 169612 17300 ?        Ssl  20:26   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root       461  0.0  0.6  94676 14044 ?        S<s  20:26   0:00 /lib/systemd/systemd-journald
+root         1  0.0  0.4 159860  9208 ?        Ss   20:26   0:03 /sbin/init maybe-ubiquity
+ogheneo+  3286  0.0  0.3  76640  7740 ?        Ss   21:08   0:00 /lib/systemd/systemd --user

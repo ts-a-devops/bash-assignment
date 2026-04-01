@@ -1,0 +1,50 @@
+2026-04-01 20:18:30 - User selected: RUN ALL
+2026-04-01 20:18:30 - ERROR: Missing syst_check.sh
+2026-04-01 20:18:30 - ERROR: Missing backup.sh
+2026-04-01 20:18:56 - ERROR: Missing syst_check.sh
+2026-04-01 20:19:17 - ERROR: Missing backup.sh
+2026-04-01 20:20:48 - User selected: RUN ALL
+2026-04-01 20:20:48 - ERROR: Missing system_check.sh
+2026-04-01 20:20:48 - ERROR: Missing backup.sh
+2026-04-01 20:21:45 - User selected: RUN ALL
+2026-04-01 20:21:45 - ERROR: Missing system_check.sh
+2026-04-01 20:21:46 - ERROR: Missing backup.sh
+2026-04-01 20:21:51 - ERROR: Missing system_check.sh
+2026-04-01 20:22:06 - ERROR: Missing backup.sh
+2026-04-01 20:22:09 - User exited Menu.
+2026-04-01 20:26:16 - User selected: RUN ALL
+2026-04-01 20:26:16 - Starting: system_check.sh
+2026-04-01 20:26:16 - Completed: system_check.sh successfully.
+2026-04-01 20:26:16 - Starting: backup.sh
+2026-04-01 20:26:16 - FAILED: backup.sh returned an error.
+2026-04-01 20:27:51 - User exited Menu.
+2026-04-01 20:57:25 - User selected: RUN ALL
+2026-04-01 20:57:25 - Starting: system_check.sh
+2026-04-01 20:57:25 - Completed: system_check.sh successfully.
+2026-04-01 20:57:25 - Starting: backup.sh
+2026-04-01 20:57:26 - FAILED: backup.sh returned an error.
+2026-04-01 20:57:28 - User exited Menu.
+2026-04-01 21:06:02 - Starting: backup.sh
+2026-04-01 21:06:02 - FAILED: backup.sh returned an error.
+2026-04-01 21:07:22 - User exited Menu.
+2026-04-01 21:14:45 - Starting: backup.sh
+2026-04-01 21:14:45 - Completed: backup.sh successfully.
+2026-04-01 21:15:00 - User exited Menu.
+2026-04-01 21:22:21 - User selected: RUN ALL
+2026-04-01 21:22:21 - Starting: system_check.sh
+2026-04-01 21:22:21 - Completed: system_check.sh successfully.
+2026-04-01 21:22:21 - Starting: backup.sh
+2026-04-01 21:22:21 - Completed: backup.sh successfully.
+2026-04-01 21:22:48 - User exited Menu.
+2026-04-01 21:41:57 - User initiated Full System Check + Process Monitor.
+2026-04-01 21:41:57 - Starting: system_check.sh
+2026-04-01 21:41:58 - Completed: system_check.sh successfully.
+2026-04-01 21:41:58 - Starting: process_monitor.sh
+2026-04-01 21:42:01 - Completed: process_monitor.sh successfully.
+2026-04-01 21:42:21 - User exited Menu.
+2026-04-01 21:50:06 - User initiated: Run All
+2026-04-01 21:50:06 - Starting: system_check.sh
+2026-04-01 21:50:07 - Completed: system_check.sh successfully.
+2026-04-01 21:50:07 - Starting: backup.sh
+2026-04-01 21:50:07 - Completed: backup.sh successfully.
+2026-04-01 21:50:38 - User exited Menu.

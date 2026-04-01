@@ -1,0 +1,40 @@
+--- Starting System Check: Wed Apr  1 10:01:03 PDT 2026 ---
+
+### Disk Usage ###
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         238G  195G   44G  82% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.1G  954G   1% /
+none            2.9G   88K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  804K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             238G  195G   44G  82% /mnt/c
+snapfuse         49M   49M     0 100% /snap/snapd/26382
+snapfuse        256K  256K     0 100% /snap/jq/6
+snapfuse        106M  106M     0 100% /snap/core/17284
+tmpfs           582M   20K  582M   1% /run/user/1000
+
+### Memory Usage (MB) ###
+               total        used        free      shared  buff/cache   available
+Mem:            5812         484        5328           3         142        5328
+Swap:           2048           0        2048
+
+### CPU Load & Uptime ###
+ 10:01:03 up  9:56,  1 user,  load average: 0.04, 0.05, 0.01
+
+### Process Statistics ###
+Total Running Processes: 40
+
+### Top 5 Memory-Consuming Processes ###
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         219  0.0  0.6 2219696 38304 ?       Ssl  00:04   0:23 /snap/snapd/current/usr/lib/snapd/snapd
+root         236  0.0  0.3 107012 21888 ?        Ssl  00:04   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          64  0.0  0.2  50432 15872 ?        S<s  00:04   0:23 /usr/lib/systemd/systemd-journald
+root        2029  0.3  0.2 1830352 13184 ?       Ssl  09:55   0:01 /usr/libexec/wsl-pro-service
+systemd+     152  0.0  0.2  21460 12544 ?        Ss   00:04   0:03 /usr/lib/systemd/systemd-resolved

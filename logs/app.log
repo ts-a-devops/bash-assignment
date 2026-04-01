@@ -1,0 +1,81 @@
+total 28K
+-rw-r--r-- 1 rashydodo rashydodo 966 Mar 31 21:45 LOG_FILE
+-rw-r--r-- 1 rashydodo rashydodo 574 Apr  1 12:42 backup.sh
+-rw-r--r-- 1 rashydodo rashydodo 921 Mar 31 21:42 file_manager.sh
+-rw-r--r-- 1 rashydodo rashydodo 390 Apr  1 13:02 process_monitor.sh
+-rw-r--r-- 1 rashydodo rashydodo 604 Apr  1 13:24 run_all.sh
+-rw-r--r-- 1 rashydodo rashydodo 839 Mar 31 16:19 system_check.sh
+-rw-r--r-- 1 rashydodo rashydodo 659 Mar 31 15:33 user_info.sh
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  129G  347G  28% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.8G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  129G  347G  28% /mnt/c
+tmpfs           779M   20K  779M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7784         466        7305           3         160        7317
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 13:26:05 up  1:05,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total running processes: 32
+----------Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         232  0.0  0.2 107012 22528 ?        Ssl  12:20   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          52  0.0  0.1  50444 15748 ?        S<s  12:20   0:00 /usr/lib/systemd/systemd-journald
+systemd+     158  0.0  0.1  21452 12544 ?        Ss   12:20   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.1  21688 12276 ?        Ss   12:20   0:00 /sbin/init
+root         191  0.0  0.1 1756096 12160 ?       Ssl  12:20   0:00 /usr/libexec/wsl-pro-service -vv
+Backup created: ../backups/backup_20260401_132605.tar.gz
+Old backup cleaned up
+nginx is Stopped. Restarting...
+nginx Restarted
+ssh is Stopped. Restarting...
+ssh Restarted
+docker is Stopped. Restarting...
+docker Restarted
+Hello Rasheed from Nigeria! You are an Adult.
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  129G  348G  28% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.8G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.9G  508K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  129G  348G  28% /mnt/c
+tmpfs           779M   20K  779M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7784         463        7306           3         162        7320
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 13:30:04 up  1:09,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total running processes: 31
+----------Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         232  0.0  0.2 107012 22528 ?        Ssl  12:20   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          52  0.0  0.1  50444 15748 ?        S<s  12:20   0:00 /usr/lib/systemd/systemd-journald
+systemd+     158  0.0  0.1  21452 12544 ?        Ss   12:20   0:00 /usr/lib/systemd/systemd-resolved
+root           1  0.0  0.1  21688 12276 ?        Ss   12:20   0:00 /sbin/init
+root         191  0.0  0.1 1756096 12160 ?       Ssl  12:20   0:00 /usr/libexec/wsl-pro-service -vv
+Backup created: ../backups/backup_20260401_133016.tar.gz
+Old backup cleaned up

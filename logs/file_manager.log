@@ -1,0 +1,4 @@
+Usage: file_manager.sh {create|delete|list|rename} filename filename?
+File already exists!
+Renamed sample.txt to sample1.txt
+File deleted: sample1.txt

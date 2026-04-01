@@ -1,0 +1,14 @@
+File created: sample.txt
+total 12K
+-rw-r--r-- 1 babafemi babafemi 959 Apr  1 15:27 file_manager.sh
+-rw-r--r-- 1 babafemi babafemi   0 Apr  1 15:28 sample.txt
+-rw-r--r-- 1 babafemi babafemi 839 Apr  1  2026 system_check.sh
+-rw-r--r-- 1 babafemi babafemi 697 Apr  1 14:56 user_info.sh
+File deleted: sample.txt
+total 24K
+-rw-r--r-- 1 babafemi babafemi 612 Apr  1 15:34 backup.sh
+-rw-r--r-- 1 babafemi babafemi 959 Apr  1 15:27 file_manager.sh
+-rw-r--r-- 1 babafemi babafemi 385 Apr  1 15:38 process_monitor.sh
+-rw-r--r-- 1 babafemi babafemi 597 Apr  1  2026 run_all.sh
+-rw-r--r-- 1 babafemi babafemi 839 Apr  1  2026 system_check.sh
+-rw-r--r-- 1 babafemi babafemi 697 Apr  1 14:56 user_info.sh

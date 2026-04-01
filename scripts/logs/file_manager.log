@@ -1,0 +1,14 @@
+Renamed 'file_mangager.sh' to 'file_manager.sh'
+Created file: lawal.txt
+Deleted file: lawal.txt
+Listing files in current directory:
+file_manager.sh
+logs
+system_check.sh
+user_info.sh
+Listing files in current directory:
+file_manager.sh
+logs
+system_check.sh
+user_info.sh
+Renamed 'proces_monitor.sh' to 'process_monitor.sh'

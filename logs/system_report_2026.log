@@ -1,0 +1,60 @@
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk1s4s1   466Gi    10Gi   162Gi     7%    427k  1.7G    0%   /
+devfs            191Ki   191Ki     0Bi   100%     662     0  100%   /dev
+/dev/disk1s2     466Gi   2.7Gi   162Gi     2%    3.8k  1.7G    0%   /System/Volumes/Preboot
+/dev/disk1s6     466Gi   7.0Gi   162Gi     5%       7  1.7G    0%   /System/Volumes/VM
+/dev/disk1s5     466Gi   3.5Mi   162Gi     1%      26  1.7G    0%   /System/Volumes/Update
+/dev/disk1s1     466Gi   283Gi   162Gi    64%    1.6M  1.7G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+---------- Memory Usage ----------
+---------- CPU Load ----------
+ 9:03  up 1 day, 13:45, 5 users, load averages: 3.06 3.25 3.42
+----- Total running processes:      638
+---------- Top 5 memory-consuming processes ----------
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk1s4s1   466Gi    10Gi   162Gi     7%    427k  1.7G    0%   /
+devfs            191Ki   191Ki     0Bi   100%     662     0  100%   /dev
+/dev/disk1s2     466Gi   2.7Gi   162Gi     2%    3.8k  1.7G    0%   /System/Volumes/Preboot
+/dev/disk1s6     466Gi   7.0Gi   162Gi     5%       7  1.7G    0%   /System/Volumes/VM
+/dev/disk1s5     466Gi   3.5Mi   162Gi     1%      26  1.7G    0%   /System/Volumes/Update
+/dev/disk1s1     466Gi   283Gi   162Gi    64%    1.6M  1.7G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+---------- Memory Usage ----------
+---------- CPU Load ----------
+ 9:41  up 1 day, 14:22, 5 users, load averages: 3.13 3.87 3.90
+----- Total running processes:      645
+---------- Top 5 memory-consuming processes ----------
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk1s4s1   466Gi    10Gi   162Gi     7%    427k  1.7G    0%   /
+devfs            191Ki   191Ki     0Bi   100%     662     0  100%   /dev
+/dev/disk1s2     466Gi   2.7Gi   162Gi     2%    3.8k  1.7G    0%   /System/Volumes/Preboot
+/dev/disk1s6     466Gi   7.0Gi   162Gi     5%       7  1.7G    0%   /System/Volumes/VM
+/dev/disk1s5     466Gi   3.5Mi   162Gi     1%      26  1.7G    0%   /System/Volumes/Update
+/dev/disk1s1     466Gi   283Gi   162Gi    64%    1.6M  1.7G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+---------- Memory Usage ----------
+---------- CPU Load ----------
+ 9:48  up 1 day, 14:30, 5 users, load averages: 2.38 2.81 3.34
+----- Total running processes:      641
+---------- Top 5 memory-consuming processes ----------
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk1s4s1   466Gi    10Gi   162Gi     7%    427k  1.7G    0%   /
+devfs            191Ki   191Ki     0Bi   100%     662     0  100%   /dev
+/dev/disk1s2     466Gi   2.7Gi   162Gi     2%    3.8k  1.7G    0%   /System/Volumes/Preboot
+/dev/disk1s6     466Gi   7.0Gi   162Gi     5%       7  1.7G    0%   /System/Volumes/VM
+/dev/disk1s5     466Gi   3.5Mi   162Gi     1%      26  1.7G    0%   /System/Volumes/Update
+/dev/disk1s1     466Gi   283Gi   162Gi    64%    1.6M  1.7G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+---------- Memory Usage ----------
+---------- CPU Load ----------
+ 9:51  up 1 day, 14:32, 5 users, load averages: 10.26 5.33 4.23
+----- Total running processes:      644
+---------- Top 5 memory-consuming processes ----------

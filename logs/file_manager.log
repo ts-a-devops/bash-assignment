@@ -1,0 +1,17 @@
+File created: sample.txt
+Usage: file_manager.sh {create|delete|list|rename} filename filename?
+total 24
+-rw-r--r--  1 user  staff   926B  1 Apr 09:15 file_manager.sh
+-rw-r--r--  1 user  staff     0B  1 Apr 09:16 sample.txt
+-rw-r--r--  1 user  staff   839B  1 Apr 09:03 system_check.sh
+-rw-r--r--  1 user  staff   705B  1 Apr 08:38 user_info.sh
+Renamed sample.txt to sample1.txt
+File deleted: sample1.txt
+total 56
+-rw-r--r--  1 user  staff   612B  1 Apr 09:29 backup.sh
+-rw-r--r--  1 user  staff   926B  1 Apr 09:15 file_manager.sh
+-rw-r--r--  1 user  staff   386B  1 Apr 09:34 process_monitor.sh
+-rw-r--r--  1 user  staff   613B  1 Apr 09:38 rn
+-rw-r--r--  1 user  staff   614B  1 Apr 09:38 run_all.sh
+-rw-r--r--  1 user  staff   839B  1 Apr 09:03 system_check.sh
+-rw-r--r--  1 user  staff   705B  1 Apr 08:38 user_info.sh

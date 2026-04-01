@@ -1,0 +1,28 @@
+==== SYSTEM REPORT FOR 01-04-26 ====
+==== Disk Usuage ====
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          465G  326G  140G  71% /
+none            465G  326G  140G  71% /dev
+none            465G  326G  140G  71% /run
+none            465G  326G  140G  71% /run/lock
+none            465G  326G  140G  71% /run/shm
+none            465G  326G  140G  71% /run/user
+tmpfs           465G  326G  140G  71% /sys/fs/cgroup
+C:\             465G  326G  140G  71% /mnt/c
+==== Memory usuage ====
+               total        used        free      shared  buff/cache   available
+Mem:            4008        2905         878          17         223         971
+Swap:          12288         280       12007
+==== CPU load ====
+ 18:01:32 up  3:02,  0 users,  load average: 0.52, 0.58, 0.59
+---- Disk Warning ----
+---- Total Processes ----
+10
+---- Top 5 Memory Processes ----
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ola         68  0.0  0.0  14248  3864 tty1     S    15:00   0:00 -bash
+root         8  0.0  0.0  14164  3816 tty1     S    14:59   0:00 -bash
+root        67  0.0  0.0  15684  2692 tty1     S    15:00   0:00 su - ola
+ola        189  8.0  0.0  12956  2100 tty1     S    18:01   0:00 /bin/bash ./system_check.sh
+ola        217  2.0  0.0  15524  1876 tty1     R    18:01   0:00 ps aux --sort=-%mem
+===== END OF REPORT =====

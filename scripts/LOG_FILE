@@ -1,0 +1,6 @@
+Usage: ./backup.sh <directory>
+Error: Directory does not exist
+Backup failed
+Backup failed
+Backup successful: backups/backup_20260401_231951.tar.gz
+Backup successful: backups/backup_20260401_232123.tar.gz

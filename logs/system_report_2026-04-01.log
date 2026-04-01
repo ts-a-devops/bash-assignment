@@ -1,0 +1,35 @@
+==== System Check Loading...====
+
+==== Disk Usage ====
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        251G  1.7G  237G   1% /
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+tools           260G   67G  193G  26% /init
+none            1.9G  4.0K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G     0  1.9G   0% /run/user
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+drivers         260G   67G  193G  26% /usr/lib/wsl/drivers
+lib             260G   67G  193G  26% /usr/lib/wsl/lib
+drvfs           260G   67G  193G  26% /mnt/c
+drvfs           206G   21G  186G  10% /mnt/e
+
+==== Memory Usage ====
+               total        used        free      shared  buff/cache   available
+Mem:            3861         215        3717           0          82        3645
+Swap:           1024           0        1024
+
+==== CPU Load ====
+ 04:45:43 up  1:36,  0 user,  load average: 0.00, 0.00, 0.00
+
+==== Total Processes ====
+9
+
+==== Top 5 Memory Consuming Processes ====
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         9  0.0  0.1   6328  5592 pts/0    Ss   03:09   0:00 -bash
+root       761  0.0  0.1   8276  4168 pts/0    R+   04:45   0:00 ps aux --sort=-%mem
+root       734  6.0  0.0   4748  3476 pts/0    S+   04:45   0:00 bash system_check.sh
+root         1  0.0  0.0   2272  1148 ?        Sl   03:09   0:05 /init
+root       762  0.0  0.0   3132  1080 pts/0    S+   04:45   0:00 head -n 6

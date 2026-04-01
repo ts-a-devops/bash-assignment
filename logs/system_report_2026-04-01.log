@@ -1,0 +1,32 @@
+===== SYSTEM CHECK REPORT (2026-04-01) =====
+
+--- DISK USAGE ---
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           643M  2.6M  640M   1% /run
+/dev/sda2        40G   25G   14G  65% /
+tmpfs           3.2G     0  3.2G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           3.2G  4.6M  3.2G   1% /tmp
+tmpfs           643M  144K  643M   1% /run/user/1000
+/dev/sr0         59M   59M     0 100% /media/nnaemeka/VBox_GAs_7.1.8
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+
+--- MEMORY USAGE ---
+               total        used        free      shared  buff/cache   available
+Mem:            6424        2060         402          53        4305        4363
+Swap:           4095           0        4095
+
+--- CPU LOAD ---
+ 16:26:33 up  1:31,  2 users,  load average: 0.54, 0.50, 0.62
+
+--- TOTAL RUNNING PROCESSES ---
+228
+
+--- TOP 5 MEMORY-CONSUMING PROCESSES ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+jenkins     4275  2.9  8.7 4384484 578488 ?      Ssl  14:58   2:37 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/java/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080
+nnaemeka    3265  5.1  6.0 3920800 400720 ?      Rsl  14:57   4:38 /usr/bin/gnome-shell
+nnaemeka    4468  0.8  3.3 846744 217844 ?       Sl   14:58   0:46 /usr/bin/python3 /usr/bin/update-manager --no-update
+nnaemeka    3955  0.0  1.9 1209396 126640 ?      Sl   14:57   0:02 /usr/libexec/mutter-x11-frames
+nnaemeka    3925  0.0  1.2 478156 84748 ?        Ssl  14:57   0:01 /usr/libexec/gsd-xsettings

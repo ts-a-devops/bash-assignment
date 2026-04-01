@@ -1,0 +1,16 @@
+[2026-04-01 06:24:04] Running all core scripts...
+[2026-04-01 06:24:04] Running: user_info.sh
+[2026-04-01 06:24:04] ERROR: Script not found or not executable: user_info.sh
+[2026-04-01 06:24:04] Running: system_check.sh
+[2026-04-01 06:24:04] ERROR: Script not found or not executable: system_check.sh
+[2026-04-01 06:24:07] Running: system_check.sh
+[2026-04-01 06:24:07] ERROR: Script not found or not executable: system_check.sh
+[2026-04-01 06:24:18] Running: backup.sh
+[2026-04-01 06:24:18] ERROR: Script not found or not executable: backup.sh
+[2026-04-01 06:24:22] Running: user_info.sh
+[2026-04-01 06:24:23] ERROR: Script not found or not executable: user_info.sh
+[2026-04-01 06:25:58] Running: user_info.sh
+[2026-04-01 06:25:58] ERROR: Script not found or not executable: user_info.sh
+[2026-04-01 06:26:14] Running: process_monitor.sh
+[2026-04-01 06:26:14] ERROR: Script not found or not executable: process_monitor.sh
+[2026-04-01 06:26:25] Exiting menu.

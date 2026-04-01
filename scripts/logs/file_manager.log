@@ -1,0 +1,5 @@
+[2026-04-01 06:12:16] CREATE: sample.txt
+[2026-04-01 06:12:21] ERROR: File already exists - sample.txt
+[2026-04-01 06:13:01] LIST: .
+[2026-04-01 06:13:31] RENAME: sample.txt -> jerry.txt
+[2026-04-01 06:13:59] RENAME: jerry.txt -> sample.txt

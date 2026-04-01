@@ -1,0 +1,42 @@
+System Report - 2026-04-01
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  440G   37G  93% /usr/lib/wsl/drivers
+/dev/sdd       1007G  5.2G  951G   1% /
+none            3.9G   80K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  824K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  440G   37G  93% /mnt/c
+snapfuse         74M   74M     0 100% /snap/core22/1663
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         74M   74M     0 100% /snap/core22/1722
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         45M   45M     0 100% /snap/snapd/23258
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        131M  131M     0 100% /snap/ubuntu-desktop-installer/1284
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+tmpfs           784M  8.0K  784M   1% /run/user/1000
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7833         442        6787           3         602        7239
+Swap:           2048           0        2048
+CPU Load:
+ 17:49:35 up 54 min,  1 user,  load average: 0.05, 0.07, 0.08
+Warning: Disk usage above 80% on Mounted
+Warning: Disk usage above 80% on /usr/lib/wsl/drivers
+Warning: Disk usage above 80% on /mnt/c
+Total Processes: 41
+Top 5 Memory Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         337  0.3  1.2 1942560 96500 ?       Sl   16:54   0:12 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         216  0.0  0.4 1923904 38848 ?       Ssl  16:54   0:02 /usr/lib/snapd/snapd
+root         892  1.5  0.4  44596 37972 ?        S    16:55   0:51 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         252  0.0  0.2 107232 21120 ?        Ssl  16:54   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         213  0.0  0.2  30108 18944 ?        Ss   16:54   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers

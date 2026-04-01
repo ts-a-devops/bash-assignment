@@ -1,0 +1,30 @@
+===== DISK USAGE ====
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  1.5M  390M   1% /run
+/dev/sda2        25G   13G   11G  56% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  124K  392M   1% /run/user/1000
+
+==== MEMORY USAGE ====
+               total        used        free      shared  buff/cache   available
+Mem:            3912        1209         883          53        2092        2703
+Swap:           3913           0        3913
+
+=== CPU LOAD ====
+ 16:33:00 up  2:55,  1 user,  load average: 0.38, 0.20, 0.15
+
+==== DISK WARNING CHECK ====
+=== TOTAL RUNNING PROCESSES
+Total running processes: 199
+
+==== TOP 5 MEMORY-CONSUMING PROCESSES ====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+dev-tes+    2017  7.7 12.1 4122188 488608 ?      Rsl  13:38  13:33 /usr/bin/gnome-shell
+dev-tes+    2723  0.0  2.5 1128072 103992 ?      Sl   13:38   0:00 /usr/libexec/mutter-x11-frames
+dev-tes+    2630  0.0  2.1 650904 84756 ?        Ssl  13:38   0:01 /usr/libexec/gsd-xsettings
+dev-tes+   10145  0.0  1.8 2825188 72728 ?       Sl   15:51   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+dev-tes+    2927  0.9  1.8 742744 72168 ?        Ssl  13:41   1:34 /usr/libexec/gnome-terminal-server
+
+========================================
+========================================

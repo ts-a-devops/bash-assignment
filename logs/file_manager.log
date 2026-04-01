@@ -1,0 +1,4 @@
+Renamed: testfile.txt to rename.txt
+Renamed: file1.txt to newfile.txt
+Failed rename attempt: fake.txt
+Failed rename attempt: file2txt

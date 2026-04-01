@@ -1,0 +1,24 @@
+system report - Mon Mar 30 01:01:26 WAT 2026
+----------------------------------
+Disk Usage:
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7884         366        7349           4         168        7358
+Swap:           2048           0        2048
+
+CPU Load:
+ 01:01:26 up 3 days, 18:20,  1 user,  load average: 0.00, 0.00, 0.00
+
+Total Running Processes:
+35
+
+Top 5 Memory-Consuming Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         233  0.0  0.2 107172 20864 ?        Ssl  Mar26   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1370  0.0  0.2 293040 19968 ?        Ssl  Mar26   0:03 /usr/libexec/packagekitd
+root         182  0.0  0.2  30184 18432 ?        Ss   Mar26   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          66  0.0  0.1  64204 14344 ?        S<s  Mar26   1:09 /lib/systemd/systemd-journald
+systemd+      95  0.0  0.1  26204 13628 ?        Ss   Mar26   0:05 /lib/systemd/systemd-resolved
+
+Disk Usage Warnings:

@@ -14,7 +14,7 @@ read -p "Enter a directory: " ORIGINAL
 BACKED_FILE="$ORIGINAL.$BACKUP_DATE.tar.gz"
 
 #Lets make the directory if it does not exist
-mkdir -p logs/backup/
+mkdir -p "$LOG_FILE"
 
 #check if the entered variable is a directory
 
@@ -51,14 +51,14 @@ else
 
 fi 
 
-#Keep only the last 5 Backups
+#Keep only the last 2 Backups
 
 COUNT=$(ls "$LOG_FILE" | wc -l)
 
-if [[ "$COUNT" -gt 5 ]]; then 
+if [[ "$COUNT" -gt 2 ]]; then 
 
-    #if the number of items in logfile folder or backup folder is more than 5 then list the items according to their time and give me the olders from the end 
-    DELETED_FILES=$(ls -1t "$LOG_FILE"/*.tar.gz | tail -n +6)
+    #if the number of items in logfile folder or backup folder is more than 2 then list the items according to their time and give me the olders from the end 
+    DELETED_FILES=$(ls -1t "$LOG_FILE"/*.tar.gz | tail -n +3)
 
     #Now we can delete them 
     for f in $DELETED_FILES; do

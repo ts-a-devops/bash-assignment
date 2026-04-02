@@ -1,0 +1,78 @@
+total 24K
+-rw-r--r-- 1 the_godbeing the_godbeing 612 Apr  2 15:13 backup.sh
+-rw-r--r-- 1 the_godbeing the_godbeing 925 Apr  2 14:55 file_manager.sh
+-rw-r--r-- 1 the_godbeing the_godbeing 385 Apr  2 15:17 process_monitor.sh
+-rw-r--r-- 1 the_godbeing the_godbeing 597 Apr  2 15:20 run_all.sh
+-rw-r--r-- 1 the_godbeing the_godbeing 839 Apr  2 14:31 system_check.sh
+-rw-r--r-- 1 the_godbeing the_godbeing 671 Apr  2 11:19 user_info.sh
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         238G  101G  137G  43% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            3.9G  112K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  488K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             238G  101G  137G  43% /mnt/c
+tmpfs           789M  8.0K  789M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7881         318        7401           3         161        7405
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 15:22:27 up  4:50,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total running processes: 35
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         218  0.0  0.2 107164 21632 ?        Ssl  10:33   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         808  0.0  0.2 293004 19968 ?        Ssl  10:36   0:00 /usr/libexec/packagekitd
+root         186  0.0  0.2  30136 18560 ?        Ss   10:33   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          63  0.0  0.1  47828 15104 ?        S<s  10:33   0:02 /lib/systemd/systemd-journald
+systemd+      95  0.0  0.1  25672 13312 ?        Ss   10:33   0:00 /lib/systemd/systemd-resolved
+Backup created: ../backups/backup_20260402_152227.tar.gz
+Old backups cleaned up
+nginx is Stopped. Restarting...
+nginx Restarted
+ssh is Stopped. Restarting...
+ssh Restarted
+docker is Stopped. Restarting...
+docker Restarted
+Hello David from Nigeria! You are an Adult.
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         238G  101G  137G  43% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            3.9G  112K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  488K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             238G  101G  137G  43% /mnt/c
+tmpfs           789M  8.0K  789M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7881         319        7400           3         161        7404
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 15:23:47 up  4:51,  1 user,  load average: 0.00, 0.00, 0.00
+----- Total running processes: 34
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         218  0.0  0.2 107164 21632 ?        Ssl  10:33   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         808  0.0  0.2 293004 19968 ?        Ssl  10:36   0:00 /usr/libexec/packagekitd
+root         186  0.0  0.2  30136 18560 ?        Ss   10:33   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          63  0.0  0.1  47828 15104 ?        S<s  10:33   0:02 /lib/systemd/systemd-journald
+systemd+      95  0.0  0.1  25672 13312 ?        Ss   10:33   0:00 /lib/systemd/systemd-resolved

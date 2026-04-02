@@ -1,0 +1,48 @@
+total 16K
+-rw-r--r-- 1 pizzytech pizzy  37 Mar 30 15:08 a-
+-rw-r--r-- 1 pizzytech pizzy 878 Mar 31 20:47 file_manager.sh
+-rw-r--r-- 1 pizzytech pizzy 838 Mar 31 19:55 system_check.sh
+-rw-r--r-- 1 pizzytech pizzy 613 Mar 30 15:08 user_info.sh
+File created: sample.txt
+File not found!
+File created: sample.txt
+File deleted: sample.txt
+total 12K
+-rw-r--r-- 1 pizzytech pizzy 878 Mar 31 21:00 file_manager.sh
+-rw-r--r-- 1 pizzytech pizzy 838 Mar 31 19:55 system_check.sh
+-rw-r--r-- 1 pizzytech pizzy 613 Mar 30 15:08 user_info.sh
+total 24K
+-rw-r--r-- 1 pizzytech pizzy 632 Apr  1 15:24 backup.sh
+-rw-r--r-- 1 pizzytech pizzy 878 Mar 31 21:00 file_manager.sh
+-rw-r--r-- 1 pizzytech pizzy 405 Apr  1 15:44 process_monitor.sh
+-rw-r--r-- 1 pizzytech pizzy 575 Apr  1 16:20 run_all.sh
+-rw-r--r-- 1 pizzytech pizzy 838 Mar 31 19:55 system_check.sh
+-rw-r--r-- 1 pizzytech pizzy 613 Mar 30 15:08 user_info.sh
+total 24K
+-rw-r--r-- 1 pizzytech pizzy 632 Apr  1 16:24 backup.sh
+-rw-r--r-- 1 pizzytech pizzy 878 Mar 31 21:00 file_manager.sh
+-rw-r--r-- 1 pizzytech pizzy 405 Apr  1 15:44 process_monitor.sh
+-rw-r--r-- 1 pizzytech pizzy 579 Apr  1 16:25 run_all.sh
+-rw-r--r-- 1 pizzytech pizzy 838 Mar 31 19:55 system_check.sh
+-rw-r--r-- 1 pizzytech pizzy 613 Mar 30 15:08 user_info.sh
+total 24K
+-rw-r--r-- 1 pizzytech pizzy 632 Apr  1 16:24 backup.sh
+-rw-r--r-- 1 pizzytech pizzy 878 Mar 31 21:00 file_manager.sh
+-rw-r--r-- 1 pizzytech pizzy 405 Apr  1 15:44 process_monitor.sh
+-rw-r--r-- 1 pizzytech pizzy 578 Apr  1 16:28 run_all.sh
+-rw-r--r-- 1 pizzytech pizzy 838 Mar 31 19:55 system_check.sh
+-rw-r--r-- 1 pizzytech pizzy 613 Mar 30 15:08 user_info.sh
+total 24K
+-rw-r--r-- 1 pizzytech pizzy 632 Apr  1 16:24 backup.sh
+-rw-r--r-- 1 pizzytech pizzy 878 Mar 31 21:00 file_manager.sh
+-rw-r--r-- 1 pizzytech pizzy 405 Apr  1 15:44 process_monitor.sh
+-rw-r--r-- 1 pizzytech pizzy 578 Apr  1 16:41 run_all.sh
+-rw-r--r-- 1 pizzytech pizzy 838 Mar 31 19:55 system_check.sh
+-rw-r--r-- 1 pizzytech pizzy 613 Mar 30 15:08 user_info.sh
+total 24K
+-rw-r--r-- 1 pizzytech pizzy 632 Apr  1 16:24 backup.sh
+-rw-r--r-- 1 pizzytech pizzy 878 Mar 31 21:00 file_manager.sh
+-rw-r--r-- 1 pizzytech pizzy 405 Apr  1 15:44 process_monitor.sh
+-rw-r--r-- 1 pizzytech pizzy 580 Apr  1 16:42 run_all.sh
+-rw-r--r-- 1 pizzytech pizzy 838 Mar 31 19:55 system_check.sh
+-rw-r--r-- 1 pizzytech pizzy 613 Mar 30 15:08 user_info.sh

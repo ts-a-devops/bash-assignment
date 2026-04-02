@@ -1,0 +1,280 @@
+===== SYSTEM RESOURCE MONITOR =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  430G   47G  91% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.6G  954G   1% /
+none            3.9G  224K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.4M  3.9G   1% /init
+none            3.9G  488K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  430G   47G  91% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7866         561        7347           3         177        7305
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 22:36:36 up 22:56,  1 user,  load average: 0.16, 0.08, 0.01
+----- Running processes: 43
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      213397  0.0  0.3  83360 24736 ?        S<s  04:41   0:11 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.2 107008 22588 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      608163  0.0  0.1 1830352 15640 ?       Ssl  22:29   0:00 /usr/libexec/wsl-pro-service
+root           1  0.0  0.1  21948 13484 ?        Ss   Mar31   0:30 /usr/lib/systemd/systemd --system --deserialize=34
+systemd+  213611  0.0  0.1  21460 12172 ?        Ss   04:41   0:02 /usr/lib/systemd/systemd-resolved
+===== SYSTEM RESOURCE MONITOR =====
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  430G   47G  91% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.6G  954G   1% /
+none            3.9G  224K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.4M  3.9G   1% /init
+none            3.9G  488K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  430G   47G  91% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7866         566        7338           3         183        7300
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 22:39:32 up 22:59,  1 user,  load average: 0.18, 0.10, 0.02
+----- Running processes: 43
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      213397  0.0  0.3  83360 24736 ?        S<s  04:41   0:11 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.2 107008 22588 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      608163  0.0  0.1 1830352 15640 ?       Ssl  22:29   0:00 /usr/libexec/wsl-pro-service
+root           1  0.0  0.1  21948 13484 ?        Ss   Mar31   0:30 /usr/lib/systemd/systemd --system --deserialize=34
+systemd+  213611  0.0  0.1  21460 12172 ?        Ss   04:41   0:02 /usr/lib/systemd/systemd-resolved
+===== SYSTEM RESOURCE MONITOR =====
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  430G   47G  91% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.6G  954G   1% /
+none            3.9G  224K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.4M  3.9G   1% /init
+none            3.9G  484K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  430G   47G  91% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7866         555        7349           3         183        7310
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 22:42:18 up 23:02,  1 user,  load average: 0.14, 0.10, 0.02
+----- Running processes: 42
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      213397  0.0  0.3  83360 24736 ?        S<s  04:41   0:11 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.2 107008 22588 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           1  0.0  0.1  21948 13484 ?        Ss   Mar31   0:30 /usr/lib/systemd/systemd --system --deserialize=34
+systemd+  213611  0.0  0.1  21460 12172 ?        Ss   04:41   0:02 /usr/lib/systemd/systemd-resolved
+rheed        334  0.0  0.1  20016 10680 ?        Ss   Mar31   0:05 /usr/lib/systemd/systemd --user --deserialize=22
+ SYSTEM RESOURCE MONITOR 
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  430G   47G  91% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.6G  954G   1% /
+none            3.9G  224K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.4M  3.9G   1% /init
+none            3.9G  484K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  430G   47G  91% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7866         552        7352           3         184        7314
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 22:45:04 up 23:04,  1 user,  load average: 0.01, 0.05, 0.00
+----- Running processes: 42
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      213397  0.0  0.3  83360 24740 ?        S<s  04:41   0:11 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.2 107008 22588 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           1  0.0  0.1  21948 13484 ?        Ss   Mar31   0:30 /usr/lib/systemd/systemd --system --deserialize=34
+systemd+  213611  0.0  0.1  21460 12172 ?        Ss   04:41   0:02 /usr/lib/systemd/systemd-resolved
+rheed        334  0.0  0.1  20016 10680 ?        Ss   Mar31   0:05 /usr/lib/systemd/systemd --user --deserialize=22
+ SYSTEM RESOURCE MONITOR 
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  430G   47G  91% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.6G  954G   1% /
+none            3.9G  224K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.4M  3.9G   1% /init
+none            3.9G  484K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  430G   47G  91% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7866         551        7354           3         183        7315
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 22:45:32 up 23:05,  1 user,  load average: 0.00, 0.04, 0.00
+----- Running processes: 42
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      213397  0.0  0.3  83360 24740 ?        S<s  04:41   0:11 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.2 107008 22588 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           1  0.0  0.1  21948 13484 ?        Ss   Mar31   0:30 /usr/lib/systemd/systemd --system --deserialize=34
+systemd+  213611  0.0  0.1  21460 12172 ?        Ss   04:41   0:02 /usr/lib/systemd/systemd-resolved
+rheed        334  0.0  0.1  20016 10680 ?        Ss   Mar31   0:05 /usr/lib/systemd/systemd --user --deserialize=22
+ 						SYSTEM RESOURCE MONITOR 				
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  430G   47G  91% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.6G  954G   1% /
+none            3.9G  224K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.4M  3.9G   1% /init
+none            3.9G  484K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  430G   47G  91% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7866         550        7354           3         183        7316
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 22:46:27 up 23:06,  1 user,  load average: 0.00, 0.03, 0.00
+----- Running processes: 42
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      213397  0.0  0.3  83360 24740 ?        S<s  04:41   0:11 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.2 107008 22588 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           1  0.0  0.1  21948 13484 ?        Ss   Mar31   0:30 /usr/lib/systemd/systemd --system --deserialize=34
+systemd+  213611  0.0  0.1  21460 12172 ?        Ss   04:41   0:02 /usr/lib/systemd/systemd-resolved
+rheed        334  0.0  0.1  20016 10680 ?        Ss   Mar31   0:05 /usr/lib/systemd/systemd --user --deserialize=22
+                      SYSTEM RESOURCE MONITOR               
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  430G   47G  91% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.6G  954G   1% /
+none            3.9G  224K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.4M  3.9G   1% /init
+none            3.9G  484K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  430G   47G  91% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7866         551        7353           3         184        7314
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 22:47:10 up 23:07,  1 user,  load average: 0.00, 0.03, 0.00
+----- Running processes: 42
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      213397  0.0  0.3  83360 24740 ?        S<s  04:41   0:11 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.2 107008 22588 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           1  0.0  0.1  21948 13484 ?        Ss   Mar31   0:30 /usr/lib/systemd/systemd --system --deserialize=34
+systemd+  213611  0.0  0.1  21460 12172 ?        Ss   04:41   0:02 /usr/lib/systemd/systemd-resolved
+rheed        334  0.0  0.1  20016 10680 ?        Ss   Mar31   0:05 /usr/lib/systemd/systemd --user --deserialize=22
+                      SYSTEM RESOURCE MONITOR                       
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  430G   47G  91% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.6G  954G   1% /
+none            3.9G  224K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.4M  3.9G   1% /init
+none            3.9G  484K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  430G   47G  91% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            7866         552        7353           3         184        7314
+Swap:           2048           0        2048
+---------- CPU Load ----------
+ 22:47:52 up 23:07,  1 user,  load average: 0.00, 0.02, 0.00
+----- Running processes: 44
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      213397  0.0  0.3  83360 24740 ?        S<s  04:41   0:11 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.2 107008 22588 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           1  0.0  0.1  21948 13484 ?        Ss   Mar31   0:30 /usr/lib/systemd/systemd --system --deserialize=34
+systemd+  213611  0.0  0.1  21460 12172 ?        Ss   04:41   0:02 /usr/lib/systemd/systemd-resolved
+rheed        334  0.0  0.1  20016 10680 ?        Ss   Mar31   0:05 /usr/lib/systemd/systemd --user --deserialize=22
+                      SYSTEM RESOURCE MONITOR                       
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  430G   47G  91% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.6G  954G   1% /
+none            3.9G  228K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.4M  3.9G   1% /init
+none            3.9G  484K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  430G   47G  91% /mnt/c
+tmpfs           787M   20K  787M   1% /run/user/1000
+************************ Memory Usage ************************
+               total        used        free      shared  buff/cache   available
+Mem:            7866         553        7351           3         184        7313
+Swap:           2048           0        2048
+************************ CPU Load ************************
+ 22:49:51 up 23:09,  1 user,  load average: 0.01, 0.02, 0.00
+************************ Running processes: 42
+************************ Top 5 memory-consuming processes ************************
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root      213397  0.0  0.3  83360 24740 ?        S<s  04:41   0:11 /usr/lib/systemd/systemd-journald
+root         191  0.0  0.2 107008 22588 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           1  0.0  0.1  21948 13484 ?        Ss   Mar31   0:30 /usr/lib/systemd/systemd --system --deserialize=34
+systemd+  213611  0.0  0.1  21460 12172 ?        Ss   04:41   0:02 /usr/lib/systemd/systemd-resolved
+rheed        334  0.0  0.1  20016 10680 ?        Ss   Mar31   0:05 /usr/lib/systemd/systemd --user --deserialize=22

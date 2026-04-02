@@ -1,0 +1,23 @@
+Error: No source directory provided
+Usage: backup.sh <source_directory>
+Backup created: ../backups/backup_2026-04-02_20-24-07.tar.gz
+Cleaning old backups...
+Old backups cleaned
+Backup created: ../backups/backup_2026-04-02_20-30-27.tar.gz
+Cleaning old backups...
+Old backups cleaned
+Backup created: ../backups/backup_20260402_20:31:55.tar.gz
+Cleaning old backups...
+Old backups cleaned
+Backup created: ../backups/backup_20260402_20:58:30.tar.gz
+Cleaning old backups...
+Old backups cleaned
+Backup created: ../backups/backup_20260402_20:58:52.tar.gz
+Cleaning old backups...
+Old backups cleaned
+Backup created: ../backups/backup_20260402_21:13:16.tar.gz
+Cleaning old backups...
+Old backups cleaned
+Backup created: ../backups/backup_20260402_21:16:05.tar.gz
+Cleaning old backups...
+Old backups cleaned

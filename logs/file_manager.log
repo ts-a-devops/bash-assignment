@@ -1,0 +1,10 @@
+File not found: -y
+File deleted: test_doc.txt
+File list:
+total 24K
+-rwxrwxrwx 1 rheed rheed 1007 Apr  2 20:31 backup.sh
+-rwxrwxrwx 1 rheed rheed 1.4K Apr  1 23:07 file_manager.sh
+-rwxrwxrwx 1 rheed rheed  708 Apr  2 20:43 process_monitor.sh
+-rwxrwxrwx 1 rheed rheed 1.5K Apr  2 20:58 run_all.sh
+-rwxrwxrwx 1 rheed rheed 1.2K Apr  1 22:49 system_check.sh
+-rwxrwxrwx 1 rheed rheed 1.3K Apr  1 22:05 user_info.sh

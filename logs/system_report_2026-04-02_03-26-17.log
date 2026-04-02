@@ -1,0 +1,41 @@
+===== SYSTEM CHECK REPORT =====
+Date: Thu Apr  2 03:26:17 CDT 2026
+
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G   87G  151G  37% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.3G  955G   1% /
+none            1.9G   88K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  504K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G   87G  151G  37% /mnt/c
+tmpfs           382M   20K  382M   1% /run/user/1000
+
+---- Memory Usage ----
+               total        used        free      shared  buff/cache   available
+Mem:            3818         482        3301           3         171        3336
+Swap:           1024           0        1024
+
+---- CPU Load ----
+ 03:26:17 up  1:10,  1 user,  load average: 0.02, 0.05, 0.05
+
+---- Disk Warning (>80%) ----
+
+---- Total Processes ----
+27
+
+---- Top 5 Memory Processes ----
+    PID COMMAND         %MEM
+     58 systemd-journal  0.7
+    200 unattended-upgr  0.5
+      1 systemd          0.3
+    117 systemd-resolve  0.3
+    376 systemd          0.2
+

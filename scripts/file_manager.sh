@@ -28,7 +28,7 @@ case "$ACTION" in
        ;;
 
        rename)
-	  NEW_NAME=$3
+ NEW_NAME=$3
 	 if [[ -f "$FILE" ]]; then
 		 mv "$FILE" "$NEW_NAME"
 

@@ -1,0 +1,634 @@
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  205G   33G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  340K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  868K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  205G   33G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         451        3183           4         155        3261
+Swap:           1024           0        1024
+------ CPU Load ------
+ 12:19:39 up 22:11,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 
+---------- Top 5 Memory-Consuming Processes ----------
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  205G   33G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  340K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  868K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  205G   33G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         442        3189           4         157        3270
+Swap:           1024           0        1024
+------ CPU Load ------
+ 12:23:42 up 22:15,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar30   0:54 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38052 ?       Ssl  Mar30   0:30 /usr/lib/snapd/snapd
+root         462  0.6  0.9  44184 37752 ?        S    Mar30   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         170  0.0  0.4  30180 18944 ?        Ss   Mar30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  205G   33G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  348K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  868K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  205G   33G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         453        3168           4         168        3259
+Swap:           1024           0        1024
+------ CPU Load ------
+ 19:16:43 up 22:36,  1 user,  load average: 0.01, 0.03, 0.00
+ ------ Total running processes: 
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar30   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38052 ?       Ssl  Mar30   0:31 /usr/lib/snapd/snapd
+root         462  0.6  0.9  44184 37752 ?        S    Mar30   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         170  0.0  0.4  30180 18944 ?        Ss   Mar30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  205G   33G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  348K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  868K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  205G   33G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         448        3172           4         169        3264
+Swap:           1024           0        1024
+------ CPU Load ------
+ 19:28:45 up 22:48,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar30   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38052 ?       Ssl  Mar30   0:31 /usr/lib/snapd/snapd
+root         462  0.6  0.9  44184 37752 ?        S    Mar30   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         170  0.0  0.4  30180 18944 ?        Ss   Mar30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  205G   33G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  348K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  868K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  205G   33G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         448        3171           4         169        3264
+Swap:           1024           0        1024
+------ CPU Load ------
+ 19:33:37 up 22:53,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 44
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar30   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38052 ?       Ssl  Mar30   0:31 /usr/lib/snapd/snapd
+root         462  0.6  0.9  44184 37752 ?        S    Mar30   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         170  0.0  0.4  30180 18944 ?        Ss   Mar30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  205G   33G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  348K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  868K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  205G   33G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         450        3170           4         169        3262
+Swap:           1024           0        1024
+------ CPU Load ------
+ 19:36:57 up 22:56,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 44
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar30   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38052 ?       Ssl  Mar30   0:31 /usr/lib/snapd/snapd
+root         462  0.6  0.9  44184 37752 ?        S    Mar30   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         170  0.0  0.4  30180 18944 ?        Ss   Mar30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  205G   33G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  348K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  868K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  205G   33G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         452        3167           4         169        3260
+Swap:           1024           0        1024
+------ CPU Load ------
+ 19:41:56 up 23:01,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 44
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar30   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38052 ?       Ssl  Mar30   0:31 /usr/lib/snapd/snapd
+root         462  0.6  0.9  44184 37752 ?        S    Mar30   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         170  0.0  0.4  30180 18944 ?        Ss   Mar30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  205G   33G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  348K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  868K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  205G   33G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         448        3172           4         169        3264
+Swap:           1024           0        1024
+------ CPU Load ------
+ 19:49:25 up 23:08,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 44
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar30   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38052 ?       Ssl  Mar30   0:31 /usr/lib/snapd/snapd
+root         462  0.6  0.9  44184 37752 ?        S    Mar30   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         170  0.0  0.4  30180 18944 ?        Ss   Mar30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  205G   33G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  348K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  868K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  205G   33G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         451        3168           4         169        3261
+Swap:           1024           0        1024
+------ CPU Load ------
+ 19:51:22 up 23:10,  1 user,  load average: 0.02, 0.02, 0.00
+ ------ Total running processes: 44
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar30   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38052 ?       Ssl  Mar30   0:31 /usr/lib/snapd/snapd
+root         462  0.6  0.9  44184 37752 ?        S    Mar30   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         170  0.0  0.4  30180 18944 ?        Ss   Mar30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  205G   33G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  348K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  868K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  205G   33G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         448        3171           4         169        3264
+Swap:           1024           0        1024
+------ CPU Load ------
+ 19:55:23 up 23:14,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 44
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar30   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38052 ?       Ssl  Mar30   0:31 /usr/lib/snapd/snapd
+root         462  0.6  0.9  44184 37752 ?        S    Mar30   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         170  0.0  0.4  30180 18944 ?        Ss   Mar30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  206G   32G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  364K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  880K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  206G   32G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         460        3160           4         168        3251
+Swap:           1024           0        1024
+------ CPU Load ------
+ 16:20:47 up 1 day,  4:08,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 49
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar31   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 37880 ?       Ssl  Mar31   0:38 /usr/lib/snapd/snapd
+root         462  0.4  0.9  44184 37752 ?        S    Mar31   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      202443  0.0  0.5 293032 19840 ?        Ssl  13:25   0:00 /usr/libexec/packagekitd
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  206G   32G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  364K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  880K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  206G   32G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         459        3159           4         171        3252
+Swap:           1024           0        1024
+------ CPU Load ------
+ 16:26:04 up 1 day,  4:13,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 49
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar31   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 37880 ?       Ssl  Mar31   0:38 /usr/lib/snapd/snapd
+root         462  0.4  0.9  44184 37752 ?        S    Mar31   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      202443  0.0  0.5 293032 19840 ?        Ssl  13:25   0:00 /usr/libexec/packagekitd
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  206G   32G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  364K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  880K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  206G   32G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         456        3162           4         171        3254
+Swap:           1024           0        1024
+------ CPU Load ------
+ 16:28:45 up 1 day,  4:16,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 49
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar31   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38008 ?       Ssl  Mar31   0:38 /usr/lib/snapd/snapd
+root         462  0.4  0.9  44184 37752 ?        S    Mar31   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      202443  0.0  0.5 293032 19840 ?        Ssl  13:25   0:00 /usr/libexec/packagekitd
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  206G   32G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  364K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  880K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  206G   32G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         459        3158           4         171        3251
+Swap:           1024           0        1024
+------ CPU Load ------
+ 16:41:15 up 1 day,  4:28,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 49
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar31   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38008 ?       Ssl  Mar31   0:38 /usr/lib/snapd/snapd
+root         462  0.4  0.9  44184 37752 ?        S    Mar31   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      202443  0.0  0.5 293032 19840 ?        Ssl  13:25   0:00 /usr/libexec/packagekitd
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  206G   32G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  364K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  880K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  206G   32G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         461        3157           4         171        3250
+Swap:           1024           0        1024
+------ CPU Load ------
+ 16:41:49 up 1 day,  4:29,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 48
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar31   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38008 ?       Ssl  Mar31   0:38 /usr/lib/snapd/snapd
+root         462  0.4  0.9  44184 37752 ?        S    Mar31   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      202443  0.0  0.5 293032 19840 ?        Ssl  13:25   0:00 /usr/libexec/packagekitd
+====== SYSTEM REPORT ======
+------ Disk Usage ------
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  206G   32G  87% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  364K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  880K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  206G   32G  87% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         74M   74M     0 100% /snap/core22/1802
+snapfuse         74M   74M     0 100% /snap/core22/1908
+snapfuse         45M   45M     0 100% /snap/snapd/23771
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+snapfuse         49M   49M     0 100% /snap/snapd/25935
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+tmpfs           380M  8.0K  380M   1% /run/user/0
+tmpfs           380M  8.0K  380M   1% /run/user/1000
+------ Memory Usage ------
+               total        used        free      shared  buff/cache   available
+Mem:            3790         459        3159           4         171        3252
+Swap:           1024           0        1024
+------ CPU Load ------
+ 16:42:57 up 1 day,  4:30,  1 user,  load average: 0.00, 0.00, 0.00
+ ------ Total running processes: 49
+---------- Top 5 Memory-Consuming Processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         290  0.0  2.1 1156020 81996 ?       Sl   Mar31   0:55 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         215  0.0  0.9 1769628 38008 ?       Ssl  Mar31   0:38 /usr/lib/snapd/snapd
+root         462  0.4  0.9  44184 37752 ?        S    Mar31   8:22 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         259  0.0  0.5 107272 21248 ?        Ssl  Mar31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      202443  0.0  0.5 293032 19840 ?        Ssl  13:25   0:00 /usr/libexec/packagekitd

@@ -1,0 +1,42 @@
+===== SYSTEM CHECK REPORT =====
+Date: Mon Mar 30 14:14:49 WAT 2026
+
+>> Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.9G     0  2.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            2.9G  4.0K  2.9G   1% /mnt/wsl
+drivers         699G  171G  528G  25% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            2.9G  400K  2.9G   1% /mnt/wslg
+none            2.9G     0  2.9G   0% /usr/lib/wsl/lib
+rootfs          2.9G  2.7M  2.9G   1% /init
+none            2.9G  488K  2.9G   1% /run
+none            2.9G     0  2.9G   0% /run/lock
+none            2.9G     0  2.9G   0% /run/shm
+none            2.9G   76K  2.9G   1% /mnt/wslg/versions.txt
+none            2.9G   76K  2.9G   1% /mnt/wslg/doc
+C:\             699G  171G  528G  25% /mnt/c
+tmpfs           589M  8.0K  589M   1% /run/user/0
+
+>> Disk Usage Warnings (Above 80%):
+
+>> Memory Usage (MB):
+               total        used        free      shared  buff/cache   available
+Mem:            5883         349        5335           3         198        5374
+Swap:           2048           0        2048
+
+>> CPU Load:
+ 14:14:49 up 1 day, 22:45,  1 user,  load average: 0.03, 0.02, 0.00
+
+>> Total Running Processes:
+41
+
+>> Top 5 Memory-Consuming Processes:
+    PID    PPID CMD                         %MEM %CPU
+  14182   14083 /root/.vscode-remote-contai  0.9  0.0
+    308       1 /usr/bin/python3 /usr/share  0.3  0.0
+    707       1 /usr/libexec/packagekitd     0.3  0.0
+    216       1 /usr/bin/python3 /usr/bin/n  0.3  0.0
+  18872       1 /lib/systemd/systemd-resolv  0.2  0.0
+
+===== END OF REPORT =====

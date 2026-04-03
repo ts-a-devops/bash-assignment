@@ -1,0 +1,41 @@
+=== System Check Report ===
+Date: Fri Apr  3 15:40:51 WAT 2026
+
+=== Disk Usage ===
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         476G  114G  363G  24% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.4G  955G   1% /
+none            1.9G  372K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  520K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             476G  114G  363G  24% /mnt/c
+tmpfs           378M   20K  378M   1% /run/user/1000
+
+=== Disk Usage Warnings (>80%) ===
+
+=== Memory Usage (MB) ===
+               total        used        free      shared  buff/cache   available
+Mem:            3771         415        3233           3         199        3355
+Swap:           1024           0        1024
+
+=== CPU Load ===
+ 15:40:51 up  7:30,  1 user,  load average: 0.00, 0.00, 0.00
+
+=== Total Running Processes ===
+Total processes: 35
+
+=== Top 5 Memory-Consuming Processes ===
+    PID    PPID CMD                         %MEM %CPU
+    206       1 /usr/bin/python3 /usr/share  0.5  0.0
+     42       1 /usr/lib/systemd/systemd-jo  0.3  0.0
+      1       0 /sbin/init                   0.3  0.0
+    104       1 /usr/lib/systemd/systemd-re  0.3  0.0
+    345       1 /usr/lib/systemd/systemd --  0.2  0.0
+

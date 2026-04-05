@@ -1,0 +1,60 @@
+Disk Usage
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.3M  1.6G   1% /run
+/dev/sda2       480G   43G  413G  10% /
+tmpfs           7.7G   60M  7.7G   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        384K   79K  301K  21% /sys/firmware/efi/efivars
+/dev/sda1       1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           1.6G  2.6M  1.6G   1% /run/user/1000
+Memory Usage
+               total        used        free      shared  buff/cache   available
+Mem:           15699        8177        1152        1366        6510        7522
+Swap:           4095         407        3688
+CPU Load
+ 16:40:27 up 3 days,  2:28,  1 user,  load average: 0.94, 0.89, 0.82
+Total running processes
+346
+Top 5 memory-consuming processes
+Disk Usage
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.3M  1.6G   1% /run
+/dev/sda2       480G   43G  413G  10% /
+tmpfs           7.7G   59M  7.7G   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        384K   79K  301K  21% /sys/firmware/efi/efivars
+/dev/sda1       1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           1.6G  2.6M  1.6G   1% /run/user/1000
+Memory Usage
+               total        used        free      shared  buff/cache   available
+Mem:           15699        8211        1110        1400        6544        7488
+Swap:           4095         407        3688
+CPU Load
+ 16:42:50 up 3 days,  2:30,  1 user,  load average: 0.66, 0.74, 0.77
+Total running processes
+349
+Top 5 memory-consuming processes
+Disk Usage
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.3M  1.6G   1% /run
+/dev/sda2       480G   43G  413G  10% /
+tmpfs           7.7G   59M  7.7G   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        384K   79K  301K  21% /sys/firmware/efi/efivars
+/dev/sda1       1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           1.6G  2.6M  1.6G   1% /run/user/1000
+Memory Usage
+               total        used        free      shared  buff/cache   available
+Mem:           15699        8116        1209        1343        6488        7583
+Swap:           4095         407        3688
+CPU Load
+ 16:45:56 up 3 days,  2:33,  1 user,  load average: 0.93, 0.73, 0.75
+Total running processes
+350
+Top 5 memory-consuming processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+herolab     6928  5.8  5.2 12906180 843768 ?     Sl   Mar30 227:52 /snap/firefox/6565/usr/lib/firefox/firefox
+herolab    10643  0.8  3.5 3025732 568984 ?      Sl   Mar30  30:52 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:42809 -prefMapHandle 1:271886 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {cd1da6e4-c04e-4188-a34e-fa8336a331a9} -parentPid 6928 -crashReporter 6 -crashHelperPid 7007 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 40 tab
+herolab     8084  0.5  3.1 7660672 506592 ?      Sl   Mar30  21:59 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:42458 -prefMapHandle 1:271886 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d567320f-e6a3-45e3-b719-55003f28d274} -parentPid 6928 -crashReporter 6 -crashHelperPid 7007 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 12 tab
+herolab     7742  0.7  2.9 11406048 474664 ?     Sl   Mar30  30:16 /snap/firefox/6565/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:42458 -prefMapHandle 1:271886 -jsInitHandle 2:242012 -parentBuildID 20250718161710 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {05f6872d-4ffb-4cb0-991b-f41fd573bbcd} -parentPid 6928 -crashReporter 6 -crashHelperPid 7007 -greomni /snap/firefox/6565/usr/lib/firefox/omni.ja -appomni /snap/firefox/6565/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/6565/usr/lib/firefox/browser 7 tab
+herolab    88720  0.3  2.6 1461317556 433008 ?   Sl   03:50   2:37 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --js-flags=--nodecommit_pooled_pages --crashpad-handler-pid=88627 --enable-crash-reporter=116112e8-efe5-4b9f-accd-bebc642d68d8,no_channel --user-data-dir=/home/herolab/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,13358235925427173423,3662479183552217790,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708991934122588

@@ -1,0 +1,11 @@
+2026-04-01 09:41:03 - Running all scripts...
+2026-04-01 09:41:03 - ERROR: scripts/system_check.sh not found or not executable
+2026-04-01 09:41:03 - WARNING: scripts/backup.sh not found or not executable
+2026-04-01 09:41:03 - All scripts completed.
+2026-04-01 09:41:26 - ERROR: scripts/system_check.sh not found or not executable
+2026-04-01 09:41:34 - Exiting menu.
+2026-04-01 09:44:40 - Running all scripts...
+2026-04-01 09:44:40 - ERROR: scripts/system_check.sh not found or not executable
+2026-04-01 09:44:40 - WARNING: scripts/backup.sh not found or not executable
+2026-04-01 09:44:40 - All scripts completed.
+2026-04-01 09:44:48 - Exiting menu.

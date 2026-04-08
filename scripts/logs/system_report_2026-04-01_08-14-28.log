@@ -1,0 +1,35 @@
+===== SYSTEM HEALTH REPORT =====
+Date: Wed Apr  1 08:14:28 AM WAT 2026
+
+---- Disk Usage ----
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.2M  1.6G   1% /run
+/dev/nvme0n1p2  233G   20G  201G  10% /
+tmpfs           7.7G  107M  7.6G   2% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        246K   73K  169K  31% /sys/firmware/efi/efivars
+/dev/nvme0n1p1  1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           1.6G  160K  1.6G   1% /run/user/1000
+
+---- Disk Usage Warnings (>80%) ----
+
+---- Memory Usage (MB) ----
+               total        used        free      shared  buff/cache   available
+Mem:           15641        3096       10183         736        3432       12545
+Swap:           4095           0        4095
+
+---- CPU Load ----
+ 08:14:29 up 1 day, 17 min,  1 user,  load average: 0.12, 0.13, 0.16
+
+---- Total Running Processes ----
+304 processes running
+
+---- Top 5 Memory Consuming Processes ----
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+andrew     18334  0.3  3.0 51422168 485888 ?     SLl  Mar31   3:35 /opt/google/chrome/chrome
+andrew     12043  1.7  2.0 4884040 331460 ?      Rsl  Mar31  20:39 /usr/bin/gnome-shell
+andrew     18547  0.1  1.8 1459851668 294956 ?   Sl   Mar31   1:35 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=18344 --enable-crash-reporter=9445186a-0948-43c3-aae7-ab6356cd4c03, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1774942120618124 --launch-time-ticks=25940637962 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,6005476864919981067,12544239946509572490,2097152 --field-trial-handle=3,i,11349545966628953913,3646997816059462728,262144 --disable-features=EyeDropper --variations-seed-version=20260330-170028.940000-production --pseudonymization-salt-handle=7,i,10701049379448771139,14117768754693570865,4 --trace-process-track-uuid=3190708995682289984
+andrew     24908  1.1  1.8 1459851608 292960 ?   Sl   05:35   1:51 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=18344 --enable-crash-reporter=9445186a-0948-43c3-aae7-ab6356cd4c03, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=68 --time-ticks-at-unix-epoch=-1774942120618124 --launch-time-ticks=45298442905 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9149719739591157630,18257729641706001318,2097152 --field-trial-handle=3,i,11349545966628953913,3646997816059462728,262144 --disable-features=EyeDropper --variations-seed-version=20260330-170028.940000-production --pseudonymization-salt-handle=7,i,10701049379448771139,14117768754693570865,4 --trace-process-track-uuid=3190709050030717226
+andrew     22845  1.2  1.5 1461799376 250156 ?   Sl   04:41   2:34 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=18344 --enable-crash-reporter=9445186a-0948-43c3-aae7-ab6356cd4c03, --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=35 --time-ticks-at-unix-epoch=-1774942120618124 --launch-time-ticks=42049750296 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,4967960962254648034,15016536483391365999,2097152 --field-trial-handle=3,i,11349545966628953913,3646997816059462728,262144 --disable-features=EyeDropper --variations-seed-version=20260330-170028.940000-production --pseudonymization-salt-handle=7,i,10701049379448771139,14117768754693570865,4 --trace-process-track-uuid=3190709019108336209
+
+Report saved to logs/system_report_2026-04-01_08-14-28.log

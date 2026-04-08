@@ -1,0 +1,39 @@
+total 24K
+-rw-rw-r-- 1 most_senior_man most_senior_man 613 Apr  8 20:49 backup.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 925 Apr  8 20:42 file_manager.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 385 Apr  8 20:53 process_monitor.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 600 Apr  8 20:55 run_all.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 842 Apr  8 20:37 system_check.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 783 Apr  5 17:43 user_info.sh
+===== SYSTEM REPORT =====
+---------- Disk Usage ----------
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           392M  1.9M  390M   1% /run
+/dev/sda2        40G  8.2G   29G  22% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           392M  136K  392M   1% /run/user/1000
+/dev/sr0        6.3G  6.3G     0 100% /media/most_senior_man/Ubuntu 24.04.4 LTS amd64
+---------- Memory Usage ----------
+               total        used        free      shared  buff/cache   available
+Mem:            3914        1671         123          40        2306        2243
+Swap:              0           0           0
+---------- CPU Load ----------
+ 20:56:14 up  4:49,  1 user,  load average: 0.52, 0.64, 0.48
+----- Total running processes: 220
+---------- Top 5 memory-consuming processes ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+most_se+    3018  3.0 11.4 11788172 459664 ?     Sl   16:10   8:46 /snap/firefox/7967/usr/lib/firefox/firefox
+most_se+    2054  3.0  9.5 3995868 380964 ?      Ssl  16:09   8:53 /usr/bin/gnome-shell
+most_se+    3261  0.6  5.7 2746260 231164 ?      Sl   16:11   1:50 /snap/firefox/7967/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:33276 -prefMapHandle 1:278246 -jsInitHandle 2:227672 -parentBuildID 20260309231353 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {49eeb725-dc6f-46f4-9ac3-7b49de95e02c} -parentPid 3018 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7967/usr/lib/firefox/omni.ja -appomni /snap/firefox/7967/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7967/usr/lib/firefox/browser 6 tab
+most_se+    3268  0.9  5.4 2822016 219064 ?      Sl   16:11   2:39 /snap/firefox/7967/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:33276 -prefMapHandle 1:278246 -jsInitHandle 2:227672 -parentBuildID 20260309231353 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {bd287250-3917-4d65-a238-eff1c80c9889} -parentPid 3018 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7967/usr/lib/firefox/omni.ja -appomni /snap/firefox/7967/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7967/usr/lib/firefox/browser 7 tab
+most_se+    3233  0.3  3.3 2626188 133316 ?      Sl   16:11   0:58 /snap/firefox/7967/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:36915 -prefMapHandle 1:278246 -jsInitHandle 2:227672 -parentBuildID 20260309231353 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5f07b2a7-e046-4056-8e7c-b5c091e23ddc} -parentPid 3018 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/7967/usr/lib/firefox/omni.ja -appomni /snap/firefox/7967/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/7967/usr/lib/firefox/browser 5 tab
+Backup created: ../backups/backup_20260408_205615.tar.gz
+Old backups cleaned up
+nginx is Stopped. Restarting...
+nginx Restarted
+ssh is Stopped. Restarting...
+ssh Restarted
+docker is Stopped. Restarting...
+docker Restarted
+Hello Oluwasegun from nigerian! You are an Adult.

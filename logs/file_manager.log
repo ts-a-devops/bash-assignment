@@ -1,0 +1,15 @@
+File created: sample.txt
+total 12K
+-rw-rw-r-- 1 most_senior_man most_senior_man 925 Apr  8 20:42 file_manager.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man   0 Apr  8 20:43 sample.txt
+-rw-rw-r-- 1 most_senior_man most_senior_man 842 Apr  8 20:37 system_check.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 783 Apr  5 17:43 user_info.sh
+Renamed sample.txt to sample1.txt
+File deleted: sample1.txt
+total 24K
+-rw-rw-r-- 1 most_senior_man most_senior_man 613 Apr  8 20:49 backup.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 925 Apr  8 20:42 file_manager.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 385 Apr  8 20:53 process_monitor.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 600 Apr  8 20:55 run_all.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 842 Apr  8 20:37 system_check.sh
+-rw-rw-r-- 1 most_senior_man most_senior_man 783 Apr  5 17:43 user_info.sh

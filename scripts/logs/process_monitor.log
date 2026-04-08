@@ -1,0 +1,7 @@
+nginx is Stopped
+Restarting nginx...
+nginx Failed to restart
+ssh is Stopped
+Restarting ssh...
+ssh Failed to restart
+grep is not in the monitored services list

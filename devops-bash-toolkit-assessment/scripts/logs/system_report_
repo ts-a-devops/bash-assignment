@@ -1,0 +1,36 @@
+ Disk usage 
+ Memory usage 
+ CPU load (uptime) 
+Disk usage is within limit
+ Total running Processes 
+ Disk usage 
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G   73G  166G  31% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.3G  954G   1% /
+none            1.9G  140K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  492K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G   73G  166G  31% /mnt/c
+tmpfs           386M  8.0K  386M   1% /run/user/1000
+ Memory usage 
+               total        used        free      shared  buff/cache   available
+Mem:            3857         312        3324           3         220        3403
+Swap:           1024           0        1024
+ CPU load (uptime) 
+ 14:49:40 up 13:01,  1 user,  load average: 0.06, 0.03, 0.05
+Disk usage is within limit
+ Total running Processes 
+35
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         315  0.0  0.5 107172 21248 ?        Ssl  01:48   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        4249  0.0  0.5 293040 19968 ?        Ssl  04:31   0:01 /usr/libexec/packagekitd
+root         256  0.0  0.4  30184 18816 ?        Ss   01:48   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        4464  1.3  0.3  64080 14420 ?        S<s  04:32   8:32 /lib/systemd/systemd-journald
+systemd+    4462  0.0  0.3  26204 13884 ?        Ss   04:32   0:05 /lib/systemd/systemd-resolved

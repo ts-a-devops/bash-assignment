@@ -1,0 +1,54 @@
+System Check Report - Wed  1 Apr 2026 02:04:14 WAT
+========================================
+
+[Disk Usage]
+Filesystem                      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1                 460Gi    12Gi    20Gi    37%    455k  211M    0%   /
+devfs                          218Ki   218Ki     0Bi   100%     754     0  100%   /dev
+/dev/disk3s6                   460Gi   7.0Gi    20Gi    26%       7  211M    0%   /System/Volumes/VM
+/dev/disk3s2                   460Gi   8.1Gi    20Gi    29%    1.4k  211M    0%   /System/Volumes/Preboot
+/dev/disk3s4                   460Gi   3.0Mi    20Gi     1%      66  211M    0%   /System/Volumes/Update
+/dev/disk1s2                   500Mi   6.0Mi   483Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1                   500Mi   5.8Mi   483Mi     2%      31  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3                   500Mi   884Ki   483Mi     1%      63  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5                   460Gi   412Gi    20Gi    96%    6.7M  211M    3%   /System/Volumes/Data
+map auto_home                    0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk5s1                    16Gi    15Gi   471Mi    98%    498k  4.8M    9%   /Library/Developer/CoreSimulator/Volumes/iOS_21A342
+/dev/disk7s1                    17Gi    16Gi   438Mi    98%    608k  4.5M   12%   /Library/Developer/CoreSimulator/Volumes/iOS_23D8133
+/dev/disk9s1                   385Mi   308Mi    75Mi    81%     552  768k    0%   /Volumes/Redis Insight 2.70.1-arm64
+/Applications/Pi.app/Wrapper   460Gi   411Gi    17Gi    96%    6.7M  180M    4%   /private/var/folders/wb/mzs_c3rs3dxg3ny4_qjb8jr80000gn/X/3D6AE059-CE29-57AE-83C8-F52C55B49D47
+
+[Memory Usage]
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                                3607.
+Pages active:                             87622.
+Pages inactive:                           82929.
+Pages speculative:                         3702.
+Pages throttled:                              0.
+Pages wired down:                        128762.
+Pages purgeable:                            116.
+"Translation faults":                8593002225.
+Pages copy-on-write:                  133987569.
+Pages zero filled:                   1387209860.
+Pages reactivated:                   3309616018.
+Pages purged:                         195006250.
+File-backed pages:                        64104.
+Anonymous pages:                         110149.
+Pages stored in compressor:             1127316.
+Pages occupied by compressor:            180828.
+Decompressions:                      4188604159.
+Compressions:                        4461894951.
+Pageins:                              388002623.
+Pageouts:                               8041712.
+Swapins:                              175807753.
+Swapouts:                             184713802.
+
+[CPU Load]
+ 2:04  up 15 days, 17:21, 3 users, load averages: 2.29 2.17 3.60
+
+[Disk Usage Warnings (>80%)]
+WARNING: /dev/disk3s5 is at 96% usage (mount: /System/Volumes/Data)\nWARNING: /dev/disk5s1 is at 98% usage (mount: /Library/Developer/CoreSimulator/Volumes/iOS_21A342)\nWARNING: /dev/disk7s1 is at 98% usage (mount: /Library/Developer/CoreSimulator/Volumes/iOS_23D8133)\nWARNING: /dev/disk9s1 is at 81% usage (mount: /Volumes/Redis)\nWARNING: /Applications/Pi.app/Wrapper is at 96% usage (mount: /private/var/folders/wb/mzs_c3rs3dxg3ny4_qjb8jr80000gn/X/3D6AE059-CE29-57AE-83C8-F52C55B49D47)\n
+[Total Running Processes]
+512
+
+[Top 5 Memory-Consuming Processes]

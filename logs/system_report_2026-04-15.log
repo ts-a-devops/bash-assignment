@@ -1,0 +1,124 @@
+System Check Report - Wed Apr 15 12:09:45 WAT 2026
+-----------------------------------
+Disk Usage:
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   460Gi    12Gi   390Gi     3%    458k  4.1G    0%   /
+devfs            200Ki   200Ki     0Bi   100%     693     0  100%   /dev
+/dev/disk3s6     460Gi    20Ki   390Gi     1%       0  4.1G    0%   /System/Volumes/VM
+/dev/disk3s2     460Gi   8.4Gi   390Gi     3%    1.4k  4.1G    0%   /System/Volumes/Preboot
+/dev/disk3s4     460Gi   2.8Mi   390Gi     1%      65  4.1G    0%   /System/Volumes/Update
+/dev/disk1s2     550Mi   6.0Mi   531Mi     2%       1  5.4M    0%   /System/Volumes/xarts
+/dev/disk1s1     550Mi   5.9Mi   531Mi     2%      43  5.4M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     550Mi   2.4Mi   531Mi     1%     105  5.4M    0%   /System/Volumes/Hardware
+/dev/disk3s5     460Gi    49Gi   390Gi    12%    450k  4.1G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk4s1     897Mi   802Mi    95Mi    90%    6.6k  4.3G    0%   /Volumes/VS Code
+Checking disk usage warning...
+WARNING: devfs is at 100% usage
+WARNING: /dev/disk4s1 is at 90% usage
+Memory Usage:
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                               20962.
+Pages active:                            373894.
+Pages inactive:                          369124.
+Pages speculative:                         5044.
+Pages throttled:                              0.
+Pages wired down:                        135208.
+Pages purgeable:                          22251.
+"Translation faults":                  19353648.
+Pages copy-on-write:                     643023.
+Pages zero filled:                     19297404.
+Pages reactivated:                       770878.
+Pages purged:                            314903.
+File-backed pages:                       273704.
+Anonymous pages:                         474358.
+Pages stored in compressor:              261780.
+Pages occupied by compressor:            101209.
+Decompressions:                          170725.
+Compressions:                            542515.
+Pageins:                                1644835.
+Pageouts:                                 13019.
+Swapins:                                      0.
+Swapouts:                                     0.
+CPU Load:
+12:09  up 13:32, 2 users, load averages: 1.66 1.34 1.28
+Total Running Processes:
+     807
+Top 5 Memory Consuming Processes:
+deborahtosinoludare  1257   0.0  4.0 1901995968 676160   ??  S    10:39PM   6:23.66 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/147.0.7727.56/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=17 --time-ticks-at-unix-epoch=-1776202665238114 --launch-time-ticks=84709427 --shared-files --metrics-shmem-handle=1752395122,r,16249644854449214685,4406338313318940183,2097152 --field-trial-handle=1718379636,r,10898428086704412996,8416103208062501250,262144 --variations-seed-version=20260414-105148.184000-production --pseudonymization-salt-handle=1935764596,r,3660042720635056048,3894231816022725759,4 --trace-process-track-uuid=3190709002241582927 --seatbelt-client=113
+deborahtosinoludare  1122   1.4  3.7 445222464 615712   ??  S    10:39PM   5:56.68 /Applications/WhatsApp.app/Contents/MacOS/WhatsApp
+deborahtosinoludare  3734   0.0  2.2 1900142880 370112   ??  S    10:58AM   0:49.58 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer) --type=renderer --user-data-dir=/Users/deborahtosinoludare/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --enable-sandbox --enable-blink-features=HighlightAPI --max-active-webgl-contexts=32 --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=15 --time-ticks-at-unix-epoch=-1776202665327130 --launch-time-ticks=18310988194 --shared-files --field-trial-handle=1718379636,r,3437493303355354908,9426528233057528421,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709000367499229 --vscode-window-config=vscode:662859cf-e060-4431-a3cd-ba1e5562dd2a --seatbelt-client=98
+deborahtosinoludare  1253   0.0  2.0 1900921184 330144   ??  S    10:39PM   0:52.83 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/147.0.7727.56/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=14 --time-ticks-at-unix-epoch=-1776202665238114 --launch-time-ticks=84642589 --shared-files --metrics-shmem-handle=1752395122,r,14324503432362132461,9988781788561244285,2097152 --field-trial-handle=1718379636,r,10898428086704412996,8416103208062501250,262144 --variations-seed-version=20260414-105148.184000-production --pseudonymization-salt-handle=1935764596,r,3660042720635056048,3894231816022725759,4 --trace-process-track-uuid=3190708999430457380 --seatbelt-client=117
+deborahtosinoludare  1125   0.1  2.0 544576656 334208   ??  S    10:39PM   1:49.17 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+System Check Report - Wed Apr 15 12:23:29 WAT 2026
+-----------------------------------
+Memory Usage:
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                               22040.
+Pages active:                            373568.
+Pages inactive:                          374755.
+Pages speculative:                         2713.
+Pages throttled:                              0.
+Pages wired down:                        128089.
+Pages purgeable:                          22969.
+"Translation faults":                  19959332.
+Pages copy-on-write:                     670140.
+Pages zero filled:                     20488040.
+Pages reactivated:                       782782.
+Pages purged:                            330942.
+File-backed pages:                       270017.
+Anonymous pages:                         481019.
+Pages stored in compressor:              267804.
+Pages occupied by compressor:            103806.
+Decompressions:                          171465.
+Compressions:                            549314.
+Pageins:                                1646427.
+Pageouts:                                 13076.
+Swapins:                                      0.
+Swapouts:                                     0.
+CPU Load:
+12:23  up 13:46, 2 users, load averages: 1.92 1.67 1.48
+Total Running Processes:
+     806
+Top 5 Memory Consuming Processes:
+deborahtosinoludare  1257   0.0  4.7 1902750896 786976   ??  S    10:39PM   7:33.46 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/147.0.7727.56/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=17 --time-ticks-at-unix-epoch=-1776202665238114 --launch-time-ticks=84709427 --shared-files --metrics-shmem-handle=1752395122,r,16249644854449214685,4406338313318940183,2097152 --field-trial-handle=1718379636,r,10898428086704412996,8416103208062501250,262144 --variations-seed-version=20260414-105148.184000-production --pseudonymization-salt-handle=1935764596,r,3660042720635056048,3894231816022725759,4 --trace-process-track-uuid=3190709002241582927 --seatbelt-client=113
+deborahtosinoludare  1122   0.1  3.8 445297408 635824   ??  S    10:39PM   6:13.10 /Applications/WhatsApp.app/Contents/MacOS/WhatsApp
+deborahtosinoludare  3734   0.0  2.3 1901978496 391840   ??  S    10:58AM   1:03.45 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer) --type=renderer --user-data-dir=/Users/deborahtosinoludare/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --enable-sandbox --enable-blink-features=HighlightAPI --max-active-webgl-contexts=32 --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=15 --time-ticks-at-unix-epoch=-1776202665327130 --launch-time-ticks=18310988194 --shared-files --field-trial-handle=1718379636,r,3437493303355354908,9426528233057528421,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709000367499229 --vscode-window-config=vscode:662859cf-e060-4431-a3cd-ba1e5562dd2a --seatbelt-client=98
+deborahtosinoludare  1253   0.0  2.0 1900941024 329936   ??  S    10:39PM   0:53.21 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/147.0.7727.56/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=14 --time-ticks-at-unix-epoch=-1776202665238114 --launch-time-ticks=84642589 --shared-files --metrics-shmem-handle=1752395122,r,14324503432362132461,9988781788561244285,2097152 --field-trial-handle=1718379636,r,10898428086704412996,8416103208062501250,262144 --variations-seed-version=20260414-105148.184000-production --pseudonymization-salt-handle=1935764596,r,3660042720635056048,3894231816022725759,4 --trace-process-track-uuid=3190708999430457380 --seatbelt-client=117
+deborahtosinoludare  1125   0.0  2.0 544576080 334880   ??  S    10:39PM   2:04.41 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+System Check Report - Wed Apr 15 12:28:08 WAT 2026
+-----------------------------------
+Memory Usage:
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                               20352.
+Pages active:                            376735.
+Pages inactive:                          370897.
+Pages speculative:                         5123.
+Pages throttled:                              0.
+Pages wired down:                        128209.
+Pages purgeable:                          21147.
+"Translation faults":                  20198300.
+Pages copy-on-write:                     681724.
+Pages zero filled:                     20902944.
+Pages reactivated:                       783564.
+Pages purged:                            339325.
+File-backed pages:                       273472.
+Anonymous pages:                         479283.
+Pages stored in compressor:              267505.
+Pages occupied by compressor:            103703.
+Decompressions:                          171759.
+Compressions:                            549314.
+Pageins:                                1647691.
+Pageouts:                                 13076.
+Swapins:                                      0.
+Swapouts:                                     0.
+CPU Load:
+12:28  up 13:50, 2 users, load averages: 1.75 1.67 1.52
+Total Running Processes:
+     806
+Top 5 Memory Consuming Processes:
+deborahtosinoludare  1257   0.0  4.5 1903193968 756048   ??  S    10:39PM   7:54.29 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/147.0.7727.56/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=17 --time-ticks-at-unix-epoch=-1776202665238114 --launch-time-ticks=84709427 --shared-files --metrics-shmem-handle=1752395122,r,16249644854449214685,4406338313318940183,2097152 --field-trial-handle=1718379636,r,10898428086704412996,8416103208062501250,262144 --variations-seed-version=20260414-105148.184000-production --pseudonymization-salt-handle=1935764596,r,3660042720635056048,3894231816022725759,4 --trace-process-track-uuid=3190709002241582927 --seatbelt-client=113
+deborahtosinoludare  1122  10.0  3.9 445355392 647616   ??  S    10:39PM   6:17.87 /Applications/WhatsApp.app/Contents/MacOS/WhatsApp
+deborahtosinoludare  3734   0.0  2.2 1902071296 372560   ??  S    10:58AM   1:07.42 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer) --type=renderer --user-data-dir=/Users/deborahtosinoludare/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/Applications/Visual Studio Code.app/Contents/Resources/app --enable-sandbox --enable-blink-features=HighlightAPI --max-active-webgl-contexts=32 --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=15 --time-ticks-at-unix-epoch=-1776202665327130 --launch-time-ticks=18310988194 --shared-files --field-trial-handle=1718379636,r,3437493303355354908,9426528233057528421,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190709000367499229 --vscode-window-config=vscode:662859cf-e060-4431-a3cd-ba1e5562dd2a --seatbelt-client=98
+deborahtosinoludare  1253   0.0  2.0 1900947488 329152   ??  S    10:39PM   0:54.58 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/147.0.7727.56/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=14 --time-ticks-at-unix-epoch=-1776202665238114 --launch-time-ticks=84642589 --shared-files --metrics-shmem-handle=1752395122,r,14324503432362132461,9988781788561244285,2097152 --field-trial-handle=1718379636,r,10898428086704412996,8416103208062501250,262144 --variations-seed-version=20260414-105148.184000-production --pseudonymization-salt-handle=1935764596,r,3660042720635056048,3894231816022725759,4 --trace-process-track-uuid=3190708999430457380 --seatbelt-client=117
+deborahtosinoludare  1125   0.0  2.0 544576368 335184   ??  S    10:39PM   2:10.37 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome

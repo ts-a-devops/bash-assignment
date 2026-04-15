@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 DevOps Bash Toolkit Assessment
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/your-username/devops-bash-toolkit/grade.yml)
@@ -228,3 +229,13 @@ logs/app.log
 * Handle script failures gracefully
   
 **Submission link:** [CLICK HERE](https://forms.gle/jrhpKjXsQXZxLopN6)
+=======
+This assignment tests my DevOps fundamentals:
+
+    Bash scripting
+    Git workflow (branching, commits, pull requests)
+    Automation mindset
+    System monitoring and logging
+
+I will build a real-world automation toolkit and submit it via a Pull Request (PR).
+>>>>>>> 3e1f32f (feat: complete bash scripts)

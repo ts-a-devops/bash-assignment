@@ -1,0 +1,30 @@
+==========================================
+System Report - 2026-04-15 05:37:44
+==========================================
+\n--- DISK USAGE ---
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           387M  2.6M  385M   1% /run
+/dev/sda1       217G   13G  193G   7% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/sda2       252M  209M   24M  90% /boot
+/dev/sda5       265G  319M  251G   1% /home
+tmpfs           387M  128K  387M   1% /run/user/1000
+\n--- MEMORY USAGE ---
+               total        used        free      shared  buff/cache   available
+Mem:            3868        2181         256          35        1431        1566
+Swap:           9154         216        8938
+\n--- CPU LOAD ---
+ 05:37:44 up 12:11,  1 user,  load average: 0.03, 0.09, 0.14
+\n--- PROCESS COUNT ---
+Total running processes: 324
+\n--- TOP 5 MEMORY-CONSUMING PROCESSES ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+osboxes     5845  0.9 14.7 3710824 585720 ?      Sl   Apr14   4:54 /snap/firefox/8107/usr/lib/firefox/firefox
+suricata    1095  1.5  9.9 864812 392296 ?       Ssl  Apr14  11:09 /usr/bin/suricata --af-packet -c /etc/suricata/suricata.yaml --pidfile /run/suricata.pid --user suricata --group suricata
+osboxes     6558  0.2  5.9 2779044 237240 ?      Sl   Apr14   1:13 /snap/firefox/8107/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:42890 -prefMapHandle 1:283274 -jsInitHandle 2:156136 -parentBuildID 20260404010525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {291156e2-57d5-450c-83f9-00d255c18f09} -parentPid 5845 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8107/usr/lib/firefox/omni.ja -appomni /snap/firefox/8107/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8107/usr/lib/firefox/browser 9 tab
+osboxes     2273  1.1  5.4 4484428 217880 ?      Ssl  Apr14   8:31 /usr/bin/gnome-shell
+osboxes     6400  0.1  4.8 2697048 192652 ?      Sl   Apr14   0:56 /snap/firefox/8107/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:41963 -prefMapHandle 1:283274 -jsInitHandle 2:156136 -parentBuildID 20260404010525 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0092547a-5d8c-44d1-bdf1-dd51a4d1b38b} -parentPid 5845 -crashReporter 6 -crashHelper 7 -greomni /snap/firefox/8107/usr/lib/firefox/omni.ja -appomni /snap/firefox/8107/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/8107/usr/lib/firefox/browser 7 tab
+\n==========================================
+Report saved to: logs/system_report_20260415_053744.log
+==========================================

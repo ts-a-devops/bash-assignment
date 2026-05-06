@@ -1,0 +1,34 @@
+===== SYSTEM REPORT =====
+Date: Wed May  6 09:59:43 WAT 2026
+
+===== DISK USAGE =====
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          931G   76G  856G   9% /
+none            931G   76G  856G   9% /dev
+none            931G   76G  856G   9% /run
+none            931G   76G  856G   9% /run/lock
+none            931G   76G  856G   9% /run/shm
+none            931G   76G  856G   9% /run/user
+tmpfs           931G   76G  856G   9% /sys/fs/cgroup
+C:\             931G   76G  856G   9% /mnt/c
+
+
+===== MEMORY USAGE =====
+              total        used        free      shared  buff/cache   available
+Mem:          16303        5489       10589          17         223       10682
+Swap:         49152           0       49152
+
+===== CPU LOAD =====
+ 09:59:43 up  1:47,  0 users,  load average: 0.52, 0.58, 0.59
+
+===== TOTAL RUNNING PROCESSES =====
+9
+
+===== TOP 5 MEMORY-CONSUMING PROCESSES =====
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         7  0.0  0.0  18084  3612 tty1     S    08:12   0:00 -bash
+root       315  0.0  0.0  16796  2056 tty1     S    09:58   0:00 bash run_all.sh
+root       338  0.0  0.0  16796  1968 tty1     S    09:59   0:00 bash scripts/system_check.sh
+root       381  0.0  0.0  18660  1876 tty1     R    09:59   0:00 ps aux --sort=-%mem
+root       382  0.0  0.0  15288   844 tty1     S    09:59   0:00 head -6
+

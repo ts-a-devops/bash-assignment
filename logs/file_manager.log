@@ -1,0 +1,30 @@
+===== FILE MANAGER ACTION: create =====
+File 'file.txt' created.
+===== FILE MANAGER ACTION: list =====
+Listing files:
+total 4.0K
+-rwxrwxrwx 1 root root 3.9K May  6 04:59 README.md
+-rwxrwxrwx 1 root root    0 May  6 09:44 file.txt
+drwxrwxrwx 1 root root 4.0K May  6 09:44 logs
+-rwxrwxrwx 1 root root    0 May  6 07:39 run_all.sh
+drwxrwxrwx 1 root root 4.0K May  6 09:44 scripts
+===== FILE MANAGER ACTION: rename =====
+Renamed 'file.txt' to 'newfile.txt'.
+===== FILE MANAGER ACTION: delete =====
+File 'newfile.txt' deleted.
+===== FILE MANAGER ACTION: list =====
+Listing files:
+total 8.0K
+-rwxrwxrwx 1 root root 3.9K May  6 04:59 README.md
+drwxrwxrwx 1 root root 4.0K May  6 09:59 backups
+drwxrwxrwx 1 root root 4.0K May  6 09:59 logs
+-rwxrwxrwx 1 root root 1.7K May  6 09:57 run_all.sh
+drwxrwxrwx 1 root root 4.0K May  6 09:54 scripts
+===== FILE MANAGER ACTION: list =====
+Listing files:
+total 8.0K
+-rwxrwxrwx 1 root root 3.9K May  6 04:59 README.md
+drwxrwxrwx 1 root root 4.0K May  6 10:03 backups
+drwxrwxrwx 1 root root 4.0K May  6 10:03 logs
+-rwxrwxrwx 1 root root 1.7K May  6 09:57 run_all.sh
+drwxrwxrwx 1 root root 4.0K May  6 09:54 scripts

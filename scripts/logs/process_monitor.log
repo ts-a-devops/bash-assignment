@@ -1,0 +1,7 @@
+2026-05-05 18:11:05 - CHECK failed - No process name provided
+2026-05-05 18:15:05 - Process 'nginx' is stopped
+2026-05-05 18:15:05 - Process 'nginx' restarted (simulated)
+2026-05-05 18:16:40 - Process 'docker' is stopped
+2026-05-05 18:16:40 - Process 'docker' restarted (simulated)
+2026-05-05 18:17:11 - Process 'ssh' is stopped
+2026-05-05 18:17:11 - Process 'ssh' restarted (simulated)

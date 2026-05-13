@@ -1,0 +1,17 @@
+jimmy.txt has been successfully created
+File cannot be created! jimmy.txt already exists!
+Successfully deleted jimmy.txt
+[Mon-2026-05-04 08:49:49] DELETE: Successfully deleted jimmy.txt
+[Mon-2026-05-04 08:59:51] DELETE: File cannot be removed! jimmy.txt does not exists!
+[Mon-2026-05-04 09:00:11] LIST: File cannot be viewed! jimmy.txt does not exists!
+[Mon-2026-05-04 09:00:32] CREATE: jimmy.txt has been successfully created
+[Mon-2026-05-04 09:01:14] RENAME: File cannot be renamed! jimmy.txt already exists!
+[Mon-2026-05-04 09:08:05] RENAME: jimmy.txt has been renamed to jpraise.txt successfully
+[Mon-2026-05-04 09:08:23] RENAME: File cannot be renamed! jpraise.txt already exists!
+[Mon-2026-05-04 09:11:05] RENAME: File cannot be renamed! jimmy.txt does not exist!
+[Mon-2026-05-04 09:11:25] CREATE: jimmy2.txt has been successfully created
+[Mon-2026-05-04 09:11:51] RENAME: File cannot be renamed! jimmy2.txt already exists!
+Command doesn't exist. Supported commands are: create, delete, list and rename
+Command doesn't exist. Supported commands are: create, delete, list and rename
+[Thu-2026-05-07 09:55:54] DELETE: Successfully deleted jimmy2.txt
+[Thu-2026-05-07 09:56:44] DELETE: Successfully deleted jpraise.txt

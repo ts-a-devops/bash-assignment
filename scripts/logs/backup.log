@@ -1,0 +1,18 @@
+[2026-05-07 10:47:14] Backup of test_dir_1 has been successfully created
+[2026-05-07 10:53:33] Backup of backup_test_dir has been successfully created
+[2026-05-07 11:13:04] Backup of backup_test_dir has been successfully created
+[2026-05-07 11:13:09] Backup of backup_test_dir has been successfully created
+[2026-05-07 11:26:27] Backup of backup_test_dir has been successfully created
+[2026-05-07 11:38:47] Backup of backup_test_dir has been successfully created
+[2026-05-07 11:40:53] Backup of backup_test_dir has been successfully created
+[2026-05-08 06:40:54] Backup of backup_test_dir has been successfully created
+[2026-05-08 06:46:41] Backup of backup_test_dir has been successfully created
+[2026-05-08 06:47:46] Backup of backup_test_dir has been successfully created
+[2026-05-08 06:48:57] Backup of backup_test_dir has been successfully created
+[2026-05-08 06:53:50] Backup of backup_test_dir has been successfully created
+[2026-05-08 06:55:48] Backup of backup_test_dir has been successfully created
+[2026-05-08 07:02:02] Backup of backup_test_dir has been successfully created
+[2026-05-08 07:05:17] Backup of backup_test_dir has been successfully created
+[2026-05-08 07:05:17] Deleted old backups successfully: ./backups/backup_test_dir_backup_2026_05_08_06_47_46.tar.gz
+[2026-05-08 07:06:43] Backup of backup_test_dir has been successfully created
+[2026-05-08 07:06:43] Deleted old backups successfully: ./backups/backup_test_dir_backup_2026_05_08_06_48_57.tar.gz

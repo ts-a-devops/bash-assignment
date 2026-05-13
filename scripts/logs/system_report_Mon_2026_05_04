@@ -1,0 +1,85 @@
+=== SYSTEM REPORT (Mon_2026_05_04)===
+== Disk Usage ==
+Filesystem      Size  Used Avail Use% Mounted on
+udev            960M     0  960M   0% /dev
+tmpfs           198M  540K  197M   1% /run
+/dev/sda1        19G  1.9G   16G  11% /
+tmpfs           987M     0  987M   0% /dev/shm
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           987M     0  987M   0% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           198M  4.0K  198M   1% /run/user/1000
+
+== Memory Usage ==
+               total        used        free      shared  buff/cache   available
+Mem:            1973         202        1804           0          81        1771
+Swap:           1100           0        1100
+
+== CPU Load ==
+ 06:35:07 up 7 min,  2 users,  load average: 0.06, 0.12, 0.08
+
+=== SYSTEM REPORT (Mon_2026_05_04)===
+== Disk Usage ==
+Filesystem      Size  Used Avail Use% Mounted on
+udev            960M     0  960M   0% /dev
+tmpfs           198M  540K  197M   1% /run
+/dev/sda1        19G  1.9G   16G  11% /
+tmpfs           987M     0  987M   0% /dev/shm
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           987M     0  987M   0% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           198M  4.0K  198M   1% /run/user/1000
+
+== Memory Usage ==
+               total        used        free      shared  buff/cache   available
+Mem:            1973         207        1797           0          86        1766
+Swap:           1100           0        1100
+
+== CPU Load ==
+ 06:38:34 up 10 min,  2 users,  load average: 0.03, 0.10, 0.08
+
+=== SYSTEM REPORT (Mon_2026_05_04)===
+== Disk Usage ==
+Filesystem      Size  Used Avail Use% Mounted on
+udev            960M     0  960M   0% /dev
+tmpfs           198M  540K  197M   1% /run
+/dev/sda1        19G  1.9G   16G  11% /
+tmpfs           987M     0  987M   0% /dev/shm
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           987M     0  987M   0% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           198M  4.0K  198M   1% /run/user/1000
+WARNING: YOUR DISK USAGE IS ABOVE 80%. Clear some files to create more space
+
+== Memory Usage ==
+               total        used        free      shared  buff/cache   available
+Mem:            1973         207        1796           0          87        1766
+Swap:           1100           0        1100
+
+== CPU Load ==
+ 06:56:52 up 28 min,  2 users,  load average: 0.27, 0.23, 0.12
+
+=== SYSTEM REPORT (Mon_2026_05_04 07:26:25)===
+== Disk Usage ==
+Filesystem      Size  Used Avail Use% Mounted on
+udev            960M     0  960M   0% /dev
+tmpfs           198M  544K  197M   1% /run
+/dev/sda1        19G  1.9G   16G  11% /
+tmpfs           987M     0  987M   0% /dev/shm
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           987M     0  987M   0% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           198M  4.0K  198M   1% /run/user/1000
+
+== Memory Usage ==
+               total        used        free      shared  buff/cache   available
+Mem:            1973         226        1740           0         140        1747
+Swap:           1100           0        1100
+
+== CPU Load ==
+ 07:26:25 up 58 min,  2 users,  load average: 0.01, 0.04, 0.07
+

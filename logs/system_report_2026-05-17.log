@@ -1,0 +1,33 @@
+=== SYSTEM CHECK ===
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        251G  1.8G  237G   1% /
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+tools           238G  208G   31G  88% /init
+none            3.9G  8.0K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G     0  3.9G   0% /run/user
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+drivers         238G  208G   31G  88% /usr/lib/wsl/drivers
+lib             238G  208G   31G  88% /usr/lib/wsl/lib
+drvfs           238G  208G   31G  88% /mnt/c
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            7896         323        7614           0         173        7572
+Swap:           2048           0        2048
+
+CPU Load:
+ 10:31:03 up 2 days, 17:52,  0 user,  load average: 0.00, 0.00, 0.00
+
+Total Processes: 25
+
+Top 5 Memory-Consuming Processes:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+annisa     511  0.0  0.0   6068  5368 pts/4    Ss   09:29   0:00 -bash
+annisa     312  0.0  0.0   6068  5352 pts/2    Ss   May16   0:00 -bash
+annisa     424  0.0  0.0   6068  5256 pts/3    Ss+  May16   0:00 -bash
+annisa     382  0.0  0.0   6068  5244 pts/0    Ss+  May16   0:00 -bash
+root        80  0.0  0.0   6068  5216 pts/1    Ss+  May16   0:00 -bash
+

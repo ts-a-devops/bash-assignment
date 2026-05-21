@@ -1,0 +1,21 @@
+SYSTEM REPORT - 2026-05-21
+------------------------
+Disk Usage:
+Filesystem       Size   Used  Avail Capacity iused    ifree %iused  Mounted on
+/dev/disk1s5s1  233Gi   14Gi  6.7Gi    69%  502388 70430760    1%   /
+devfs           190Ki  190Ki    0Bi   100%     656        0  100%   /dev
+/dev/disk1s4    233Gi   11Gi  6.7Gi    63%      12 70430760    0%   /System/Volumes/VM
+/dev/disk1s2    233Gi  316Mi  6.7Gi     5%    1521 70430760    0%   /System/Volumes/Preboot
+/dev/disk1s6    233Gi  3.7Mi  6.7Gi     1%      17 70430760    0%   /System/Volumes/Update
+/dev/disk1s1    233Gi  200Gi  6.7Gi    97% 1749421 70430760    2%   /System/Volumes/Data
+map auto_home     0Bi    0Bi    0Bi   100%       0        0  100%   /System/Volumes/Data/home
+
+Memory Usage:
+
+CPU Load:
+23:43  up 9 days, 13:11, 3 users, load averages: 5.39 5.73 8.47
+
+Total Running Processes:
+     506
+
+Top 5 Memory Consuming Processes:

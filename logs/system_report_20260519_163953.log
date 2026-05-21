@@ -1,0 +1,45 @@
+=== System Report - Tue May 19 16:39:53 WAT 2026 ===
+Disk Usage:
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s3s1   460Gi    12Gi   340Gi     4%    458k  3.6G    0%   /
+devfs            199Ki   199Ki     0Bi   100%     690     0  100%   /dev
+/dev/disk3s6     460Gi    20Ki   340Gi     1%       0  3.6G    0%   /System/Volumes/VM
+/dev/disk3s4     460Gi   8.4Gi   340Gi     3%    1.5k  3.6G    0%   /System/Volumes/Preboot
+/dev/disk3s2     460Gi    47Mi   340Gi     1%     134  3.6G    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   481Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.6Mi   481Mi     2%      31  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   3.0Mi   481Mi     1%      52  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s1     460Gi    99Gi   340Gi    23%    380k  3.6G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+Memory Usage:
+Memory stats tool (free) not available on this system.
+Pages free: 145.8828125
+Pages active: 1704.98828125
+Pages inactive: 1647.1640625
+Pages speculative: 41.5390625
+Pages throttled: 0
+Pages wired down: 296.5234375
+Pages purgeable: 90.8671875
+"Translation faults": 111980.2109375
+Pages copy-on-write: 4412.80859375
+Pages zero filled: 79930.59375
+Pages reactivated: 760.82421875
+Pages purged: 1057.87109375
+File-backed pages: 1472.3125
+Anonymous pages: 1921.37890625
+Pages stored in compressor: 297.3515625
+Pages occupied by compressor: 105.35546875
+Decompressions: 27.45703125
+Compressions: 340.2890625
+Pageins: 2352.6796875
+Pageouts: 12.9921875
+Swapins: 0
+Swapouts: 0
+
+CPU Load:
+16:39  up  4:58, 2 users, load averages: 1.30 1.42 1.48
+
+Total Running Processes:      658
+
+Top 5 Memory Consuming Processes:

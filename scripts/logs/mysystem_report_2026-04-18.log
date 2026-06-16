@@ -1,0 +1,62 @@
+The following are the disk usage
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         477G  122G  355G  26% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.7G  954G   1% /
+none            3.9G   76K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G  500K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             477G  122G  355G  26% /mnt/c
+tmpfs           784M  8.0K  784M   1% /run/user/1000
+The following are the memory usage
+               total        used        free      shared  buff/cache   available
+Mem:            7830         321        7385           3         123        7363
+Swap:           2048           0        2048
+The following are the cpu load
+ 06:05:20 up 48 min,  1 user,  load average: 0.00, 0.00, 0.00
+The following are the list process
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 165916 10740 ?        Ss   05:16   0:02 /sbin/init
+root           2  0.0  0.0   3120  1920 ?        Sl   05:16   0:00 /init
+root           6  0.0  0.0   3136  1792 ?        Sl   05:16   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          66  0.0  0.2  64132 17804 ?        S<s  05:16   0:00 /lib/systemd/systemd-journald
+root          94  0.0  0.0  22844  5248 ?        Ss   05:16   0:01 /lib/systemd/systemd-udevd
+systemd+     101  0.0  0.1  25672 13312 ?        Ss   05:16   0:00 /lib/systemd/systemd-resolved
+systemd+     113  0.0  0.0  89364  7040 ?        Ssl  05:16   0:00 /lib/systemd/systemd-timesyncd
+root         193  0.0  0.0   4308  2688 ?        Ss   05:16   0:00 /usr/sbin/cron -f -P
+message+     196  0.0  0.0   8588  4480 ?        Ss   05:16   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         200  0.0  0.2  30136 18432 ?        Ss   05:16   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       204  0.0  0.0 222404  5504 ?        Ssl  05:16   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         218  0.0  0.0  15332  7424 ?        Ss   05:16   0:00 /lib/systemd/systemd-logind
+root         228  0.0  0.0   3240  2176 hvc0     Ss+  05:16   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud console 115200,38400,9600 vt220
+root         231  0.0  0.0   3196  2176 tty1     Ss+  05:16   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         246  0.0  0.2 107164 21248 ?        Ssl  05:16   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         298  0.0  0.0   3128   896 ?        Ss   05:16   0:00 /init
+root         300  0.0  0.0   3144  1028 ?        S    05:16   0:00 /init
+october+     303  0.0  0.0   6224  4736 pts/0    Ss+  05:16   0:00 -bash
+root         304  0.0  0.0   7528  4608 pts/1    Ss   05:16   0:00 /bin/login -f
+october+     371  0.0  0.1  16956  9088 ?        Ss   05:16   0:00 /lib/systemd/systemd --user
+october+     372  0.0  0.0 103432  5204 ?        S    05:16   0:00 (sd-pam)
+october+     387  0.0  0.0   6104  4608 pts/1    S+   05:16   0:00 -bash
+root         646  0.0  0.0   3128   904 ?        Ss   06:02   0:00 /init
+root         647  0.0  0.0   3144  1164 ?        S    06:02   0:00 /init
+october+     653  0.0  0.0   6132  4992 pts/2    Ss   06:02   0:00 -bash
+october+     675  3.0  0.0   4916  3456 pts/2    S+   06:05   0:00 bash system_check.sh
+october+     680  4.0  0.0   4916  2216 pts/2    S+   06:05   0:00 bash system_check.sh
+october+     681  0.0  0.0   3216  1792 pts/2    S+   06:05   0:00 tee -a logs/mysystem_report_2026-04-18.log
+october+     689  0.0  0.0   7752  3328 pts/2    R+   06:05   0:00 ps -aux
+The following are the process verification count
+31
+The following are the 5 processes
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         246  0.0  0.2 107164 21248 ?        Ssl  05:16   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         200  0.0  0.2  30136 18432 ?        Ss   05:16   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          66  0.0  0.2  64132 17804 ?        S<s  05:16   0:00 /lib/systemd/systemd-journald
+systemd+     101  0.0  0.1  25672 13312 ?        Ss   05:16   0:00 /lib/systemd/systemd-resolved
+root           1  0.0  0.1 165916 10740 ?        Ss   05:16   0:02 /sbin/init

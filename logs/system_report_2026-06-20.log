@@ -1,0 +1,37 @@
+===== SYSTEM REPORT =====
+Date: Sat Jun 20 14:37:10 WAT 2026
+
+DISK USAGE:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        251G  1.6G  237G   1% /
+tmpfs           3.1G     0  3.1G   0% /mnt/wsl
+tools           466G   84G  382G  19% /init
+none            3.1G  4.0K  3.1G   1% /run
+none            3.1G     0  3.1G   0% /run/lock
+none            3.1G     0  3.1G   0% /run/shm
+none            3.1G     0  3.1G   0% /run/user
+tmpfs           3.1G     0  3.1G   0% /sys/fs/cgroup
+drivers         466G   84G  382G  19% /usr/lib/wsl/drivers
+lib             466G   84G  382G  19% /usr/lib/wsl/lib
+C:\             466G   84G  382G  19% /mnt/c
+
+
+MEMORY USAGE:
+               total        used        free      shared  buff/cache   available
+Mem:            6249         231        6096           0          87        6017
+Swap:           2048           0        2048
+
+CPU LOAD:
+ 14:37:11 up  1:48,  0 user,  load average: 0.16, 0.12, 0.09
+
+TOTAL RUNNING PROCESSES:
+12
+
+TOP 5 MEMORY CONSUMING PROCESSES:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+christo+     9  0.0  0.0   6068  5304 pts/0    Ss   12:48   0:00 -bash
+christo+    88  0.0  0.0   6068  5256 pts/1    Ss+  13:58   0:00 -bash
+christo+   163  100  0.0   8276  4184 pts/0    R+   14:37   0:00 ps aux --sort=-%mem
+christo+   121  8.9  0.0   4748  3476 pts/0    S+   14:37   0:00 /bin/bash ./scripts/system_check.sh
+christo+   164 50.0  0.0   3132  1168 pts/0    S+   14:37   0:00 head -6
+

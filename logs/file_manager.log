@@ -1,0 +1,7 @@
+: Listed files
+: FAILED rename test.txt (not found)
+: FAILED rename test.txt (not found)
+Sat Jun 20 15:50:20 WAT 2026: FAILED rename test.txt (not found)
+Sat Jun 20 15:50:34 WAT 2026: FAILED rename test.txt (not found)
+Sat Jun 20 15:53:36 WAT 2026: FAILED rename test.txt (not found)
+Sat Jun 20 15:55:29 WAT 2026: Deleted file new.txt

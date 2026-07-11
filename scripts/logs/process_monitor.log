@@ -1,0 +1,31 @@
+No process name given - checking default services list
+service: Stopped
+service: Attempting restart
+service: Restarted (simulated)
+service: Stopped
+service: Attempting restart
+service: Restarted (simulated)
+service: Stopped
+service: Attempting restart
+service: Restarted (simulated)
+Monitoring check complete
+No process name given - checking default services list
+nginx: Stopped
+nginx: Attempting restart
+nginx: Restarted (simulated)
+ssh: Stopped
+ssh: Attempting restart
+ssh: Restarted (simulated)
+docker: Stopped
+docker: Attempting restart
+docker: Restarted (simulated)
+Monitoring check complete
+No process name given - checking default services list
+nginx: Running
+ssh: Stopped
+ssh: Attempting restart
+ssh: Restarted (simulated)
+docker: Stopped
+docker: Attempting restart
+docker: Restarted (simulated)
+Monitoring check complete

@@ -1,0 +1,20 @@
+Echo: 'styles' does not exist or is not a directory
+Echo: 'backups' does not exist or is not a directory
+Echo: 'logs' does not exist or is not a directory
+Echo: 'bash-assignment' does not exist or is not a directory
+Error: 'bash-assignment' does not exist or is not a directory
+Backing up 'logs' to backups/backup_name ...
+Backup created: backups/backup_Y0709%_232743.tar.gz
+./backup.sh: line 44: syntax error near unexpected token `else'
+./backup.sh: line 44: `    else'
+Backing up 'logs' to backups/backup_2026m09%_234404.tar.gz ...
+Backup created: backups/backup_2026m09%_234404.tar.gz
+Backup process complete.
+'logs' exists
+Backing up 'logs' to backups/backup_20260709%_235114.tar.gz ...
+Backup created: backups/backup_20260709%_235114.tar.gz
+Backup process complete.
+'logs' exists
+Backing up 'logs' to backups/backup_20260709_235308.tar.gz ...
+Backup created: backups/backup_20260709_235308.tar.gz
+Backup process complete.

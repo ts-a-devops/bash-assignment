@@ -1,0 +1,71 @@
+./system_check.sh: line 13: syntax error near unexpected token `newline'
+./system_check.sh: line 13: `echo "System Report for $today" > '
+System Report for 2026-07-07
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        251G  1.5G  237G   1% /
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+tools           931G   87G  845G  10% /init
+none            3.8G     0  3.8G   0% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G     0  3.8G   0% /run/user
+tmpfs           3.8G     0  3.8G   0% /sys/fs/cgroup
+drivers         931G   87G  845G  10% /usr/lib/wsl/drivers
+lib             931G   87G  845G  10% /usr/lib/wsl/lib
+drvfs           931G   87G  845G  10% /mnt/c
+
+./system_check.sh: line 26: syntax error near unexpected token `fi'
+./system_check.sh: line 26: `fi'
+System Report for 2026-07-07
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        251G  1.5G  237G   1% /
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+tools           931G   87G  845G  10% /init
+none            3.8G     0  3.8G   0% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G     0  3.8G   0% /run/user
+tmpfs           3.8G     0  3.8G   0% /sys/fs/cgroup
+drivers         931G   87G  845G  10% /usr/lib/wsl/drivers
+lib             931G   87G  845G  10% /usr/lib/wsl/lib
+drvfs           931G   87G  845G  10% /mnt/c
+
+./system_check.sh: line 27: syntax error near unexpected token `fi'
+./system_check.sh: line 27: `fi'
+System Report for 2026-07-07
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        251G  1.5G  237G   1% /
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+tools           931G   87G  845G  10% /init
+none            3.8G     0  3.8G   0% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G     0  3.8G   0% /run/user
+tmpfs           3.8G     0  3.8G   0% /sys/fs/cgroup
+drivers         931G   87G  845G  10% /usr/lib/wsl/drivers
+lib             931G   87G  845G  10% /usr/lib/wsl/lib
+drvfs           931G   87G  845G  10% /mnt/c
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:            7758         261        7576           0          96        7496
+Swap:           2048           0        2048
+
+--- Total Running Proccess ---
+--- Total Running Processes: 10 ---
+
+--- Top 5 Memory-Consuming Processes ---
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+fatiha23     9  0.0  0.0   6068  5312 pts/0    Ss   16:56   0:00 -bash
+fatiha23   156  0.0  0.0   8276  4208 pts/0    R+   20:52   0:00 ps aux --sort=-%mem
+fatiha23   142  8.3  0.0   4748  3428 pts/0    S+   20:52   0:00 /bin/bash ./system_check.sh
+fatiha23   157  0.0  0.0   3132  1092 pts/0    S+   20:52   0:00 head -n 6
+root         1  0.0  0.0   1744  1080 ?        Sl   16:56   0:00 /init
+
+Report saved to logs/system_report_2026-07-07.log

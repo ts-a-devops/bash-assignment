@@ -1,0 +1,36 @@
+System Report for 2026-07-11
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb        251G  1.8G  237G   1% /
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+tools           931G   88G  844G  10% /init
+none            3.8G   12K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G     0  3.8G   0% /run/user
+tmpfs           3.8G     0  3.8G   0% /sys/fs/cgroup
+drivers         931G   88G  844G  10% /usr/lib/wsl/drivers
+lib             931G   88G  844G  10% /usr/lib/wsl/lib
+drvfs           931G   88G  844G  10% /mnt/c
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:            7758         329        6876           0         784        7428
+Swap:           2048           0        2048
+
+--- CPU Uptime ---
+ 16:30:35 up 1 day,  7:09,  0 user,  load average: 0.00, 0.00, 0.00
+
+--- Total Running Proccess ---
+--- Total Running Processes: 22 ---
+
+--- Top 5 Memory-Consuming Processes ---
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+fatiha23  1249  0.0  0.0   6068  5292 pts/0    Ss   04:58   0:00 -bash
+fatiha23  1359  0.0  0.0   8276  4152 pts/0    R+   16:30   0:00 ps aux --sort=-%mem
+www-data   511  0.0  0.0  12876  4124 ?        S    04:23   0:00 nginx: worker process
+www-data   509  0.0  0.0  12876  4112 ?        S    04:23   0:00 nginx: worker process
+www-data   512  0.0  0.0  12876  4112 ?        S    04:23   0:00 nginx: worker process
+
+Report saved to logs/system_report_2026-07-11.log

@@ -1,0 +1,29 @@
+Disk Usage: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3       236G   55G  181G  24% /
+devtmpfs        7.7G     0  7.7G   0% /dev
+tmpfs           7.8G  215M  7.6G   3% /dev/shm
+efivarfs        384K   92K  288K  25% /sys/firmware/efi/efivars
+tmpfs           3.1G  2.3M  3.1G   1% /run
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           7.8G  118M  7.7G   2% /tmp
+/dev/sda3       236G   55G  181G  24% /home
+/dev/sda2       2.0G  526M  1.3G  29% /boot
+/dev/sda1       599M   21M  579M   4% /boot/efi
+tmpfs           1.6G   11M  1.6G   1% /run/user/1000
+
+Memory Usage:                total        used        free      shared  buff/cache   available
+Mem:           15852       10239         576        2084        7510        5612
+Swap:           8191          57        8134
+
+
+
+
+Total running processes: 396
+
+Top 5 Memory-Consuming Processes: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+zakayola    5280  2.4  6.8 1538525796 1107092 ?  Sl   00:30  33:50 /opt/google/chrome/chrome --type=renderer --crashpad-
+zakayola    8113  2.5  4.5 1520743392 743872 ?   Sl   00:47  34:33 /opt/google/chrome/chrome --type=renderer --crashpad-
+zakayola   23146 38.9  4.3 1518669948 710640 ?   Sl   19:04 100:17 /opt/google/chrome/chrome --type=renderer --crashpad-
+zakayola    4726  7.0  4.0 56215560 652572 ?     Sl   00:30  96:43 /opt/google/chrome/chrome
+zakayola    6347  6.7  3.1 1461083372 506800 ?   Sl   00:41  91:15 /app/extra/share/spotify/spotify --type=renderer --cr
